@@ -1134,7 +1134,10 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
           Lampa.Controller.toggle('content');
           network.clear();
         });
-        network["native"](account(file.url), function(json) {
+        var isNewCinemaFile = !!(sources[balanser] && sources[balanser].newcinema) ||
+          /^https?:\/\/(?:www\.)?ab2024\.ru(?:[:/]|$)/i.test(String(file.url || ''));
+        var fileRequestUrl = isNewCinemaFile ? newCinemaAccount(file.url) : account(file.url);
+        network["native"](fileRequestUrl, function(json) {
 			if(json.rch){
 				if(waiting_rch) {
 					waiting_rch = false;
@@ -1164,7 +1167,7 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
           Lampa.Loading.stop();
           call(false, {});
         }, false, {
-			headers: Object.assign({'X-Kit-AesGcm': Lampa.Storage.get('aesgcmkey', '')}, lampacAuthHeaders())
+			headers: requestHeaders(fileRequestUrl, isNewCinemaFile)
 		  });
       }
     };
