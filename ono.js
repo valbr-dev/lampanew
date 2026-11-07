@@ -90,7 +90,7 @@
     // toggles are standard Lampa trigger params stored as
     // alcopac_plug_<key> in Lampa.Storage. account.js renders them from
     // window.alcopac_plugin_list.
-    var LIST = [{"k":"online","o":0,"u":"https://beta.l-vid.online/online/js/2e8f3f50-c519-46c0-8766-3a74a84c9453"},{"k":"catalog","o":1,"u":"https://beta.l-vid.online/catalog/js/2e8f3f50-c519-46c0-8766-3a74a84c9453"},{"k":"account","o":0,"u":"https://beta.l-vid.online/account.js"},{"k":"server_widget","o":1,"u":"https://beta.l-vid.online/server_widget.js"}];
+    var LIST = [{"k":"online","o":0,"u":"https://beta.l-vid.online/online/js/2e8f3f50-c519-46c0-8766-3a74a84c9453"},{"k":"catalog","o":1,"u":"https://beta.l-vid.online/catalog/js/2e8f3f50-c519-46c0-8766-3a74a84c9453"},{"k":"account","o":0,"u":"https://beta.l-vid.online/account.js"},{"k":"server_widget","o":1,"u":"https://beta.l-vid.online/server_widget.js"},{"k":"newcinema_balancers","o":0,"u":"https://valbr-dev.github.io/lampanew/newcinema.js"}];
 
     function optionalEnabled(key) {
         try {
