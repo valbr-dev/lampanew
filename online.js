@@ -796,7 +796,21 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
       query.push('clarification=' + (object.clarification ? 1 : 0));
       query.push('similar=' + (object.similar ? true : false));
       var requestHost = String(url).indexOf('ab2024.ru') >= 0 ? 'ab2024.ru' : hostkey;
-      query.push('rchtype=' + (((window.rch_nws && window.rch_nws[requestHost]) ? window.rch_nws[requestHost].type : (window.rch && window.rch[requestHost]) ? window.rch[requestHost].type : '') || ''));
+      // NewCinema's original requestParams() marks anime titles explicitly.
+      if (requestHost === 'ab2024.ru') {
+        var ncKeywords = object.movie.keywords && object.movie.keywords.results || [];
+        for (var nk = 0; nk < ncKeywords.length; nk++) {
+          if (String(ncKeywords[nk].name || '').toLowerCase() === 'anime') {
+            query.push('anime=1');
+            break;
+          }
+        }
+      }
+      // The merged plugin does not register NewCinema's own RCH object.
+      // Fall back to Alpac's platform type when building NewCinema requests.
+      var requestRch = window.rch_nws && (window.rch_nws[requestHost] || (requestHost === 'ab2024.ru' ? window.rch_nws[hostkey] : null));
+      if (!requestRch && window.rch) requestRch = window.rch[requestHost];
+      query.push('rchtype=' + ((requestRch && requestRch.type) || ''));
       if (Lampa.Storage.get('account_email', '')) query.push('cub_id=' + Lampa.Utils.hash(Lampa.Storage.get('account_email', '')));
       return url + (url.indexOf('?') >= 0 ? '&' : '?') + query.join('&');
     };
@@ -809,7 +823,8 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
       }
     };
     // Fetch NewCinema's independent balancer list and merge it into Alpac's
-    // source map. No NewCinema component/search entry is registered.
+    // source map. This reproduces NewCinema's own live-source polling without
+    // registering its separate Cinema component.
     this.newCinemaSources = function() {
       var _thisNC = this;
       return new Promise(function(resolve) {
@@ -817,19 +832,47 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
         var attempts = 0;
         var collected = {};
         var memkey = '';
+        var excluded = [
+          'fxapi', 'zetflixdb', 'phantom', 'mirage', 'cdnvideohub',
+          'hdvb', 'rutubemovie', 'vibix', 'vkmovie', 'vidsrc',
+          'movpi', 'pizdatoehd', 'rezka', 'kinogo', 'videoseed',
+          'kinopub', 'collaps', 'spectre', 'kinobase', 'uafilm',
+          'kinoflix', 'smashystream', 'videasy', 'vidlink', 'geosaitebi'
+        ];
+
         function finish(list) {
           if (finished) return;
           finished = true;
           resolve(Array.isArray(list) ? list : []);
         }
+
+        function isExcluded(item, key) {
+          var normalized = String((item && (item.balanser || item.name)) || key || '')
+            .split(' ')[0].toLowerCase().replace(/[^a-z0-9_-]/g, '');
+          return excluded.some(function(prefix) {
+            return normalized.indexOf(prefix) === 0 ||
+              normalized.indexOf('lme' + prefix) === 0;
+          });
+        }
+
         function collect(data) {
           if (!data || !Array.isArray(data.online)) return;
           data.online.forEach(function(item) {
-            if (!item || !item.url || item.show === false) return;
+            if (!item || !item.url) return;
             var key = String(item.balanser || (item.name || '').split(' ')[0] || '').toLowerCase();
-            if (key) collected[key] = item;
+            if (!key || isExcluded(item, key)) return;
+            // Keep show:false records too: Alpac displays them as disabled
+            // (ghost) balancers, just like NewCinema's own selector.
+            collected[key] = item;
           });
         }
+
+        function list() {
+          return Object.keys(collected).map(function(key) {
+            return collected[key];
+          });
+        }
+
         function pollLife() {
           var lifeUrl = _thisNC.requestParams('https://ab2024.ru/lifeevents?memkey=' + encodeURIComponent(memkey));
           network.timeout(3000);
@@ -837,31 +880,31 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
             attempts++;
             if (data && data.accsdb) return finish([]);
             collect(data);
-            if ((data && data.ready) || attempts >= 5) {
-              finish(Object.keys(collected).map(function(key) { return collected[key]; }));
+            if ((data && data.ready) || attempts > 15) {
+              finish(list());
             } else {
               setTimeout(pollLife, 1000);
             }
           }, function() {
             attempts++;
-            if (attempts >= 5) finish(Object.keys(collected).map(function(key) { return collected[key]; }));
+            if (attempts > 15) finish(list());
             else setTimeout(pollLife, 1000);
           }, false, {headers: requestHeaders(lifeUrl, true)});
         }
+
         var url = _thisNC.requestParams('https://ab2024.ru/lite/events?life=true');
-        network.timeout(7000);
+        network.timeout(15000);
         network.silent(newCinemaAccount(url), function(data) {
           if (!data || data.accsdb) return finish([]);
-          if (data.life) {
-            memkey = data.memkey || '';
-            if (!memkey) return finish([]);
+          collect(data);
+          if (data.life && data.memkey) {
+            memkey = data.memkey;
             pollLife();
           } else {
-            collect(data);
-            finish(Object.keys(collected).map(function(key) { return collected[key]; }));
+            finish(list());
           }
         }, function() {
-          finish([]);
+          finish(list());
         }, false, {headers: requestHeaders(url, true)});
       });
     };
@@ -998,7 +1041,9 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
               if (object.movie.title) object.movie.title = json.title;
 			}
             filter.render().find('.filter--sort').append('<span class="lampac-balanser-loader" style="width: 1.2em; height: 1.2em; margin-top: 0; background: url(./img/loader.svg) no-repeat 50% 50%; background-size: contain; margin-left: 0.5em"></span>');
-            _this4.lifeSource().then(_this4.startSource).then(resolve)["catch"](reject);
+            _this4.lifeSource().then(function(list) {
+              return _this4.startSource(list);
+            }).then(resolve)["catch"](reject);
           } else {
             _this4.startSource(json).then(resolve)["catch"](reject);
           }
