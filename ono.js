@@ -90,7 +90,7 @@
     // toggles are standard Lampa trigger params stored as
     // alcopac_plug_<key> in Lampa.Storage. account.js renders them from
     // window.alcopac_plugin_list.
-    var LIST = [{"k":"online","o":0,"u":"https://raw.githubusercontent.com/valbr-dev/lampanew/integration/newcinema-alpac-balancers/online.js"},{"k":"catalog","o":1,"u":"https://beta.l-vid.online/catalog/js/2e8f3f50-c519-46c0-8766-3a74a84c9453"},{"k":"account","o":0,"u":"https://beta.l-vid.online/account.js"},{"k":"server_widget","o":1,"u":"https://beta.l-vid.online/server_widget.js"}];
+    var LIST = [{"k":"catalog","o":1,"u":"https://beta.l-vid.online/catalog/js/2e8f3f50-c519-46c0-8766-3a74a84c9453"},{"k":"account","o":0,"u":"https://beta.l-vid.online/account.js"},{"k":"server_widget","o":1,"u":"https://beta.l-vid.online/server_widget.js"}];
 
     function optionalEnabled(key) {
         try {
@@ -161,6 +161,2584 @@
           function _0x2cea(){var _0xa3d9b5=['\x0a\x20\x20\x20\x20\x20\x20\x20\x20<style>\x0a\x20\x20\x20\x20\x20\x20\x20\x20@charset\x20\x27UTF-8\x27;.online-prestige{position:relative;-webkit-border-radius:.3em;border-radius:.3em;background-color:rgba(0,0,0,0.3);display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex}.online-prestige__body{padding:1.2em;line-height:1.3;-webkit-box-flex:1;-webkit-flex-grow:1;-moz-box-flex:1;-ms-flex-positive:1;flex-grow:1;position:relative}@media\x20screen\x20and\x20(max-width:480px){.online-prestige__body{padding:.8em\x201.2em}}.online-prestige__img{position:relative;width:13em;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;min-height:8.2em}.online-prestige__img>img{position:absolute;top:0;left:0;width:100%;height:100%;-o-object-fit:cover;object-fit:cover;-webkit-border-radius:.3em;border-radius:.3em;opacity:0;-webkit-transition:opacity\x20.3s;-o-transition:opacity\x20.3s;-moz-transition:opacity\x20.3s;transition:opacity\x20.3s}.online-prestige__img--loaded>img{opacity:1}@media\x20screen\x20and\x20(max-width:480px){.online-prestige__img{width:7em;min-height:6em}}.online-prestige__folder{padding:1em;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0}.online-prestige__folder>svg{width:4.4em\x20!important;height:4.4em\x20!important}.online-prestige__viewed{position:absolute;top:1em;left:1em;background:rgba(0,0,0,0.45);-webkit-border-radius:100%;border-radius:100%;padding:.25em;font-size:.76em}.online-prestige__viewed>svg{width:1.5em\x20!important;height:1.5em\x20!important}.online-prestige__episode-number{position:absolute;top:0;left:0;right:0;bottom:0;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;font-size:2em}.online-prestige__loader{position:absolute;top:50%;left:50%;width:2em;height:2em;margin-left:-1em;margin-top:-1em;background:url(./img/loader.svg)\x20no-repeat\x20center\x20center;-webkit-background-size:contain;-o-background-size:contain;background-size:contain}.online-prestige__head,.online-prestige__footer{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-moz-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}.online-prestige__timeline{margin:.8em\x200}.online-prestige__timeline>.time-line{display:block\x20!important}.online-prestige__title{font-size:1.7em;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:1;line-clamp:1;-webkit-box-orient:vertical}@media\x20screen\x20and\x20(max-width:480px){.online-prestige__title{font-size:1.4em}}.online-prestige__time{padding-left:2em}.online-prestige__info{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}.online-prestige__info>*{overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:1;line-clamp:1;-webkit-box-orient:vertical}.online-prestige__quality{padding-left:1em;white-space:nowrap}.online-prestige__scan-file{position:absolute;bottom:0;left:0;right:0}.online-prestige__scan-file\x20.broadcast__scan{margin:0}.online-prestige\x20.online-prestige-split{font-size:.8em;margin:0\x201em;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0}.online-prestige.focus::after{content:\x27\x27;position:absolute;top:-0.6em;left:-0.6em;right:-0.6em;bottom:-0.6em;-webkit-border-radius:.7em;border-radius:.7em;border:solid\x20.3em\x20#fff;z-index:-1;pointer-events:none}.online-prestige+.online-prestige{margin-top:1.5em}.online-prestige--folder\x20.online-prestige__footer{margin-top:.8em}.online-prestige-watched{padding:1em}.online-prestige-watched__icon>svg{width:1.5em;height:1.5em}.online-prestige-watched__body{padding-left:1em;padding-top:.1em;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}.online-prestige-watched__body>span+span::before{content:\x27\x20?\x20\x27;vertical-align:top;display:inline-block;margin:0\x20.5em}.online-prestige-rate{display:-webkit-inline-box;display:-webkit-inline-flex;display:-moz-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}.online-prestige-rate>svg{width:1.3em\x20!important;height:1.3em\x20!important}.online-prestige-rate>span{font-weight:600;font-size:1.1em;padding-left:.7em}.online-empty{line-height:1.4}.online-empty__title{font-size:1.8em;margin-bottom:.3em}.online-empty__time{font-size:1.2em;font-weight:300;margin-bottom:1.6em}.online-empty__buttons{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex}.online-empty__buttons>*+*{margin-left:1em}.online-empty__button{background:rgba(0,0,0,0.3);font-size:1.2em;padding:.5em\x201.2em;-webkit-border-radius:.2em;border-radius:.2em;margin-bottom:2.4em}.online-empty__button.focus{background:#fff;color:black}.online-empty__templates\x20.online-empty-template:nth-child(2){opacity:.5}.online-empty__templates\x20.online-empty-template:nth-child(3){opacity:.2}.online-empty-template{background-color:rgba(255,255,255,0.3);padding:1em;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;-webkit-border-radius:.3em;border-radius:.3em}.online-empty-template>*{background:rgba(0,0,0,0.3);-webkit-border-radius:.3em;border-radius:.3em}.online-empty-template__ico{width:4em;height:4em;margin-right:2.4em}.online-empty-template__body{height:1.7em;width:70%}.online-empty-template+.online-empty-template{margin-top:1em}\x0a\x20\x20\x20\x20\x20\x20\x20\x20</style>\x0a\x20\x20\x20\x20','contextMenu','????','each','.filter--search','78290gsOtOZ','episode_number','externalids?','unmark','onBack','startTypeInvoke','rjson=','Search\x20on\x20({balanser})\x20did\x20not\x20return\x20any\x20results','file','helper_online_file','anime=1','Источник','component','Clear\x20all\x20timecodes','details','Видео','lampac_nws_id','year','history','torrent-list','addSource','online_choice_','nws_id=','result\x20empty,\x20','element','msg','.torrent-filter','add','body','query','initialize','gzip','voice_name','<div\x20class=\x22online-prestige\x20online-prestige--folder\x20selector\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-prestige__folder\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<svg\x20viewBox=\x220\x200\x20128\x20112\x22\x20fill=\x22none\x22\x20xmlns=\x22http://www.w3.org/2000/svg\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<rect\x20y=\x2220\x22\x20width=\x22128\x22\x20height=\x2292\x22\x20rx=\x2213\x22\x20fill=\x22white\x22></rect>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M29.9963\x208H98.0037C96.0446\x203.3021\x2091.4079\x200\x2086\x200H42C36.5921\x200\x2031.9555\x203.3021\x2029.9963\x208Z\x22\x20fill=\x22white\x22\x20fill-opacity=\x220.23\x22></path>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<rect\x20x=\x2211\x22\x20y=\x228\x22\x20width=\x22106\x22\x20height=\x2276\x22\x20rx=\x2213\x22\x20fill=\x22white\x22\x20fill-opacity=\x220.51\x22></rect>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-prestige__body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-prestige__head\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-prestige__title\x22>{title}</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-prestige__time\x22>{time}</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-prestige__footer\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-prestige__info\x22>{info}</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>','title_online','object','vast_platform','kinopoisk_id=','source','onComplite','mark','Источник\x20будет\x20переключен\x20автоматически\x20через\x20<span\x20class=\x22timeout\x22>10</span>\x20секунд.','appVersion','kinoflix','original_title=','Utils','similar','lampac_clear_all_marks','.filter--sort','round','subtitles','substring','balanser_name','filmix','lite/events?life=true','veoveo','copy_secuses','online_last_balanser','rch','number','trigger','Онлайн','onFocus','getChoice','getLastChoiceBalanser','<div\x20class=\x22online-empty\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22broadcast__scan\x22><div></div></div>\x0a\x09\x09\x09\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty__templates\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty-template\x20selector\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty-template__ico\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty-template__body\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty-template\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty-template__ico\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty-template__body\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty-template\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty-template__ico\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty-template__body\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>','uid=','set','playlist','.change','apple','kit_aesgcmkey','getLastEpisode','lampac_plugin','getEpisodes','player','kinopoisk_id','cub_id=','5HttPoM','./img/img_broken.svg','charAt','http://88.218.62.180:9118','Пошук\x20на\x20({balanser})\x20не\x20дав\x20результатів','Explorer','.online-prestige__timeline','arrayBuffer','ConnectionId:\x20','episode','?title=','activity','Favorite','addUrlComponent','<div\x20class=\x22online-prestige__viewed\x22>','Noty','imdb_id=','original_language=','chosen','thumbnail','lampac_voice_error','Arrays','getKeys','Clear\x20all\x20labels','stream','translate_episode_end','original_language','ping','quality','.cancel','lampac_video','create','23438tdNfnW','<div\x20class=\x22online-prestige\x20online-prestige--full\x20selector\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-prestige__img\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20alt=\x22\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-prestige__loader\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-prestige__body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-prestige__head\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-prestige__title\x22>{title}</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-prestige__time\x22>{time}</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-prestige__timeline\x22></div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-prestige__footer\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-prestige__info\x22>{info}</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-prestige__quality\x22>{quality}</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>','<span>','296YfZpkS','cdnvideohub','toPlayElement','Lang','hover:enter','webos','onClearAllTime','backdrop_path','filter','Ошибка\x20доступа','addClass','first_air_date','Activity','online','Player','clearImages','split','link','cors','tizen','tagline','data-json','down','lampac_voice_success','.view--torrent','collectionSet','</div>','Helper','leproduction','move','pause','lampac_no_watch_history','Джерело\x20буде\x20автоматично\x20переключено\x20через\x20<span\x20class=\x22timeout\x22>10</span>\x20секунд.','lifeevents?memkey=','air_date','addButtonBack','translate_voice','copy_error','push','menu','android','id=','Template','head','catch','kinogo','</span>','loading','keywords','animebesst','Нет\x20истории\x20просмотра','gzresult','.videos__button','Online','Дивитися\x20онлайн','vidsrc','get','connect','lampac_css','lampac_does_not_answer_text','time','uakino','onerror','doesNotAnswer','appendHead','release_date','?????','kodik','sync','then','pong','accsdb','uafilm','clone','smashystream','bylampa','title=','vote_average','Відео','title_action','error:','hide','object_object','still_path','play','vibix','Ви\x20успішно\x20підписалися','Manifest','season','content','reconnect','moonanime','eval','hover:focus','immediately','number_of_seasons','lampac_voice_subscribe','Reguest','silent','nws','cub','timeclearall','logged','?????<span\x20class=\x22timeout\x22>10</span>???????','2014122bnAhQX','source=','vast_region','index','field','sort','\x20or\x20','Очистить\x20все\x20метки','image','alloha','https://','platform','updateBalanser','movie_view','collectionFocus','lampac_prestige_rate','Не\x20удалось\x20извлечь\x20ссылку','kinoukr','Connected','url_reserve','<div\x20class=\x22full-start__button\x20selector\x20cinema--online\x20lampac--button\x22\x20data-subtitle=\x22','.lampac--button','some','http://','RchRegistry','torrent_parser_label_title','parseTime','torrent_parser_label_cancel_title','onSelect','runtime','type','title','remove','75285UCtgtZ','stringify','tmdb_id','Select','Очистити\x20всі\x20тайм-коди','<span\x20class=\x22online-prestige-split\x22>?</span>','screen','src','animego','start_date','Підписатися\x20на\x20переклад','Connection\x20closed','setDefaultQuality','similars','.online-prestige__folder','kinopub','typeInvoke','Component','length','imgLoad','toLowerCase','isObject','decodeJson','url','noConnectToServer','pipeThrough','vast','onload','Scroll','localhost','plugins','Неизвестно','hash','opacity','append','subscribe','...','lampac_prestige_folder','Subscribe\x20to\x20translation','search','.online-empty__time','t/p/w300','evalrun','view','lampac_online_context_menu','\x20-\x20Webos','????????','lite/','tmdb_id=','/js/nws-client-es5.js?v21042026','error','cinema_online','parseJsonDate','original_name','orUrlReserve','tv/','iptvonline','lampac_unic_id','enable','voice_url','cardImgBackgroundBlur','kinobase','Поиск\x20на\x20({balanser})\x20не\x20дал\x20результатов','rchtype=','<div\x20class=\x22online-prestige\x20online-prestige-watched\x20selector\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-prestige-watched__icon\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<svg\x20width=\x2221\x22\x20height=\x2221\x22\x20viewBox=\x220\x200\x2021\x2021\x22\x20fill=\x22none\x22\x20xmlns=\x22http://www.w3.org/2000/svg\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<circle\x20cx=\x2210.5\x22\x20cy=\x2210.5\x22\x20r=\x229\x22\x20stroke=\x22currentColor\x22\x20stroke-width=\x223\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M14.8477\x2010.5628L8.20312\x2014.399L8.20313\x206.72656L14.8477\x2010.5628Z\x22\x20fill=\x22currentColor\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-prestige-watched__body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>','tmdb','anime','.timeout','vast_url','animedia','633676UHjXhM','translate','region','Video','attr','\x20-\x20Android','updateWatched','/season/','host','html','call','externalids','lampac_watch','clear','clarification_search','serial=','target','lampac_prestige_full','percent','.online-prestige__viewed','stype','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20width=\x2228\x22\x20height=\x2229\x22\x20viewBox=\x220\x200\x2024\x2024\x22><path\x20fill=\x22currentColor\x22\x20d=\x22M11.585.031c-.342.087-.603.22-.94.478c-.354.273-.644.582-1.038\x201.11c-.748\x201.01-1.475\x202.337-2.332\x204.265c-.105.236-.198.43-.205.43a10\x2010\x200\x200\x201-.211-.655c-.442-1.47-.77-2.426-1.095-3.196C5.254\x201.25\x204.793.638\x204.234.43a1.25\x201.25\x200\x200\x200-.795.007c-.565.23-.985.838-1.318\x201.914c-.522\x201.676-.96\x204.53-1.472\x209.6c-.478\x204.69-.675\x207.526-.646\x209.257c.012.835.045\x201.181.15\x201.62c.187.792.622\x201.206\x201.225\x201.163c.159-.013.216-.03.392-.134c.173-.102.247-.17.434-.391c.504-.602.976-1.62\x201.952-4.22c.364-.967\x201.967-5.397\x201.967-5.434c0-.026-.703-2.417-.822-2.8l-.04-.123l-.034.076c-.064.143-.72\x201.934-1.448\x203.952c-1\x202.772-1.577\x204.32-1.884\x205.06l-.097.239l.012-.267c.01-.146.026-.495.038-.773c.086-1.766.33-4.554.703-8.068c.375-3.536.708-5.842\x201.043-7.227c.1-.414.26-.959.294-1.004c.024-.027.233.424.404.871c.356.934.636\x201.816\x201.515\x204.774c1.083\x203.651\x201.627\x205.265\x202.325\x206.901c.61\x201.436\x201.104\x202.305\x201.72\x203.036c.432.512.84.835\x201.294\x201.029a2.03\x202.03\x200\x200\x200\x201.626.017c1.385-.557\x202.565-2.553\x203.971-6.719c.378-1.122.691-2.122\x201.35-4.32c.911-3.045\x201.313-4.251\x201.7-5.128a7\x207\x200\x200\x201\x20.211-.447l.057-.098l.038.11c.33.916.663\x202.636.971\x205.02c.333\x202.552.81\x207.354.988\x209.89c.057.818.12\x201.976.117\x202.192v.155l-.074-.169c-.235-.534-.779-1.999-1.9-5.102c-.869-2.404-1.484-4.076-1.515-4.113c-.011-.013-.029.014-.043.057c-.574\x201.9-.836\x202.777-.836\x202.81c0\x20.04.976\x202.756\x201.686\x204.69c.606\x201.647\x201.152\x203.041\x201.416\x203.618c.349.764.605\x201.206.888\x201.543c.164.194.242.264.413.365c.376.213.704.16.97.007c.84-.495.985-1.903.66-6.39c-.164-2.229-.523-5.94-.834-8.602c-.494-4.228-1.017-6.645-1.66-7.671c-.254-.408-.601-.7-.938-.793a1.44\x201.44\x200\x200\x200-.668.017c-.876.298-1.548\x201.546-2.557\x204.75c-.136.434-.262.836-.276.892c-.016.059-.038.107-.045.107c-.01\x200-.073-.13-.145-.29C15.516\x203.2\x2014.494\x201.523\x2013.542.677c-.278-.247-.729-.52-.995-.604c-.245-.076-.739-.098-.962-.04zm.682\x202.15c.726.38\x201.918\x202.452\x203.322\x205.778l.44\x201.04l-.345\x201.099c-.639\x202.046-1.05\x203.227-1.534\x204.382c-.672\x201.605-1.316\x202.657-1.812\x202.958a.73.73\x200\x200\x201-.615.042c-.798-.335-1.798-2.198-2.881-5.375a77\x2077\x200\x200\x201-.805-2.51l-.135-.442l.346-.837c1.344-3.239\x202.541-5.417\x203.297-6.008c.273-.213.484-.25.722-.126Z\x22/></svg>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<span>#{title_online}</span>\x0a\x20\x20\x20\x20</div>','concat','<div\x20class=\x22online-prestige__episode-number\x22>','asiage','replaceChoice','voice_id','7.7.7','max','connectionId','vast_screen','getFileUrl','online_view','.explorer__files-head','movpi','Подписаться\x20на\x20перевод','indexOf','lifeSource','voice','undefined','lampac_prestige_watched','zetflixdb','reset','ready','online_watched_last','rezka','torrent_serial_episode','method','Change\x20balancer','<div\x20class=\x22online-prestige-rate\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<svg\x20width=\x2217\x22\x20height=\x2216\x22\x20viewBox=\x220\x200\x2017\x2016\x22\x20fill=\x22none\x22\x20xmlns=\x22http://www.w3.org/2000/svg\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M8.39409\x200.192139L10.99\x205.30994L16.7882\x206.20387L12.5475\x2010.4277L13.5819\x2015.9311L8.39409\x2013.2425L3.20626\x2015.9311L4.24065\x2010.4277L0\x206.20387L5.79819\x205.30994L8.39409\x200.192139Z\x22\x20fill=\x22#fff\x22></path>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>{rate}</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>','Closed','slice','233194EuIQat','original_title','timeclear','replace','bamboo','info','Удерживайте\x20клавишу\x20\x22ОК\x22\x20для\x20вызова\x20контекстного\x20меню','empty','data','token=','capitalizeFirstLetter','lampac_does_not_answer','empty_title_two','player_lauch','settings_rest_source','fxapi','settings_server_links','encode','lampac_balanser','Очистить\x20все\x20тайм-коды','subscribeToTranslation','lampac_custom_select','Platform','Очистити\x20всі\x20мітки','apkVersion','video_quality_default','Controller','qualitys','Loading','dreamerscast','RchClient','Watch\x20online','putScript','.online-empty__buttons','<div>','pizdatoehd','lampac_content_loading','title_error','fancdn','Registry','now','imdb_id','online-prestige__img--loaded','/cors/check','version','bind','web','collaps','POST','rch_nws','videoseed','inner','copyTextToClipboard','online_file','cache','watched','enqueue','loader','subtitles_call','secondsToTime','RCH','draw','segments','parse','follow','.online-prestige__loader','render','account_email','Изменить\x20балансер','start','episodes_view','full','display','text','appendTo','onRender','/rch/','balanser','geosaitebi','hasClass','.online-prestige__img','rchRegistry','native','sources','saveChoice','after','function','Timeline','/proxyimg','stop','.filter--sort\x20span','remux','hls_manifest_timeout','left','Утримуйте\x20клавішу\x20\x22ОК\x22\x20для\x20виклику\x20контекстного\x20меню','request','hydraflix','??\x20({balanser})\x20???????','apk','lme','.selector','https://github.com/','minus','isonline','Cinema','status','find','changeBalanser','map','torrent_parser_voice','similar=','active','getTime','0000','mikai','<span\x20class=\x22lampac-balanser-loader\x22\x20style=\x22width:\x201.2em;\x20height:\x201.2em;\x20margin-top:\x200;\x20background:\x20url(./img/loader.svg)\x20no-repeat\x2050%\x2050%;\x20background-size:\x20contain;\x20margin-left:\x200.5em\x22></span>','onEnter','appendFiles','<img\x20style=\x22height:\x207em;\x20width:\x207em;\x20border-radius:\x200.3em;\x22/>','img','phantom','online_balanser','complite','torrent_serial_season','selected','RchResult','time_reset','ajax','movie','extend','vokino','update','228YAvliF','nojson=','timeout','close','vidlink','clarification','toggle','??????','Filter','startSource','spectre','results','??\x22??\x22????????','nwsClient','Source','videasy','match','mirage','name','An\x20error\x20has\x20occurred','canmove','onClearAllMark','timeline','/lite/withsearch','TMDB','.online-empty__title','\x20-\x20Lampa','memkey','You\x20have\x20successfully\x20subscribed','log','lampac_nolink','Listener','hdvb','account_email=','empty_text','join','Storage','pidtor','headers','destroy','4513824RdSzZF','onContextMenu','spider','forEach','isArray','requestParams','Error','app_digital','show','right'];_0x2cea=function(){return _0xa3d9b5;};return _0x2cea();}function _0x263e(_0x13c21e,_0x1624c8){var _0x2cead4=_0x2cea();return _0x263e=function(_0x263ef8,_0xf8710d){_0x263ef8=_0x263ef8-0x142;var _0x47dae5=_0x2cead4[_0x263ef8];return _0x47dae5;},_0x263e(_0x13c21e,_0x1624c8);}(function(_0x1f1c94,_0x10cd04){var _0x9cffa8=_0x263e,_0x17524e=_0x1f1c94();while(!![]){try{var _0x574c08=parseInt(_0x9cffa8(0x19e))/0x1+parseInt(_0x9cffa8(0x2c7))/0x2*(parseInt(_0x9cffa8(0x222))/0x3)+-parseInt(_0x9cffa8(0x16a))/0x4*(parseInt(_0x9cffa8(0x2a7))/0x5)+-parseInt(_0x9cffa8(0x332))/0x6+-parseInt(_0x9cffa8(0x353))/0x7*(-parseInt(_0x9cffa8(0x2ca))/0x8)+-parseInt(_0x9cffa8(0x24a))/0x9+-parseInt(_0x9cffa8(0x259))/0xa;if(_0x574c08===_0x10cd04)break;else _0x17524e['push'](_0x17524e['shift']());}catch(_0x50881b){_0x17524e['push'](_0x17524e['shift']());}}}(_0x2cea,0x7e89e),(function(){'use strict';var _0x4fe98f=_0x263e;var _0x503863=_0x4fe98f(0x2aa),_0x2a3942={'api':'lampac','localhost':_0x503863+'/','apn':''},_0x477578=[_0x4fe98f(0x2e6),_0x4fe98f(0x1ad),_0x4fe98f(0x233),'vidsrc',_0x4fe98f(0x18c),_0x4fe98f(0x197),'kinogo',_0x4fe98f(0x1d0),_0x4fe98f(0x362),_0x4fe98f(0x22c),_0x4fe98f(0x312),'kinoflix',_0x4fe98f(0x314),_0x4fe98f(0x231),_0x4fe98f(0x226),_0x4fe98f(0x1ec)];function _0x412b1d(_0x34b22e){var _0x436b47=_0x4fe98f,_0x59c03b=_0x34b22e;return _0x34b22e&&typeof _0x34b22e===_0x436b47(0x27c)&&(_0x59c03b=_0x34b22e[_0x436b47(0x1eb)]||(_0x34b22e[_0x436b47(0x234)]?String(_0x34b22e[_0x436b47(0x234)])[_0x436b47(0x2da)]('\x20')[0x0]:'')),String(_0x59c03b||'')[_0x436b47(0x367)]()['replace'](/[^a-z0-9_-]/g,'');}function _0x30ac83(_0x1f542c){var _0x26947c=_0x4fe98f,_0x529e35=_0x412b1d(_0x1f542c);if(!_0x529e35)return![];return _0x477578[_0x26947c(0x348)](function(_0x4ff2e6){var _0x42e5f8=_0x26947c;return _0x529e35===_0x4ff2e6||_0x529e35[_0x42e5f8(0x18e)](_0x4ff2e6+'-')===0x0||_0x529e35[_0x42e5f8(0x18e)](_0x4ff2e6+'_')===0x0||_0x529e35[_0x42e5f8(0x18e)](_0x42e5f8(0x201)+_0x4ff2e6)===0x0||_0x529e35[_0x42e5f8(0x18e)](_0x4ff2e6)===0x0;});}function _0x1df8f3(_0x1ec640){var _0x5b77b0=_0x4fe98f;if(!_0x1ec640||typeof _0x1ec640[_0x5b77b0(0x2d2)]!==_0x5b77b0(0x1f4))return _0x1ec640;return _0x1ec640['filter'](function(_0x16ab51){return!_0x30ac83(_0x16ab51);});}var _0x3fb57e,_0x449b89=Lampa['Storage'][_0x4fe98f(0x302)]('lampac_unic_id','');!_0x449b89&&(_0x449b89=Lampa[_0x4fe98f(0x286)]['uid'](0x8)[_0x4fe98f(0x367)](),Lampa[_0x4fe98f(0x246)][_0x4fe98f(0x29c)](_0x4fe98f(0x15d),_0x449b89));function _0x9689c3(){var _0x5cec24=_0x4fe98f;if(Lampa[_0x5cec24(0x1b4)]['is'](_0x5cec24(0x2f2)))try{var _0x45d8b7=AndroidJS[_0x5cec24(0x283)]()[_0x5cec24(0x2da)]('-');return parseInt(_0x45d8b7['pop']());}catch(_0xabd78e){return 0x0;}else return 0x0;}var _0x526fbb=_0x503863[_0x4fe98f(0x1a1)](_0x4fe98f(0x349),'')[_0x4fe98f(0x1a1)](_0x4fe98f(0x33c),'');if(!window[_0x4fe98f(0x1cf)]||!window[_0x4fe98f(0x1cf)][_0x526fbb]){if(!window[_0x4fe98f(0x1cf)])window['rch_nws']={};window[_0x4fe98f(0x1cf)][_0x526fbb]={'type':Lampa[_0x4fe98f(0x1b4)]['is'](_0x4fe98f(0x2f2))?_0x4fe98f(0x200):Lampa['Platform']['is']('tizen')?_0x4fe98f(0x2dc):undefined,'startTypeInvoke':![],'rchRegistry':![],'apkVersion':_0x9689c3()};}window[_0x4fe98f(0x1cf)][_0x526fbb]['typeInvoke']=function _0x5e9824(_0x3b89b5,_0x578803){var _0x1d7118=_0x4fe98f;if(!window['rch_nws'][_0x526fbb][_0x1d7118(0x25e)]){window[_0x1d7118(0x1cf)][_0x526fbb][_0x1d7118(0x25e)]=!![];var _0x5132e7=function _0x20ebf9(_0x4746e0){var _0x163d7d=_0x1d7118;window['rch_nws'][_0x526fbb][_0x163d7d(0x350)]=Lampa['Platform']['is'](_0x163d7d(0x2f2))?_0x163d7d(0x200):_0x4746e0?_0x163d7d(0x2dc):_0x163d7d(0x1cc),_0x578803();};if(Lampa['Platform']['is']('android')||Lampa[_0x1d7118(0x1b4)]['is'](_0x1d7118(0x2dd)))_0x5132e7(!![]);else{var _0x1eed92=new Lampa[(_0x1d7118(0x32b))]();_0x1eed92[_0x1d7118(0x32c)](_0x503863[_0x1d7118(0x18e)](location[_0x1d7118(0x172)])>=0x0?_0x1d7118(0x203):_0x3b89b5+_0x1d7118(0x1c9),function(){_0x5132e7(!![]);},function(){_0x5132e7(![]);},![],{'dataType':_0x1d7118(0x1e7)});}}else _0x578803();},window[_0x4fe98f(0x1cf)][_0x526fbb]['Registry']=function _0x254c21(_0x46ca02,_0x48e6c7){var _0x2fd2eb=_0x4fe98f;window[_0x2fd2eb(0x1cf)][_0x526fbb][_0x2fd2eb(0x363)](_0x503863,function(){var _0x22669e=_0x2fd2eb;_0x46ca02['invoke'](_0x22669e(0x34a),{'host':location[_0x22669e(0x172)],'rchtype':Lampa[_0x22669e(0x1b4)]['is'](_0x22669e(0x2f2))?_0x22669e(0x200):Lampa[_0x22669e(0x1b4)]['is'](_0x22669e(0x2dd))?_0x22669e(0x2dc):window[_0x22669e(0x1cf)][_0x526fbb][_0x22669e(0x350)]||'web','apkVersion':Lampa['Platform']['is']('android')?window['rch_nws'][_0x526fbb][_0x22669e(0x1b6)]||0x0:0x0,'player':Lampa[_0x22669e(0x246)][_0x22669e(0x336)](_0x22669e(0x2a4))});if(window['rch_nws'][_0x526fbb]['rchRegistry'])return;window['rch_nws'][_0x526fbb][_0x22669e(0x1ef)]=!![];var _0x1ad102=![];_0x46ca02['on'](_0x22669e(0x34a),function(_0x41180d,_0x5bf8eb,_0x1384ce){_0x48e6c7&&!_0x1ad102&&(_0x1ad102=!![],_0x48e6c7());}),_0x46ca02['on'](_0x22669e(0x1bc),function(_0x435f5f,_0x3ff6cd,_0x3263e4,_0x2966ef,_0x387f6a){var _0x3124fa=_0x22669e,_0x443ed4=new Lampa['Reguest']();function _0x57aec8(_0x407dad,_0x4333c9){var _0x4b4b1a=_0x263e;$[_0x4b4b1a(0x21d)]({'url':_0x503863+_0x4b4b1a(0x1ea)+_0x407dad+'?id='+_0x435f5f,'type':_0x4b4b1a(0x1ce),'data':_0x4333c9,'async':!![],'cache':![],'contentType':![],'processData':![],'success':function(_0x134c28){},'error':function(){var _0x1ed87b=_0x4b4b1a;_0x46ca02['invoke'](_0x1ed87b(0x21b),_0x435f5f,'');}});}function _0x513e14(_0x53dc68){var _0x4493e1=_0x263e;(Lampa[_0x4493e1(0x2bc)][_0x4493e1(0x368)](_0x53dc68)||Lampa[_0x4493e1(0x2bc)][_0x4493e1(0x24e)](_0x53dc68))&&(_0x53dc68=JSON[_0x4493e1(0x354)](_0x53dc68));if(typeof CompressionStream!==_0x4493e1(0x191)&&_0x53dc68&&_0x53dc68['length']>0x3e8){var _0x2e8c01=new CompressionStream(_0x4493e1(0x278)),_0x6732ce=new TextEncoder(),_0xdcc504=new ReadableStream({'start':function(_0xca3d39){var _0x4e5dcc=_0x4493e1;_0xca3d39[_0x4e5dcc(0x1d6)](_0x6732ce[_0x4e5dcc(0x1af)](_0x53dc68)),_0xca3d39['close']();}}),_0x56360a=_0xdcc504[_0x4493e1(0x36c)](_0x2e8c01);new Response(_0x56360a)[_0x4493e1(0x2ae)]()[_0x4493e1(0x30f)](function(_0x398945){var _0x1dca91=_0x4493e1,_0x35a610=new Uint8Array(_0x398945);_0x35a610[_0x1dca91(0x365)]>_0x53dc68['length']?_0x57aec8('result',_0x53dc68):_0x57aec8(_0x1dca91(0x2fd),_0x35a610);})[_0x4493e1(0x2f6)](function(){_0x57aec8('result',_0x53dc68);});}else _0x57aec8('result',_0x53dc68);}if(_0x3ff6cd==_0x3124fa(0x326))console[_0x3124fa(0x23f)](_0x3124fa(0x1da),_0x3ff6cd,_0x3263e4),_0x513e14(eval(_0x3263e4));else{if(_0x3ff6cd==_0x3124fa(0x14e))console[_0x3124fa(0x23f)](_0x3124fa(0x1da),_0x3ff6cd,_0x3263e4),eval(_0x3263e4);else _0x3ff6cd==_0x3124fa(0x2c2)?_0x513e14(_0x3124fa(0x310)):(console[_0x3124fa(0x23f)](_0x3124fa(0x1da),_0x3ff6cd),_0x443ed4[_0x3124fa(0x1f0)](_0x3ff6cd,_0x513e14,function(_0x2d0eb1){var _0x2870b6=_0x3124fa;console[_0x2870b6(0x23f)]('RCH',_0x2870b6(0x270)+_0x2d0eb1[_0x2870b6(0x207)]),_0x513e14('');},_0x3263e4,{'dataType':_0x3124fa(0x1e7),'timeout':0x3e8*0x8,'headers':_0x2966ef,'returnHeaders':_0x387f6a}));}}),_0x46ca02['on'](_0x22669e(0x344),function(_0x858bf9){var _0x283e3f=_0x22669e;console[_0x283e3f(0x23f)]('RCH',_0x283e3f(0x2af)+_0x858bf9),window[_0x283e3f(0x1cf)][_0x526fbb][_0x283e3f(0x187)]=_0x858bf9;}),_0x46ca02['on'](_0x22669e(0x19c),function(){var _0x4bf334=_0x22669e;console['log'](_0x4bf334(0x1da),_0x4bf334(0x35e));}),_0x46ca02['on'](_0x22669e(0x250),function(_0x2e861b){var _0x3edf58=_0x22669e;console[_0x3edf58(0x23f)]('RCH',_0x3edf58(0x31a),_0x2e861b);});});},window[_0x4fe98f(0x1cf)][_0x526fbb]['typeInvoke'](_0x503863,function(){});function _0x5d2ce6(_0x33ddca,_0x18c3b3){var _0x377064=_0x4fe98f;if(!window['nwsClient'])window[_0x377064(0x22f)]={};var _0x328608=window[_0x377064(0x22f)][_0x526fbb];if(_0x328608&&_0x328608[_0x377064(0x187)]!=null)_0x18c3b3();else _0x328608?(console['log'](_0x377064(0x1da),'Reconnecting...'),_0x328608[_0x377064(0x324)](function(){_0x18c3b3();})):(window[_0x377064(0x22f)][_0x526fbb]=new NativeWsClient(_0x33ddca[_0x377064(0x32d)],{'autoReconnect':!![]}),window[_0x377064(0x22f)][_0x526fbb]['on'](_0x377064(0x344),function(_0xd46246){var _0x5aa2ff=_0x377064;window[_0x5aa2ff(0x1cf)][_0x526fbb][_0x5aa2ff(0x1c5)](window['nwsClient'][_0x526fbb],function(){_0x18c3b3();});}),window[_0x377064(0x22f)][_0x526fbb][_0x377064(0x303)]());}function _0x236521(_0x3ff121,_0x41096b){var _0x43b751=_0x4fe98f;typeof NativeWsClient==_0x43b751(0x191)?Lampa[_0x43b751(0x286)][_0x43b751(0x1be)]([_0x503863+_0x43b751(0x155)],function(){},![],function(){_0x5d2ce6(_0x3ff121,_0x41096b);},!![]):_0x5d2ce6(_0x3ff121,_0x41096b);}function _0x202f9e(_0x1d132a){var _0x508a12=_0x4fe98f;_0x1d132a=_0x1d132a+'';if(_0x1d132a[_0x508a12(0x18e)](_0x508a12(0x243))==-0x1){var _0xbdadf0=Lampa['Storage'][_0x508a12(0x302)]('account_email');if(_0xbdadf0)_0x1d132a=Lampa[_0x508a12(0x286)]['addUrlComponent'](_0x1d132a,_0x508a12(0x243)+encodeURIComponent(_0xbdadf0));}if(_0x1d132a[_0x508a12(0x18e)](_0x508a12(0x29b))==-0x1){var _0x59bf4a=Lampa[_0x508a12(0x246)][_0x508a12(0x302)]('lampac_unic_id','');if(_0x59bf4a)_0x1d132a=Lampa[_0x508a12(0x286)][_0x508a12(0x2b4)](_0x1d132a,'uid='+encodeURIComponent(_0x59bf4a));}if(_0x1d132a[_0x508a12(0x18e)](_0x508a12(0x1a7))==-0x1){var _0xa92474='';if(_0xa92474!='')_0x1d132a=Lampa[_0x508a12(0x286)][_0x508a12(0x2b4)](_0x1d132a,_0x508a12(0x1a7));}if(_0x1d132a[_0x508a12(0x18e)](_0x508a12(0x26f))==-0x1){var _0x1900ca=Lampa['Storage']['get'](_0x508a12(0x269),'');if(_0x1900ca)_0x1d132a=Lampa[_0x508a12(0x286)]['addUrlComponent'](_0x1d132a,'nws_id='+encodeURIComponent(_0x1900ca));}return _0x1d132a;}function _0x29f7e4(){var _0x3a2af6=_0x4fe98f,_0x383124=Lampa['Storage'][_0x3a2af6(0x302)](_0x3a2af6(0x2a0),'');if(_0x383124)return{'X-Kit-AesGcm':Lampa[_0x3a2af6(0x246)][_0x3a2af6(0x302)](_0x3a2af6(0x2a0),'')};return{};}function _0x34767b(_0x524572){return(_0x524572<0xa?'0':'')+_0x524572;}var _0x56eb1d=Lampa[_0x4fe98f(0x32b)];function _0x128b7a(_0x3a9667){var _0x324bac=_0x4fe98f,_0x5dedcc=new _0x56eb1d(),_0x3c44bf=new Lampa[(_0x324bac(0x36f))]({'mask':!![],'over':!![]}),_0x5cf787=new Lampa[(_0x324bac(0x2ac))](_0x3a9667),_0x51799f=new Lampa[(_0x324bac(0x22a))](_0x3a9667),_0x4516c2={},_0x2cb9fe,_0x5f2a85,_0xe4a78a,_0x5e0205,_0x3ead6b,_0x10ce1c=[],_0x184c29=0x0,_0x78518f,_0x34e6ce=0x0,_0x46e0e2,_0x2aa98e={},_0x27f757={'season':Lampa[_0x324bac(0x2cd)][_0x324bac(0x16b)](_0x324bac(0x219)),'voice':Lampa['Lang'][_0x324bac(0x16b)]('torrent_parser_voice'),'source':Lampa[_0x324bac(0x2cd)]['translate'](_0x324bac(0x1ac))},_0x3c2bab={'season':[],'voice':[]};_0x3fb57e==undefined&&(_0x5dedcc[_0x324bac(0x224)](0x2710),_0x5dedcc['silent'](_0x202f9e(_0x503863+_0x324bac(0x239)),function(_0x461a58){_0x3fb57e=_0x1df8f3(_0x461a58);},function(){_0x3fb57e=[];}));function _0x458dbb(_0x48630d){var _0xd5ec95=_0x324bac,_0x2c8d2d=_0x48630d[_0xd5ec95(0x1eb)],_0x13abec=_0x48630d[_0xd5ec95(0x234)][_0xd5ec95(0x2da)]('\x20')[0x0];return(_0x2c8d2d||_0x13abec)[_0xd5ec95(0x367)]();}function _0x6bab83(_0x15a348){var _0xa163a7=_0x324bac,_0x5b7d3a=Lampa[_0xa163a7(0x286)][_0xa163a7(0x144)](_0x3a9667[_0xa163a7(0x21e)]['number_of_seasons']?_0x3a9667[_0xa163a7(0x21e)][_0xa163a7(0x159)]:_0x3a9667[_0xa163a7(0x21e)][_0xa163a7(0x19f)]),_0x52f4dc=Lampa[_0xa163a7(0x246)][_0xa163a7(0x302)](_0xa163a7(0x178),'{}');_0x52f4dc[_0x5b7d3a]=_0x15a348,Lampa[_0xa163a7(0x246)]['set'](_0xa163a7(0x178),_0x52f4dc);}function _0x4eb57f(){var _0x510c82=_0x324bac,_0x4b4f88=Lampa[_0x510c82(0x286)]['hash'](_0x3a9667[_0x510c82(0x21e)][_0x510c82(0x329)]?_0x3a9667[_0x510c82(0x21e)]['original_name']:_0x3a9667['movie']['original_title']),_0x2a2dbc=Lampa['Storage']['get'](_0x510c82(0x178),'{}');delete _0x2a2dbc[_0x4b4f88],Lampa[_0x510c82(0x246)]['set']('clarification_search',_0x2a2dbc);}function _0x90ca6e(){var _0x532b8d=_0x324bac,_0x5a3df2=Lampa['Utils'][_0x532b8d(0x144)](_0x3a9667[_0x532b8d(0x21e)][_0x532b8d(0x329)]?_0x3a9667[_0x532b8d(0x21e)][_0x532b8d(0x159)]:_0x3a9667[_0x532b8d(0x21e)]['original_title']),_0x2f35e8=Lampa[_0x532b8d(0x246)][_0x532b8d(0x302)](_0x532b8d(0x178),'{}');return _0x2f35e8[_0x5a3df2];}this[_0x324bac(0x277)]=function(){var _0x380e37=_0x324bac,_0x100e44=this;this[_0x380e37(0x2f9)](!![]),_0x51799f['onSearch']=function(_0x2fd03d){_0x6bab83(_0x2fd03d),Lampa['Activity']['replace']({'search':_0x2fd03d,'clarification':!![],'similar':!![]});},_0x51799f[_0x380e37(0x25d)]=function(){var _0x5b2f39=_0x380e37;_0x100e44[_0x5b2f39(0x1e3)]();},_0x51799f['render']()[_0x380e37(0x208)](_0x380e37(0x202))['on']('hover:enter',function(){clearInterval(_0x3ead6b);}),_0x51799f[_0x380e37(0x1e0)]()[_0x380e37(0x208)](_0x380e37(0x258))[_0x380e37(0x1e8)](_0x51799f[_0x380e37(0x1e0)]()[_0x380e37(0x208)](_0x380e37(0x273))),_0x51799f[_0x380e37(0x34e)]=function(_0x53fe31,_0x5edbe7,_0x175665){var _0x519018=_0x380e37;if(_0x53fe31==_0x519018(0x2d2)){if(_0x5edbe7[_0x519018(0x194)])_0x4eb57f(),_0x100e44['replaceChoice']({'season':0x0,'voice':0x0,'voice_url':'','voice_name':''}),setTimeout(function(){var _0x298cad=_0x519018;Lampa[_0x298cad(0x356)][_0x298cad(0x225)](),Lampa[_0x298cad(0x2d6)][_0x298cad(0x1a1)]({'clarification':0x0,'similar':0x0});},0xa);else{var _0x318867=_0x3c2bab[_0x5edbe7['stype']][_0x175665[_0x519018(0x335)]][_0x519018(0x36a)],_0x52117a=_0x100e44[_0x519018(0x298)]();_0x5edbe7['stype']=='voice'&&(_0x52117a[_0x519018(0x279)]=_0x3c2bab[_0x519018(0x190)][_0x175665[_0x519018(0x335)]][_0x519018(0x351)],_0x52117a[_0x519018(0x15f)]=_0x318867),_0x52117a[_0x5edbe7[_0x519018(0x17e)]]=_0x175665[_0x519018(0x335)],_0x100e44['saveChoice'](_0x52117a),_0x100e44[_0x519018(0x194)](),_0x100e44[_0x519018(0x1fd)](_0x318867),setTimeout(Lampa[_0x519018(0x356)][_0x519018(0x225)],0xa);}}else _0x53fe31==_0x519018(0x337)&&(Lampa[_0x519018(0x356)]['close'](),_0x3a9667[_0x519018(0x1b3)]=_0x5edbe7['source'],_0x100e44[_0x519018(0x209)](_0x5edbe7[_0x519018(0x27f)]));};if(_0x51799f[_0x380e37(0x2ed)])_0x51799f[_0x380e37(0x2ed)]();_0x51799f[_0x380e37(0x1e0)]()['find'](_0x380e37(0x1f8))[_0x380e37(0x1e7)](Lampa[_0x380e37(0x2cd)][_0x380e37(0x16b)](_0x380e37(0x1b0))),_0x3c44bf[_0x380e37(0x275)]()[_0x380e37(0x2d4)](_0x380e37(0x26c)),_0x5cf787[_0x380e37(0x213)](_0x3c44bf[_0x380e37(0x1e0)]()),_0x5cf787[_0x380e37(0x30a)](_0x51799f[_0x380e37(0x1e0)]()),_0x3c44bf[_0x380e37(0x204)](_0x5cf787['render']()['find'](_0x380e37(0x18b))),_0x3c44bf['body']()[_0x380e37(0x146)](Lampa[_0x380e37(0x2f4)]['get'](_0x380e37(0x1c2))),Lampa[_0x380e37(0x1b8)][_0x380e37(0x15e)](_0x380e37(0x323)),this[_0x380e37(0x2f9)](![]);if(_0x3a9667[_0x380e37(0x1eb)])return _0x5cf787[_0x380e37(0x1e0)]()['find']('.filter--search')['remove'](),_0x4516c2={},_0x4516c2[_0x3a9667[_0x380e37(0x1eb)]]={'name':_0x3a9667['balanser']},_0xe4a78a=_0x3a9667[_0x380e37(0x1eb)],_0x2aa98e=[],_0x5dedcc[_0x380e37(0x1f0)](_0x202f9e(_0x3a9667[_0x380e37(0x36a)]['replace'](_0x380e37(0x25f),_0x380e37(0x223))),this[_0x380e37(0x1dd)][_0x380e37(0x1cb)](this),function(){var _0x2b905d=_0x380e37;_0x5cf787[_0x2b905d(0x1e0)]()['find'](_0x2b905d(0x273))['remove'](),_0x100e44[_0x2b905d(0x1a5)]();},![],{'dataType':_0x380e37(0x1e7),'headers':_0x29f7e4()});this['externalids']()[_0x380e37(0x30f)](function(){return _0x100e44['createSource']();})[_0x380e37(0x30f)](function(_0x273cf1){var _0x2eef9b=_0x380e37;!_0x3fb57e[_0x2eef9b(0x208)](function(_0x8224e){var _0x16ef72=_0x2eef9b;return _0xe4a78a[_0x16ef72(0x19d)](0x0,_0x8224e[_0x16ef72(0x365)])==_0x8224e;})&&_0x51799f['render']()['find'](_0x2eef9b(0x258))[_0x2eef9b(0x2d4)]('hide'),_0x100e44[_0x2eef9b(0x14b)]();})['catch'](function(_0x4f1611){_0x100e44['noConnectToServer'](_0x4f1611);});},this[_0x324bac(0x293)]=function(_0xbebdc3,_0x45ceda){var _0x31fb80=this;_0x236521(_0xbebdc3,function(){if(!_0x45ceda)_0x31fb80['find']();else _0x45ceda();});},this[_0x324bac(0x175)]=function(){return new Promise(function(_0x326c50,_0x4b1371){var _0x2ac92c=_0x263e;if(!_0x3a9667[_0x2ac92c(0x21e)]['imdb_id']||!_0x3a9667[_0x2ac92c(0x21e)][_0x2ac92c(0x2a5)]){var _0x3fb8cc=[];_0x3fb8cc[_0x2ac92c(0x2f0)](_0x2ac92c(0x2f3)+encodeURIComponent(_0x3a9667[_0x2ac92c(0x21e)]['id'])),_0x3fb8cc['push'](_0x2ac92c(0x179)+(_0x3a9667['movie'][_0x2ac92c(0x234)]?0x1:0x0));if(_0x3a9667['movie'][_0x2ac92c(0x1c7)])_0x3fb8cc[_0x2ac92c(0x2f0)](_0x2ac92c(0x2b7)+(_0x3a9667[_0x2ac92c(0x21e)]['imdb_id']||''));if(_0x3a9667[_0x2ac92c(0x21e)][_0x2ac92c(0x2a5)])_0x3fb8cc[_0x2ac92c(0x2f0)]('kinopoisk_id='+(_0x3a9667[_0x2ac92c(0x21e)][_0x2ac92c(0x2a5)]||''));var _0x410ff7=_0x2a3942[_0x2ac92c(0x370)]+_0x2ac92c(0x25b)+_0x3fb8cc[_0x2ac92c(0x245)]('&');_0x5dedcc[_0x2ac92c(0x224)](0x2710),_0x5dedcc[_0x2ac92c(0x32c)](_0x202f9e(_0x410ff7),function(_0x872d1c){var _0x2b5db5=_0x2ac92c;for(var _0x22e58e in _0x872d1c){_0x3a9667[_0x2b5db5(0x21e)][_0x22e58e]=_0x872d1c[_0x22e58e];}_0x326c50();},function(){_0x326c50();},![],{'headers':_0x29f7e4()});}else _0x326c50();});},this[_0x324bac(0x33e)]=function(_0x2905dc){var _0x50ba33=_0x324bac,_0x31ab07=Lampa[_0x50ba33(0x246)][_0x50ba33(0x1d4)](_0x50ba33(0x292),0xbb8,{});_0x31ab07[_0x3a9667[_0x50ba33(0x21e)]['id']]=_0x2905dc,Lampa[_0x50ba33(0x246)][_0x50ba33(0x29c)]('online_last_balanser',_0x31ab07);},this[_0x324bac(0x209)]=function(_0x2f66ac){var _0xac99f3=_0x324bac;this[_0xac99f3(0x33e)](_0x2f66ac),Lampa[_0xac99f3(0x246)][_0xac99f3(0x29c)](_0xac99f3(0x217),_0x2f66ac);var _0x4d406b=this[_0xac99f3(0x298)](_0x2f66ac),_0x54f299=this[_0xac99f3(0x298)]();if(_0x54f299['voice_name'])_0x4d406b[_0xac99f3(0x279)]=_0x54f299[_0xac99f3(0x279)];this[_0xac99f3(0x1f2)](_0x4d406b,_0x2f66ac),Lampa[_0xac99f3(0x2d6)][_0xac99f3(0x1a1)]();},this['requestParams']=function(_0x212010){var _0x3822ce=_0x324bac,_0x3b4a52=[],_0x385700=_0x3a9667[_0x3822ce(0x21e)][_0x3822ce(0x27f)]||_0x3822ce(0x165);_0x3b4a52[_0x3822ce(0x2f0)](_0x3822ce(0x2f3)+encodeURIComponent(_0x3a9667[_0x3822ce(0x21e)]['id']));if(_0x3a9667['movie'][_0x3822ce(0x1c7)])_0x3b4a52[_0x3822ce(0x2f0)](_0x3822ce(0x2b7)+(_0x3a9667[_0x3822ce(0x21e)]['imdb_id']||''));if(_0x3a9667[_0x3822ce(0x21e)][_0x3822ce(0x2a5)])_0x3b4a52[_0x3822ce(0x2f0)](_0x3822ce(0x27e)+(_0x3a9667[_0x3822ce(0x21e)][_0x3822ce(0x2a5)]||''));if(_0x3a9667['movie']['tmdb_id'])_0x3b4a52[_0x3822ce(0x2f0)](_0x3822ce(0x154)+(_0x3a9667[_0x3822ce(0x21e)][_0x3822ce(0x355)]||''));if(_0x3a9667[_0x3822ce(0x21e)][_0x3822ce(0x2fa)]&&_0x3a9667[_0x3822ce(0x21e)][_0x3822ce(0x2fa)][_0x3822ce(0x22d)])for(var _0xc54f81=0x0,_0x348784=_0x3a9667['movie']['keywords']['results'];_0xc54f81<_0x348784[_0x3822ce(0x365)];_0xc54f81++){if(_0x348784[_0xc54f81][_0x3822ce(0x234)]==_0x3822ce(0x166)){_0x3b4a52[_0x3822ce(0x2f0)](_0x3822ce(0x263));break;}}_0x3b4a52[_0x3822ce(0x2f0)](_0x3822ce(0x316)+encodeURIComponent(_0x3a9667[_0x3822ce(0x227)]?_0x3a9667[_0x3822ce(0x14b)]:_0x3a9667[_0x3822ce(0x21e)][_0x3822ce(0x351)]||_0x3a9667['movie']['name'])),_0x3b4a52['push'](_0x3822ce(0x285)+encodeURIComponent(_0x3a9667[_0x3822ce(0x21e)][_0x3822ce(0x19f)]||_0x3a9667[_0x3822ce(0x21e)][_0x3822ce(0x159)])),_0x3b4a52['push'](_0x3822ce(0x179)+(_0x3a9667[_0x3822ce(0x21e)][_0x3822ce(0x234)]?0x1:0x0)),_0x3b4a52[_0x3822ce(0x2f0)](_0x3822ce(0x2b8)+(_0x3a9667[_0x3822ce(0x21e)][_0x3822ce(0x2c1)]||'')),_0x3b4a52[_0x3822ce(0x2f0)]('year='+((_0x3a9667['movie']['release_date']||_0x3a9667[_0x3822ce(0x21e)]['first_air_date']||_0x3822ce(0x20f))+'')['slice'](0x0,0x4)),_0x3b4a52[_0x3822ce(0x2f0)](_0x3822ce(0x333)+_0x385700),_0x3b4a52['push']('clarification='+(_0x3a9667[_0x3822ce(0x227)]?0x1:0x0)),_0x3b4a52['push'](_0x3822ce(0x20c)+(_0x3a9667[_0x3822ce(0x287)]?!![]:![])),_0x3b4a52[_0x3822ce(0x2f0)](_0x3822ce(0x163)+((window[_0x3822ce(0x1cf)]&&window['rch_nws'][_0x526fbb]?window[_0x3822ce(0x1cf)][_0x526fbb][_0x3822ce(0x350)]:window['rch']&&window['rch'][_0x526fbb]?window[_0x3822ce(0x293)][_0x526fbb][_0x3822ce(0x350)]:'')||''));if(Lampa[_0x3822ce(0x246)][_0x3822ce(0x302)](_0x3822ce(0x1e1),''))_0x3b4a52[_0x3822ce(0x2f0)](_0x3822ce(0x2a6)+Lampa['Utils']['hash'](Lampa['Storage'][_0x3822ce(0x302)](_0x3822ce(0x1e1),'')));return _0x212010+(_0x212010[_0x3822ce(0x18e)]('?')>=0x0?'&':'?')+_0x3b4a52[_0x3822ce(0x245)]('&');},this[_0x324bac(0x299)]=function(){var _0x58239e=_0x324bac,_0x45b444=Lampa[_0x58239e(0x246)][_0x58239e(0x1d4)]('online_last_balanser',0xbb8,{});return _0x45b444[_0x3a9667['movie']['id']]?_0x45b444[_0x3a9667[_0x58239e(0x21e)]['id']]:Lampa[_0x58239e(0x246)][_0x58239e(0x302)](_0x58239e(0x217),_0x2aa98e[_0x58239e(0x365)]?_0x2aa98e[0x0]:'');},this[_0x324bac(0x22b)]=function(_0x31d73a){return new Promise(function(_0x479037,_0x39c6d0){var _0x1011cb=_0x263e;_0x1df8f3(_0x31d73a)['forEach'](function(_0x29654a){var _0x5967fe=_0x263e,_0x286089=_0x458dbb(_0x29654a);if(_0x30ac83(_0x286089))return;_0x4516c2[_0x286089]={'url':_0x29654a[_0x5967fe(0x36a)],'name':_0x29654a['name'],'show':typeof _0x29654a[_0x5967fe(0x252)]==_0x5967fe(0x191)?!![]:_0x29654a[_0x5967fe(0x252)]};}),_0x2aa98e=Lampa['Arrays'][_0x1011cb(0x2bd)](_0x4516c2);if(_0x2aa98e[_0x1011cb(0x365)]){var _0x5d2f98=Lampa[_0x1011cb(0x246)][_0x1011cb(0x1d4)](_0x1011cb(0x292),0xbb8,{});_0x5d2f98[_0x3a9667[_0x1011cb(0x21e)]['id']]?_0xe4a78a=_0x5d2f98[_0x3a9667['movie']['id']]:_0xe4a78a=Lampa[_0x1011cb(0x246)][_0x1011cb(0x302)](_0x1011cb(0x217),_0x2aa98e[0x0]);if(!_0x4516c2[_0xe4a78a])_0xe4a78a=_0x2aa98e[0x0];if(!_0x4516c2[_0xe4a78a][_0x1011cb(0x252)]&&!_0x3a9667[_0x1011cb(0x1b3)])_0xe4a78a=_0x2aa98e[0x0];_0x5f2a85=_0x4516c2[_0xe4a78a]['url'],Lampa[_0x1011cb(0x246)]['set']('active_balanser',_0xe4a78a),_0x479037(_0x31d73a);}else _0x39c6d0();});},this[_0x324bac(0x18f)]=function(){var _0xebd4c2=this;return new Promise(function(_0x36cb4b,_0x1a7740){var _0x475c58=_0x263e,_0x6dd6e5=_0xebd4c2[_0x475c58(0x24f)](_0x2a3942[_0x475c58(0x370)]+_0x475c58(0x2eb)+(_0xebd4c2[_0x475c58(0x23d)]||'')),_0x5af334=![],_0x54ca4c=function _0x57b975(_0x111495,_0x5a57fa){var _0x393eae=_0x475c58;if(_0x111495[_0x393eae(0x311)])return _0x1a7740(_0x111495);var _0x52593d=_0xebd4c2['getLastChoiceBalanser'](),_0x37bc48=_0x1df8f3(_0x111495['online']||[]);if(!_0x5af334){var _0x4339ad=_0x37bc48[_0x393eae(0x2d2)](function(_0x34c98d){var _0x381400=_0x393eae;return _0x5a57fa?_0x34c98d[_0x381400(0x252)]:_0x34c98d[_0x381400(0x252)]&&_0x34c98d[_0x381400(0x234)][_0x381400(0x367)]()==_0x52593d;});if(_0x4339ad[_0x393eae(0x365)])_0x5af334=!![],_0x36cb4b(_0x37bc48['filter'](function(_0x1e1830){return _0x1e1830['show'];}));else _0x5a57fa&&_0x1a7740();}},_0x2c17a6=function _0x2dfdf5(_0x2492cc){var _0x5b0a24=_0x475c58;_0x5dedcc[_0x5b0a24(0x224)](0xbb8),_0x5dedcc[_0x5b0a24(0x32c)](_0x202f9e(_0x6dd6e5),function(_0x455503){var _0x40cf9e=_0x5b0a24;_0x34e6ce++,_0x2aa98e=[],_0x4516c2={},_0x1df8f3(_0x455503[_0x40cf9e(0x2d7)]||[])['forEach'](function(_0x17d205){var _0x3917ef=_0x40cf9e,_0x50595c=_0x458dbb(_0x17d205);if(_0x30ac83(_0x50595c))return;_0x4516c2[_0x50595c]={'url':_0x17d205[_0x3917ef(0x36a)],'name':_0x17d205[_0x3917ef(0x234)],'show':typeof _0x17d205['show']=='undefined'?!![]:_0x17d205['show']};}),_0x2aa98e=Lampa[_0x40cf9e(0x2bc)][_0x40cf9e(0x2bd)](_0x4516c2),_0x51799f['set'](_0x40cf9e(0x337),_0x2aa98e[_0x40cf9e(0x20a)](function(_0x51bb4e){return{'title':_0x4516c2[_0x51bb4e]['name'],'source':_0x51bb4e,'selected':_0x51bb4e==_0xe4a78a,'ghost':!_0x4516c2[_0x51bb4e]['show']};})),_0x51799f[_0x40cf9e(0x2b9)](_0x40cf9e(0x337),[_0x4516c2[_0xe4a78a]?_0x4516c2[_0xe4a78a][_0x40cf9e(0x234)]:_0xe4a78a]),_0x54ca4c(_0x455503);var _0x2343e2=_0xebd4c2[_0x40cf9e(0x299)]();if(_0x34e6ce>0xf||_0x455503[_0x40cf9e(0x195)])_0x51799f[_0x40cf9e(0x1e0)]()[_0x40cf9e(0x208)]('.lampac-balanser-loader')[_0x40cf9e(0x352)](),_0x54ca4c(_0x455503,!![]);else!_0x5af334&&_0x4516c2[_0x2343e2]&&_0x4516c2[_0x2343e2][_0x40cf9e(0x252)]?(_0x54ca4c(_0x455503,!![]),_0x46e0e2=setTimeout(_0x2dfdf5,0x3e8)):_0x46e0e2=setTimeout(_0x2dfdf5,0x3e8);},function(){_0x34e6ce++,_0x34e6ce>0xf?_0x1a7740():_0x46e0e2=setTimeout(_0x2dfdf5,0x3e8);},![],{'headers':_0x29f7e4()});};_0x2c17a6();});},this['createSource']=function(){var _0x3840b9=this;return new Promise(function(_0x1e2fd6,_0x20bb51){var _0x3a9be1=_0x263e,_0x367efa=_0x3840b9[_0x3a9be1(0x24f)](_0x2a3942[_0x3a9be1(0x370)]+_0x3a9be1(0x28f));_0x5dedcc['timeout'](0x3a98),_0x5dedcc[_0x3a9be1(0x32c)](_0x202f9e(_0x367efa),function(_0xc8e631){var _0x270842=_0x3a9be1;if(_0xc8e631['accsdb'])return _0x20bb51(_0xc8e631);if(_0xc8e631['life']){_0x3840b9[_0x270842(0x23d)]=_0xc8e631[_0x270842(0x23d)];if(_0xc8e631[_0x270842(0x351)]){if(_0x3a9667[_0x270842(0x21e)][_0x270842(0x234)])_0x3a9667['movie'][_0x270842(0x234)]=_0xc8e631['title'];if(_0x3a9667[_0x270842(0x21e)][_0x270842(0x351)])_0x3a9667['movie'][_0x270842(0x351)]=_0xc8e631[_0x270842(0x351)];}_0x51799f['render']()['find']('.filter--sort')['append'](_0x270842(0x211)),_0x3840b9['lifeSource']()[_0x270842(0x30f)](_0x3840b9['startSource'])[_0x270842(0x30f)](_0x1e2fd6)[_0x270842(0x2f6)](_0x20bb51);}else _0x3840b9[_0x270842(0x22b)](_0xc8e631)[_0x270842(0x30f)](_0x1e2fd6)[_0x270842(0x2f6)](_0x20bb51);},_0x20bb51,![],{'headers':_0x29f7e4()});});},this[_0x324bac(0x2c6)]=function(){var _0x472ed4=_0x324bac;return this[_0x472ed4(0x1e0)]();},this[_0x324bac(0x14b)]=function(){var _0x5c3056=_0x324bac;this[_0x5c3056(0x2d2)]({'source':_0x2aa98e},this[_0x5c3056(0x298)]()),this['find']();},this[_0x324bac(0x208)]=function(){this['request'](this['requestParams'](_0x5f2a85));},this[_0x324bac(0x1fd)]=function(_0x317910){var _0x381c60=_0x324bac;_0x184c29++;if(_0x184c29<0xa)_0x5dedcc[_0x381c60(0x1f0)](_0x202f9e(_0x317910),this[_0x381c60(0x1dd)][_0x381c60(0x1cb)](this),this[_0x381c60(0x309)][_0x381c60(0x1cb)](this),![],{'dataType':_0x381c60(0x1e7),'headers':_0x29f7e4()}),clearTimeout(_0x78518f),_0x78518f=setTimeout(function(){_0x184c29=0x0;},0xfa0);else this[_0x381c60(0x1a5)]();},this['parseJsonDate']=function(_0x18e0bb,_0x835106){var _0x1988b7=_0x324bac;try{var _0x196b81=$(_0x1988b7(0x1c0)+_0x18e0bb+_0x1988b7(0x2e4)),_0x323140=[];return _0x196b81[_0x1988b7(0x208)](_0x835106)[_0x1988b7(0x257)](function(){var _0x15cc8e=_0x1988b7,_0x3294fe=$(this),_0x142e67=JSON['parse'](_0x3294fe[_0x15cc8e(0x16e)](_0x15cc8e(0x2df))),_0x38e888=_0x3294fe[_0x15cc8e(0x16e)]('s'),_0x2bc865=_0x3294fe[_0x15cc8e(0x16e)]('e'),_0x45f59a=_0x3294fe[_0x15cc8e(0x1e7)]();!_0x3a9667[_0x15cc8e(0x21e)][_0x15cc8e(0x234)]&&(_0x45f59a[_0x15cc8e(0x232)](/\d+p/i)&&(!_0x142e67[_0x15cc8e(0x2c3)]&&(_0x142e67['quality']={},_0x142e67[_0x15cc8e(0x2c3)][_0x45f59a]=_0x142e67[_0x15cc8e(0x36a)]),_0x45f59a=_0x3a9667['movie']['title']),_0x45f59a=='По\x20умолчанию'&&(_0x45f59a=_0x3a9667[_0x15cc8e(0x21e)][_0x15cc8e(0x351)]));if(_0x2bc865)_0x142e67[_0x15cc8e(0x2b0)]=parseInt(_0x2bc865);if(_0x38e888)_0x142e67[_0x15cc8e(0x322)]=parseInt(_0x38e888);if(_0x45f59a)_0x142e67['text']=_0x45f59a;_0x142e67['active']=_0x3294fe[_0x15cc8e(0x1ed)]('active'),_0x323140['push'](_0x142e67);}),_0x323140;}catch(_0x2b64b8){return[];}},this[_0x324bac(0x189)]=function(_0x3ea1da,_0x59d081,_0x2fea4d){var _0x58517e=_0x324bac,_0xa04b26=this;if(Lampa[_0x58517e(0x246)]['field'](_0x58517e(0x2a4))!==_0x58517e(0x1d1)&&_0x3ea1da[_0x58517e(0x2bf)]&&Lampa[_0x58517e(0x1b4)]['is'](_0x58517e(0x29f))){var _0x4265ca=Lampa['Arrays'][_0x58517e(0x313)](_0x3ea1da);_0x4265ca[_0x58517e(0x199)]=_0x58517e(0x31e),_0x4265ca[_0x58517e(0x36a)]=_0x3ea1da[_0x58517e(0x2bf)],_0x59d081(_0x4265ca,{});}else{if(_0x3ea1da[_0x58517e(0x199)]==_0x58517e(0x31e))_0x59d081(_0x3ea1da,{});else Lampa[_0x58517e(0x1ba)][_0x58517e(0x1e3)](function(){var _0x5e860e=_0x58517e;Lampa['Loading']['stop'](),Lampa[_0x5e860e(0x1b8)][_0x5e860e(0x228)](_0x5e860e(0x323)),_0x5dedcc[_0x5e860e(0x177)]();}),_0x5dedcc['native'](_0x202f9e(_0x3ea1da[_0x58517e(0x36a)]),function(_0x572e82){var _0x2cad5c=_0x58517e;_0x572e82[_0x2cad5c(0x293)]?_0x2fea4d?(_0x2fea4d=![],Lampa[_0x2cad5c(0x1ba)][_0x2cad5c(0x1f7)](),_0x59d081(![],{})):_0xa04b26[_0x2cad5c(0x293)](_0x572e82,function(){var _0x2aba17=_0x2cad5c;Lampa[_0x2aba17(0x1ba)][_0x2aba17(0x1f7)](),_0xa04b26['getFileUrl'](_0x3ea1da,_0x59d081,!![]);}):(Lampa[_0x2cad5c(0x1ba)]['stop'](),_0x59d081(_0x572e82,_0x572e82));},function(){var _0x9d7b3c=_0x58517e;Lampa[_0x9d7b3c(0x1ba)][_0x9d7b3c(0x1f7)](),_0x59d081(![],{});},![],{'headers':_0x29f7e4()});}},this[_0x324bac(0x2cc)]=function(_0x3ab911){var _0x5242ac=_0x324bac,_0x4cd935={'title':_0x3ab911[_0x5242ac(0x351)],'url':_0x3ab911['url'],'quality':_0x3ab911['qualitys'],'timeline':_0x3ab911[_0x5242ac(0x238)],'subtitles':_0x3ab911['subtitles'],'segments':_0x3ab911[_0x5242ac(0x1dc)],'callback':_0x3ab911[_0x5242ac(0x281)],'season':_0x3ab911['season'],'episode':_0x3ab911[_0x5242ac(0x2b0)],'voice_name':_0x3ab911[_0x5242ac(0x279)],'thumbnail':_0x3ab911[_0x5242ac(0x2ba)]};return _0x4cd935;},this[_0x324bac(0x15a)]=function(_0x17028e){var _0x461060=_0x324bac;if(_0x17028e[_0x461060(0x36a)]&&typeof _0x17028e[_0x461060(0x36a)]=='string'&&_0x17028e[_0x461060(0x36a)][_0x461060(0x18e)](_0x461060(0x338))!==-0x1){var _0x3286f5=_0x17028e[_0x461060(0x36a)][_0x461060(0x2da)](_0x461060(0x338));_0x17028e['url']=_0x3286f5[0x0],_0x17028e[_0x461060(0x345)]=_0x3286f5[0x1];}},this[_0x324bac(0x35f)]=function(_0x24ecc9){var _0x457efe=_0x324bac;if(Lampa[_0x457efe(0x2bc)]['getKeys'](_0x24ecc9[_0x457efe(0x2c3)])[_0x457efe(0x365)])for(var _0x587032 in _0x24ecc9[_0x457efe(0x2c3)]){parseInt(_0x587032)==Lampa['Storage']['field'](_0x457efe(0x1b7))&&(_0x24ecc9[_0x457efe(0x36a)]=_0x24ecc9['quality'][_0x587032],this[_0x457efe(0x15a)](_0x24ecc9));if(_0x24ecc9[_0x457efe(0x2c3)][_0x587032]['indexOf'](_0x457efe(0x338))!==-0x1)_0x24ecc9[_0x457efe(0x2c3)][_0x587032]=_0x24ecc9['quality'][_0x587032][_0x457efe(0x2da)](_0x457efe(0x338))[0x0];}},this[_0x324bac(0x1e6)]=function(_0x45ecc0){var _0x123246=_0x324bac,_0x282fab=this;this[_0x123246(0x1db)](_0x45ecc0,{'onEnter':function _0x97c364(_0x122636,_0x3f18a6){var _0x29efe4=_0x123246;_0x282fab[_0x29efe4(0x189)](_0x122636,function(_0x20b495,_0x23c829){var _0x493304=_0x29efe4;if(_0x20b495&&_0x20b495[_0x493304(0x36a)]){var _0x3a3fa2=[],_0x3738bf=_0x282fab[_0x493304(0x2cc)](_0x122636);_0x3738bf[_0x493304(0x36a)]=_0x20b495[_0x493304(0x36a)],_0x3738bf[_0x493304(0x248)]=_0x23c829[_0x493304(0x248)]||_0x20b495[_0x493304(0x248)],_0x3738bf[_0x493304(0x2c3)]=_0x23c829[_0x493304(0x2c3)]||_0x122636[_0x493304(0x1b9)],_0x3738bf[_0x493304(0x1dc)]=_0x23c829['segments']||_0x122636[_0x493304(0x1dc)],_0x3738bf['hls_manifest_timeout']=_0x23c829[_0x493304(0x1fa)]||_0x20b495[_0x493304(0x1fa)],_0x3738bf[_0x493304(0x28b)]=_0x20b495[_0x493304(0x28b)],_0x3738bf[_0x493304(0x1d8)]=_0x23c829[_0x493304(0x1d8)]||_0x20b495[_0x493304(0x1d8)];_0x20b495['vast']&&_0x20b495[_0x493304(0x36d)][_0x493304(0x36a)]&&(_0x3738bf[_0x493304(0x168)]=_0x20b495[_0x493304(0x36d)][_0x493304(0x36a)],_0x3738bf['vast_msg']=_0x20b495[_0x493304(0x36d)][_0x493304(0x272)],_0x3738bf[_0x493304(0x334)]=_0x20b495['vast'][_0x493304(0x16c)],_0x3738bf[_0x493304(0x27d)]=_0x20b495[_0x493304(0x36d)][_0x493304(0x33d)],_0x3738bf[_0x493304(0x188)]=_0x20b495[_0x493304(0x36d)][_0x493304(0x359)]);_0x282fab[_0x493304(0x15a)](_0x3738bf),_0x282fab[_0x493304(0x35f)](_0x3738bf);_0x122636['season']?_0x45ecc0['forEach'](function(_0x4ee883){var _0x3dd9ba=_0x493304,_0x269c57=_0x282fab[_0x3dd9ba(0x2cc)](_0x4ee883);if(_0x4ee883==_0x122636)_0x269c57[_0x3dd9ba(0x36a)]=_0x20b495['url'];else _0x4ee883[_0x3dd9ba(0x199)]==_0x3dd9ba(0x174)?Lampa[_0x3dd9ba(0x246)]['field']('player')!==_0x3dd9ba(0x1d1)?(_0x269c57[_0x3dd9ba(0x36a)]=_0x4ee883[_0x3dd9ba(0x2bf)],delete _0x269c57['quality']):_0x269c57[_0x3dd9ba(0x36a)]=function(_0x3d20a1){var _0x1ebaea=_0x3dd9ba;_0x282fab[_0x1ebaea(0x189)](_0x4ee883,function(_0x31030f,_0x416bdc){var _0x4859b9=_0x1ebaea;_0x31030f[_0x4859b9(0x36a)]?(_0x269c57['url']=_0x31030f['url'],_0x269c57[_0x4859b9(0x2c3)]=_0x416bdc[_0x4859b9(0x2c3)]||_0x4ee883[_0x4859b9(0x1b9)],_0x269c57[_0x4859b9(0x1dc)]=_0x416bdc[_0x4859b9(0x1dc)]||_0x4ee883['segments'],_0x269c57[_0x4859b9(0x28b)]=_0x31030f[_0x4859b9(0x28b)],_0x282fab[_0x4859b9(0x15a)](_0x269c57),_0x282fab['setDefaultQuality'](_0x269c57),_0x4ee883[_0x4859b9(0x281)]()):(_0x269c57[_0x4859b9(0x36a)]='',Lampa[_0x4859b9(0x2b6)][_0x4859b9(0x252)](Lampa[_0x4859b9(0x2cd)]['translate'](_0x4859b9(0x240)))),_0x3d20a1();},function(){var _0x4fea05=_0x1ebaea;_0x269c57[_0x4fea05(0x36a)]='',_0x3d20a1();});}:_0x269c57['url']=_0x4ee883[_0x3dd9ba(0x36a)];_0x282fab[_0x3dd9ba(0x15a)](_0x269c57),_0x282fab[_0x3dd9ba(0x35f)](_0x269c57),_0x3a3fa2[_0x3dd9ba(0x2f0)](_0x269c57);}):_0x3a3fa2[_0x493304(0x2f0)](_0x3738bf);if(_0x3a3fa2['length']>0x1)_0x3738bf[_0x493304(0x29d)]=_0x3a3fa2;if(_0x3738bf[_0x493304(0x36a)]){var _0x526aa7=_0x3738bf;_0x526aa7[_0x493304(0x205)]=!![],Lampa['Player']['play'](_0x526aa7),Lampa[_0x493304(0x2d8)]['playlist'](_0x3a3fa2);if(_0x526aa7[_0x493304(0x1d8)])_0x282fab['loadSubtitles'](_0x526aa7[_0x493304(0x1d8)]);_0x122636[_0x493304(0x281)](),_0x282fab[_0x493304(0x33e)](_0xe4a78a);}else Lampa[_0x493304(0x2b6)][_0x493304(0x252)](Lampa[_0x493304(0x2cd)]['translate'](_0x493304(0x240)));}else Lampa[_0x493304(0x2b6)][_0x493304(0x252)](Lampa[_0x493304(0x2cd)][_0x493304(0x16b)](_0x493304(0x240)));},!![]);},'onContextMenu':function _0x447e95(_0x1f7adb,_0x1093d2,_0x5b14e1,_0x3f2e8d){var _0x54bd9e=_0x123246;_0x282fab[_0x54bd9e(0x189)](_0x1f7adb,function(_0x49fba5){var _0x1eeb02=_0x54bd9e;_0x3f2e8d({'file':_0x49fba5['url'],'quality':_0x1f7adb[_0x1eeb02(0x1b9)]});},!![]);}}),this[_0x123246(0x2d2)]({'season':_0x3c2bab[_0x123246(0x322)][_0x123246(0x20a)](function(_0x1d93ac){var _0x152451=_0x123246;return _0x1d93ac[_0x152451(0x351)];}),'voice':_0x3c2bab[_0x123246(0x190)][_0x123246(0x20a)](function(_0xd3c69b){var _0xd48502=_0x123246;return _0xd3c69b[_0xd48502(0x351)];})},this['getChoice']());},this['loadSubtitles']=function(_0x1939f6){var _0x35bb57=_0x324bac;_0x5dedcc[_0x35bb57(0x32c)](_0x202f9e(_0x1939f6),function(_0x9394dc){var _0x597a7d=_0x35bb57;Lampa[_0x597a7d(0x2d8)][_0x597a7d(0x28b)](_0x9394dc);},function(){},![],{'headers':_0x29f7e4()});},this['parse']=function(_0x3440d4){var _0x51a8a2=_0x324bac,_0x3c7857=Lampa['Arrays'][_0x51a8a2(0x369)](_0x3440d4,{});if(Lampa['Arrays'][_0x51a8a2(0x368)](_0x3440d4)&&_0x3440d4[_0x51a8a2(0x293)])_0x3c7857=_0x3440d4;if(_0x3c7857['rch'])return this['rch'](_0x3c7857);try{var _0x4dceeb=this['parseJsonDate'](_0x3440d4,'.videos__item'),_0x5c0ea7=this[_0x51a8a2(0x158)](_0x3440d4,_0x51a8a2(0x2fe));if(_0x4dceeb['length']==0x1&&_0x4dceeb[0x0][_0x51a8a2(0x199)]==_0x51a8a2(0x2db)&&!_0x4dceeb[0x0][_0x51a8a2(0x287)])_0x3c2bab[_0x51a8a2(0x322)]=_0x4dceeb['map'](function(_0x4cd785){var _0x1f2b84=_0x51a8a2;return{'title':_0x4cd785[_0x1f2b84(0x1e7)],'url':_0x4cd785[_0x1f2b84(0x36a)]};}),this[_0x51a8a2(0x183)]({'season':0x0}),this[_0x51a8a2(0x1fd)](_0x4dceeb[0x0][_0x51a8a2(0x36a)]);else{this['activity'][_0x51a8a2(0x1d7)](![]);var _0x39c9bc=_0x4dceeb['filter'](function(_0x4715cc){var _0x1e7787=_0x51a8a2;return _0x4715cc[_0x1e7787(0x199)]==_0x1e7787(0x31e)||_0x4715cc['method']==_0x1e7787(0x174);}),_0x5e0b74=_0x4dceeb['filter'](function(_0x3d9734){var _0xcc5c37=_0x51a8a2;return _0x3d9734[_0xcc5c37(0x287)];});if(_0x39c9bc[_0x51a8a2(0x365)]){if(_0x5c0ea7['length']){_0x3c2bab[_0x51a8a2(0x190)]=_0x5c0ea7[_0x51a8a2(0x20a)](function(_0x25fd6a){var _0x2939fa=_0x51a8a2;return{'title':_0x25fd6a[_0x2939fa(0x1e7)],'url':_0x25fd6a[_0x2939fa(0x36a)]};});var _0x4041f3=this[_0x51a8a2(0x298)](_0xe4a78a)[_0x51a8a2(0x15f)],_0x4f2c7b=this[_0x51a8a2(0x298)](_0xe4a78a)[_0x51a8a2(0x279)],_0x19c657=_0x5c0ea7[_0x51a8a2(0x208)](function(_0x2c29ca){var _0x249db3=_0x51a8a2;return _0x2c29ca[_0x249db3(0x36a)]==_0x4041f3;}),_0x5b4a23=_0x5c0ea7[_0x51a8a2(0x208)](function(_0x2acd76){var _0x3ea689=_0x51a8a2;return _0x2acd76[_0x3ea689(0x1e7)]==_0x4f2c7b;}),_0xfc575b=_0x5c0ea7[_0x51a8a2(0x208)](function(_0x5f5ca6){return _0x5f5ca6['active'];});if(_0x19c657&&!_0x19c657[_0x51a8a2(0x20d)])this[_0x51a8a2(0x183)]({'voice':_0x5c0ea7[_0x51a8a2(0x18e)](_0x19c657),'voice_name':_0x19c657['text']}),this[_0x51a8a2(0x1fd)](_0x19c657[_0x51a8a2(0x36a)]);else _0x5b4a23&&!_0x5b4a23[_0x51a8a2(0x20d)]?(this[_0x51a8a2(0x183)]({'voice':_0x5c0ea7[_0x51a8a2(0x18e)](_0x5b4a23),'voice_name':_0x5b4a23[_0x51a8a2(0x1e7)]}),this[_0x51a8a2(0x1fd)](_0x5b4a23['url'])):(_0xfc575b&&this[_0x51a8a2(0x183)]({'voice':_0x5c0ea7[_0x51a8a2(0x18e)](_0xfc575b),'voice_name':_0xfc575b[_0x51a8a2(0x1e7)]}),this[_0x51a8a2(0x1e6)](_0x39c9bc));}else this[_0x51a8a2(0x183)]({'voice':0x0,'voice_url':'','voice_name':''}),this[_0x51a8a2(0x1e6)](_0x39c9bc);}else{if(_0x4dceeb['length']){if(_0x5e0b74['length'])this[_0x51a8a2(0x360)](_0x5e0b74),this[_0x51a8a2(0x2b2)][_0x51a8a2(0x1d7)](![]);else{_0x3c2bab[_0x51a8a2(0x322)]=_0x4dceeb[_0x51a8a2(0x20a)](function(_0x36b510){var _0x4f9609=_0x51a8a2;return{'title':_0x36b510[_0x4f9609(0x1e7)],'url':_0x36b510[_0x4f9609(0x36a)]};});var _0x463f7b=this[_0x51a8a2(0x298)](_0xe4a78a)[_0x51a8a2(0x322)],_0x37dd0b=_0x3c2bab['season'][_0x463f7b];if(!_0x37dd0b)_0x37dd0b=_0x3c2bab['season'][0x0];this[_0x51a8a2(0x1fd)](_0x37dd0b[_0x51a8a2(0x36a)]);}}else this['doesNotAnswer'](_0x3c7857);}}}catch(_0x2708d6){this[_0x51a8a2(0x309)](_0x2708d6);}},this[_0x324bac(0x360)]=function(_0x23745d){var _0x42faef=_0x324bac,_0x421cba=this;_0x3c44bf[_0x42faef(0x177)](),_0x23745d['forEach'](function(_0x1fda93){var _0x1e592a=_0x42faef;_0x1fda93['title']=_0x1fda93[_0x1e592a(0x1e7)],_0x1fda93[_0x1e592a(0x1a3)]='';var _0x34175b=[],_0x3c04eb=((_0x1fda93[_0x1e592a(0x35c)]||_0x1fda93[_0x1e592a(0x26a)]||_0x3a9667[_0x1e592a(0x21e)][_0x1e592a(0x30b)]||_0x3a9667[_0x1e592a(0x21e)][_0x1e592a(0x2d5)]||'')+'')[_0x1e592a(0x19d)](0x0,0x4);if(_0x3c04eb)_0x34175b['push'](_0x3c04eb);if(_0x1fda93[_0x1e592a(0x267)])_0x34175b[_0x1e592a(0x2f0)](_0x1fda93[_0x1e592a(0x267)]);var _0x114fcf=_0x1fda93['title']||_0x1fda93[_0x1e592a(0x1e7)];_0x1fda93[_0x1e592a(0x351)]=_0x114fcf,_0x1fda93[_0x1e592a(0x306)]=_0x1fda93[_0x1e592a(0x306)]||'',_0x1fda93[_0x1e592a(0x1a3)]=_0x34175b[_0x1e592a(0x245)](_0x1e592a(0x358));var _0x49a7d6=Lampa[_0x1e592a(0x2f4)][_0x1e592a(0x302)](_0x1e592a(0x149),_0x1fda93);if(_0x1fda93[_0x1e592a(0x215)]){var _0x58100d=$(_0x1e592a(0x214));_0x49a7d6[_0x1e592a(0x208)](_0x1e592a(0x361))[_0x1e592a(0x1a5)]()[_0x1e592a(0x146)](_0x58100d);if(_0x1fda93['img']!==undefined){if(_0x1fda93[_0x1e592a(0x215)][_0x1e592a(0x2a9)](0x0)==='/')_0x1fda93[_0x1e592a(0x215)]=_0x2a3942['localhost']+_0x1fda93['img']['substring'](0x1);if(_0x1fda93[_0x1e592a(0x215)][_0x1e592a(0x18e)](_0x1e592a(0x1f6))!==-0x1)_0x1fda93[_0x1e592a(0x215)]=_0x202f9e(_0x1fda93[_0x1e592a(0x215)]);}Lampa[_0x1e592a(0x286)][_0x1e592a(0x366)](_0x58100d,_0x1fda93['img']);}_0x49a7d6['on'](_0x1e592a(0x2ce),function(){var _0x157930=_0x1e592a;_0x421cba[_0x157930(0x194)](),_0x421cba[_0x157930(0x1fd)](_0x1fda93[_0x157930(0x36a)]);})['on']('hover:focus',function(_0x274541){var _0x1a20a4=_0x1e592a;_0x2cb9fe=_0x274541[_0x1a20a4(0x17a)],_0x3c44bf['update']($(_0x274541[_0x1a20a4(0x17a)]),!![]);}),_0x3c44bf['append'](_0x49a7d6);}),this[_0x42faef(0x2d2)]({'season':_0x3c2bab[_0x42faef(0x322)]['map'](function(_0x263d75){return _0x263d75['title'];}),'voice':_0x3c2bab[_0x42faef(0x190)][_0x42faef(0x20a)](function(_0x2b0580){var _0x43abbc=_0x42faef;return _0x2b0580[_0x43abbc(0x351)];})},this[_0x42faef(0x298)]()),Lampa['Controller'][_0x42faef(0x15e)](_0x42faef(0x323));},this[_0x324bac(0x298)]=function(_0x3977ba){var _0x876a9b=_0x324bac,_0x36260f=Lampa[_0x876a9b(0x246)][_0x876a9b(0x1d4)]('online_choice_'+(_0x3977ba||_0xe4a78a),0xbb8,{}),_0x5b9786=_0x36260f[_0x3a9667['movie']['id']]||{};return Lampa['Arrays'][_0x876a9b(0x21f)](_0x5b9786,{'season':0x0,'voice':0x0,'voice_name':'','voice_id':0x0,'episodes_view':{},'movie_view':''}),_0x5b9786;},this[_0x324bac(0x1f2)]=function(_0x5e9bee,_0x547242){var _0x2e3e30=_0x324bac,_0x35f69e=Lampa[_0x2e3e30(0x246)][_0x2e3e30(0x1d4)]('online_choice_'+(_0x547242||_0xe4a78a),0xbb8,{});_0x35f69e[_0x3a9667[_0x2e3e30(0x21e)]['id']]=_0x5e9bee,Lampa[_0x2e3e30(0x246)][_0x2e3e30(0x29c)]('online_choice_'+(_0x547242||_0xe4a78a),_0x35f69e),this['updateBalanser'](_0x547242||_0xe4a78a);},this['replaceChoice']=function(_0x3083dd,_0x353fdd){var _0x4e5b86=_0x324bac,_0x265fae=this[_0x4e5b86(0x298)](_0x353fdd);Lampa['Arrays'][_0x4e5b86(0x21f)](_0x265fae,_0x3083dd,!![]),this[_0x4e5b86(0x1f2)](_0x265fae,_0x353fdd);},this[_0x324bac(0x2d9)]=function(){var _0x3d4ece=_0x324bac;_0x10ce1c[_0x3d4ece(0x24d)](function(_0x2fbeaa){var _0x2c56af=_0x3d4ece;_0x2fbeaa[_0x2c56af(0x308)]=function(){},_0x2fbeaa['onload']=function(){},_0x2fbeaa['src']='';}),_0x10ce1c=[];},this[_0x324bac(0x194)]=function(){var _0x5358e3=_0x324bac;_0x2cb9fe=![],clearInterval(_0x3ead6b),_0x5dedcc[_0x5358e3(0x177)](),this[_0x5358e3(0x2d9)](),_0x3c44bf['render']()[_0x5358e3(0x208)]('.empty')[_0x5358e3(0x352)](),_0x3c44bf[_0x5358e3(0x177)](),_0x3c44bf[_0x5358e3(0x194)](),_0x3c44bf[_0x5358e3(0x275)]()[_0x5358e3(0x146)](Lampa['Template'][_0x5358e3(0x302)](_0x5358e3(0x1c2)));},this[_0x324bac(0x2f9)]=function(_0x1de5c6){var _0x91c64=_0x324bac;if(_0x1de5c6)this[_0x91c64(0x2b2)]['loader'](!![]);else this[_0x91c64(0x2b2)][_0x91c64(0x1d7)](![]),this[_0x91c64(0x2b2)][_0x91c64(0x228)]();},this[_0x324bac(0x2d2)]=function(_0x1211c1,_0x52ef66){var _0x5c12c2=_0x324bac,_0x3a3197=this,_0x51e7e6=[],_0x96084e=function _0x1a12e4(_0x16c465,_0x42176f){var _0x432d3e=_0x263e,_0x186355=_0x3a3197[_0x432d3e(0x298)](),_0x5cdac5=_0x1211c1[_0x16c465],_0x4168c8=[],_0x576fb9=_0x186355[_0x16c465];_0x5cdac5['forEach'](function(_0x3bce2a,_0x36d1f4){var _0x291cff=_0x432d3e;_0x4168c8[_0x291cff(0x2f0)]({'title':_0x3bce2a,'selected':_0x576fb9==_0x36d1f4,'index':_0x36d1f4});}),_0x51e7e6[_0x432d3e(0x2f0)]({'title':_0x42176f,'subtitle':_0x5cdac5[_0x576fb9],'items':_0x4168c8,'stype':_0x16c465});};_0x1211c1[_0x5c12c2(0x27f)]=_0x2aa98e,_0x51e7e6[_0x5c12c2(0x2f0)]({'title':Lampa[_0x5c12c2(0x2cd)]['translate']('torrent_parser_reset'),'reset':!![]}),this['saveChoice'](_0x52ef66);if(_0x1211c1[_0x5c12c2(0x190)]&&_0x1211c1[_0x5c12c2(0x190)][_0x5c12c2(0x365)])_0x96084e(_0x5c12c2(0x190),Lampa[_0x5c12c2(0x2cd)][_0x5c12c2(0x16b)](_0x5c12c2(0x20b)));if(_0x1211c1[_0x5c12c2(0x322)]&&_0x1211c1[_0x5c12c2(0x322)][_0x5c12c2(0x365)])_0x96084e(_0x5c12c2(0x322),Lampa[_0x5c12c2(0x2cd)][_0x5c12c2(0x16b)](_0x5c12c2(0x219)));_0x51799f[_0x5c12c2(0x29c)](_0x5c12c2(0x2d2),_0x51e7e6),_0x51799f[_0x5c12c2(0x29c)](_0x5c12c2(0x337),_0x2aa98e['map'](function(_0x1beaef){var _0x5a00e3=_0x5c12c2;return{'title':_0x4516c2[_0x1beaef]['name'],'source':_0x1beaef,'selected':_0x1beaef==_0xe4a78a,'ghost':!_0x4516c2[_0x1beaef][_0x5a00e3(0x252)]};})),this[_0x5c12c2(0x21a)](_0x1211c1);},this[_0x324bac(0x21a)]=function(_0x1c7d32){var _0x7ce9d=_0x324bac,_0x32247c=this[_0x7ce9d(0x298)](),_0x4a6b51=[];for(var _0x44186e in _0x32247c){if(_0x1c7d32[_0x44186e]&&_0x1c7d32[_0x44186e][_0x7ce9d(0x365)]){if(_0x44186e=='voice')_0x4a6b51[_0x7ce9d(0x2f0)](_0x27f757[_0x44186e]+':\x20'+_0x1c7d32[_0x44186e][_0x32247c[_0x44186e]]);else _0x44186e!==_0x7ce9d(0x27f)&&(_0x1c7d32['season'][_0x7ce9d(0x365)]>=0x1&&_0x4a6b51['push'](_0x27f757['season']+':\x20'+_0x1c7d32[_0x44186e][_0x32247c[_0x44186e]]));}}_0x51799f[_0x7ce9d(0x2b9)](_0x7ce9d(0x2d2),_0x4a6b51),_0x51799f[_0x7ce9d(0x2b9)](_0x7ce9d(0x337),[_0x4516c2[_0xe4a78a][_0x7ce9d(0x234)]]);},this['getEpisodes']=function(_0x43a1ce,_0x10a9fa){var _0x300993=_0x324bac,_0x188052=[],_0x11e5c7=_0x3a9667[_0x300993(0x21e)]['id'];if([_0x300993(0x32e),'tmdb'][_0x300993(0x18e)](_0x3a9667['movie']['source']||_0x300993(0x165))==-0x1)_0x11e5c7=_0x3a9667[_0x300993(0x21e)][_0x300993(0x355)];if(typeof _0x11e5c7==_0x300993(0x294)&&_0x3a9667[_0x300993(0x21e)][_0x300993(0x234)])Lampa['Api'][_0x300993(0x1f1)][_0x300993(0x165)][_0x300993(0x302)](_0x300993(0x15b)+_0x11e5c7+_0x300993(0x171)+_0x43a1ce,{},function(_0x60c3d6){_0x188052=_0x60c3d6['episodes']||[],_0x10a9fa(_0x188052);},function(){_0x10a9fa(_0x188052);});else _0x10a9fa(_0x188052);},this[_0x324bac(0x1d5)]=function(_0x4e479b){var _0x3efda5=_0x324bac,_0x8ee95b=Lampa[_0x3efda5(0x286)]['hash'](_0x3a9667['movie'][_0x3efda5(0x329)]?_0x3a9667[_0x3efda5(0x21e)][_0x3efda5(0x159)]:_0x3a9667[_0x3efda5(0x21e)]['original_title']),_0x44a8f1=Lampa[_0x3efda5(0x246)]['cache']('online_watched_last',0x1388,{});if(_0x4e479b){if(!_0x44a8f1[_0x8ee95b])_0x44a8f1[_0x8ee95b]={};Lampa[_0x3efda5(0x2bc)][_0x3efda5(0x21f)](_0x44a8f1[_0x8ee95b],_0x4e479b,!![]),Lampa[_0x3efda5(0x246)][_0x3efda5(0x29c)](_0x3efda5(0x196),_0x44a8f1),this[_0x3efda5(0x170)]();}else return _0x44a8f1[_0x8ee95b];},this[_0x324bac(0x170)]=function(){var _0x2bd24b=_0x324bac,_0x3fb9de=this['watched'](),_0x181e49=_0x3c44bf[_0x2bd24b(0x275)]()['find']('.online-prestige-watched\x20.online-prestige-watched__body')['empty']();if(_0x3fb9de){var _0x3d2424=[];if(_0x3fb9de[_0x2bd24b(0x28d)])_0x3d2424[_0x2bd24b(0x2f0)](_0x3fb9de['balanser_name']);if(_0x3fb9de[_0x2bd24b(0x279)])_0x3d2424['push'](_0x3fb9de[_0x2bd24b(0x279)]);if(_0x3fb9de[_0x2bd24b(0x322)])_0x3d2424[_0x2bd24b(0x2f0)](Lampa[_0x2bd24b(0x2cd)][_0x2bd24b(0x16b)](_0x2bd24b(0x219))+'\x20'+_0x3fb9de[_0x2bd24b(0x322)]);if(_0x3fb9de[_0x2bd24b(0x2b0)])_0x3d2424[_0x2bd24b(0x2f0)](Lampa[_0x2bd24b(0x2cd)][_0x2bd24b(0x16b)](_0x2bd24b(0x198))+'\x20'+_0x3fb9de[_0x2bd24b(0x2b0)]);_0x3d2424[_0x2bd24b(0x24d)](function(_0x2881e1){var _0x42e0cb=_0x2bd24b;_0x181e49['append']('<span>'+_0x2881e1+_0x42e0cb(0x2f8));});}else _0x181e49['append'](_0x2bd24b(0x2c9)+Lampa['Lang'][_0x2bd24b(0x16b)](_0x2bd24b(0x2e9))+'</span>');},this[_0x324bac(0x1db)]=function(_0xe40b34){var _0x4d3af5=_0x324bac,_0x591531=this,_0x35eb1d=arguments['length']>0x1&&arguments[0x1]!==undefined?arguments[0x1]:{};if(!_0xe40b34[_0x4d3af5(0x365)])return this[_0x4d3af5(0x1a5)]();_0x3c44bf['clear']();if(!_0x3a9667[_0x4d3af5(0x1eb)])_0x3c44bf[_0x4d3af5(0x146)](Lampa[_0x4d3af5(0x2f4)]['get'](_0x4d3af5(0x192),{}));this['updateWatched'](),this[_0x4d3af5(0x2a3)](_0xe40b34[0x0][_0x4d3af5(0x322)],function(_0x28989){var _0x375a19=_0x4d3af5,_0x1232f5=Lampa[_0x375a19(0x246)][_0x375a19(0x1d4)](_0x375a19(0x18a),0x1388,[]),_0x329e79=_0x3a9667[_0x375a19(0x21e)][_0x375a19(0x234)]?!![]:![],_0x5ef995=_0x591531['getChoice'](),_0x3e4e38=window['innerWidth']>0x1e0,_0x48559d=![],_0x4b898a=![];_0xe40b34[_0x375a19(0x24d)](function(_0x2f6d7b,_0x2032f3){var _0x4e78b0=_0x375a19,_0x229a9b=_0x329e79&&_0x28989[_0x4e78b0(0x365)]&&!_0x35eb1d[_0x4e78b0(0x360)]?_0x28989[_0x4e78b0(0x208)](function(_0xe373d6){var _0x3e61d5=_0x4e78b0;return _0xe373d6[_0x3e61d5(0x25a)]==_0x2f6d7b['episode'];}):![],_0x4427e9=_0x2f6d7b[_0x4e78b0(0x2b0)]||_0x2032f3+0x1,_0xa92e3c=_0x5ef995[_0x4e78b0(0x1e4)][_0x2f6d7b[_0x4e78b0(0x322)]],_0x217ccf=_0x5ef995[_0x4e78b0(0x279)]||(_0x3c2bab[_0x4e78b0(0x190)][0x0]?_0x3c2bab[_0x4e78b0(0x190)][0x0]['title']:![])||_0x2f6d7b['voice_name']||(_0x329e79?_0x4e78b0(0x143):_0x2f6d7b[_0x4e78b0(0x1e7)])||'Неизвестно';_0x2f6d7b[_0x4e78b0(0x2c3)]&&(_0x2f6d7b['qualitys']=_0x2f6d7b[_0x4e78b0(0x2c3)],_0x2f6d7b[_0x4e78b0(0x2c3)]=Lampa[_0x4e78b0(0x2bc)][_0x4e78b0(0x2bd)](_0x2f6d7b['quality'])[0x0]);Lampa[_0x4e78b0(0x2bc)]['extend'](_0x2f6d7b,{'voice_name':_0x217ccf,'info':_0x217ccf[_0x4e78b0(0x365)]>0x3c?_0x217ccf['substr'](0x0,0x3c)+_0x4e78b0(0x148):_0x217ccf,'quality':'','time':Lampa[_0x4e78b0(0x286)][_0x4e78b0(0x1d9)]((_0x229a9b?_0x229a9b[_0x4e78b0(0x34f)]:_0x3a9667[_0x4e78b0(0x21e)][_0x4e78b0(0x34f)])*0x3c,!![])});var _0x2cc5be=Lampa[_0x4e78b0(0x286)][_0x4e78b0(0x144)](_0x2f6d7b[_0x4e78b0(0x322)]?[_0x2f6d7b[_0x4e78b0(0x322)],_0x2f6d7b['season']>0xa?':':'',_0x2f6d7b[_0x4e78b0(0x2b0)],_0x3a9667[_0x4e78b0(0x21e)][_0x4e78b0(0x19f)]][_0x4e78b0(0x245)](''):_0x3a9667[_0x4e78b0(0x21e)][_0x4e78b0(0x19f)]),_0x12d6bb=Lampa[_0x4e78b0(0x286)][_0x4e78b0(0x144)](_0x2f6d7b[_0x4e78b0(0x322)]?[_0x2f6d7b[_0x4e78b0(0x322)],_0x2f6d7b[_0x4e78b0(0x322)]>0xa?':':'',_0x2f6d7b[_0x4e78b0(0x2b0)],_0x3a9667[_0x4e78b0(0x21e)][_0x4e78b0(0x19f)],_0x2f6d7b['voice_name']][_0x4e78b0(0x245)](''):_0x3a9667['movie'][_0x4e78b0(0x19f)]+_0x2f6d7b[_0x4e78b0(0x279)]),_0x1ea85b={'hash_timeline':_0x2cc5be,'hash_behold':_0x12d6bb},_0x283dbf=[];_0x2f6d7b[_0x4e78b0(0x322)]&&(_0x2f6d7b[_0x4e78b0(0x2c0)]=_0x591531[_0x4e78b0(0x2a1)](_0xe40b34),_0x2f6d7b[_0x4e78b0(0x2ee)]=_0x2f6d7b[_0x4e78b0(0x279)]);if(_0x2f6d7b[_0x4e78b0(0x1e7)]&&!_0x229a9b)_0x2f6d7b[_0x4e78b0(0x351)]=_0x2f6d7b[_0x4e78b0(0x1e7)];_0x2f6d7b[_0x4e78b0(0x238)]=Lampa[_0x4e78b0(0x1f5)][_0x4e78b0(0x14f)](_0x2cc5be);if(_0x229a9b){_0x2f6d7b[_0x4e78b0(0x351)]=_0x229a9b['name'];if(_0x2f6d7b[_0x4e78b0(0x1a3)][_0x4e78b0(0x365)]<0x1e&&_0x229a9b[_0x4e78b0(0x317)])_0x283dbf['push'](Lampa[_0x4e78b0(0x2f4)][_0x4e78b0(0x302)](_0x4e78b0(0x341),{'rate':parseFloat(_0x229a9b['vote_average']+'')['toFixed'](0x1)},!![]));if(_0x229a9b[_0x4e78b0(0x2ec)]&&_0x3e4e38)_0x283dbf['push'](Lampa[_0x4e78b0(0x286)][_0x4e78b0(0x34c)](_0x229a9b[_0x4e78b0(0x2ec)])[_0x4e78b0(0x1e5)]);}else _0x3a9667[_0x4e78b0(0x21e)][_0x4e78b0(0x30b)]&&_0x3e4e38&&_0x283dbf[_0x4e78b0(0x2f0)](Lampa[_0x4e78b0(0x286)][_0x4e78b0(0x34c)](_0x3a9667[_0x4e78b0(0x21e)]['release_date'])[_0x4e78b0(0x1e5)]);if(!_0x329e79&&_0x3a9667[_0x4e78b0(0x21e)][_0x4e78b0(0x2de)]&&_0x2f6d7b[_0x4e78b0(0x1a3)]['length']<0x1e)_0x283dbf['push'](_0x3a9667['movie']['tagline']);if(_0x2f6d7b[_0x4e78b0(0x1a3)])_0x283dbf[_0x4e78b0(0x2f0)](_0x2f6d7b[_0x4e78b0(0x1a3)]);if(_0x283dbf[_0x4e78b0(0x365)])_0x2f6d7b[_0x4e78b0(0x1a3)]=_0x283dbf['map'](function(_0x3b2683){var _0x1f60bb=_0x4e78b0;return'<span>'+_0x3b2683+_0x1f60bb(0x2f8);})[_0x4e78b0(0x245)]('<span\x20class=\x22online-prestige-split\x22>?</span>');var _0x1f8450=Lampa[_0x4e78b0(0x2f4)][_0x4e78b0(0x302)]('lampac_prestige_full',_0x2f6d7b),_0x47ce59=_0x1f8450[_0x4e78b0(0x208)](_0x4e78b0(0x1df)),_0x44f596=_0x1f8450[_0x4e78b0(0x208)](_0x4e78b0(0x1ee));if(_0x3a9667['balanser'])_0x44f596[_0x4e78b0(0x31b)]();if(!_0x329e79){if(_0x5ef995[_0x4e78b0(0x33f)]==_0x12d6bb)_0x48559d=_0x1f8450;}else typeof _0xa92e3c!==_0x4e78b0(0x191)&&_0xa92e3c==_0x4427e9&&(_0x48559d=_0x1f8450);if(_0x329e79&&!_0x229a9b)_0x44f596[_0x4e78b0(0x146)]('<div\x20class=\x22online-prestige__episode-number\x22>'+_0x34767b(_0x2f6d7b['episode']||_0x2032f3+0x1)+_0x4e78b0(0x2e4)),_0x47ce59[_0x4e78b0(0x352)]();else{if(!_0x329e79&&_0x3a9667['movie'][_0x4e78b0(0x2d1)]=='undefined')_0x47ce59['remove']();else{var _0x3c75c2=_0x1f8450[_0x4e78b0(0x208)](_0x4e78b0(0x215))[0x0];_0x3c75c2[_0x4e78b0(0x308)]=function(){var _0x16595b=_0x4e78b0;_0x3c75c2[_0x16595b(0x35a)]='./img/img_broken.svg';},_0x3c75c2[_0x4e78b0(0x36e)]=function(){var _0x25e820=_0x4e78b0;_0x44f596['addClass'](_0x25e820(0x1c8)),_0x47ce59[_0x25e820(0x352)]();if(_0x329e79)_0x44f596[_0x25e820(0x146)](_0x25e820(0x181)+_0x34767b(_0x2f6d7b[_0x25e820(0x2b0)]||_0x2032f3+0x1)+_0x25e820(0x2e4));},_0x3c75c2[_0x4e78b0(0x35a)]=Lampa[_0x4e78b0(0x23a)][_0x4e78b0(0x33a)](_0x4e78b0(0x14d)+(_0x229a9b?_0x229a9b[_0x4e78b0(0x31d)]:_0x3a9667[_0x4e78b0(0x21e)][_0x4e78b0(0x2d1)])),_0x10ce1c[_0x4e78b0(0x2f0)](_0x3c75c2),_0x2f6d7b['thumbnail']=_0x3c75c2[_0x4e78b0(0x35a)];}}_0x1f8450[_0x4e78b0(0x208)](_0x4e78b0(0x2ad))[_0x4e78b0(0x146)](Lampa[_0x4e78b0(0x1f5)]['render'](_0x2f6d7b[_0x4e78b0(0x238)]));_0x1232f5[_0x4e78b0(0x18e)](_0x12d6bb)!==-0x1&&(_0x4b898a=_0x1f8450,_0x1f8450[_0x4e78b0(0x208)](_0x4e78b0(0x1ee))[_0x4e78b0(0x146)](_0x4e78b0(0x2b5)+Lampa['Template'][_0x4e78b0(0x302)]('icon_viewed',{},!![])+'</div>'));_0x2f6d7b[_0x4e78b0(0x281)]=function(){var _0x15ffac=_0x4e78b0;_0x1232f5=Lampa['Storage'][_0x15ffac(0x1d4)](_0x15ffac(0x18a),0x1388,[]);_0x1232f5[_0x15ffac(0x18e)](_0x12d6bb)==-0x1&&(_0x1232f5[_0x15ffac(0x2f0)](_0x12d6bb),Lampa[_0x15ffac(0x246)]['set'](_0x15ffac(0x18a),_0x1232f5),_0x1f8450[_0x15ffac(0x208)](_0x15ffac(0x17d))[_0x15ffac(0x365)]==0x0&&_0x1f8450[_0x15ffac(0x208)](_0x15ffac(0x1ee))[_0x15ffac(0x146)]('<div\x20class=\x22online-prestige__viewed\x22>'+Lampa[_0x15ffac(0x2f4)][_0x15ffac(0x302)]('icon_viewed',{},!![])+'</div>'));_0x5ef995=_0x591531[_0x15ffac(0x298)]();!_0x329e79?_0x5ef995[_0x15ffac(0x33f)]=_0x12d6bb:_0x5ef995[_0x15ffac(0x1e4)][_0x2f6d7b[_0x15ffac(0x322)]]=_0x4427e9;_0x591531['saveChoice'](_0x5ef995);var _0x5d189c=_0x5ef995[_0x15ffac(0x279)]||_0x2f6d7b[_0x15ffac(0x279)]||_0x2f6d7b[_0x15ffac(0x351)];if(_0x5d189c[_0x15ffac(0x365)]>0x1e)_0x5d189c=_0x5d189c[_0x15ffac(0x19d)](0x0,0x1e)+_0x15ffac(0x148);_0x591531['watched']({'balanser':_0xe4a78a,'balanser_name':Lampa['Utils'][_0x15ffac(0x1a8)](_0x4516c2[_0xe4a78a]?_0x4516c2[_0xe4a78a][_0x15ffac(0x234)]['split']('\x20')[0x0]:_0xe4a78a),'voice_id':_0x5ef995[_0x15ffac(0x184)],'voice_name':_0x5d189c,'episode':_0x2f6d7b['episode'],'season':_0x2f6d7b[_0x15ffac(0x322)]});},_0x2f6d7b['unmark']=function(){var _0x381a15=_0x4e78b0;_0x1232f5=Lampa[_0x381a15(0x246)][_0x381a15(0x1d4)](_0x381a15(0x18a),0x1388,[]),_0x1232f5[_0x381a15(0x18e)](_0x12d6bb)!==-0x1&&(Lampa[_0x381a15(0x2bc)][_0x381a15(0x352)](_0x1232f5,_0x12d6bb),Lampa[_0x381a15(0x246)]['set']('online_view',_0x1232f5),Lampa[_0x381a15(0x246)][_0x381a15(0x352)]('online_view',_0x12d6bb),_0x1f8450[_0x381a15(0x208)](_0x381a15(0x17d))[_0x381a15(0x352)]());},_0x2f6d7b[_0x4e78b0(0x1a0)]=function(){var _0x273f4b=_0x4e78b0;_0x2f6d7b[_0x273f4b(0x238)][_0x273f4b(0x17c)]=0x0,_0x2f6d7b[_0x273f4b(0x238)][_0x273f4b(0x306)]=0x0,_0x2f6d7b[_0x273f4b(0x238)]['duration']=0x0,Lampa[_0x273f4b(0x1f5)][_0x273f4b(0x221)](_0x2f6d7b[_0x273f4b(0x238)]);},_0x1f8450['on'](_0x4e78b0(0x2ce),function(){var _0x5e493f=_0x4e78b0;if(_0x3a9667['movie']['id'])Lampa[_0x5e493f(0x2b3)][_0x5e493f(0x274)](_0x5e493f(0x26b),_0x3a9667[_0x5e493f(0x21e)],0x64);if(_0x35eb1d[_0x5e493f(0x212)])_0x35eb1d['onEnter'](_0x2f6d7b,_0x1f8450,_0x1ea85b);})['on'](_0x4e78b0(0x327),function(_0x63d3d0){var _0x54fa6d=_0x4e78b0;_0x2cb9fe=_0x63d3d0[_0x54fa6d(0x17a)];if(_0x35eb1d[_0x54fa6d(0x297)])_0x35eb1d[_0x54fa6d(0x297)](_0x2f6d7b,_0x1f8450,_0x1ea85b);_0x3c44bf[_0x54fa6d(0x221)]($(_0x63d3d0[_0x54fa6d(0x17a)]),!![]);});if(_0x35eb1d[_0x4e78b0(0x1e9)])_0x35eb1d[_0x4e78b0(0x1e9)](_0x2f6d7b,_0x1f8450,_0x1ea85b);_0x591531[_0x4e78b0(0x255)]({'html':_0x1f8450,'element':_0x2f6d7b,'onFile':function _0xd77b48(_0x9f0a0b){var _0x2da54d=_0x4e78b0;if(_0x35eb1d['onContextMenu'])_0x35eb1d[_0x2da54d(0x24b)](_0x2f6d7b,_0x1f8450,_0x1ea85b,_0x9f0a0b);},'onClearAllMark':function _0x3fd22b(){var _0x11baf6=_0x4e78b0;_0xe40b34[_0x11baf6(0x24d)](function(_0x53125d){var _0x1b714a=_0x11baf6;_0x53125d[_0x1b714a(0x25c)]();});},'onClearAllTime':function _0x5ef66f(){var _0x2e8dbd=_0x4e78b0;_0xe40b34[_0x2e8dbd(0x24d)](function(_0x548f02){var _0x105b2d=_0x2e8dbd;_0x548f02[_0x105b2d(0x1a0)]();});}}),_0x3c44bf[_0x4e78b0(0x146)](_0x1f8450);});if(_0x329e79&&_0x28989['length']>_0xe40b34[_0x375a19(0x365)]&&!_0x35eb1d[_0x375a19(0x360)]){var _0x1156ad=_0x28989[_0x375a19(0x19d)](_0xe40b34['length']);_0x1156ad[_0x375a19(0x24d)](function(_0x678a3a){var _0xce1898=_0x375a19,_0x2a7209=[];if(_0x678a3a[_0xce1898(0x317)])_0x2a7209['push'](Lampa['Template']['get'](_0xce1898(0x341),{'rate':parseFloat(_0x678a3a['vote_average']+'')['toFixed'](0x1)},!![]));if(_0x678a3a[_0xce1898(0x2ec)])_0x2a7209[_0xce1898(0x2f0)](Lampa[_0xce1898(0x286)][_0xce1898(0x34c)](_0x678a3a[_0xce1898(0x2ec)])['full']);var _0x4e6502=new Date((_0x678a3a[_0xce1898(0x2ec)]+'')[_0xce1898(0x1a1)](/-/g,'/')),_0x588f17=Date[_0xce1898(0x1c6)](),_0x4d49b6=Math[_0xce1898(0x28a)]((_0x4e6502[_0xce1898(0x20e)]()-_0x588f17)/(0x18*0x3c*0x3c*0x3e8)),_0x23b54b=Lampa[_0xce1898(0x2cd)][_0xce1898(0x16b)]('full_episode_days_left')+':\x20'+_0x4d49b6,_0x4e6e28=Lampa[_0xce1898(0x2f4)][_0xce1898(0x302)](_0xce1898(0x17b),{'time':Lampa[_0xce1898(0x286)][_0xce1898(0x1d9)]((_0x678a3a?_0x678a3a[_0xce1898(0x34f)]:_0x3a9667['movie']['runtime'])*0x3c,!![]),'info':_0x2a7209[_0xce1898(0x365)]?_0x2a7209['map'](function(_0x2272be){var _0x56e611=_0xce1898;return _0x56e611(0x2c9)+_0x2272be+'</span>';})['join'](_0xce1898(0x358)):'','title':_0x678a3a[_0xce1898(0x234)],'quality':_0x4d49b6>0x0?_0x23b54b:''}),_0x20372f=_0x4e6e28[_0xce1898(0x208)](_0xce1898(0x1df)),_0x3267c4=_0x4e6e28[_0xce1898(0x208)](_0xce1898(0x1ee)),_0x45f770=_0xe40b34[0x0]?_0xe40b34[0x0]['season']:0x1;_0x4e6e28[_0xce1898(0x208)](_0xce1898(0x2ad))[_0xce1898(0x146)](Lampa[_0xce1898(0x1f5)][_0xce1898(0x1e0)](Lampa[_0xce1898(0x1f5)][_0xce1898(0x14f)](Lampa[_0xce1898(0x286)][_0xce1898(0x144)]([_0x45f770,_0x678a3a[_0xce1898(0x25a)],_0x3a9667[_0xce1898(0x21e)][_0xce1898(0x19f)]]['join']('')))));var _0x134178=_0x4e6e28[_0xce1898(0x208)]('img')[0x0];_0x678a3a[_0xce1898(0x31d)]?(_0x134178[_0xce1898(0x308)]=function(){var _0x8b709b=_0xce1898;_0x134178[_0x8b709b(0x35a)]=_0x8b709b(0x2a8);},_0x134178[_0xce1898(0x36e)]=function(){var _0x223865=_0xce1898;_0x3267c4[_0x223865(0x2d4)](_0x223865(0x1c8)),_0x20372f[_0x223865(0x352)](),_0x3267c4[_0x223865(0x146)](_0x223865(0x181)+_0x34767b(_0x678a3a[_0x223865(0x25a)])+_0x223865(0x2e4));},_0x134178[_0xce1898(0x35a)]=Lampa[_0xce1898(0x23a)][_0xce1898(0x33a)](_0xce1898(0x14d)+_0x678a3a[_0xce1898(0x31d)]),_0x10ce1c[_0xce1898(0x2f0)](_0x134178)):(_0x20372f[_0xce1898(0x352)](),_0x3267c4[_0xce1898(0x146)](_0xce1898(0x181)+_0x34767b(_0x678a3a[_0xce1898(0x25a)])+'</div>')),_0x4e6e28['on'](_0xce1898(0x327),function(_0x1eec54){var _0x95c06e=_0xce1898;_0x2cb9fe=_0x1eec54[_0x95c06e(0x17a)],_0x3c44bf['update']($(_0x1eec54[_0x95c06e(0x17a)]),!![]);}),_0x4e6e28['css'](_0xce1898(0x145),'0.5'),_0x3c44bf['append'](_0x4e6e28);});}if(_0x48559d)_0x2cb9fe=_0x48559d[0x0];else _0x4b898a&&(_0x2cb9fe=_0x4b898a[0x0]);Lampa[_0x375a19(0x1b8)]['enable']('content');});},this[_0x324bac(0x255)]=function(_0x40d6af){var _0x47492d=_0x324bac;_0x40d6af['html']['on']('hover:long',function(){function _0x414100(_0x9a5ad9){var _0x56cc85=_0x263e,_0x4a2fd7=Lampa[_0x56cc85(0x1b8)]['enabled']()['name'],_0x3e1edf=[];Lampa[_0x56cc85(0x1b4)]['is'](_0x56cc85(0x2cf))&&_0x3e1edf['push']({'title':Lampa[_0x56cc85(0x2cd)][_0x56cc85(0x16b)](_0x56cc85(0x1ab))+_0x56cc85(0x151),'player':_0x56cc85(0x2cf)});Lampa[_0x56cc85(0x1b4)]['is'](_0x56cc85(0x2f2))&&_0x3e1edf[_0x56cc85(0x2f0)]({'title':Lampa[_0x56cc85(0x2cd)]['translate'](_0x56cc85(0x1ab))+_0x56cc85(0x16f),'player':_0x56cc85(0x2f2)});_0x3e1edf[_0x56cc85(0x2f0)]({'title':Lampa[_0x56cc85(0x2cd)][_0x56cc85(0x16b)](_0x56cc85(0x1ab))+_0x56cc85(0x23c),'player':'lampa'}),_0x3e1edf[_0x56cc85(0x2f0)]({'title':Lampa[_0x56cc85(0x2cd)][_0x56cc85(0x16b)](_0x56cc85(0x2c5)),'separator':!![]}),_0x3e1edf[_0x56cc85(0x2f0)]({'title':Lampa[_0x56cc85(0x2cd)]['translate'](_0x56cc85(0x34b)),'mark':!![]}),_0x3e1edf[_0x56cc85(0x2f0)]({'title':Lampa[_0x56cc85(0x2cd)][_0x56cc85(0x16b)](_0x56cc85(0x34d)),'unmark':!![]}),_0x3e1edf[_0x56cc85(0x2f0)]({'title':Lampa['Lang'][_0x56cc85(0x16b)](_0x56cc85(0x21c)),'timeclear':!![]});_0x9a5ad9&&_0x3e1edf['push']({'title':Lampa[_0x56cc85(0x2cd)][_0x56cc85(0x16b)]('copy_link'),'copylink':!![]});if(window[_0x56cc85(0x150)])window[_0x56cc85(0x150)][_0x56cc85(0x2f0)](_0x3e1edf,_0x9a5ad9,_0x40d6af);_0x3e1edf[_0x56cc85(0x2f0)]({'title':Lampa[_0x56cc85(0x2cd)][_0x56cc85(0x16b)]('more'),'separator':!![]}),Lampa['Account'][_0x56cc85(0x330)]()&&_0x40d6af[_0x56cc85(0x271)]&&typeof _0x40d6af['element'][_0x56cc85(0x322)]!==_0x56cc85(0x191)&&_0x40d6af[_0x56cc85(0x271)][_0x56cc85(0x2ee)]&&_0x3e1edf[_0x56cc85(0x2f0)]({'title':Lampa[_0x56cc85(0x2cd)]['translate'](_0x56cc85(0x32a)),'subscribe':!![]}),_0x3e1edf[_0x56cc85(0x2f0)]({'title':Lampa[_0x56cc85(0x2cd)]['translate'](_0x56cc85(0x288)),'clearallmark':!![]}),_0x3e1edf[_0x56cc85(0x2f0)]({'title':Lampa[_0x56cc85(0x2cd)][_0x56cc85(0x16b)]('lampac_clear_all_timecodes'),'timeclearall':!![]}),Lampa[_0x56cc85(0x356)][_0x56cc85(0x252)]({'title':Lampa[_0x56cc85(0x2cd)][_0x56cc85(0x16b)](_0x56cc85(0x319)),'items':_0x3e1edf,'onBack':function _0x470e12(){var _0x3573ca=_0x56cc85;Lampa[_0x3573ca(0x1b8)][_0x3573ca(0x228)](_0x4a2fd7);},'onSelect':function _0x233ee9(_0x48b795){var _0x1bf6b9=_0x56cc85;if(_0x48b795[_0x1bf6b9(0x281)])_0x40d6af[_0x1bf6b9(0x271)][_0x1bf6b9(0x281)]();if(_0x48b795[_0x1bf6b9(0x25c)])_0x40d6af[_0x1bf6b9(0x271)][_0x1bf6b9(0x25c)]();if(_0x48b795['timeclear'])_0x40d6af[_0x1bf6b9(0x271)][_0x1bf6b9(0x1a0)]();if(_0x48b795['clearallmark'])_0x40d6af[_0x1bf6b9(0x237)]();if(_0x48b795[_0x1bf6b9(0x32f)])_0x40d6af[_0x1bf6b9(0x2d0)]();if(window[_0x1bf6b9(0x150)])window[_0x1bf6b9(0x150)][_0x1bf6b9(0x34e)](_0x48b795,_0x40d6af);Lampa[_0x1bf6b9(0x1b8)]['toggle'](_0x4a2fd7);_0x48b795['player']&&(Lampa[_0x1bf6b9(0x2d8)]['runas'](_0x48b795['player']),_0x40d6af['html'][_0x1bf6b9(0x295)](_0x1bf6b9(0x2ce)));if(_0x48b795['copylink']){if(_0x9a5ad9[_0x1bf6b9(0x2c3)]){var _0x1ae02c=[];for(var _0x2775e6 in _0x9a5ad9[_0x1bf6b9(0x2c3)]){_0x1ae02c[_0x1bf6b9(0x2f0)]({'title':_0x2775e6,'file':_0x9a5ad9['quality'][_0x2775e6]});}Lampa[_0x1bf6b9(0x356)][_0x1bf6b9(0x252)]({'title':Lampa[_0x1bf6b9(0x2cd)][_0x1bf6b9(0x16b)](_0x1bf6b9(0x1ae)),'items':_0x1ae02c,'onBack':function _0xd212f2(){var _0x363847=_0x1bf6b9;Lampa[_0x363847(0x1b8)][_0x363847(0x228)](_0x4a2fd7);},'onSelect':function _0x2eeb16(_0x387709){var _0x522ab8=_0x1bf6b9;Lampa[_0x522ab8(0x286)][_0x522ab8(0x1d2)](_0x387709[_0x522ab8(0x261)],function(){var _0xe2d9db=_0x522ab8;Lampa['Noty']['show'](Lampa[_0xe2d9db(0x2cd)][_0xe2d9db(0x16b)](_0xe2d9db(0x291)));},function(){var _0x5308e8=_0x522ab8;Lampa[_0x5308e8(0x2b6)][_0x5308e8(0x252)](Lampa['Lang'][_0x5308e8(0x16b)](_0x5308e8(0x2ef)));});}});}else Lampa[_0x1bf6b9(0x286)][_0x1bf6b9(0x1d2)](_0x9a5ad9[_0x1bf6b9(0x261)],function(){var _0x36fa89=_0x1bf6b9;Lampa[_0x36fa89(0x2b6)][_0x36fa89(0x252)](Lampa['Lang'][_0x36fa89(0x16b)](_0x36fa89(0x291)));},function(){var _0x297f40=_0x1bf6b9;Lampa[_0x297f40(0x2b6)][_0x297f40(0x252)](Lampa[_0x297f40(0x2cd)][_0x297f40(0x16b)](_0x297f40(0x2ef)));});}_0x48b795[_0x1bf6b9(0x147)]&&Lampa['Account'][_0x1bf6b9(0x1b2)]({'card':_0x3a9667['movie'],'season':_0x40d6af[_0x1bf6b9(0x271)][_0x1bf6b9(0x322)],'episode':_0x40d6af['element'][_0x1bf6b9(0x2c0)],'voice':_0x40d6af[_0x1bf6b9(0x271)]['translate_voice']},function(){var _0x493d20=_0x1bf6b9;Lampa[_0x493d20(0x2b6)][_0x493d20(0x252)](Lampa[_0x493d20(0x2cd)][_0x493d20(0x16b)](_0x493d20(0x2e1)));},function(){var _0x5bc48f=_0x1bf6b9;Lampa[_0x5bc48f(0x2b6)][_0x5bc48f(0x252)](Lampa[_0x5bc48f(0x2cd)]['translate'](_0x5bc48f(0x2bb)));});}});}_0x40d6af['onFile'](_0x414100);})['on'](_0x47492d(0x327),function(){var _0x531383=_0x47492d;if(Lampa[_0x531383(0x2e5)])Lampa[_0x531383(0x2e5)][_0x531383(0x252)](_0x531383(0x1d3),Lampa['Lang']['translate'](_0x531383(0x262)),_0x40d6af[_0x531383(0x173)]);});},this[_0x324bac(0x1a5)]=function(){var _0x43149c=_0x324bac,_0x5785a5=Lampa[_0x43149c(0x2f4)][_0x43149c(0x302)](_0x43149c(0x1a9),{});_0x5785a5['find'](_0x43149c(0x1bf))[_0x43149c(0x352)](),_0x5785a5[_0x43149c(0x208)]('.online-empty__title')[_0x43149c(0x1e7)](Lampa[_0x43149c(0x2cd)][_0x43149c(0x16b)](_0x43149c(0x1aa))),_0x5785a5['find'](_0x43149c(0x14c))[_0x43149c(0x1e7)](Lampa['Lang']['translate'](_0x43149c(0x244))),_0x3c44bf['clear'](),_0x3c44bf[_0x43149c(0x146)](_0x5785a5),this['loading'](![]);},this[_0x324bac(0x36b)]=function(_0x2c069b){var _0x16a81a=_0x324bac,_0x1f6b34=Lampa[_0x16a81a(0x2f4)][_0x16a81a(0x302)]('lampac_does_not_answer',{});_0x1f6b34[_0x16a81a(0x208)](_0x16a81a(0x1bf))[_0x16a81a(0x352)](),_0x1f6b34[_0x16a81a(0x208)](_0x16a81a(0x23b))[_0x16a81a(0x1e7)](Lampa[_0x16a81a(0x2cd)][_0x16a81a(0x16b)](_0x16a81a(0x1c3))),_0x1f6b34[_0x16a81a(0x208)](_0x16a81a(0x14c))['text'](_0x2c069b&&_0x2c069b[_0x16a81a(0x311)]?_0x2c069b['msg']:Lampa[_0x16a81a(0x2cd)][_0x16a81a(0x16b)](_0x16a81a(0x305))['replace']('{balanser}',_0xe4a78a[_0xe4a78a][_0x16a81a(0x234)])),_0x3c44bf['clear'](),_0x3c44bf[_0x16a81a(0x146)](_0x1f6b34),this[_0x16a81a(0x2f9)](![]);},this['doesNotAnswer']=function(_0x10ed69){var _0x3b5f5e=_0x324bac,_0x3f02db=this;this['reset']();var _0xd53f2d=Lampa[_0x3b5f5e(0x2f4)]['get'](_0x3b5f5e(0x1a9),{'balanser':_0xe4a78a});if(_0x10ed69&&_0x10ed69['accsdb'])_0xd53f2d[_0x3b5f5e(0x208)](_0x3b5f5e(0x23b))['html'](_0x10ed69[_0x3b5f5e(0x272)]);var _0x4e9323=_0x10ed69&&_0x10ed69[_0x3b5f5e(0x311)]?0xa:0x5;_0xd53f2d[_0x3b5f5e(0x208)](_0x3b5f5e(0x2c4))['on'](_0x3b5f5e(0x2ce),function(){clearInterval(_0x3ead6b);}),_0xd53f2d[_0x3b5f5e(0x208)](_0x3b5f5e(0x29e))['on'](_0x3b5f5e(0x2ce),function(){var _0x48956f=_0x3b5f5e;clearInterval(_0x3ead6b),_0x51799f[_0x48956f(0x1e0)]()[_0x48956f(0x208)](_0x48956f(0x289))[_0x48956f(0x295)](_0x48956f(0x2ce));}),_0x3c44bf[_0x3b5f5e(0x177)](),_0x3c44bf['append'](_0xd53f2d),this[_0x3b5f5e(0x2f9)](![]),_0x3ead6b=setInterval(function(){var _0x4809f1=_0x3b5f5e;_0x4e9323--,_0xd53f2d[_0x4809f1(0x208)](_0x4809f1(0x167))['text'](_0x4e9323);if(_0x4e9323==0x0){clearInterval(_0x3ead6b);var _0x5635f4=Lampa[_0x4809f1(0x2bc)][_0x4809f1(0x2bd)](_0x4516c2),_0x207922=_0x5635f4[_0x4809f1(0x18e)](_0xe4a78a),_0x3b9159=_0x5635f4[_0x207922+0x1];if(!_0x3b9159)_0x3b9159=_0x5635f4[0x0];_0xe4a78a=_0x3b9159;if(Lampa[_0x4809f1(0x2d6)]['active']()[_0x4809f1(0x2b2)]==_0x3f02db[_0x4809f1(0x2b2)])_0x3f02db['changeBalanser'](_0xe4a78a);}},0x3e8);},this[_0x324bac(0x2a1)]=function(_0x2e79f0){var _0x5f0af0=_0x324bac,_0xec91e0=0x0;return _0x2e79f0[_0x5f0af0(0x24d)](function(_0x3bb5f7){var _0x229a87=_0x5f0af0;if(typeof _0x3bb5f7['episode']!==_0x229a87(0x191))_0xec91e0=Math[_0x229a87(0x186)](_0xec91e0,parseInt(_0x3bb5f7[_0x229a87(0x2b0)]));}),_0xec91e0;},this[_0x324bac(0x1e3)]=function(){var _0x16daef=_0x324bac;if(Lampa[_0x16daef(0x2d6)][_0x16daef(0x20d)]()[_0x16daef(0x2b2)]!==this[_0x16daef(0x2b2)])return;!_0x5e0205&&(_0x5e0205=!![],this['initialize']()),Lampa['Background'][_0x16daef(0x328)](Lampa[_0x16daef(0x286)][_0x16daef(0x160)](_0x3a9667[_0x16daef(0x21e)])),Lampa['Controller'][_0x16daef(0x274)](_0x16daef(0x323),{'toggle':function _0x25e8a5(){var _0x386f49=_0x16daef;Lampa[_0x386f49(0x1b8)][_0x386f49(0x2e3)](_0x3c44bf[_0x386f49(0x1e0)](),_0x5cf787[_0x386f49(0x1e0)]()),Lampa[_0x386f49(0x1b8)][_0x386f49(0x340)](_0x2cb9fe||![],_0x3c44bf[_0x386f49(0x1e0)]());},'gone':function _0x5b1d98(){clearTimeout(_0x3ead6b);},'up':function _0x53a330(){var _0x11f4ce=_0x16daef;if(Navigator[_0x11f4ce(0x236)]('up'))Navigator[_0x11f4ce(0x2e7)]('up');else Lampa[_0x11f4ce(0x1b8)][_0x11f4ce(0x228)](_0x11f4ce(0x2f5));},'down':function _0x1125a8(){var _0x963e78=_0x16daef;Navigator['move'](_0x963e78(0x2e0));},'right':function _0x1f06f4(){var _0x3503e4=_0x16daef;if(Navigator[_0x3503e4(0x236)](_0x3503e4(0x253)))Navigator[_0x3503e4(0x2e7)](_0x3503e4(0x253));else _0x51799f['show'](Lampa[_0x3503e4(0x2cd)][_0x3503e4(0x16b)]('title_filter'),_0x3503e4(0x2d2));},'left':function _0x5ed7e2(){var _0x3f5be1=_0x16daef;if(Navigator[_0x3f5be1(0x236)](_0x3f5be1(0x1fb)))Navigator['move']('left');else Lampa[_0x3f5be1(0x1b8)]['toggle'](_0x3f5be1(0x2f1));},'back':this['back'][_0x16daef(0x1cb)](this)}),Lampa[_0x16daef(0x1b8)][_0x16daef(0x228)](_0x16daef(0x323));},this[_0x324bac(0x1e0)]=function(){var _0x4ec8be=_0x324bac;return _0x5cf787[_0x4ec8be(0x1e0)]();},this['back']=function(){var _0x46c8ce=_0x324bac;Lampa[_0x46c8ce(0x2d6)]['backward']();},this[_0x324bac(0x2e8)]=function(){},this[_0x324bac(0x1f7)]=function(){},this[_0x324bac(0x249)]=function(){var _0x433e51=_0x324bac;_0x5dedcc[_0x433e51(0x177)](),this[_0x433e51(0x2d9)](),_0x5cf787[_0x433e51(0x249)](),_0x3c44bf[_0x433e51(0x249)](),clearInterval(_0x3ead6b),clearTimeout(_0x46e0e2);};}function _0x2e12f1(_0x4c6bb8,_0x22efc3){var _0x371d62=_0x4fe98f,_0x125cbb=new Lampa['Reguest'](),_0x57203c={'title':_0x4c6bb8,'search':function(_0x562bf5,_0xfafd47){var _0x3f014f=_0x263e;function _0x5ee7c7(_0x517d3a){var _0x57eb69=_0x263e,_0x9eb776=_0x1df8f3(Lampa[_0x57eb69(0x2bc)][_0x57eb69(0x2bd)](_0x517d3a));if(_0x9eb776[_0x57eb69(0x365)]){var _0x29eb16=new Lampa['Status'](_0x9eb776['length']);_0x29eb16[_0x57eb69(0x280)]=function(_0x3a176c){var _0x3026dd=_0x57eb69,_0x5ca10d=[];_0x9eb776[_0x3026dd(0x24d)](function(_0x2e497b){var _0x58e7d5=_0x3026dd,_0x2cf1a0=_0x3a176c[_0x2e497b];if(_0x2cf1a0&&_0x2cf1a0['data']&&_0x2cf1a0[_0x58e7d5(0x350)]==_0x58e7d5(0x287)){var _0x2f436b=_0x2cf1a0['data'][_0x58e7d5(0x20a)](function(_0x450a44){var _0x5dd5db=_0x58e7d5;_0x450a44[_0x5dd5db(0x351)]=Lampa[_0x5dd5db(0x286)][_0x5dd5db(0x1a8)](_0x450a44[_0x5dd5db(0x351)]),_0x450a44[_0x5dd5db(0x30b)]=_0x450a44[_0x5dd5db(0x26a)]||_0x5dd5db(0x20f),_0x450a44[_0x5dd5db(0x1eb)]=_0x22efc3;if(_0x450a44[_0x5dd5db(0x215)]!==undefined){if(_0x450a44[_0x5dd5db(0x215)][_0x5dd5db(0x2a9)](0x0)==='/')_0x450a44[_0x5dd5db(0x215)]=_0x2a3942[_0x5dd5db(0x370)]+_0x450a44[_0x5dd5db(0x215)][_0x5dd5db(0x28c)](0x1);if(_0x450a44['img'][_0x5dd5db(0x18e)]('/proxyimg')!==-0x1)_0x450a44['img']=_0x202f9e(_0x450a44[_0x5dd5db(0x215)]);}return _0x450a44;});_0x5ca10d[_0x58e7d5(0x2f0)]({'title':_0x2e497b,'results':_0x2f436b});}}),_0xfafd47(_0x5ca10d);},_0x9eb776[_0x57eb69(0x24d)](function(_0x27b5a4){_0x125cbb['silent'](_0x202f9e(_0x517d3a[_0x27b5a4]),function(_0x5e6f3e){var _0x46c0d5=_0x263e;_0x29eb16[_0x46c0d5(0x146)](_0x27b5a4,_0x5e6f3e);},function(){var _0x5055c4=_0x263e;_0x29eb16[_0x5055c4(0x156)]();},![],{'headers':_0x29f7e4()});});}else _0xfafd47([]);}_0x125cbb[_0x3f014f(0x32c)](_0x202f9e(_0x2a3942['localhost']+_0x3f014f(0x153)+_0x22efc3+_0x3f014f(0x2b1)+_0x562bf5[_0x3f014f(0x276)]),function(_0x13887e){_0x13887e['rch']?_0x236521(_0x13887e,function(){var _0x140d8d=_0x263e;_0x125cbb[_0x140d8d(0x32c)](_0x202f9e(_0x2a3942['localhost']+_0x140d8d(0x153)+_0x22efc3+'?title='+_0x562bf5[_0x140d8d(0x276)]),function(_0x202752){_0x5ee7c7(_0x202752);},function(){_0xfafd47([]);},![],{'headers':_0x29f7e4()});}):_0x5ee7c7(_0x13887e);},function(){_0xfafd47([]);},![],{'headers':_0x29f7e4()});},'onCancel':function(){var _0x5acfcd=_0x263e;_0x125cbb[_0x5acfcd(0x177)]();},'params':{'lazy':!![],'align_left':!![],'card_events':{'onMenu':function(){}}},'onMore':function(_0xc7cdeb,_0x39fc61){_0x39fc61();},'onSelect':function(_0x2cff14,_0x1c7ddb){var _0x2f7e2c=_0x263e;_0x1c7ddb(),Lampa['Activity'][_0x2f7e2c(0x2f0)]({'url':_0x2cff14[_0x2f7e2c(0x271)]['url'],'title':'Lampac\x20-\x20'+_0x2cff14[_0x2f7e2c(0x271)]['title'],'component':'lampac','movie':_0x2cff14[_0x2f7e2c(0x271)],'page':0x1,'search':_0x2cff14[_0x2f7e2c(0x271)][_0x2f7e2c(0x351)],'clarification':!![],'balanser':_0x2cff14[_0x2f7e2c(0x271)][_0x2f7e2c(0x1eb)],'noinfo':!![]});}};Lampa['Search'][_0x371d62(0x26d)](_0x57203c);}function _0x38c77f(){var _0x47da59=_0x4fe98f;if(false){Lampa[_0x47da59(0x2b6)]['show'](_0x47da59(0x2d3));return;}window.__ono_newcinema_plugin=!![];var _0x1df52c={'type':'video','version':_0x47da59(0x185),'name':'Cinema','description':'Плагин\x20для\x20просмотра\x20онлайн\x20сериалов\x20и\x20фильмов','component':_0x47da59(0x157),'onContextMenu':function _0x1426dd(_0x5f1f52){var _0x5c6584=_0x47da59;return{'name':Lampa['Lang'][_0x5c6584(0x16b)](_0x5c6584(0x176)),'description':''};},'onContextLauch':function _0x57ca95(_0x3dfed4){var _0x390e1e=_0x47da59;_0x460672(),Lampa[_0x390e1e(0x364)][_0x390e1e(0x274)](_0x390e1e(0x157),_0x128b7a);var _0x53202b=Lampa[_0x390e1e(0x286)][_0x390e1e(0x144)](_0x3dfed4['number_of_seasons']?_0x3dfed4['original_name']:_0x3dfed4['original_title']),_0x49d4ec=Lampa['Storage'][_0x390e1e(0x302)](_0x390e1e(0x178),'{}');Lampa[_0x390e1e(0x2d6)][_0x390e1e(0x2f0)]({'url':'','title':Lampa[_0x390e1e(0x2cd)][_0x390e1e(0x16b)]('title_online'),'component':_0x390e1e(0x157),'search':_0x49d4ec[_0x53202b]?_0x49d4ec[_0x53202b]:_0x3dfed4[_0x390e1e(0x351)],'search_one':_0x3dfed4[_0x390e1e(0x351)],'search_two':_0x3dfed4[_0x390e1e(0x19f)],'movie':_0x3dfed4,'page':0x1,'clarification':_0x49d4ec[_0x53202b]?!![]:![]});}};_0x2e12f1(_0x47da59(0x206),_0x47da59(0x24c)),_0x2e12f1('Cinema\x20-\x20Anime','spider/anime'),Lampa[_0x47da59(0x321)][_0x47da59(0x142)]=_0x1df52c,Lampa[_0x47da59(0x2cd)][_0x47da59(0x274)]({'lampac_watch':{'ru':'Смотреть\x20онлайн','en':_0x47da59(0x1bd),'uk':_0x47da59(0x300),'zh':_0x47da59(0x256)},'lampac_video':{'ru':_0x47da59(0x268),'en':_0x47da59(0x16d),'uk':_0x47da59(0x318),'zh':'??'},'lampac_no_watch_history':{'ru':_0x47da59(0x2fc),'en':'No\x20browsing\x20history','ua':'Немає\x20історії\x20перегляду','zh':_0x47da59(0x229)},'lampac_nolink':{'ru':_0x47da59(0x342),'uk':'Неможливо\x20отримати\x20посилання','en':'Failed\x20to\x20fetch\x20link','zh':_0x47da59(0x229)},'lampac_balanser':{'ru':_0x47da59(0x264),'uk':'Джерело','en':_0x47da59(0x230),'zh':'??'},'helper_online_file':{'ru':_0x47da59(0x1a4),'uk':_0x47da59(0x1fc),'en':'Hold\x20the\x20\x22OK\x22\x20key\x20to\x20bring\x20up\x20the\x20context\x20menu','zh':_0x47da59(0x22e)},'title_online':{'ru':_0x47da59(0x296),'uk':'Онлайн','en':_0x47da59(0x2ff),'zh':'???'},'lampac_voice_subscribe':{'ru':_0x47da59(0x18d),'uk':_0x47da59(0x35d),'en':_0x47da59(0x14a),'zh':_0x47da59(0x256)},'lampac_voice_success':{'ru':'Вы\x20успешно\x20подписались','uk':_0x47da59(0x320),'en':_0x47da59(0x23e),'zh':'??????'},'lampac_voice_error':{'ru':'Возникла\x20ошибка','uk':'Виникла\x20помилка','en':_0x47da59(0x235),'zh':_0x47da59(0x30c)},'lampac_clear_all_marks':{'ru':_0x47da59(0x339),'uk':_0x47da59(0x1b5),'en':_0x47da59(0x2be),'zh':_0x47da59(0x229)},'lampac_clear_all_timecodes':{'ru':_0x47da59(0x1b1),'uk':_0x47da59(0x357),'en':_0x47da59(0x266),'zh':_0x47da59(0x152)},'lampac_change_balanser':{'ru':_0x47da59(0x1e2),'uk':'Змінити\x20балансер','en':_0x47da59(0x19a),'zh':_0x47da59(0x30c)},'lampac_balanser_dont_work':{'ru':_0x47da59(0x162),'uk':_0x47da59(0x2ab),'en':_0x47da59(0x260),'zh':_0x47da59(0x1ff)},'lampac_balanser_timeout':{'ru':_0x47da59(0x282),'uk':_0x47da59(0x2ea),'en':'The\x20source\x20will\x20be\x20switched\x20automatically\x20after\x20<span\x20class=\x22timeout\x22>10</span>\x20seconds.','zh':_0x47da59(0x331)},'lampac_does_not_answer_text':{'ru':'Поиск\x20на\x20({balanser})\x20не\x20дал\x20результатов','uk':_0x47da59(0x2ab),'en':_0x47da59(0x260),'zh':'??\x20({balanser})\x20???????'}}),Lampa['Template'][_0x47da59(0x274)](_0x47da59(0x304),_0x47da59(0x254)),$(_0x47da59(0x275))[_0x47da59(0x146)](Lampa[_0x47da59(0x2f4)][_0x47da59(0x302)](_0x47da59(0x304),{},!![]));function _0x460672(){var _0xe50ef9=_0x47da59;Lampa['Template'][_0xe50ef9(0x274)](_0xe50ef9(0x17b),_0xe50ef9(0x2c8)),Lampa[_0xe50ef9(0x2f4)][_0xe50ef9(0x274)](_0xe50ef9(0x1c2),_0xe50ef9(0x29a)),Lampa['Template'][_0xe50ef9(0x274)](_0xe50ef9(0x1a9),'<div\x20class=\x22online-empty\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty__title\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#{lampac_balanser_dont_work}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty__time\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#{lampac_balanser_timeout}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty__buttons\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty__button\x20selector\x20cancel\x22>#{cancel}</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty__button\x20selector\x20change\x22>#{lampac_change_balanser}</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty__templates\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty-template\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty-template__ico\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty-template__body\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty-template\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty-template__ico\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty-template__body\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty-template\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty-template__ico\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22online-empty-template__body\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>'),Lampa[_0xe50ef9(0x2f4)][_0xe50ef9(0x274)]('lampac_prestige_rate',_0xe50ef9(0x19b)),Lampa[_0xe50ef9(0x2f4)]['add'](_0xe50ef9(0x149),_0xe50ef9(0x27a)),Lampa[_0xe50ef9(0x2f4)][_0xe50ef9(0x274)](_0xe50ef9(0x192),_0xe50ef9(0x164));}var _0x31ca01=_0x47da59(0x346)[_0x47da59(0x180)](_0x1df52c[_0x47da59(0x234)],'\x20v')[_0x47da59(0x180)](_0x1df52c[_0x47da59(0x1ca)],_0x47da59(0x17f));Lampa[_0x47da59(0x364)][_0x47da59(0x274)]('cinema_online',_0x128b7a),_0x460672();function _0x5614ee(_0xd93896){var _0x3a071a=_0x47da59;if(_0xd93896[_0x3a071a(0x1e0)][_0x3a071a(0x208)](_0x3a071a(0x347))[_0x3a071a(0x365)])return;var _0x216956=$(Lampa[_0x3a071a(0x2cd)][_0x3a071a(0x16b)](_0x31ca01));_0x216956['on'](_0x3a071a(0x2ce),function(){var _0x1fc751=_0x3a071a;_0x460672(),Lampa['Component']['add'](_0x1fc751(0x157),_0x128b7a);var _0x398c2a=Lampa['Utils']['hash'](_0xd93896[_0x1fc751(0x21e)][_0x1fc751(0x329)]?_0xd93896[_0x1fc751(0x21e)][_0x1fc751(0x159)]:_0xd93896[_0x1fc751(0x21e)]['original_title']),_0x1eaa05=Lampa[_0x1fc751(0x246)][_0x1fc751(0x302)](_0x1fc751(0x178),'{}');Lampa[_0x1fc751(0x2d6)][_0x1fc751(0x2f0)]({'url':'','title':Lampa[_0x1fc751(0x2cd)][_0x1fc751(0x16b)](_0x1fc751(0x27b)),'component':_0x1fc751(0x157),'search':_0x1eaa05[_0x398c2a]?_0x1eaa05[_0x398c2a]:_0xd93896[_0x1fc751(0x21e)]['title'],'search_one':_0xd93896[_0x1fc751(0x21e)][_0x1fc751(0x351)],'search_two':_0xd93896['movie'][_0x1fc751(0x19f)],'movie':_0xd93896['movie'],'page':0x1,'clarification':_0x1eaa05[_0x398c2a]?!![]:![]});}),_0xd93896[_0x3a071a(0x1e0)][_0x3a071a(0x1f3)](_0x216956);}Lampa[_0x47da59(0x241)][_0x47da59(0x1de)](_0x47da59(0x1e5),function(_0x17a84c){var _0x547b28=_0x47da59;_0x17a84c[_0x547b28(0x350)]==_0x547b28(0x218)&&_0x5614ee({'render':_0x17a84c['object']['activity']['render']()['find'](_0x547b28(0x2e2)),'movie':_0x17a84c[_0x547b28(0x1a6)][_0x547b28(0x21e)]});});try{Lampa['Activity'][_0x47da59(0x20d)]()[_0x47da59(0x265)]=='full'&&_0x5614ee({'render':Lampa['Activity'][_0x47da59(0x20d)]()[_0x47da59(0x2b2)][_0x47da59(0x1e0)]()[_0x47da59(0x208)](_0x47da59(0x2e2)),'movie':Lampa[_0x47da59(0x2d6)][_0x47da59(0x20d)]()['card']});}catch(_0x32c775){}if(Lampa[_0x47da59(0x321)][_0x47da59(0x251)]>=0xb1){var _0x2b5db2=[_0x47da59(0x28e),'filmixtv',_0x47da59(0x1ad),'rezka',_0x47da59(0x1c1),'getstv','kinopub',_0x47da59(0x193),_0x47da59(0x1cd),_0x47da59(0x242),_0x47da59(0x30d),_0x47da59(0x1a2),'eneyida',_0x47da59(0x343),_0x47da59(0x312),_0x47da59(0x307),'kinotochka',_0x47da59(0x1f9),'anilibria',_0x47da59(0x169),_0x47da59(0x35b),'animevost',_0x47da59(0x2fb),_0x47da59(0x33b),_0x47da59(0x233),_0x47da59(0x216),'animelib',_0x47da59(0x325),_0x47da59(0x31f),_0x47da59(0x1c4),_0x47da59(0x2cb),_0x47da59(0x220),_0x47da59(0x1fe),_0x47da59(0x231),_0x47da59(0x301),_0x47da59(0x18c),'vidlink',_0x47da59(0x314),'autoembed',_0x47da59(0x247),_0x47da59(0x1d0),_0x47da59(0x15c),_0x47da59(0x290),_0x47da59(0x284),'leproduction','vkmovie',_0x47da59(0x1d0),_0x47da59(0x290),_0x47da59(0x2f7),_0x47da59(0x161),'fancdn',_0x47da59(0x182),'geosaitebi',_0x47da59(0x210),_0x47da59(0x1bb)];_0x2b5db2[_0x47da59(0x24d)](function(_0x449f03){var _0x3ff7ce=_0x47da59;Lampa[_0x3ff7ce(0x246)][_0x3ff7ce(0x30e)](_0x3ff7ce(0x26e)+_0x449f03,_0x3ff7ce(0x31c));}),Lampa[_0x47da59(0x246)][_0x47da59(0x30e)]('online_watched_last',_0x47da59(0x31c));}}if(!window.__ono_newcinema_plugin)_0x38c77f();}()));
 })();
 
+                    // Embedded Alpac online module. NewCinema balancers are merged
+                    // into Alpac's native source list inside this single Ono.js file.
+                    (function() {
+  'use strict';
+
+  // Batch Transcoding — pre-transcode series episodes for instant switching.
+// Injected into online.js via {batch-transcoding} template variable.
+// Works with ExoPlayer and any player — replaces episode URLs with HLS playlists.
+(function(){
+  if (!true) return;
+
+  var _batchId = null;
+  var _heartbeatTimer = null;
+
+  function startBatch(element, playlist) {
+    if (!element.isonline || !playlist || playlist.length < 2) return Promise.resolve(false);
+
+    var episodes = [];
+    for (var i = 0; i < Math.min(playlist.length, 20); i++) {
+      var ep = playlist[i];
+      var url = typeof ep.url === 'string' ? ep.url : '';
+      if (!url || /\.(m3u8|mpd)(\?|$)/i.test(url)) continue;
+      episodes.push({ url: url, title: ep.title || '', audioIndex: 0 });
+    }
+
+    if (episodes.length < 2) return Promise.resolve(false);
+
+    return fetch('/transcoding/batch', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ episodes: episodes, subtitles: true })
+    })
+    .then(function(resp) {
+      if (!resp.ok) return false;
+      return resp.json();
+    })
+    .then(function(data) {
+      if (!data || !data.batchId) return false;
+
+      _batchId = data.batchId;
+
+      // Replace URLs in playlist with transcoded HLS playlists where available
+      if (data.episodes) {
+        data.episodes.forEach(function(ep) {
+          if (ep.playlistUrl && ep.index < playlist.length) {
+            // For ExoPlayer: replace URL with HLS playlist (method:"play")
+            playlist[ep.index].url = ep.playlistUrl;
+            // Remove quality map — transcoded stream is single quality
+            delete playlist[ep.index].quality;
+            delete playlist[ep.index].qualitys;
+          }
+        });
+
+        // Also update main element if it's the first episode
+        var currentIdx = 0;
+        for (var j = 0; j < playlist.length; j++) {
+          if (playlist[j].url === element.url || playlist[j].title === element.title) {
+            currentIdx = j;
+            break;
+          }
+        }
+        if (data.episodes[currentIdx] && data.episodes[currentIdx].playlistUrl) {
+          element.url = data.episodes[currentIdx].playlistUrl;
+          delete element.quality;
+          delete element.qualitys;
+        }
+      }
+
+      // Start heartbeat
+      stopBatch();
+      _heartbeatTimer = setInterval(function() {
+        if (_batchId) {
+          fetch('/transcoding/batch/' + _batchId + '/heartbeat').catch(function(){});
+        }
+      }, 10000);
+
+      // Listen for episode changes to notify server
+      if (typeof Lampa !== 'undefined' && Lampa.Player && Lampa.Player.listener) {
+        Lampa.Player.listener.follow('playlist', function(data) {
+          if (_batchId && data && typeof data.position === 'number') {
+            fetch('/transcoding/batch/' + _batchId + '/episode/' + data.position, {
+              method: 'POST'
+            }).then(function(resp) {
+              if (!resp.ok) return;
+              return resp.json();
+            }).then(function(info) {
+              // If episode has a playlistUrl, the batch has it ready
+              if (info && info.playlistUrl) {
+                console.log('[BatchTC] Episode ' + data.position + ' ready:', info.state);
+              }
+            }).catch(function(){});
+          }
+        });
+
+        Lampa.Player.listener.follow('destroy', function() {
+          stopBatch();
+        });
+      }
+
+      console.log('[BatchTC] Batch started:', _batchId, 'episodes:', episodes.length);
+      return true;
+    })
+    .catch(function(e) {
+      console.warn('[BatchTC] Failed to start batch:', e);
+      return false;
+    });
+  }
+
+  function stopBatch() {
+    if (_heartbeatTimer) {
+      clearInterval(_heartbeatTimer);
+      _heartbeatTimer = null;
+    }
+    if (_batchId) {
+      fetch('/transcoding/batch/' + _batchId + '/stop').catch(function(){});
+      _batchId = null;
+    }
+  }
+
+  // Expose globally for player-inner.js integration
+  window.__batchTranscoding = {
+    start: startBatch,
+    stop: stopBatch,
+    active: function() { return !!_batchId; }
+  };
+})();
+
+
+  var Defined = {
+    api: 'lampac',
+    localhost: 'https://beta.l-vid.online/',
+    apn: ''
+  };
+
+  var balansers_with_search;
+  
+  var unic_id = Lampa.Storage.get('lampac_unic_id', '');
+  if (!unic_id) {
+    unic_id = (function(){
+      function un(raw){ if(!raw) return ''; try{ var p=JSON.parse(raw); if(typeof p==='string'&&p) return p; }catch(e){ if(typeof raw==='string'&&raw) return raw; } return ''; }
+      try{ var b=un(localStorage.getItem('lampac_uid_backup')); if(b) return b; }catch(e){}
+      try{ var m=document.cookie.match(/(?:^|;\s*)alpac_uid=([^;]*)/); if(m&&m[1]) return decodeURIComponent(m[1]); }catch(e){}
+      var u='';
+      try{ var c=window.crypto||window.msCrypto; if(c&&c.getRandomValues){ var a=new Uint8Array(6); c.getRandomValues(a); for(var i=0;i<a.length;i++) u+=('0'+a[i].toString(16)).slice(-2); } }catch(e){}
+      if(u.length<12) u=(Date.now().toString(36)+Math.random().toString(36).slice(2)+Math.random().toString(36).slice(2)).slice(0,12);
+      try{ localStorage.setItem('lampac_uid_backup',u); }catch(e){}
+      return u.toLowerCase();
+    })();
+    Lampa.Storage.set('lampac_unic_id', unic_id);
+  }
+  
+    function getAndroidVersion() {
+  if (Lampa.Platform.is('android')) {
+    try {
+      var current = AndroidJS.appVersion().split('-');
+      return parseInt(current.pop());
+    } catch (e) {
+      return 0;
+    }
+  } else {
+    return 0;
+  }
+}
+
+var hostkey = 'https://beta.l-vid.online'.replace('http://', '').replace('https://', '');
+
+if (!window.rch_nws || !window.rch_nws[hostkey]) {
+  if (!window.rch_nws) window.rch_nws = {};
+
+  window.rch_nws[hostkey] = {
+    type: Lampa.Platform.is('android') ? 'apk' : Lampa.Platform.is('tizen') ? 'cors' : undefined,
+    startTypeInvoke: false,
+    rchRegistry: false,
+    apkVersion: getAndroidVersion()
+  };
+}
+
+window.rch_nws[hostkey].typeInvoke = function rchtypeInvoke(host, call) {
+  if (!window.rch_nws[hostkey].startTypeInvoke) {
+    window.rch_nws[hostkey].startTypeInvoke = true;
+
+    var check = function check(good) {
+      window.rch_nws[hostkey].type = Lampa.Platform.is('android') ? 'apk' : good ? 'cors' : 'web';
+      call();
+    };
+
+    if (Lampa.Platform.is('android') || Lampa.Platform.is('tizen')) check(true);
+    else {
+      var net = new Lampa.Reguest();
+      net.silent('https://beta.l-vid.online'.indexOf(location.host) >= 0 ? 'https://github.com/' : host + '/cors/check', function() {
+        check(true);
+      }, function() {
+        check(false);
+      }, false, {
+        dataType: 'text'
+      });
+    }
+  } else call();
+};
+
+window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection) {
+  window.rch_nws[hostkey].typeInvoke('https://beta.l-vid.online', function() {
+
+    client.invoke("RchRegistry", JSON.stringify({
+      version: 151,
+      host: location.host,
+      rchtype: Lampa.Platform.is('android') ? 'apk' : Lampa.Platform.is('tizen') ? 'cors' : (window.rch_nws[hostkey].type || 'web'),
+      apkVersion: window.rch_nws[hostkey].apkVersion,
+      player: Lampa.Storage.field('player'),
+	  account_email: Lampa.Storage.get('account_email', ''),
+	  unic_id: Lampa.Storage.get('lampac_unic_id', ''),
+	  profile_id: Lampa.Storage.get('lampac_profile_id', ''),
+	  token: '2e8f3f50-c519-46c0-8766-3a74a84c9453'
+    }));
+
+    if (client._shouldReconnect && window.rch_nws[hostkey].rchRegistry) {
+      if (startConnection) startConnection();
+      return;
+    }
+
+    window.rch_nws[hostkey].rchRegistry = true;
+
+    client.on('RchRegistry', function(clientIp) {
+      if (startConnection) startConnection();
+    });
+
+    client.on("RchClient", function(rchId, url, data, headers, returnHeaders) {
+      var network = new Lampa.Reguest();
+	  
+	  function sendResult(uri, html) {
+	    $.ajax({
+	      url: 'https://beta.l-vid.online/rch/' + uri + '?id=' + rchId,
+	      type: 'POST',
+	      data: html,
+	      async: true,
+	      cache: false,
+	      contentType: false,
+	      processData: false,
+	      success: function(j) {},
+	      error: function() {
+	        client.invoke("RchResult", rchId, '');
+	      }
+	    });
+	  }
+
+      function result(html) {
+        if (Lampa.Arrays.isObject(html) || Lampa.Arrays.isArray(html)) {
+          html = JSON.stringify(html);
+        }
+
+        if (typeof CompressionStream !== 'undefined' && html && html.length > 1000) {
+          var compressionStream = new CompressionStream('gzip');
+          var encoder = new TextEncoder();
+          var readable = new ReadableStream({
+            start: function(controller) {
+              controller.enqueue(encoder.encode(html));
+              controller.close();
+            }
+          });
+          var compressedStream = readable.pipeThrough(compressionStream);
+          new Response(compressedStream).arrayBuffer()
+            .then(function(compressedBuffer) {
+              var compressedArray = new Uint8Array(compressedBuffer);
+              if (compressedArray.length > html.length) {
+                sendResult('result', html);
+              } else {
+                sendResult('gzresult', compressedArray);
+              }
+            })
+            .catch(function() {
+              sendResult('result', html);
+            });
+
+        } else {
+          sendResult('result', html);
+        }
+      }
+
+      if (url == 'eval') {
+        console.log('RCH', url, data);
+        result(eval(data));
+      } else if (url == 'evalrun') {
+        console.log('RCH', url, data);
+        eval(data);
+      } else if (url == 'ping') {
+        result('pong');
+      } else {
+        console.log('RCH', url);
+        network["native"](url, result, function(e) {
+          console.log('RCH', 'result empty, ' + e.status);
+          result('');
+        }, data, {
+          dataType: 'text',
+          timeout: 1000 * 8,
+          headers: headers,
+          returnHeaders: returnHeaders
+        });
+      }
+    });
+
+    client.on('Connected', function(connectionId) {
+      console.log('RCH', 'ConnectionId: ' + connectionId);
+      window.rch_nws[hostkey].connectionId = connectionId;
+    });
+    client.on('Closed', function() {
+      console.log('RCH', 'Connection closed');
+    });
+    client.on('Error', function(err) {
+      console.log('RCH', 'error:', err);
+    });
+  });
+};
+  window.rch_nws[hostkey].typeInvoke('https://beta.l-vid.online', function() {});
+
+  function rchInvoke(json, call) {
+    if (window.nwsClient && window.nwsClient[hostkey] && window.nwsClient[hostkey]._shouldReconnect){
+      call();
+      return;
+    }
+    if (!window.nwsClient) window.nwsClient = {};
+    if (window.nwsClient[hostkey] && window.nwsClient[hostkey].socket)
+      window.nwsClient[hostkey].socket.close();
+    window.nwsClient[hostkey] = new NativeWsClient(json.nws, {
+      autoReconnect: false
+    });
+    window.nwsClient[hostkey].on('Connected', function(connectionId) {
+      window.rch_nws[hostkey].Registry(window.nwsClient[hostkey], function() {
+        call();
+      });
+    });
+    window.nwsClient[hostkey].connect();
+  }
+
+  function rchRun(json, call) {
+    if (typeof NativeWsClient == 'undefined') {
+      Lampa.Utils.putScript(["https://beta.l-vid.online/js/nws-client-es5.js?v18112025"], function() {}, false, function() {
+        rchInvoke(json, call);
+      }, true);
+    } else {
+      rchInvoke(json, call);
+    }
+  }
+
+  // FNV-1a hash for device fingerprint
+  function fnv1a(str) {
+    var h = 0x811c9dc5;
+    for (var i = 0; i < str.length; i++) {
+      h ^= str.charCodeAt(i);
+      h = Math.imul(h, 0x01000193);
+    }
+    return (h >>> 0).toString(16);
+  }
+
+  // ── Comprehensive device fingerprint ──
+  // Survives cache clear / app reinstall (based on hardware, not storage).
+  // ~15 signals: canvas, WebGL, audio, screen, hardware, timezone, math.
+  var device_fp = '';
+  try {
+    var fp = [];
+
+    // 1. Screen (physical properties)
+    fp.push(screen.width + 'x' + screen.height + ':' + screen.availWidth + 'x' + screen.availHeight);
+    fp.push(screen.colorDepth || 0);
+    fp.push(window.devicePixelRatio || 1);
+
+    // 2. Hardware
+    fp.push(navigator.hardwareConcurrency || 0);
+    fp.push(navigator.deviceMemory || 0);
+    fp.push(navigator.maxTouchPoints || 0);
+
+    // 3. Platform / locale
+    fp.push(navigator.platform || '');
+    fp.push(navigator.language || '');
+    fp.push((navigator.languages || []).join(','));
+
+    // 4. Timezone
+    try { fp.push(Intl.DateTimeFormat().resolvedOptions().timeZone); } catch(e) { fp.push(''); }
+    fp.push(new Date().getTimezoneOffset());
+
+    // 5. Math engine quirks (differ between JS engines)
+    fp.push(Math.tan(-1e300));
+
+    // 6. Canvas fingerprint (GPU + font rendering)
+    try {
+      var c = document.createElement('canvas');
+      c.width = 280; c.height = 60;
+      var x = c.getContext('2d');
+      if (x) {
+        x.textBaseline = 'alphabetic';
+        x.fillStyle = '#f60';
+        x.fillRect(125, 1, 62, 20);
+        x.fillStyle = '#069';
+        x.font = '14px Arial';
+        x.fillText('Cwm fjordbank glyphs vext quiz', 2, 15);
+        x.fillStyle = 'rgba(102,204,0,0.7)';
+        x.font = '18px Times New Roman';
+        x.fillText('Cwm fjordbank glyphs vext quiz', 4, 45);
+        x.globalCompositeOperation = 'multiply';
+        x.fillStyle = 'rgb(255,0,255)';
+        x.beginPath(); x.arc(50, 50, 50, 0, Math.PI * 2, true); x.closePath(); x.fill();
+        x.fillStyle = 'rgb(0,255,255)';
+        x.beginPath(); x.arc(100, 50, 50, 0, Math.PI * 2, true); x.closePath(); x.fill();
+        fp.push(fnv1a(c.toDataURL()));
+      } else fp.push('nc');
+    } catch(e) { fp.push('nc'); }
+
+    // 7. WebGL fingerprint (GPU model + capabilities)
+    try {
+      var gc = document.createElement('canvas');
+      var gl = gc.getContext('webgl') || gc.getContext('experimental-webgl');
+      if (gl) {
+        var di = gl.getExtension('WEBGL_debug_renderer_info');
+        fp.push(di ? gl.getParameter(di.UNMASKED_VENDOR_WEBGL) : '');
+        fp.push(di ? gl.getParameter(di.UNMASKED_RENDERER_WEBGL) : '');
+        fp.push(gl.getParameter(gl.MAX_TEXTURE_SIZE));
+        fp.push(gl.getParameter(gl.MAX_RENDERBUFFER_SIZE));
+        fp.push(gl.getParameter(gl.MAX_VERTEX_ATTRIBS));
+        fp.push(gl.getParameter(gl.MAX_VARYING_VECTORS));
+        var lw = gl.getParameter(gl.ALIASED_LINE_WIDTH_RANGE);
+        fp.push(lw ? lw[0]+','+lw[1] : '');
+        var ps = gl.getParameter(gl.ALIASED_POINT_SIZE_RANGE);
+        fp.push(ps ? ps[0]+','+ps[1] : '');
+        fp.push(fnv1a((gl.getSupportedExtensions() || []).join(',')));
+      } else fp.push('ng');
+    } catch(e) { fp.push('ng'); }
+
+    // 8. Audio (hardware sample rate + channels)
+    try {
+      var ac = new (window.AudioContext || window.webkitAudioContext)();
+      fp.push(ac.sampleRate);
+      fp.push(ac.destination.maxChannelCount);
+      ac.close();
+    } catch(e) { fp.push('na'); }
+
+    device_fp = fnv1a(fp.join('|||'));
+  } catch(e) {}
+
+  function account(url) {
+    url = url + '';
+    if (url.indexOf('account_email=') == -1) {
+      var email = Lampa.Storage.get('account_email');
+      if (email) url = Lampa.Utils.addUrlComponent(url, 'account_email=' + encodeURIComponent(email));
+    }
+    if (url.indexOf('uid=') == -1) {
+      var uid = Lampa.Storage.get('lampac_unic_id', '');
+      if (uid) url = Lampa.Utils.addUrlComponent(url, 'uid=' + encodeURIComponent(uid));
+    }
+    // NewCinema is hosted separately and uses its own URL auth contract:
+    // account_email + uid + nws_id, but no Alpac token/fingerprint.
+    if (/^https?:\/\/(?:www\.)?ab2024\.ru(?:[:/]|$)/i.test(url)) {
+      if (url.indexOf('nws_id=') == -1) {
+        var ncNwsId = Lampa.Storage.get('lampac_nws_id', '');
+        if (ncNwsId) url = Lampa.Utils.addUrlComponent(url, 'nws_id=' + encodeURIComponent(ncNwsId));
+      }
+      return url;
+    }
+    if (url.indexOf('token=') == -1) {
+      var token = '2e8f3f50-c519-46c0-8766-3a74a84c9453';
+      if (!token) {
+        try { var m = document.cookie.match(/(?:^|;\s*)lampac_token=([^;]+)/); if (m) token = decodeURIComponent(m[1]); } catch(e) {}
+      }
+      if (!token) {
+        try { token = localStorage.getItem('lampac_auth_token') || ''; } catch(e) {}
+      }
+      if (token) url = Lampa.Utils.addUrlComponent(url, 'token=' + encodeURIComponent(token));
+    }
+    if (url.indexOf('fp=') == -1 && device_fp) {
+      url = Lampa.Utils.addUrlComponent(url, 'fp=' + encodeURIComponent(device_fp));
+    }
+    if (url.indexOf('nws_id=') == -1 && window.rch_nws && window.rch_nws[hostkey]) {
+      var nws_id = window.rch_nws[hostkey].connectionId || Lampa.Storage.get('lampac_nws_id', '');
+      if (nws_id) url = Lampa.Utils.addUrlComponent(url, 'nws_id=' + encodeURIComponent(nws_id));
+    }
+    return url;
+  }
+  
+  function newCinemaAccount(url) {
+    url = String(url || '');
+    if (url.indexOf('account_email=') === -1) {
+      var email = Lampa.Storage.get('account_email', '');
+      if (email) url = Lampa.Utils.addUrlComponent(url, 'account_email=' + encodeURIComponent(email));
+    }
+    if (url.indexOf('uid=') === -1) {
+      var uid = Lampa.Storage.get('lampac_unic_id', '');
+      if (uid) url = Lampa.Utils.addUrlComponent(url, 'uid=' + encodeURIComponent(uid));
+    }
+    if (url.indexOf('nws_id=') === -1) {
+      var nwsId = Lampa.Storage.get('lampac_nws_id', '');
+      if (nwsId) url = Lampa.Utils.addUrlComponent(url, 'nws_id=' + encodeURIComponent(nwsId));
+    }
+    return url;
+  }
+
+  // lampacAuthHeaders — returns {X-Lampac-Token, X-Alpac-Token} when a
+  // token is reachable from Lampa.Storage / localStorage / document.cookie.
+  // Cross-origin Lampa (host on lampa.mx, our backend on alpac.cc) loses
+  // the Set-Cookie in XHR responses; the same token is mirrored into
+  // localStorage by the auth-gate JS in /on.js and into Lampa.Storage by
+  // syncpro/account plugins. Forwarding it as an explicit header lets
+  // the server's auth middleware accept the request even when the
+  // cookie was stripped. Mirrors account.js bestKnownToken() so /lite/*
+  // requests stop returning the "accsdb" auth-required banner for users
+  // who are signed in but whose browser eats our cookie. Returns {} when
+  // no token is reachable — callers Object.assign it onto their static
+  // headers without conditional logic.
+  function lampacAuthHeaders() {
+    var names = ['alpac_token', 'lampac_token'];
+    var tok = '';
+    try {
+      if (Lampa && Lampa.Storage) {
+        for (var i = 0; i < names.length && !tok; i++) tok = Lampa.Storage.get(names[i], '') || '';
+        if (!tok) tok = Lampa.Storage.get('lampac_auth_token', '') || '';
+      }
+    } catch (e) {}
+    if (!tok) {
+      try { tok = localStorage.getItem('lampac_auth_token') || ''; } catch (e) {}
+    }
+    if (!tok) {
+      try {
+        for (var j = 0; j < names.length && !tok; j++) {
+          var re = new RegExp('(?:^|;\\s*)' + names[j] + '=([^;]*)');
+          var m = document.cookie.match(re);
+          if (m && m[1]) tok = decodeURIComponent(m[1]);
+        }
+      } catch (e) {}
+    }
+    if (!tok) return {};
+    return {'X-Lampac-Token': tok, 'X-Alpac-Token': tok};
+  }
+
+  function requestHeaders(url, isNewCinema) {
+    if (isNewCinema || /^https?:\/\/(?:www\.)?ab2024\.ru(?:[:/]|$)/i.test(String(url || ''))) {
+      var kitKey = Lampa.Storage.get('kit_aesgcmkey', '');
+      return kitKey ? {'X-Kit-AesGcm': kitKey} : {};
+    }
+    return Object.assign({'X-Kit-AesGcm': Lampa.Storage.get('aesgcmkey', '')}, lampacAuthHeaders());
+  }
+
+  var Network = Lampa.Reguest;
+
+  function component(object) {
+    var network = new Network();
+    var scroll = new Lampa.Scroll({
+      mask: true,
+      over: true
+    });
+    var files = new Lampa.Explorer(object);
+    var filter = new Lampa.Filter(object);
+    var sources = {};
+    var last;
+    var source;
+    var balanser;
+    var initialized;
+    var balanser_timer;
+    var images = [];
+    var number_of_requests = 0;
+    var number_of_requests_timer;
+    var life_wait_times = 0;
+    var life_wait_timer;
+    var filter_sources = {};
+    var filter_translate = {
+      season: Lampa.Lang.translate('torrent_serial_season'),
+      voice: Lampa.Lang.translate('torrent_parser_voice'),
+      source: Lampa.Lang.translate('settings_rest_source')
+    };
+    var filter_find = {
+      season: [],
+      voice: []
+    };
+	
+    if (balansers_with_search == undefined) {
+      network.timeout(10000);
+      network.silent(account('https://beta.l-vid.online/lite/withsearch'), function(json) {
+        balansers_with_search = json;
+      }, function() {
+		  balansers_with_search = [];
+	  });
+    }
+	
+    function balanserName(j) {
+      var bals = j.balanser;
+      var name = j.name.split(' ')[0];
+      return (bals || name).toLowerCase();
+    }
+
+    // lampacBalanserRename — per-profile custom display name for a balancer.
+    // The rename map is edited from the syncpro profile UI and stored as
+    // { '<profile_id>': { '<balanserKey>': 'Custom name' } }. We also record
+    // every balancer we display into 'lampac_balansers_seen' so that UI can
+    // list them. Returns the custom name when set, else the server default.
+    function lampacBalanserRename(key, def) {
+      try {
+        var seen = Lampa.Storage.get('lampac_balansers_seen', {});
+        if (seen[key] !== def) { seen[key] = def; Lampa.Storage.set('lampac_balansers_seen', seen); }
+        var pid = String(Lampa.Storage.get('lampac_profile_id', '') || '');
+        var all = Lampa.Storage.get('lampac_balanser_names', {});
+        var map = all[pid] || {};
+        var custom = map[key];
+        return (custom && String(custom).trim()) ? custom : def;
+      } catch (e) { return def; }
+    }
+	
+	function clarificationSearchAdd(value){
+		var id = Lampa.Utils.hash(object.movie.number_of_seasons ? object.movie.original_name : object.movie.original_title);
+		var all = Lampa.Storage.get('clarification_search','{}');
+		
+		all[id] = value;
+		
+		Lampa.Storage.set('clarification_search',all);
+	}
+	
+	function clarificationSearchDelete(){
+		var id = Lampa.Utils.hash(object.movie.number_of_seasons ? object.movie.original_name : object.movie.original_title);
+		var all = Lampa.Storage.get('clarification_search','{}');
+		
+		delete all[id];
+		
+		Lampa.Storage.set('clarification_search',all);
+	}
+	
+	function clarificationSearchGet(){
+		var id = Lampa.Utils.hash(object.movie.number_of_seasons ? object.movie.original_name : object.movie.original_title);
+		var all = Lampa.Storage.get('clarification_search','{}');
+		
+		return all[id];
+	}
+	
+    this.initialize = function() {
+      var _this = this;
+      this.loading(true);
+      filter.onSearch = function(value) {
+		  
+		clarificationSearchAdd(value);
+		
+        Lampa.Activity.replace({
+          search: value,
+          clarification: true,
+          similar: true
+        });
+      };
+      filter.onBack = function() {
+        _this.start();
+      };
+      filter.render().find('.selector').on('hover:enter', function() {
+        clearInterval(balanser_timer);
+      });
+      filter.render().find('.filter--search').appendTo(filter.render().find('.torrent-filter'));
+      filter.onSelect = function(type, a, b) {
+        if (type == 'filter') {
+          if (a.reset) {
+			  clarificationSearchDelete();
+			  
+            _this.replaceChoice({
+              season: 0,
+              voice: 0,
+              voice_url: '',
+              voice_name: ''
+            });
+            setTimeout(function() {
+              Lampa.Select.close();
+              Lampa.Activity.replace({
+				  clarification: 0,
+				  similar: 0
+			  });
+            }, 10);
+          } else {
+            var url = filter_find[a.stype][b.index].url;
+            var choice = _this.getChoice();
+            if (a.stype == 'voice') {
+              choice.voice_name = filter_find.voice[b.index].title;
+              choice.voice_url = url;
+            }
+            choice[a.stype] = b.index;
+            _this.saveChoice(choice);
+            _this.reset();
+            _this.request(url);
+            setTimeout(Lampa.Select.close, 10);
+          }
+        } else if (type == 'sort') {
+          Lampa.Select.close();
+          object.lampac_custom_select = a.source;
+          _this.changeBalanser(a.source);
+        }
+      };
+      if (filter.addButtonBack) filter.addButtonBack();
+      filter.render().find('.filter--sort span').text(Lampa.Lang.translate('lampac_balanser'));
+      scroll.body().addClass('torrent-list');
+      files.appendFiles(scroll.render());
+      files.appendHead(filter.render());
+      scroll.minus(files.render().find('.explorer__files-head'));
+      scroll.body().append(Lampa.Template.get('lampac_content_loading'));
+      Lampa.Controller.enable('content');
+      this.loading(false);
+	  if(object.balanser){
+		  files.render().find('.filter--search').remove();
+		  sources = {};
+		  sources[object.balanser] = {name: object.balanser};
+		  balanser = object.balanser;
+		  filter_sources = [];
+		  
+		  return network["native"](account(object.url.replace('rjson=','nojson=')), this.parse.bind(this), function(){
+			  files.render().find('.torrent-filter').remove();
+			  _this.empty();
+		  }, false, {
+            dataType: 'text',
+			headers: Object.assign({'X-Kit-AesGcm': Lampa.Storage.get('aesgcmkey', '')}, lampacAuthHeaders())
+		  });
+	  } 
+      this.externalids().then(function() {
+        return _this.createSource();
+      }).then(function(json) {
+        if (!balansers_with_search.find(function(b) {
+            return balanser.slice(0, b.length) == b;
+          })) {
+          filter.render().find('.filter--search').addClass('hide');
+        }
+        _this.search();
+      })["catch"](function(e) {
+        _this.noConnectToServer(e);
+      });
+    };
+    this.rch = function(json, noreset) {
+      var _this2 = this;
+	  rchRun(json, function() {
+        if (!noreset) _this2.find();
+        else noreset();
+	  });
+    };
+    this.externalids = function() {
+      return new Promise(function(resolve, reject) {
+        if (!object.movie.imdb_id || !object.movie.kinopoisk_id) {
+          var query = [];
+          query.push('id=' + encodeURIComponent(object.movie.id));
+          query.push('serial=' + (object.movie.name ? 1 : 0));
+          if (object.movie.imdb_id) query.push('imdb_id=' + (object.movie.imdb_id || ''));
+          if (object.movie.kinopoisk_id) query.push('kinopoisk_id=' + (object.movie.kinopoisk_id || ''));
+          var url = Defined.localhost + 'externalids?' + query.join('&');
+          network.timeout(10000);
+          network.silent(account(url), function(json) {
+            for (var name in json) {
+              object.movie[name] = json[name];
+            }
+            resolve();
+          }, function() {
+            resolve();
+          }, false, {
+			headers: Object.assign({'X-Kit-AesGcm': Lampa.Storage.get('aesgcmkey', '')}, lampacAuthHeaders())
+		  });
+        } else resolve();
+      });
+    };
+    this.updateBalanser = function(balanser_name) {
+      var last_select_balanser = Lampa.Storage.cache('online_last_balanser', 3000, {});
+      // A corrupt storage value (e.g. literal "[object Object]" left by an old
+      // build or a cub backup/restore round-trip) makes Storage.cache hand back
+      // a string. Assigning a property to it throws "Cannot create property on
+      // string" on old WebKit (LG webOS). Reset to a clean dict, which also
+      // heals storage on the Storage.set below.
+      if (!last_select_balanser || typeof last_select_balanser !== 'object') last_select_balanser = {};
+      last_select_balanser[object.movie.id] = balanser_name;
+      Lampa.Storage.set('online_last_balanser', last_select_balanser);
+    };
+    this.changeBalanser = function(balanser_name) {
+      this.updateBalanser(balanser_name);
+      Lampa.Storage.set('online_balanser', balanser_name);
+      Lampa.Storage.set('active_balanser', balanser_name);
+      var to = this.getChoice(balanser_name);
+      var from = this.getChoice();
+      if (from.voice_name) to.voice_name = from.voice_name;
+      this.saveChoice(to, balanser_name);
+      // Fast path: when the user picks a balancer that's already in our
+      // sources map (i.e. we already fetched /lite/events for this card),
+      // switch directly to its result URL instead of running Activity.replace()
+      // which fully reloads the activity and re-probes every balancer.
+      // The events list stays valid until the activity is exited.
+      if (sources[balanser_name] && sources[balanser_name].url) {
+        balanser = balanser_name;
+        source = sources[balanser_name].url;
+        this.reset();
+        this.find();
+        return;
+      }
+      Lampa.Activity.replace();
+    };
+    this.requestParams = function(url) {
+      var query = [];
+      var card_source = object.movie.source || 'tmdb'; //Lampa.Storage.field('source')
+      query.push('id=' + encodeURIComponent(object.movie.id));
+      if (object.movie.imdb_id) query.push('imdb_id=' + (object.movie.imdb_id || ''));
+      if (object.movie.kinopoisk_id) query.push('kinopoisk_id=' + (object.movie.kinopoisk_id || ''));
+	  if (object.movie.tmdb_id) query.push('tmdb_id=' + (object.movie.tmdb_id || ''));
+      query.push('title=' + encodeURIComponent(object.clarification ? object.search : object.movie.title || object.movie.name));
+      query.push('original_title=' + encodeURIComponent(object.movie.original_title || object.movie.original_name));
+      query.push('serial=' + (object.movie.name ? 1 : 0));
+      query.push('original_language=' + (object.movie.original_language || ''));
+      query.push('year=' + ((object.movie.release_date || object.movie.first_air_date || '0000') + '').slice(0, 4));
+      query.push('source=' + card_source);
+      query.push('clarification=' + (object.clarification ? 1 : 0));
+      query.push('similar=' + (object.similar ? true : false));
+      var requestHost = String(url).indexOf('ab2024.ru') >= 0 ? 'ab2024.ru' : hostkey;
+      query.push('rchtype=' + (((window.rch_nws && window.rch_nws[requestHost]) ? window.rch_nws[requestHost].type : (window.rch && window.rch[requestHost]) ? window.rch[requestHost].type : '') || ''));
+      if (Lampa.Storage.get('account_email', '')) query.push('cub_id=' + Lampa.Utils.hash(Lampa.Storage.get('account_email', '')));
+      return url + (url.indexOf('?') >= 0 ? '&' : '?') + query.join('&');
+    };
+    this.getLastChoiceBalanser = function() {
+      var last_select_balanser = Lampa.Storage.cache('online_last_balanser', 3000, {});
+      if (last_select_balanser[object.movie.id]) {
+        return last_select_balanser[object.movie.id];
+      } else {
+        return Lampa.Storage.get('online_balanser', filter_sources.length ? filter_sources[0] : '');
+      }
+    };
+    // Fetch NewCinema's independent balancer list and merge it into Alpac's
+    // source map. No NewCinema component/search entry is registered.
+    this.newCinemaSources = function() {
+      var _thisNC = this;
+      return new Promise(function(resolve) {
+        var finished = false;
+        var attempts = 0;
+        var collected = {};
+        var memkey = '';
+        function finish(list) {
+          if (finished) return;
+          finished = true;
+          resolve(Array.isArray(list) ? list : []);
+        }
+        function collect(data) {
+          if (!data || !Array.isArray(data.online)) return;
+          data.online.forEach(function(item) {
+            if (!item || !item.url || item.show === false) return;
+            var key = String(item.balanser || (item.name || '').split(' ')[0] || '').toLowerCase();
+            if (key) collected[key] = item;
+          });
+        }
+        function pollLife() {
+          var lifeUrl = _thisNC.requestParams('https://ab2024.ru/lifeevents?memkey=' + encodeURIComponent(memkey));
+          network.timeout(3000);
+          network.silent(newCinemaAccount(lifeUrl), function(data) {
+            attempts++;
+            if (data && data.accsdb) return finish([]);
+            collect(data);
+            if ((data && data.ready) || attempts >= 5) {
+              finish(Object.keys(collected).map(function(key) { return collected[key]; }));
+            } else {
+              setTimeout(pollLife, 1000);
+            }
+          }, function() {
+            attempts++;
+            if (attempts >= 5) finish(Object.keys(collected).map(function(key) { return collected[key]; }));
+            else setTimeout(pollLife, 1000);
+          }, false, {headers: requestHeaders(lifeUrl, true)});
+        }
+        var url = _thisNC.requestParams('https://ab2024.ru/lite/events?life=true');
+        network.timeout(7000);
+        network.silent(newCinemaAccount(url), function(data) {
+          if (!data || data.accsdb) return finish([]);
+          if (data.life) {
+            memkey = data.memkey || '';
+            if (!memkey) return finish([]);
+            pollLife();
+          } else {
+            collect(data);
+            finish(Object.keys(collected).map(function(key) { return collected[key]; }));
+          }
+        }, function() {
+          finish([]);
+        }, false, {headers: requestHeaders(url, true)});
+      });
+    };
+    this.startSource = function(json) {
+      var _this5 = this;
+      return new Promise(function(resolve, reject) {
+        function applySources(extra) {
+          (json || []).forEach(function(j) {
+            var name = balanserName(j);
+            sources[name] = {
+              url: j.url,
+              name: lampacBalanserRename(name, j.name),
+              show: typeof j.show == 'undefined' ? true : j.show
+            };
+          });
+          (extra || []).forEach(function(j) {
+            var name = balanserName(j);
+            // Keep Alpac's native entry if both services expose the same key.
+            if (!name || sources[name]) return;
+            sources[name] = {
+              url: j.url,
+              name: lampacBalanserRename(name, j.name),
+              show: typeof j.show == 'undefined' ? true : j.show,
+              newcinema: true
+            };
+          });
+          filter_sources = Lampa.Arrays.getKeys(sources);
+          if (filter_sources.length) {
+            var last_select_balanser = Lampa.Storage.cache('online_last_balanser', 3000, {});
+            if (last_select_balanser[object.movie.id]) {
+              balanser = last_select_balanser[object.movie.id];
+            } else {
+              balanser = Lampa.Storage.get('online_balanser', filter_sources[0]);
+            }
+            if (!sources[balanser]) balanser = filter_sources[0];
+            if (!sources[balanser].show && !object.lampac_custom_select) balanser = filter_sources[0];
+            source = sources[balanser].url;
+            Lampa.Storage.set('active_balanser', balanser);
+            resolve(json);
+          } else {
+            reject();
+          }
+        }
+        _this5.newCinemaSources().then(applySources).catch(function() { applySources([]); });
+      });
+    };
+    this.lifeSource = function() {
+      var _this3 = this;
+      return new Promise(function(resolve, reject) {
+        var url = _this3.requestParams(Defined.localhost + 'lifeevents?memkey=' + (_this3.memkey || ''));
+        var red = false;
+        var gou = function gou(json, any) {
+          if (json.accsdb) return reject(json);
+          var last_balanser = _this3.getLastChoiceBalanser();
+          if (!red) {
+            var _filter = json.online.filter(function(c) {
+              return any ? c.show : c.show && c.name.toLowerCase() == last_balanser;
+            });
+            if (_filter.length) {
+              red = true;
+              resolve(json.online.filter(function(c) {
+                return c.show;
+              }));
+            } else if (any) {
+              reject();
+            }
+          }
+        };
+        var fin = function fin(call) {
+          network.timeout(3000);
+          network.silent(account(url), function(json) {
+            life_wait_times++;
+            if (!json || !Array.isArray(json.online)) {
+              if (life_wait_times > 15) { reject(); return; }
+              life_wait_timer = setTimeout(fin, 1000);
+              return;
+            }
+            filter_sources = [];
+            sources = {};
+            json.online.forEach(function(j) {
+              var name = balanserName(j);
+              sources[name] = {
+                url: j.url,
+                name: lampacBalanserRename(name, j.name),
+                show: typeof j.show == 'undefined' ? true : j.show
+              };
+            });
+            filter_sources = Lampa.Arrays.getKeys(sources);
+            filter.set('sort', filter_sources.map(function(e) {
+              return {
+                title: sources[e].name,
+                source: e,
+                selected: e == balanser,
+                ghost: !sources[e].show
+              };
+            }));
+            filter.chosen('sort', [sources[balanser] ? sources[balanser].name : balanser]);
+            gou(json);
+            var lastb = _this3.getLastChoiceBalanser();
+            if (life_wait_times > 15 || json.ready) {
+              filter.render().find('.lampac-balanser-loader').remove();
+              gou(json, true);
+            } else if (!red && sources[lastb] && sources[lastb].show) {
+              gou(json, true);
+              life_wait_timer = setTimeout(fin, 1000);
+            } else {
+              life_wait_timer = setTimeout(fin, 1000);
+            }
+          }, function() {
+            life_wait_times++;
+            if (life_wait_times > 15) {
+              reject();
+            } else {
+              life_wait_timer = setTimeout(fin, 1000);
+            }
+          }, false, {
+			headers: Object.assign({'X-Kit-AesGcm': Lampa.Storage.get('aesgcmkey', '')}, lampacAuthHeaders())
+		  });
+        };
+        fin();
+      });
+    };
+    this.createSource = function() {
+      var _this4 = this;
+      return new Promise(function(resolve, reject) {
+        var url = _this4.requestParams(Defined.localhost + 'lite/events?life=true');
+        network.timeout(15000);
+        network.silent(account(url), function(json) {
+          if (json.accsdb) return reject(json);
+          if (json.life) {
+			_this4.memkey = json.memkey;
+			if (json.title) {
+              if (object.movie.name) object.movie.name = json.title;
+              if (object.movie.title) object.movie.title = json.title;
+			}
+            filter.render().find('.filter--sort').append('<span class="lampac-balanser-loader" style="width: 1.2em; height: 1.2em; margin-top: 0; background: url(./img/loader.svg) no-repeat 50% 50%; background-size: contain; margin-left: 0.5em"></span>');
+            _this4.lifeSource().then(_this4.startSource).then(resolve)["catch"](reject);
+          } else {
+            _this4.startSource(json).then(resolve)["catch"](reject);
+          }
+        }, reject, false, {
+			headers: Object.assign({'X-Kit-AesGcm': Lampa.Storage.get('aesgcmkey', '')}, lampacAuthHeaders())
+		  });
+      });
+    };
+    /**
+     * Подготовка
+     */
+    this.create = function() {
+      return this.render();
+    };
+    /**
+     * Начать поиск
+     */
+    this.search = function() { //this.loading(true)
+      this.filter({
+        source: filter_sources
+      }, this.getChoice());
+      this.find();
+    };
+    this.find = function() {
+      this.request(this.requestParams(source));
+    };
+    this.request = function(url) {
+      number_of_requests++;
+      if (number_of_requests < 10) {
+        var isNewCinemaSource = !!(sources[balanser] && sources[balanser].newcinema);
+        network["native"](isNewCinemaSource ? newCinemaAccount(url) : account(url), this.parse.bind(this), this.doesNotAnswer.bind(this), false, {
+          dataType: 'text',
+          headers: requestHeaders(url, isNewCinemaSource)
+        });
+        clearTimeout(number_of_requests_timer);
+        number_of_requests_timer = setTimeout(function() {
+          number_of_requests = 0;
+        }, 4000);
+      } else this.empty();
+    };
+    this.parseJsonDate = function(str, name) {
+      try {
+        var html = $('<div>' + str + '</div>');
+        var elems = [];
+        html.find(name).each(function() {
+          var item = $(this);
+          var data = JSON.parse(item.attr('data-json'));
+          var season = item.attr('s');
+          var episode = item.attr('e');
+          var text = item.text();
+          if (!object.movie.name) {
+            if (text.match(/\d+p/i)) {
+              if (!data.quality) {
+                data.quality = {};
+                data.quality[text] = data.url;
+              }
+              text = object.movie.title;
+            }
+            if (text == 'По умолчанию') {
+              text = object.movie.title;
+            }
+          }
+          if (episode) data.episode = parseInt(episode);
+          if (season) data.season = parseInt(season);
+          if (text) data.text = text;
+          data.active = item.hasClass('active');
+          elems.push(data);
+        });
+        return elems;
+      } catch (e) {
+        return [];
+      }
+    };
+    this.getFileUrl = function(file, call, waiting_rch) {
+	  var _this = this;
+	  
+      if(Lampa.Storage.field('player') !== 'inner' && file.stream && Lampa.Platform.is('apple')){
+		  var newfile = Lampa.Arrays.clone(file);
+		  newfile.method = 'play';
+		  newfile.url = file.stream;
+		  call(newfile, {});
+	  }
+      else if (file.method == 'play') call(file, {});
+      else if (file.method == 'iframe' && file.url) _this.playIframe(file.url);
+      else {
+        Lampa.Loading.start(function() {
+          Lampa.Loading.stop();
+          Lampa.Controller.toggle('content');
+          network.clear();
+        });
+        network["native"](account(file.url), function(json) {
+			if(json.rch){
+				if(waiting_rch) {
+					waiting_rch = false;
+					Lampa.Loading.stop();
+					call(false, {});
+				}
+				else {
+					_this.rch(json,function(){
+						Lampa.Loading.stop();
+						
+						_this.getFileUrl(file, call, true);
+					});
+				}
+			}
+			else if (json && json.method == 'iframe' && json.url) {
+				// Direct-iframe playback (e.g. alloha in iframe_mode): the source's own
+				// web player runs inside an <iframe> and resolves the CDN itself — never
+				// hand it to Lampa.Player (it's an HTML page, not an m3u8).
+				Lampa.Loading.stop();
+				_this.playIframe(json.url);
+			}
+			else{
+				Lampa.Loading.stop();
+				call(json, json);
+			}
+        }, function() {
+          Lampa.Loading.stop();
+          call(false, {});
+        }, false, {
+			headers: Object.assign({'X-Kit-AesGcm': Lampa.Storage.get('aesgcmkey', '')}, lampacAuthHeaders())
+		  });
+      }
+    };
+    this.playIframe = function(url) {
+      // Fullscreen overlay hosting the source's own web player. Lampa runs inside a
+      // WebView/browser shell, so a cross-origin iframe embeds fine (its referer =
+      // this page's origin, which the player accepts). We focus the iframe so the
+      // remote's OK/arrows drive the embedded player, and trap Back to close it.
+      // NB: once a cross-origin iframe holds focus the parent can't see its key
+      // events, so Back is caught two ways (Lampa.Controller + a capture-phase
+      // keydown listener) — whichever the shell delivers wins. Needs on-device
+      // checking per platform (webOS RETURN=461, Tizen=10009, Android KEYCODE_BACK).
+      var prev = (Lampa.Controller.enabled() && Lampa.Controller.enabled().name) || 'content';
+      var overlay = $('<div class="alloha-iframe-overlay" style="position:fixed;top:0;left:0;right:0;bottom:0;z-index:1200;background:#000"></div>');
+      var frame = $('<iframe allow="autoplay; fullscreen; encrypted-media" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;background:#000"></iframe>');
+      frame.attr('src', url);
+      overlay.append(frame);
+      var closed = false;
+
+      function onKey(e) {
+        var k = e.keyCode || e.which;
+        if (k == 8 || k == 27 || k == 461 || k == 10009) { // Back / Esc / webOS / Tizen
+          e.preventDefault();
+          e.stopPropagation();
+          close();
+        }
+      }
+      function close() {
+        if (closed) return;
+        closed = true;
+        document.removeEventListener('keydown', onKey, true);
+        try { frame.attr('src', 'about:blank'); } catch (e) {}
+        overlay.remove();
+        try { Lampa.Controller.remove('alloha_iframe'); } catch (e) {}
+        Lampa.Controller.toggle(prev);
+      }
+
+      $('body').append(overlay);
+      document.addEventListener('keydown', onKey, true);
+      Lampa.Controller.add('alloha_iframe', {
+        toggle: function() {},
+        back: close
+      });
+      Lampa.Controller.toggle('alloha_iframe');
+      try { frame[0].focus(); } catch (e) {}
+    };
+    this.toPlayElement = function(file) {
+      var play = {
+        title: file.title,
+        url: file.url,
+        quality: file.qualitys,
+        timeline: file.timeline,
+        subtitles: file.subtitles,
+		segments: file.segments,
+        callback: file.mark,
+		season: file.season,
+		episode: file.episode,
+		voice_name: file.voice_name,
+		thumbnail: file.thumbnail,
+		fxdirect: file.fxdirect
+      };
+      return play;
+    };
+    this.orUrlReserve = function(data) {
+      if (data.url && typeof data.url == 'string' && data.url.indexOf(" or ") !== -1) {
+        var urls = data.url.split(" or ");
+        data.url = urls[0];
+        data.url_reserve = urls[1];
+      }
+    };
+    this.setDefaultQuality = function(data) {
+      if (Lampa.Arrays.getKeys(data.quality).length) {
+        for (var q in data.quality) {
+          if (parseInt(q) == Lampa.Storage.field('video_quality_default')) {
+            data.url = data.quality[q];
+            this.orUrlReserve(data);
+          }
+          if (data.quality[q].indexOf(" or ") !== -1)
+            data.quality[q] = data.quality[q].split(" or ")[0];
+        }
+      }
+    };
+    this.display = function(videos) {
+      var _this5 = this;
+      this.draw(videos, {
+        onEnter: function onEnter(item, html) {
+          _this5.getFileUrl(item, function(json, json_call) {
+            if (json && json.url) {
+              var playlist = [];
+              var first = _this5.toPlayElement(item);
+              first.url = json.url;
+              first.headers = json_call.headers || json.headers;
+              first.quality = json_call.quality || item.qualitys;
+			  first.segments = json_call.segments || item.segments;
+              first.hls_manifest_timeout = json_call.hls_manifest_timeout || json.hls_manifest_timeout;
+              first.subtitles = json.subtitles;
+			  first.subtitles_call = json_call.subtitles_call || json.subtitles_call;
+			  if (json.vast && json.vast.url) {
+                first.vast_url = json.vast.url;
+                first.vast_msg = json.vast.msg;
+                first.vast_region = json.vast.region;
+                first.vast_platform = json.vast.platform;
+                first.vast_screen = json.vast.screen;
+			  }
+              _this5.orUrlReserve(first);
+              _this5.setDefaultQuality(first);
+              if (item.season) {
+                videos.forEach(function(elem) {
+                  var cell = _this5.toPlayElement(elem);
+                  if (elem == item) cell.url = json.url;
+                  else {
+                    if (elem.method == 'call') {
+                      if (Lampa.Storage.field('player') !== 'inner') {
+                        cell.url = elem.stream;
+						delete cell.quality;
+                      } else {
+                        cell.url = function(call) {
+                          _this5.getFileUrl(elem, function(stream, stream_json) {
+                            if (stream.url) {
+                              cell.url = stream.url;
+                              cell.quality = stream_json.quality || elem.qualitys;
+							  cell.segments = stream_json.segments || elem.segments;
+                              cell.subtitles = stream.subtitles;
+                              _this5.orUrlReserve(cell);
+                              _this5.setDefaultQuality(cell);
+                              elem.mark();
+                            } else {
+                              cell.url = '';
+                              Lampa.Noty.show(Lampa.Lang.translate('lampac_nolink'));
+                            }
+                            call();
+                          }, function() {
+                            cell.url = '';
+                            call();
+                          });
+                        };
+                      }
+                    } else {
+                      cell.url = elem.url;
+                    }
+                  }
+                  _this5.orUrlReserve(cell);
+                  _this5.setDefaultQuality(cell);
+                  playlist.push(cell);
+                }); //Lampa.Player.playlist(playlist) 
+              } else {
+                playlist.push(first);
+              }
+              if (playlist.length > 1) first.playlist = playlist;
+              if (first.url) {
+                var element = first;
+				element.isonline = true;
+                if (filter_find.voice && filter_find.voice.length > 1) {
+                  element.voices = filter_find.voice;
+                  element.voice_index = _this5.getChoice(balanser).voice || 0;
+                }
+                if (element.url && element.isonline) {
+  // online.js
+}
+else if (element.url) {
+  if (false) {
+    if (Platform.is('browser') && location.host.indexOf("127.0.0.1") !== -1) {
+      Noty.show('Видео открыто в playerInner', {time: 3000});
+      $.get('https://beta.l-vid.online/player-inner/' + element.url);
+      return;
+    }
+
+    Player.play(element);
+  } 
+  else {
+    if (true && Platform.is('browser') && location.host.indexOf("127.0.0.1") !== -1)
+      Noty.show('Внешний плеер можно указать в init.conf (playerInner)', {time: 3000});
+    Player.play(element);
+  }
+}
+                if (window.__batchTranscoding && playlist.length > 1) {
+                  window.__batchTranscoding.start(element, playlist).then(function(){
+                    Lampa.Player.play(element);
+                    Lampa.Player.playlist(playlist);
+                  });
+                } else {
+                  Lampa.Player.play(element);
+                  Lampa.Player.playlist(playlist);
+                }
+				if(element.subtitles_call) _this5.loadSubtitles(element.subtitles_call)
+                item.mark();
+                _this5.updateBalanser(balanser);
+              } else {
+                Lampa.Noty.show(Lampa.Lang.translate('lampac_nolink'));
+              }
+            } else Lampa.Noty.show(Lampa.Lang.translate('lampac_nolink'));
+          }, true);
+        },
+        onContextMenu: function onContextMenu(item, html, data, call) {
+          _this5.getFileUrl(item, function(stream) {
+            call({
+              file: stream.url,
+              quality: item.qualitys
+            });
+          }, true);
+        }
+      });
+      this.filter({
+        season: filter_find.season.map(function(s) {
+          return s.title;
+        }),
+        voice: filter_find.voice.map(function(b) {
+          return b.title;
+        })
+      }, this.getChoice());
+    };
+	this.loadSubtitles = function(link){
+		network.silent(account(link), function(subs){
+			Lampa.Player.subtitles(subs)
+		}, function() {},false, {
+			headers: Object.assign({'X-Kit-AesGcm': Lampa.Storage.get('aesgcmkey', '')}, lampacAuthHeaders())
+		  })
+	}
+    this.parse = function(str) {
+      var json = Lampa.Arrays.decodeJson(str, {});
+      if (Lampa.Arrays.isObject(str) && str.rch) json = str;
+      if (json.rch) return this.rch(json);
+      try {
+        var items = this.parseJsonDate(str, '.videos__item');
+        var buttons = this.parseJsonDate(str, '.videos__button');
+        if (items.length == 1 && items[0].method == 'link' && !items[0].similar) {
+          filter_find.season = items.map(function(s) {
+            return {
+              title: s.text,
+              url: s.url
+            };
+          });
+          this.replaceChoice({
+            season: 0
+          });
+          this.request(items[0].url);
+        } else {
+          this.activity.loader(false);
+          var videos = items.filter(function(v) {
+            return v.method == 'play' || v.method == 'call' || v.method == 'iframe';
+          });
+          var similar = items.filter(function(v) {
+            return v.similar;
+          });
+          if (videos.length) {
+            if (buttons.length) {
+              filter_find.voice = buttons.map(function(b) {
+                return {
+                  title: b.text,
+                  url: b.url
+                };
+              });
+              var select_voice_url = this.getChoice(balanser).voice_url;
+              var select_voice_name = this.getChoice(balanser).voice_name;
+              var find_voice_url = buttons.find(function(v) {
+                return v.url == select_voice_url;
+              });
+              var find_voice_name = buttons.find(function(v) {
+                return v.text == select_voice_name;
+              });
+              var find_voice_active = buttons.find(function(v) {
+                return v.active;
+              }); ////console.log('b',buttons)
+              ////console.log('u',find_voice_url)
+              ////console.log('n',find_voice_name)
+              ////console.log('a',find_voice_active)
+              if (find_voice_url && !find_voice_url.active) {
+                //console.log('Alpac', 'go to voice', find_voice_url);
+                this.replaceChoice({
+                  voice: buttons.indexOf(find_voice_url),
+                  voice_name: find_voice_url.text
+                });
+                this.request(find_voice_url.url);
+              } else if (find_voice_name && !find_voice_name.active) {
+                //console.log('Alpac', 'go to voice', find_voice_name);
+                this.replaceChoice({
+                  voice: buttons.indexOf(find_voice_name),
+                  voice_name: find_voice_name.text
+                });
+                this.request(find_voice_name.url);
+              } else {
+                if (find_voice_active) {
+                  this.replaceChoice({
+                    voice: buttons.indexOf(find_voice_active),
+                    voice_name: find_voice_active.text
+                  });
+                }
+                this.display(videos);
+              }
+            } else {
+              this.replaceChoice({
+                voice: 0,
+                voice_url: '',
+                voice_name: ''
+              });
+              this.display(videos);
+            }
+          } else if (items.length) {
+            if (similar.length) {
+              this.similars(similar);
+              this.activity.loader(false);
+            } else { //this.activity.loader(true)
+              filter_find.season = items.map(function(s) {
+                return {
+                  title: s.text,
+                  url: s.url
+                };
+              });
+              var select_season = this.getChoice(balanser).season;
+              var season = filter_find.season[select_season];
+              if (!season) season = filter_find.season[0];
+              //console.log('Alpac', 'go to season', season);
+              this.request(season.url);
+            }
+          } else {
+            this.doesNotAnswer(json);
+          }
+        }
+      } catch (e) {
+        //console.log('Alpac', 'error', e.stack);
+        this.doesNotAnswer(e);
+      }
+    };
+    this.similars = function(json) {
+      var _this6 = this;
+      scroll.clear();
+      json.forEach(function(elem) {
+        elem.title = elem.text;
+        elem.info = '';
+        var info = [];
+        var year = ((elem.start_date || elem.year || object.movie.release_date || object.movie.first_air_date || '') + '').slice(0, 4);
+        if (year) info.push(year);
+        if (elem.details) info.push(elem.details);
+        var name = elem.title || elem.text;
+        elem.title = name;
+        elem.time = elem.time || '';
+        elem.info = info.join('<span class="online-prestige-split">●</span>');
+        var item = Lampa.Template.get('lampac_prestige_folder', elem);
+		if (elem.img) {
+		  var image = $('<img style="height: 7em; width: 7em; border-radius: 0.3em;"/>');
+		  item.find('.online-prestige__folder').empty().append(image);
+
+		  if (elem.img !== undefined) {
+		    if (elem.img.charAt(0) === '/')
+		      elem.img = Defined.localhost + elem.img.substring(1);
+		    if (elem.img.indexOf('/proxyimg') !== -1)
+		      elem.img = account(elem.img);
+		  }
+
+		  Lampa.Utils.imgLoad(image, elem.img);
+		}
+        item.on('hover:enter', function() {
+          _this6.reset();
+          _this6.request(elem.url);
+        }).on('hover:focus', function(e) {
+          last = e.target;
+          scroll.update($(e.target), true);
+        });
+        scroll.append(item);
+      });
+	  this.filter({
+        season: filter_find.season.map(function(s) {
+          return s.title;
+        }),
+        voice: filter_find.voice.map(function(b) {
+          return b.title;
+        })
+      }, this.getChoice());
+      Lampa.Controller.enable('content');
+    };
+    this.getChoice = function(for_balanser) {
+      var data = Lampa.Storage.cache('online_choice_' + (for_balanser || balanser), 3000, {});
+      var save = data[object.movie.id] || {};
+      Lampa.Arrays.extend(save, {
+        season: 0,
+        voice: 0,
+        voice_name: '',
+        voice_id: 0,
+        episodes_view: {},
+        movie_view: ''
+      });
+      return save;
+    };
+    this.saveChoice = function(choice, for_balanser) {
+      var data = Lampa.Storage.cache('online_choice_' + (for_balanser || balanser), 3000, {});
+      data[object.movie.id] = choice;
+      Lampa.Storage.set('online_choice_' + (for_balanser || balanser), data);
+      this.updateBalanser(for_balanser || balanser);
+    };
+    this.replaceChoice = function(choice, for_balanser) {
+      var to = this.getChoice(for_balanser);
+      Lampa.Arrays.extend(to, choice, true);
+      this.saveChoice(to, for_balanser);
+    };
+    this.clearImages = function() {
+      images.forEach(function(img) {
+        img.onerror = function() {};
+        img.onload = function() {};
+        img.src = '';
+      });
+      images = [];
+    };
+    /**
+     * Очистить список файлов
+     */
+    this.reset = function() {
+      last = false;
+      clearInterval(balanser_timer);
+      network.clear();
+      this.clearImages();
+      scroll.render().find('.empty').remove();
+      scroll.clear();
+      scroll.reset();
+      scroll.body().append(Lampa.Template.get('lampac_content_loading'));
+    };
+    /**
+     * Загрузка
+     */
+    this.loading = function(status) {
+      if (status) this.activity.loader(true);
+      else {
+        this.activity.loader(false);
+        this.activity.toggle();
+      }
+    };
+    /**
+     * Построить фильтр
+     */
+    this.filter = function(filter_items, choice) {
+      var _this7 = this;
+      var select = [];
+      var add = function add(type, title) {
+        var need = _this7.getChoice();
+        var items = filter_items[type];
+        var subitems = [];
+        var value = need[type];
+        items.forEach(function(name, i) {
+          subitems.push({
+            title: name,
+            selected: value == i,
+            index: i
+          });
+        });
+        select.push({
+          title: title,
+          subtitle: items[value],
+          items: subitems,
+          stype: type
+        });
+      };
+      filter_items.source = filter_sources;
+      select.push({
+        title: Lampa.Lang.translate('torrent_parser_reset'),
+        reset: true
+      });
+      this.saveChoice(choice);
+      if (filter_items.voice && filter_items.voice.length) add('voice', Lampa.Lang.translate('torrent_parser_voice'));
+      if (filter_items.season && filter_items.season.length) add('season', Lampa.Lang.translate('torrent_serial_season'));
+      filter.set('filter', select);
+      filter.set('sort', filter_sources.map(function(e) {
+        return {
+          title: sources[e].name,
+          source: e,
+          selected: e == balanser,
+          ghost: !sources[e].show
+        };
+      }));
+      this.selected(filter_items);
+    };
+    /**
+     * Показать что выбрано в фильтре
+     */
+    this.selected = function(filter_items) {
+      var need = this.getChoice(),
+        select = [];
+      for (var i in need) {
+        if (filter_items[i] && filter_items[i].length) {
+          if (i == 'voice') {
+            select.push(filter_translate[i] + ': ' + filter_items[i][need[i]]);
+          } else if (i !== 'source') {
+            if (filter_items.season.length >= 1) {
+              select.push(filter_translate.season + ': ' + filter_items[i][need[i]]);
+            }
+          }
+        }
+      }
+      filter.chosen('filter', select);
+      filter.chosen('sort', [sources[balanser].name]);
+    };
+    this.getEpisodes = function(season, call) {
+      var episodes = [];
+	  var tmdb_id = object.movie.id;
+	  if (['cub', 'tmdb'].indexOf(object.movie.source || 'tmdb') == -1) 
+        tmdb_id = object.movie.tmdb_id;
+      if (typeof tmdb_id == 'number' && object.movie.name) {
+		  Lampa.Api.sources.tmdb.get('tv/' + tmdb_id + '/season/' + season, {}, function(data){
+			  episodes = data.episodes || [];
+			  
+			  call(episodes);
+		  }, function(){
+			  call(episodes);
+		  })
+      } else call(episodes);
+    };
+    this.watched = function(set) {
+      var file_id = Lampa.Utils.hash(object.movie.number_of_seasons ? object.movie.original_name : object.movie.original_title);
+      var watched = Lampa.Storage.cache('online_watched_last', 5000, {});
+      if (set) {
+        if (!watched[file_id]) watched[file_id] = {};
+        Lampa.Arrays.extend(watched[file_id], set, true);
+        Lampa.Storage.set('online_watched_last', watched);
+        this.updateWatched();
+      } else {
+        return watched[file_id];
+      }
+    };
+    this.updateWatched = function() {
+      var watched = this.watched();
+      var body = scroll.body().find('.online-prestige-watched .online-prestige-watched__body').empty();
+      if (watched) {
+        var line = [];
+        if (watched.balanser_name) line.push(watched.balanser_name);
+        if (watched.voice_name) line.push(watched.voice_name);
+        if (watched.season) line.push(Lampa.Lang.translate('torrent_serial_season') + ' ' + watched.season);
+        if (watched.episode) line.push(Lampa.Lang.translate('torrent_serial_episode') + ' ' + watched.episode);
+        line.forEach(function(n) {
+          body.append('<span>' + n + '</span>');
+        });
+      } else body.append('<span>' + Lampa.Lang.translate('lampac_no_watch_history') + '</span>');
+    };
+    /**
+     * Отрисовка файлов
+     */
+    this.draw = function(items) {
+      var _this8 = this;
+      var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+      if (!items.length) return this.empty();
+      scroll.clear();
+      if(!object.balanser)scroll.append(Lampa.Template.get('lampac_prestige_watched', {}));
+      this.updateWatched();
+      this.getEpisodes(items[0].season, function(episodes) {
+        var viewed = Lampa.Storage.cache('online_view', 5000, []);
+        var serial = object.movie.name ? true : false;
+        var choice = _this8.getChoice();
+        var fully = window.innerWidth > 480;
+        var scroll_to_element = false;
+        var scroll_to_mark = false;
+        items.forEach(function(element, index) {
+          var episode = serial && episodes.length && !params.similars ? episodes.find(function(e) {
+            return e.episode_number == element.episode;
+          }) : false;
+          var episode_num = element.episode || index + 1;
+          var episode_last = choice.episodes_view[element.season];
+          var voice_name = choice.voice_name || (filter_find.voice[0] ? filter_find.voice[0].title : false) || element.voice_name || (serial ? 'Неизвестно' : element.text) || 'Неизвестно';
+          if (element.quality) {
+            element.qualitys = element.quality;
+            element.quality = Lampa.Arrays.getKeys(element.quality)[0];
+          }
+          Lampa.Arrays.extend(element, {
+            voice_name: voice_name,
+            info: voice_name.length > 60 ? voice_name.substr(0, 60) + '...' : voice_name,
+            quality: '',
+            time: Lampa.Utils.secondsToTime((episode ? episode.runtime : object.movie.runtime) * 60, true)
+          });
+          var hash_timeline = Lampa.Utils.hash(element.season ? [element.season, element.season > 10 ? ':' : '', element.episode, object.movie.original_title].join('') : object.movie.original_title);
+          var hash_behold = Lampa.Utils.hash(element.season ? [element.season, element.season > 10 ? ':' : '', element.episode, object.movie.original_title, element.voice_name].join('') : object.movie.original_title + element.voice_name);
+          var data = {
+            hash_timeline: hash_timeline,
+            hash_behold: hash_behold
+          };
+          var info = [];
+          if (element.season) {
+            element.translate_episode_end = _this8.getLastEpisode(items);
+            element.translate_voice = element.voice_name;
+          }
+          if (element.text && !episode) element.title = element.text;
+          element.timeline = Lampa.Timeline.view(hash_timeline);
+          if (episode) {
+            element.title = episode.name;
+            if (element.info.length < 30 && episode.vote_average) info.push(Lampa.Template.get('lampac_prestige_rate', {
+              rate: parseFloat(episode.vote_average + '').toFixed(1)
+            }, true));
+            if (episode.air_date && fully) info.push(Lampa.Utils.parseTime(episode.air_date).full);
+          } else if (object.movie.release_date && fully) {
+            info.push(Lampa.Utils.parseTime(object.movie.release_date).full);
+          }
+          if (!serial && object.movie.tagline && element.info.length < 30) info.push(object.movie.tagline);
+          if (element.info) info.push(element.info);
+          if (info.length) element.info = info.map(function(i) {
+            return '<span>' + i + '</span>';
+          }).join('<span class="online-prestige-split">●</span>');
+          var html = Lampa.Template.get('lampac_prestige_full', element);
+          var loader = html.find('.online-prestige__loader');
+          var image = html.find('.online-prestige__img');
+		  if(object.balanser) image.hide();
+          if (!serial) {
+            if (choice.movie_view == hash_behold) scroll_to_element = html;
+          } else if (typeof episode_last !== 'undefined' && episode_last == episode_num) {
+            scroll_to_element = html;
+          }
+          if (serial && !episode) {
+            image.append('<div class="online-prestige__episode-number">' + ('0' + (element.episode || index + 1)).slice(-2) + '</div>');
+            loader.remove();
+          }
+		  else if (!serial && object.movie.backdrop_path == 'undefined') loader.remove();
+          else {
+            var img = html.find('img')[0];
+            img.onerror = function() {
+              img.src = './img/img_broken.svg';
+            };
+            img.onload = function() {
+              image.addClass('online-prestige__img--loaded');
+              loader.remove();
+              if (serial) image.append('<div class="online-prestige__episode-number">' + ('0' + (element.episode || index + 1)).slice(-2) + '</div>');
+            };
+            img.src = Lampa.TMDB.image('t/p/w300' + (episode ? episode.still_path : object.movie.backdrop_path));
+            images.push(img);
+			element.thumbnail = img.src
+          }
+          html.find('.online-prestige__timeline').append(Lampa.Timeline.render(element.timeline));
+          if (viewed.indexOf(hash_behold) !== -1) {
+            scroll_to_mark = html;
+            html.find('.online-prestige__img').append('<div class="online-prestige__viewed">' + Lampa.Template.get('icon_viewed', {}, true) + '</div>');
+          }
+          element.mark = function() {
+            viewed = Lampa.Storage.cache('online_view', 5000, []);
+            if (viewed.indexOf(hash_behold) == -1) {
+              viewed.push(hash_behold);
+              Lampa.Storage.set('online_view', viewed);
+              if (html.find('.online-prestige__viewed').length == 0) {
+                html.find('.online-prestige__img').append('<div class="online-prestige__viewed">' + Lampa.Template.get('icon_viewed', {}, true) + '</div>');
+              }
+            }
+            choice = _this8.getChoice();
+            if (!serial) {
+              choice.movie_view = hash_behold;
+            } else {
+              choice.episodes_view[element.season] = episode_num;
+            }
+            _this8.saveChoice(choice);
+            var voice_name_text = choice.voice_name || element.voice_name || element.title;
+            if (voice_name_text.length > 30) voice_name_text = voice_name_text.slice(0, 30) + '...';
+            _this8.watched({
+              balanser: balanser,
+              balanser_name: Lampa.Utils.capitalizeFirstLetter(sources[balanser] ? sources[balanser].name.split(' ')[0] : balanser),
+              voice_id: choice.voice_id,
+              voice_name: voice_name_text,
+              episode: element.episode,
+              season: element.season
+            });
+          };
+          element.unmark = function() {
+            viewed = Lampa.Storage.cache('online_view', 5000, []);
+            if (viewed.indexOf(hash_behold) !== -1) {
+              Lampa.Arrays.remove(viewed, hash_behold);
+              Lampa.Storage.set('online_view', viewed);
+              Lampa.Storage.remove('online_view', hash_behold);
+              html.find('.online-prestige__viewed').remove();
+            }
+          };
+          element.timeclear = function() {
+            element.timeline.percent = 0;
+            element.timeline.time = 0;
+            element.timeline.duration = 0;
+            Lampa.Timeline.update(element.timeline);
+          };
+          html.on('hover:enter', function() {
+            if (object.movie.id) Lampa.Favorite.add('history', object.movie, 100);
+            if (params.onEnter) params.onEnter(element, html, data);
+          }).on('hover:focus', function(e) {
+            last = e.target;
+            if (params.onFocus) params.onFocus(element, html, data);
+            scroll.update($(e.target), true);
+          });
+          if (params.onRender) params.onRender(element, html, data);
+          _this8.contextMenu({
+            html: html,
+            element: element,
+            onFile: function onFile(call) {
+              if (params.onContextMenu) params.onContextMenu(element, html, data, call);
+            },
+            onClearAllMark: function onClearAllMark() {
+              items.forEach(function(elem) {
+                elem.unmark();
+              });
+            },
+            onClearAllTime: function onClearAllTime() {
+              items.forEach(function(elem) {
+                elem.timeclear();
+              });
+            }
+          });
+          scroll.append(html);
+        });
+        if (serial && episodes.length > items.length && !params.similars) {
+          var left = episodes.slice(items.length);
+          left.forEach(function(episode) {
+            var info = [];
+            if (episode.vote_average) info.push(Lampa.Template.get('lampac_prestige_rate', {
+              rate: parseFloat(episode.vote_average + '').toFixed(1)
+            }, true));
+            if (episode.air_date) info.push(Lampa.Utils.parseTime(episode.air_date).full);
+            var air = new Date((episode.air_date + '').replace(/-/g, '/'));
+            var now = Date.now();
+            var day = Math.round((air.getTime() - now) / (24 * 60 * 60 * 1000));
+            var txt = Lampa.Lang.translate('full_episode_days_left') + ': ' + day;
+            var html = Lampa.Template.get('lampac_prestige_full', {
+              time: Lampa.Utils.secondsToTime((episode ? episode.runtime : object.movie.runtime) * 60, true),
+              info: info.length ? info.map(function(i) {
+                return '<span>' + i + '</span>';
+              }).join('<span class="online-prestige-split">●</span>') : '',
+              title: episode.name,
+              quality: day > 0 ? txt : ''
+            });
+            var loader = html.find('.online-prestige__loader');
+            var image = html.find('.online-prestige__img');
+            var season = items[0] ? items[0].season : 1;
+            html.find('.online-prestige__timeline').append(Lampa.Timeline.render(Lampa.Timeline.view(Lampa.Utils.hash([season, episode.episode_number, object.movie.original_title].join('')))));
+            var img = html.find('img')[0];
+            if (episode.still_path) {
+              img.onerror = function() {
+                img.src = './img/img_broken.svg';
+              };
+              img.onload = function() {
+                image.addClass('online-prestige__img--loaded');
+                loader.remove();
+                image.append('<div class="online-prestige__episode-number">' + ('0' + episode.episode_number).slice(-2) + '</div>');
+              };
+              img.src = Lampa.TMDB.image('t/p/w300' + episode.still_path);
+              images.push(img);
+            } else {
+              loader.remove();
+              image.append('<div class="online-prestige__episode-number">' + ('0' + episode.episode_number).slice(-2) + '</div>');
+            }
+            html.on('hover:focus', function(e) {
+              last = e.target;
+              scroll.update($(e.target), true);
+            });
+            html.css('opacity', '0.5');
+            scroll.append(html);
+          });
+        }
+        if (scroll_to_element) {
+          last = scroll_to_element[0];
+        } else if (scroll_to_mark) {
+          last = scroll_to_mark[0];
+        }
+        Lampa.Controller.enable('content');
+      });
+    };
+    /**
+     * Меню
+     */
+    this.contextMenu = function(params) {
+      params.html.on('hover:long', function() {
+        function show(extra) {
+          var enabled = Lampa.Controller.enabled().name;
+          var menu = [];
+          if (Lampa.Platform.is('webos')) {
+            menu.push({
+              title: Lampa.Lang.translate('player_lauch') + ' - Webos',
+              player: 'webos'
+            });
+          }
+          if (Lampa.Platform.is('android')) {
+            menu.push({
+              title: Lampa.Lang.translate('player_lauch') + ' - Android',
+              player: 'android'
+            });
+          }
+          menu.push({
+            title: Lampa.Lang.translate('player_lauch') + ' - Lampa',
+            player: 'lampa'
+          });
+          menu.push({
+            title: Lampa.Lang.translate('lampac_video'),
+            separator: true
+          });
+          menu.push({
+            title: Lampa.Lang.translate('torrent_parser_label_title'),
+            mark: true
+          });
+          menu.push({
+            title: Lampa.Lang.translate('torrent_parser_label_cancel_title'),
+            unmark: true
+          });
+          menu.push({
+            title: Lampa.Lang.translate('time_reset'),
+            timeclear: true
+          });
+          if (extra) {
+            menu.push({
+              title: Lampa.Lang.translate('copy_link'),
+              copylink: true
+            });
+          }
+          if (window.lampac_online_context_menu)
+            window.lampac_online_context_menu.push(menu, extra, params);
+          menu.push({
+            title: Lampa.Lang.translate('more'),
+            separator: true
+          });
+          if (Lampa.Account.logged() && params.element && typeof params.element.season !== 'undefined' && params.element.translate_voice) {
+            menu.push({
+              title: Lampa.Lang.translate('lampac_voice_subscribe'),
+              subscribe: true
+            });
+          }
+          menu.push({
+            title: Lampa.Lang.translate('lampac_clear_all_marks'),
+            clearallmark: true
+          });
+          menu.push({
+            title: Lampa.Lang.translate('lampac_clear_all_timecodes'),
+            timeclearall: true
+          });
+          Lampa.Select.show({
+            title: Lampa.Lang.translate('title_action'),
+            items: menu,
+            onBack: function onBack() {
+              Lampa.Controller.toggle(enabled);
+            },
+            onSelect: function onSelect(a) {
+              if (a.mark) params.element.mark();
+              if (a.unmark) params.element.unmark();
+              if (a.timeclear) params.element.timeclear();
+              if (a.clearallmark) params.onClearAllMark();
+              if (a.timeclearall) params.onClearAllTime();
+              if (window.lampac_online_context_menu)
+                window.lampac_online_context_menu.onSelect(a, params);
+              Lampa.Controller.toggle(enabled);
+              if (a.player) {
+                Lampa.Player.runas(a.player);
+                params.html.trigger('hover:enter');
+              }
+              if (a.copylink) {
+                if (extra.quality) {
+                  var qual = [];
+                  for (var i in extra.quality) {
+                    qual.push({
+                      title: i,
+                      file: extra.quality[i]
+                    });
+                  }
+                  Lampa.Select.show({
+                    title: Lampa.Lang.translate('settings_server_links'),
+                    items: qual,
+                    onBack: function onBack() {
+                      Lampa.Controller.toggle(enabled);
+                    },
+                    onSelect: function onSelect(b) {
+                      Lampa.Utils.copyTextToClipboard(b.file, function() {
+                        Lampa.Noty.show(Lampa.Lang.translate('copy_secuses'));
+                      }, function() {
+                        Lampa.Noty.show(Lampa.Lang.translate('copy_error'));
+                      });
+                    }
+                  });
+                } else {
+                  Lampa.Utils.copyTextToClipboard(extra.file, function() {
+                    Lampa.Noty.show(Lampa.Lang.translate('copy_secuses'));
+                  }, function() {
+                    Lampa.Noty.show(Lampa.Lang.translate('copy_error'));
+                  });
+                }
+              }
+              if (a.subscribe) {
+                Lampa.Account.subscribeToTranslation({
+                  card: object.movie,
+                  season: params.element.season,
+                  episode: params.element.translate_episode_end,
+                  voice: params.element.translate_voice
+                }, function() {
+                  Lampa.Noty.show(Lampa.Lang.translate('lampac_voice_success'));
+                }, function() {
+                  Lampa.Noty.show(Lampa.Lang.translate('lampac_voice_error'));
+                });
+              }
+            }
+          });
+        }
+        params.onFile(show);
+      }).on('hover:focus', function() {
+        if (Lampa.Helper) Lampa.Helper.show('online_file', Lampa.Lang.translate('helper_online_file'), params.html);
+      });
+    };
+    // renderAuthCard shows the scan-to-login QR card when the gate returns an
+    // accsdb auth wall carrying a TG pending code (unauthenticated user — the
+    // source list is blocked server-side). Renders the QR + code + bot link,
+    // then polls /tg/auth/status until the bot approves and reloads the
+    // activity so the now-authorized source list loads. Reuses balanser_timer
+    // so the component's existing cleanup (cancel/change/destroy) clears it.
+    function renderAuthCard(er, ctx) {
+      var bot = er.bot || '';
+      var link = er.deep_link ? er.deep_link.replace(/^https?:\/\//, '') : '';
+      var instr = 'Для просмотра требуется авторизация. Отсканируйте QR или введите код в телеграм-боте ' + bot + (link ? (' или по ссылке ' + link) : '');
+      var inner = '<div style="text-align:center;max-width:30em;margin:0 auto">' +
+        (er.qr ? '<img src="' + er.qr + '" alt="QR" style="width:13em;height:13em;border-radius:.6em;background:#fff;padding:.4em;display:block;margin:0 auto 1.2em"/>' : '') +
+        '<p style="font-size:1.05em;line-height:1.5;opacity:.85;margin-bottom:1em">' + instr + '</p>' +
+        '<p style="font-size:2.4em;font-weight:bold;letter-spacing:.12em">' + er.code + '</p>' +
+        '</div>';
+
+      var pollTimer = null;
+      function stopPoll() { if (pollTimer) { clearInterval(pollTimer); pollTimer = null; } }
+      function closeModal() { try { if ($('.modal').length) $('.modal').remove(); } catch (e) {} }
+
+      // Centered modal (matches the Showy-style auth card) — keep the inline
+      // render as a fallback if Lampa.Modal is unavailable on some build.
+      if (Lampa.Modal && Lampa.Modal.open) {
+        closeModal();
+        Lampa.Modal.open({
+          title: '',
+          align: 'center',
+          zIndex: 300,
+          html: $(inner),
+          onBack: function () {
+            stopPoll();
+            closeModal();
+            try { if (Lampa.Activity && Lampa.Activity.backward) Lampa.Activity.backward(); } catch (e) {}
+          }
+        });
+      } else {
+        var card = $('<div class="online-empty" style="max-width:32em;margin:1.5em auto;padding:2em;background:rgba(40,40,46,0.96);border-radius:1em">' + inner + '</div>');
+        scroll.clear();
+        scroll.append(card);
+        if (ctx && ctx.loading) ctx.loading(false);
+      }
+
+      // Poll for approval; on success close the card and reload the activity so
+      // the now-authorized source list loads. Mirror to balanser_timer so the
+      // component's existing cleanup (cancel/change/destroy) also clears it.
+      pollTimer = setInterval(function () {
+        try {
+          var uid = Lampa.Storage.get('lampac_unic_id', '');
+          var q = 'uid=' + encodeURIComponent(uid);
+          // Recovery anchors beyond the pending code: the precise device fp
+          // and the CUB session token. A user who just re-entered CUB
+          // (Настройки → CUB) gets picked up by the server's CUB anchor on
+          // the very next poll instead of having to redo the bot code.
+          if (device_fp) q += '&fp=' + encodeURIComponent(device_fp);
+          try {
+            var acc = JSON.parse(localStorage.getItem('account') || '{}');
+            if (acc && typeof acc.token === 'string' && acc.token) q += '&cub=' + encodeURIComponent(acc.token);
+          } catch (e) {}
+          var x = new XMLHttpRequest();
+          x.open('GET', Defined.localhost + 'tg/auth/status?' + q, true);
+          x.onload = function () {
+            try {
+              var r = JSON.parse(x.responseText);
+              if (r && r.authorized) {
+                stopPoll();
+                if (r.token) { try { localStorage.setItem('lampac_auth_token', r.token); } catch (e) {} }
+                // Session was booted with the limited unauthenticated plugin
+                // set — pull the tokenized full bundle in now (on.js hook).
+                try { if (r.token && window.alcopac_upgrade) window.alcopac_upgrade(r.token); } catch (e) {}
+                try { localStorage.removeItem('activity'); } catch (e) {}
+                closeModal();
+                if (Lampa.Activity && typeof Lampa.Activity.replace === 'function') Lampa.Activity.replace();
+                else window.location.reload();
+              }
+            } catch (e) {}
+          };
+          x.send();
+        } catch (e) {}
+      }, 3000);
+      balanser_timer = pollTimer;
+    }
+    /**
+     * Показать пустой результат
+     */
+    this.empty = function() {
+      var html = Lampa.Template.get('lampac_does_not_answer', {});
+      html.find('.online-empty__buttons').remove();
+      html.find('.online-empty__title').text(Lampa.Lang.translate('empty_title_two'));
+      html.find('.online-empty__time').text(Lampa.Lang.translate('empty_text'));
+      scroll.clear();
+      scroll.append(html);
+      this.loading(false);
+    };
+    this.noConnectToServer = function(er) {
+      // Source-list auth wall: the gate blocks /lite/events for an
+      // unauthenticated user and returns accsdb + a TG pending code. Render the
+      // scan-to-login QR card instead of the plain "title_error" banner.
+      if (er && er.accsdb && er.code) { renderAuthCard(er, this); return; }
+      var html = Lampa.Template.get('lampac_does_not_answer', {});
+      html.find('.online-empty__buttons').remove();
+      html.find('.online-empty__title').text(Lampa.Lang.translate('title_error'));
+      html.find('.online-empty__time').text(er && er.accsdb ? er.msg : Lampa.Lang.translate('lampac_does_not_answer_text').replace('{balanser}', (sources[balanser] ? sources[balanser].name : balanser) || ''));
+      scroll.clear();
+      scroll.append(html);
+      this.loading(false);
+    };
+    this.doesNotAnswer = function(er) {
+      var _this9 = this;
+      this.reset();
+      // Auth wall (accsdb + pending code) can also surface on a per-balancer
+      // request — render the same scan-to-login QR card.
+      if (er && er.accsdb && er.code) { renderAuthCard(er, this); return; }
+      var html = Lampa.Template.get('lampac_does_not_answer', {
+        balanser: balanser
+      });
+      if(er && er.accsdb) html.find('.online-empty__title').html(er.msg);
+	  
+      var tic = er && er.accsdb ? 10 : 5;
+      html.find('.cancel').on('hover:enter', function() {
+        clearInterval(balanser_timer);
+      });
+      html.find('.change').on('hover:enter', function() {
+        clearInterval(balanser_timer);
+        filter.render().find('.filter--sort').trigger('hover:enter');
+      });
+      scroll.clear();
+      scroll.append(html);
+      this.loading(false);
+      balanser_timer = setInterval(function() {
+        tic--;
+        html.find('.timeout').text(tic);
+        if (tic == 0) {
+          clearInterval(balanser_timer);
+          var keys = Lampa.Arrays.getKeys(sources);
+          var indx = keys.indexOf(balanser);
+          var next = keys[indx + 1];
+          if (!next) next = keys[0];
+          balanser = next;
+          if (Lampa.Activity.active().activity == _this9.activity) _this9.changeBalanser(balanser);
+        }
+      }, 1000);
+    };
+    this.getLastEpisode = function(items) {
+      var last_episode = 0;
+      items.forEach(function(e) {
+        if (typeof e.episode !== 'undefined') last_episode = Math.max(last_episode, parseInt(e.episode));
+      });
+      return last_episode;
+    };
+    /**
+     * Начать навигацию по файлам
+     */
+    this.start = function() {
+      if (Lampa.Activity.active().activity !== this.activity) return;
+      if (!initialized) {
+        initialized = true;
+        this.initialize();
+      }
+      Lampa.Background.immediately(Lampa.Utils.cardImgBackgroundBlur(object.movie));
+      Lampa.Controller.add('content', {
+        toggle: function toggle() {
+          Lampa.Controller.collectionSet(scroll.render(), files.render());
+          Lampa.Controller.collectionFocus(last || false, scroll.render());
+        },
+        gone: function gone() {
+          clearTimeout(balanser_timer);
+        },
+        up: function up() {
+          if (Navigator.canmove('up')) {
+            Navigator.move('up');
+          } else Lampa.Controller.toggle('head');
+        },
+        down: function down() {
+          Navigator.move('down');
+        },
+        right: function right() {
+          if (Navigator.canmove('right')) Navigator.move('right');
+          else filter.show(Lampa.Lang.translate('title_filter'), 'filter');
+        },
+        left: function left() {
+          if (Navigator.canmove('left')) Navigator.move('left');
+          else Lampa.Controller.toggle('menu');
+        },
+        back: this.back.bind(this)
+      });
+      Lampa.Controller.toggle('content');
+    };
+    this.render = function() {
+      return files.render();
+    };
+    this.back = function() {
+      Lampa.Activity.backward();
+    };
+    this.pause = function() {};
+    this.stop = function() {};
+    this.destroy = function() {
+      network.clear();
+      this.clearImages();
+      files.destroy();
+      scroll.destroy();
+      clearInterval(balanser_timer);
+      clearTimeout(life_wait_timer);
+    };
+  }
+  
+  function addSourceSearch(spiderName, spiderUri) {
+    var network = new Lampa.Reguest();
+
+    var source = {
+      title: spiderName,
+      search: function(params, oncomplite) {
+        function searchComplite(links) {
+          var keys = Lampa.Arrays.getKeys(links);
+
+          if (keys.length) {
+            var status = new Lampa.Status(keys.length);
+
+            status.onComplite = function(result) {
+              var rows = [];
+
+              keys.forEach(function(name) {
+                var line = result[name];
+
+                if (line && line.data && line.type == 'similar') {
+                  var cards = line.data.map(function(item) {
+                    item.title = Lampa.Utils.capitalizeFirstLetter(item.title);
+                    item.release_date = item.year || '0000';
+                    item.balanser = spiderUri;
+                    if (item.img !== undefined) {
+                      if (item.img.charAt(0) === '/')
+                        item.img = Defined.localhost + item.img.substring(1);
+                      if (item.img.indexOf('/proxyimg') !== -1)
+                        item.img = account(item.img);
+                    }
+
+                    return item;
+                  })
+
+                  rows.push({
+                    title: name,
+                    results: cards
+                  })
+                }
+              })
+
+              oncomplite(rows);
+            }
+
+            keys.forEach(function(name) {
+              network.silent(account(links[name]), function(data) {
+                status.append(name, data);
+              }, function() {
+                status.error();
+              }, false, {
+			headers: Object.assign({'X-Kit-AesGcm': Lampa.Storage.get('aesgcmkey', '')}, lampacAuthHeaders())
+		  })
+            })
+          } else {
+            oncomplite([]);
+          }
+        }
+
+        network.silent(account(Defined.localhost + 'lite/' + spiderUri + '?title=' + params.query), function(json) {
+          if (json.rch) {
+            rchRun(json, function() {
+              network.silent(account(Defined.localhost + 'lite/' + spiderUri + '?title=' + params.query), function(links) {
+                searchComplite(links);
+              }, function() {
+                oncomplite([]);
+              }, false, {
+			headers: Object.assign({'X-Kit-AesGcm': Lampa.Storage.get('aesgcmkey', '')}, lampacAuthHeaders())
+		  });
+            });
+          } else {
+            searchComplite(json);
+          }
+        }, function() {
+          oncomplite([]);
+        }, false, {
+			headers: Object.assign({'X-Kit-AesGcm': Lampa.Storage.get('aesgcmkey', '')}, lampacAuthHeaders())
+		  });
+      },
+      onCancel: function() {
+        network.clear()
+      },
+      params: {
+        lazy: true,
+        align_left: true,
+        card_events: {
+          onMenu: function() {}
+        }
+      },
+      onMore: function(params, close) {
+        close();
+      },
+      onSelect: function(params, close) {
+        close();
+
+        Lampa.Activity.push({
+          url: params.element.url,
+          title: 'Alpac - ' + params.element.title,
+          component: 'alcopac',
+          movie: params.element,
+          page: 1,
+          search: params.element.title,
+          clarification: true,
+          balanser: params.element.balanser,
+          noinfo: true
+        });
+      }
+    }
+
+    Lampa.Search.addSource(source)
+  }
+
+  function startPlugin() {
+    window.lampac_plugin = true;
+    var manifst = {
+      type: 'video',
+      version: '0.5',
+      name: 'Alpac',
+      description: 'Плагин для просмотра онлайн сериалов и фильмов',
+      component: 'alcopac',
+      onContextMenu: function onContextMenu(object) {
+        return {
+          name: Lampa.Lang.translate('lampac_watch'),
+          description: ''
+        };
+      },
+      onContextLauch: function onContextLauch(object) {
+        resetTemplates();
+        Lampa.Component.add('alcopac', component);
+		
+		var id = Lampa.Utils.hash(object.number_of_seasons ? object.original_name : object.original_title);
+		var all = Lampa.Storage.get('clarification_search','{}');
+		
+        Lampa.Activity.push({
+          url: '',
+          title: Lampa.Lang.translate('lampac_title_online'),
+          component: 'alcopac',
+          search: all[id] ? all[id] : object.title,
+          search_one: object.title,
+          search_two: object.original_title,
+          movie: object,
+          page: 1,
+		  clarification: all[id] ? true : false
+        });
+      }
+    };
+	addSourceSearch('Spider', 'spider');
+	addSourceSearch('Anime', 'spider/anime');
+
+	// YouTube search source — directly queries /lite/youtube and shows results
+	(function(){
+		var ytNet = new Lampa.Reguest();
+		var ytSource = {
+			title: 'YouTube',
+			search: function(params, oncomplite){
+				ytNet.silent(account(Defined.localhost + 'lite/youtube?title=' + params.query + '&rjson=true'), function(json){
+					if(json && json.data && json.data.length){
+						var cards = json.data.map(function(item){
+							return {
+								title: item.name || item.title,
+								original_title: item.title,
+								img: item.img || '',
+								youtube: true,
+								yt_call_url: item.url,
+								balanser: 'youtube'
+							};
+						});
+						oncomplite([{title:'YouTube', results: cards}]);
+					} else {
+						oncomplite([]);
+					}
+				}, function(){
+					oncomplite([]);
+				}, false, {headers:{'X-Kit-AesGcm': Lampa.Storage.get('aesgcmkey','')}});
+			},
+			onCancel: function(){ ytNet.clear(); },
+			params: { lazy: true, align_left: true, card_events: { onMenu: function(){} } },
+			onMore: function(params, close){ close(); },
+			onSelect: function(params, close){
+				close();
+				var el = params.element;
+				if(el.yt_call_url){
+					// Fetch the stream URL and play directly
+					ytNet.silent(account(el.yt_call_url + '&rjson=true'), function(json){
+						if(json && json.data && json.data.length && json.data[0].stream){
+							Lampa.Player.play({
+								title: el.title || '',
+								url: json.data[0].stream
+							});
+							Lampa.Player.playlist([{
+								title: el.title || '',
+								url: json.data[0].stream
+							}]);
+						} else {
+							Lampa.Noty.show('YouTube: не удалось получить видео');
+						}
+					}, function(){
+						Lampa.Noty.show('YouTube: ошибка загрузки');
+					}, false, {headers:{'X-Kit-AesGcm': Lampa.Storage.get('aesgcmkey','')}});
+				}
+			}
+		};
+		Lampa.Search.addSource(ytSource);
+	})();
+    Lampa.Manifest.plugins = manifst;
+    Lampa.Lang.add({
+      lampac_watch: { //
+        ru: 'Смотреть онлайн',
+        en: 'Watch online',
+        uk: 'Дивитися онлайн',
+        zh: '在线观看'
+      },
+      lampac_video: { //
+        ru: 'Видео',
+        en: 'Video',
+        uk: 'Відео',
+        zh: '视频'
+      },
+      lampac_no_watch_history: {
+        ru: 'Нет истории просмотра',
+        en: 'No browsing history',
+        ua: 'Немає історії перегляду',
+        zh: '没有浏览历史'
+      },
+      lampac_nolink: {
+        ru: 'Не удалось извлечь ссылку',
+        uk: 'Неможливо отримати посилання',
+        en: 'Failed to fetch link',
+        zh: '获取链接失败'
+      },
+      lampac_balanser: { //
+        ru: 'Источник',
+        uk: 'Джерело',
+        en: 'Source',
+        zh: '来源'
+      },
+      helper_online_file: { //
+        ru: 'Удерживайте клавишу "ОК" для вызова контекстного меню',
+        uk: 'Утримуйте клавішу "ОК" для виклику контекстного меню',
+        en: 'Hold the "OK" key to bring up the context menu',
+        zh: '按住“确定”键调出上下文菜单'
+      },
+      lampac_title_online: { ru: 'Alpac Онлайн', uk: 'Alpac Онлайн', en: 'Alpac Online', zh: 'Alpac 在线' },
+      lampac_voice_subscribe: { //
+        ru: 'Подписаться на перевод',
+        uk: 'Підписатися на переклад',
+        en: 'Subscribe to translation',
+        zh: '订阅翻译'
+      },
+      lampac_voice_success: { //
+        ru: 'Вы успешно подписались',
+        uk: 'Ви успішно підписалися',
+        en: 'You have successfully subscribed',
+        zh: '您已成功订阅'
+      },
+      lampac_voice_error: { //
+        ru: 'Возникла ошибка',
+        uk: 'Виникла помилка',
+        en: 'An error has occurred',
+        zh: '发生了错误'
+      },
+      lampac_clear_all_marks: { //
+        ru: 'Очистить все метки',
+        uk: 'Очистити всі мітки',
+        en: 'Clear all labels',
+        zh: '清除所有标签'
+      },
+      lampac_clear_all_timecodes: { //
+        ru: 'Очистить все тайм-коды',
+        uk: 'Очистити всі тайм-коди',
+        en: 'Clear all timecodes',
+        zh: '清除所有时间代码'
+      },
+      lampac_change_balanser: { //
+        ru: 'Изменить балансер',
+        uk: 'Змінити балансер',
+        en: 'Change balancer',
+        zh: '更改平衡器'
+      },
+      lampac_balanser_dont_work: { //
+        ru: 'Поиск на ({balanser}) не дал результатов',
+        uk: 'Пошук на ({balanser}) не дав результатів',
+        en: 'Search on ({balanser}) did not return any results',
+        zh: '搜索 ({balanser}) 未返回任何结果'
+      },
+      lampac_balanser_timeout: { //
+        ru: 'Источник будет переключен автоматически через <span class="timeout">10</span> секунд.',
+        uk: 'Джерело буде автоматично переключено через <span class="timeout">10</span> секунд.',
+        en: 'The source will be switched automatically after <span class="timeout">10</span> seconds.',
+        zh: '平衡器将在<span class="timeout">10</span>秒内自动切换。'
+      },
+      lampac_does_not_answer_text: {
+        ru: 'Поиск на ({balanser}) не дал результатов',
+        uk: 'Пошук на ({balanser}) не дав результатів',
+        en: 'Search on ({balanser}) did not return any results',
+        zh: '搜索 ({balanser}) 未返回任何结果'
+      }
+    });
+    Lampa.Template.add('lampac_css', "\n        <style>\n        @charset 'UTF-8';.online-prestige{position:relative;-webkit-border-radius:.3em;border-radius:.3em;background-color:rgba(0,0,0,0.3);display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex}.online-prestige__body{padding:1.2em;line-height:1.3;-webkit-box-flex:1;-webkit-flex-grow:1;-moz-box-flex:1;-ms-flex-positive:1;flex-grow:1;position:relative}@media screen and (max-width:480px){.online-prestige__body{padding:.8em 1.2em}}.online-prestige__img{position:relative;width:13em;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;min-height:8.2em}.online-prestige__img>img{position:absolute;top:0;left:0;width:100%;height:100%;-o-object-fit:cover;object-fit:cover;-webkit-border-radius:.3em;border-radius:.3em;opacity:0;-webkit-transition:opacity .3s;-o-transition:opacity .3s;-moz-transition:opacity .3s;transition:opacity .3s}.online-prestige__img--loaded>img{opacity:1}@media screen and (max-width:480px){.online-prestige__img{width:7em;min-height:6em}}.online-prestige__folder{padding:1em;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0}.online-prestige__folder>svg{width:4.4em !important;height:4.4em !important}.online-prestige__viewed{position:absolute;top:1em;left:1em;background:rgba(0,0,0,0.45);-webkit-border-radius:100%;border-radius:100%;padding:.25em;font-size:.76em}.online-prestige__viewed>svg{width:1.5em !important;height:1.5em !important}.online-prestige__episode-number{position:absolute;top:0;left:0;right:0;bottom:0;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;font-size:2em}.online-prestige__loader{position:absolute;top:50%;left:50%;width:2em;height:2em;margin-left:-1em;margin-top:-1em;background:url(./img/loader.svg) no-repeat center center;-webkit-background-size:contain;-o-background-size:contain;background-size:contain}.online-prestige__head,.online-prestige__footer{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-moz-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}.online-prestige__timeline{margin:.8em 0}.online-prestige__timeline>.time-line{display:block !important}.online-prestige__title{font-size:1.7em;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:1;line-clamp:1;-webkit-box-orient:vertical}@media screen and (max-width:480px){.online-prestige__title{font-size:1.4em}}.online-prestige__time{padding-left:2em}.online-prestige__info{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}.online-prestige__info>*{overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:1;line-clamp:1;-webkit-box-orient:vertical}.online-prestige__quality{padding-left:1em;white-space:nowrap}.online-prestige__scan-file{position:absolute;bottom:0;left:0;right:0}.online-prestige__scan-file .broadcast__scan{margin:0}.online-prestige .online-prestige-split{font-size:.8em;margin:0 1em;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0}.online-prestige.focus::after{content:'';position:absolute;top:-0.6em;left:-0.6em;right:-0.6em;bottom:-0.6em;-webkit-border-radius:.7em;border-radius:.7em;border:solid .3em #fff;z-index:-1;pointer-events:none}.online-prestige+.online-prestige{margin-top:1.5em}.online-prestige--folder .online-prestige__footer{margin-top:.8em}.online-prestige-watched{padding:1em}.online-prestige-watched__icon>svg{width:1.5em;height:1.5em}.online-prestige-watched__body{padding-left:1em;padding-top:.1em;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}.online-prestige-watched__body>span+span::before{content:' ● ';vertical-align:top;display:inline-block;margin:0 .5em}.online-prestige-rate{display:-webkit-inline-box;display:-webkit-inline-flex;display:-moz-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}.online-prestige-rate>svg{width:1.3em !important;height:1.3em !important}.online-prestige-rate>span{font-weight:600;font-size:1.1em;padding-left:.7em}.online-empty{line-height:1.4}.online-empty__title{font-size:1.8em;margin-bottom:.3em}.online-empty__time{font-size:1.2em;font-weight:300;margin-bottom:1.6em}.online-empty__buttons{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex}.online-empty__buttons>*+*{margin-left:1em}.online-empty__button{background:rgba(0,0,0,0.3);font-size:1.2em;padding:.5em 1.2em;-webkit-border-radius:.2em;border-radius:.2em;margin-bottom:2.4em}.online-empty__button.focus{background:#fff;color:black}.online-empty__templates .online-empty-template:nth-child(2){opacity:.5}.online-empty__templates .online-empty-template:nth-child(3){opacity:.2}.online-empty-template{background-color:rgba(255,255,255,0.3);padding:1em;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;-webkit-border-radius:.3em;border-radius:.3em}.online-empty-template>*{background:rgba(0,0,0,0.3);-webkit-border-radius:.3em;border-radius:.3em}.online-empty-template__ico{width:4em;height:4em;margin-right:2.4em}.online-empty-template__body{height:1.7em;width:70%}.online-empty-template+.online-empty-template{margin-top:1em}\n        </style>\n    ");
+    $('body').append(Lampa.Template.get('lampac_css', {}, true));
+
+    function resetTemplates() {
+      Lampa.Template.add('lampac_prestige_full', "<div class=\"online-prestige online-prestige--full selector\">\n            <div class=\"online-prestige__img\">\n                <img alt=\"\">\n                <div class=\"online-prestige__loader\"></div>\n            </div>\n            <div class=\"online-prestige__body\">\n                <div class=\"online-prestige__head\">\n                    <div class=\"online-prestige__title\">{title}</div>\n                    <div class=\"online-prestige__time\">{time}</div>\n                </div>\n\n                <div class=\"online-prestige__timeline\"></div>\n\n                <div class=\"online-prestige__footer\">\n                    <div class=\"online-prestige__info\">{info}</div>\n                    <div class=\"online-prestige__quality\">{quality}</div>\n                </div>\n            </div>\n        </div>");
+      Lampa.Template.add('lampac_content_loading', "<div class=\"online-empty\">\n            <div class=\"broadcast__scan\"><div></div></div>\n\t\t\t\n            <div class=\"online-empty__templates\">\n                <div class=\"online-empty-template selector\">\n                    <div class=\"online-empty-template__ico\"></div>\n                    <div class=\"online-empty-template__body\"></div>\n                </div>\n                <div class=\"online-empty-template\">\n                    <div class=\"online-empty-template__ico\"></div>\n                    <div class=\"online-empty-template__body\"></div>\n                </div>\n                <div class=\"online-empty-template\">\n                    <div class=\"online-empty-template__ico\"></div>\n                    <div class=\"online-empty-template__body\"></div>\n                </div>\n            </div>\n        </div>");
+      Lampa.Template.add('lampac_does_not_answer', "<div class=\"online-empty\">\n            <div class=\"online-empty__title\">\n                #{lampac_balanser_dont_work}\n            </div>\n            <div class=\"online-empty__time\">\n                #{lampac_balanser_timeout}\n            </div>\n            <div class=\"online-empty__buttons\">\n                <div class=\"online-empty__button selector cancel\">#{cancel}</div>\n                <div class=\"online-empty__button selector change\">#{lampac_change_balanser}</div>\n            </div>\n            <div class=\"online-empty__templates\">\n                <div class=\"online-empty-template\">\n                    <div class=\"online-empty-template__ico\"></div>\n                    <div class=\"online-empty-template__body\"></div>\n                </div>\n                <div class=\"online-empty-template\">\n                    <div class=\"online-empty-template__ico\"></div>\n                    <div class=\"online-empty-template__body\"></div>\n                </div>\n                <div class=\"online-empty-template\">\n                    <div class=\"online-empty-template__ico\"></div>\n                    <div class=\"online-empty-template__body\"></div>\n                </div>\n            </div>\n        </div>");
+      Lampa.Template.add('lampac_prestige_rate', "<div class=\"online-prestige-rate\">\n            <svg width=\"17\" height=\"16\" viewBox=\"0 0 17 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path d=\"M8.39409 0.192139L10.99 5.30994L16.7882 6.20387L12.5475 10.4277L13.5819 15.9311L8.39409 13.2425L3.20626 15.9311L4.24065 10.4277L0 6.20387L5.79819 5.30994L8.39409 0.192139Z\" fill=\"#fff\"></path>\n            </svg>\n            <span>{rate}</span>\n        </div>");
+      Lampa.Template.add('lampac_prestige_folder', "<div class=\"online-prestige online-prestige--folder selector\">\n            <div class=\"online-prestige__folder\">\n                <svg viewBox=\"0 0 128 112\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                    <rect y=\"20\" width=\"128\" height=\"92\" rx=\"13\" fill=\"white\"></rect>\n                    <path d=\"M29.9963 8H98.0037C96.0446 3.3021 91.4079 0 86 0H42C36.5921 0 31.9555 3.3021 29.9963 8Z\" fill=\"white\" fill-opacity=\"0.23\"></path>\n                    <rect x=\"11\" y=\"8\" width=\"106\" height=\"76\" rx=\"13\" fill=\"white\" fill-opacity=\"0.51\"></rect>\n                </svg>\n            </div>\n            <div class=\"online-prestige__body\">\n                <div class=\"online-prestige__head\">\n                    <div class=\"online-prestige__title\">{title}</div>\n                    <div class=\"online-prestige__time\">{time}</div>\n                </div>\n\n                <div class=\"online-prestige__footer\">\n                    <div class=\"online-prestige__info\">{info}</div>\n                </div>\n            </div>\n        </div>");
+      Lampa.Template.add('lampac_prestige_watched', "<div class=\"online-prestige online-prestige-watched selector\">\n            <div class=\"online-prestige-watched__icon\">\n                <svg width=\"21\" height=\"21\" viewBox=\"0 0 21 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                    <circle cx=\"10.5\" cy=\"10.5\" r=\"9\" stroke=\"currentColor\" stroke-width=\"3\"/>\n                    <path d=\"M14.8477 10.5628L8.20312 14.399L8.20313 6.72656L14.8477 10.5628Z\" fill=\"currentColor\"/>\n                </svg>\n            </div>\n            <div class=\"online-prestige-watched__body\">\n                \n            </div>\n        </div>");
+    }
+    var button = "<div class=\"full-start__button selector view--online lampac--button\" data-subtitle=\"".concat(manifst.name, " v").concat(manifst.version, "\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"currentColor\">\n            <path d=\"M21 9 L17 0 L26 7 Z\"></path>\n            <path d=\"M31 9 L35 0 L26 7 Z\"></path>\n            <ellipse cx=\"26\" cy=\"13\" rx=\"7\" ry=\"6\"></ellipse>\n            <path d=\"M21 17 L18 32 L34 32 L31 17 Z\"></path>\n            <rect x=\"10\" y=\"30\" width=\"46\" height=\"26\" rx=\"8\"></rect>\n            <rect x=\"19\" y=\"55\" width=\"4\" height=\"7\" rx=\"1\"></rect>\n            <rect x=\"27\" y=\"55\" width=\"4\" height=\"7\" rx=\"1\"></rect>\n            <rect x=\"35\" y=\"55\" width=\"4\" height=\"7\" rx=\"1\"></rect>\n            <rect x=\"43\" y=\"55\" width=\"4\" height=\"7\" rx=\"1\"></rect>\n        </svg>\n\n        <span>#{lampac_title_online}</span>\n    </div>"); // нужна заглушка, а то при страте лампы говорит пусто
+    Lampa.Component.add('alcopac', component); //то же самое
+    resetTemplates();
+
+    function addButton(e) {
+      if (e.render.find('.lampac--button').length) return;
+      var btn = $(Lampa.Lang.translate(button));
+	  // //console.log(btn.clone().removeClass('focus').prop('outerHTML'))
+      btn.on('hover:enter', function() {
+        resetTemplates();
+        Lampa.Component.add('alcopac', component);
+		
+		var id = Lampa.Utils.hash(e.movie.number_of_seasons ? e.movie.original_name : e.movie.original_title);
+		var all = Lampa.Storage.get('clarification_search','{}');
+		
+        Lampa.Activity.push({
+          url: '',
+          title: Lampa.Lang.translate('lampac_title_online'),
+          component: 'alcopac',
+          search: all[id] ? all[id] : e.movie.title,
+          search_one: e.movie.title,
+          search_two: e.movie.original_title,
+          movie: e.movie,
+          page: 1,
+		  clarification: all[id] ? true : false
+        });
+      });
+      e.render.after(btn);
+    }
+    Lampa.Listener.follow('full', function(e) {
+      if (e.type == 'complite') {
+        addButton({
+          render: e.object.activity.render().find('.view--torrent'),
+          movie: e.data.movie
+        });
+      }
+    });
+    try {
+      if (Lampa.Activity.active().component == 'full') {
+        addButton({
+          render: Lampa.Activity.active().activity.render().find('.view--torrent'),
+          movie: Lampa.Activity.active().card
+        });
+      }
+    } catch (e) {}
+    if (Lampa.Manifest.app_digital >= 177) {
+      var balansers_sync = ["filmix", 'filmixtv', "fxapi", "rezka", "rhsprem", "lumex", "videodb", "collaps", "collaps-dash", "hdvb", "zetflix", "kodik", "ashdi", "kinoukr", "kinotochka", "remux", "iframevideo", "cdnmovies", "anilibria", "animedia", "animego", "animevost", "animebesst", "redheadsound", "alloha", "animelib", "moonanime", "kinopub", "vibix", "vdbmovies", "fancdn", "cdnvideohub", "vokino", "rc/filmix", "rc/fxapi", "rc/rhs", "vcdn", "videocdn", "mirage", "hydraflix","videasy","vidsrc","movpi","vidlink","twoembed","autoembed","smashystream","autoembed","rgshows", "pidtor", "videoseed", "iptvonline", "veoveo"];
+      balansers_sync.forEach(function(name) {
+        Lampa.Storage.sync('online_choice_' + name, 'object_object');
+      });
+      Lampa.Storage.sync('online_watched_last', 'object_object');
+    }
+  }
+  if (!window.lampac_plugin) startPlugin();
+
+})();
 
                     } catch (e) {
                         window.__ono_newcinema_started = false;
