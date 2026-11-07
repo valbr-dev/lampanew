@@ -1020,8 +1020,11 @@
                             }
                     
                             function collect(data) {
-                              if (!data || !Array.isArray(data.online)) return;
-                              data.online.forEach(function(item) {
+                              // NewCinema returns a plain array when life mode is disabled,
+                              // but returns {online:[...]} from its lifeevents polling endpoint.
+                              var items = Array.isArray(data) ? data :
+                                (data && Array.isArray(data.online) ? data.online : []);
+                              items.forEach(function(item) {
                                 if (!item || !item.url) return;
                                 var key = String(item.balanser || (item.name || '').split(' ')[0] || '').toLowerCase();
                                 if (!key || isExcluded(item, key)) return;
