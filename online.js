@@ -472,6 +472,23 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
     return url;
   }
   
+  function newCinemaAccount(url) {
+    url = String(url || '');
+    if (url.indexOf('account_email=') === -1) {
+      var email = Lampa.Storage.get('account_email', '');
+      if (email) url = Lampa.Utils.addUrlComponent(url, 'account_email=' + encodeURIComponent(email));
+    }
+    if (url.indexOf('uid=') === -1) {
+      var uid = Lampa.Storage.get('lampac_unic_id', '');
+      if (uid) url = Lampa.Utils.addUrlComponent(url, 'uid=' + encodeURIComponent(uid));
+    }
+    if (url.indexOf('nws_id=') === -1) {
+      var nwsId = Lampa.Storage.get('lampac_nws_id', '');
+      if (nwsId) url = Lampa.Utils.addUrlComponent(url, 'nws_id=' + encodeURIComponent(nwsId));
+    }
+    return url;
+  }
+
   // lampacAuthHeaders — returns {X-Lampac-Token, X-Alpac-Token} when a
   // token is reachable from Lampa.Storage / localStorage / document.cookie.
   // Cross-origin Lampa (host on lampa.mx, our backend on alpac.cc) loses
@@ -509,8 +526,8 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
     return {'X-Lampac-Token': tok, 'X-Alpac-Token': tok};
   }
 
-  function requestHeaders(url) {
-    if (/^https?:\/\/(?:www\.)?ab2024\.ru(?:[:/]|$)/i.test(String(url || ''))) {
+  function requestHeaders(url, isNewCinema) {
+    if (isNewCinema || /^https?:\/\/(?:www\.)?ab2024\.ru(?:[:/]|$)/i.test(String(url || ''))) {
       var kitKey = Lampa.Storage.get('kit_aesgcmkey', '');
       return kitKey ? {'X-Kit-AesGcm': kitKey} : {};
     }
@@ -816,7 +833,7 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
         function pollLife() {
           var lifeUrl = _thisNC.requestParams('https://ab2024.ru/lifeevents?memkey=' + encodeURIComponent(memkey));
           network.timeout(3000);
-          network.silent(account(lifeUrl), function(data) {
+          network.silent(newCinemaAccount(lifeUrl), function(data) {
             attempts++;
             if (data && data.accsdb) return finish([]);
             collect(data);
@@ -829,11 +846,11 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
             attempts++;
             if (attempts >= 5) finish(Object.keys(collected).map(function(key) { return collected[key]; }));
             else setTimeout(pollLife, 1000);
-          }, false, {headers: requestHeaders(lifeUrl)});
+          }, false, {headers: requestHeaders(lifeUrl, true)});
         }
         var url = _thisNC.requestParams('https://ab2024.ru/lite/events?life=true');
         network.timeout(7000);
-        network.silent(account(url), function(data) {
+        network.silent(newCinemaAccount(url), function(data) {
           if (!data || data.accsdb) return finish([]);
           if (data.life) {
             memkey = data.memkey || '';
@@ -845,7 +862,7 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
           }
         }, function() {
           finish([]);
-        }, false, {headers: requestHeaders(url)});
+        }, false, {headers: requestHeaders(url, true)});
       });
     };
     this.startSource = function(json) {
@@ -867,7 +884,8 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
             sources[name] = {
               url: j.url,
               name: lampacBalanserRename(name, j.name),
-              show: typeof j.show == 'undefined' ? true : j.show
+              show: typeof j.show == 'undefined' ? true : j.show,
+              newcinema: true
             };
           });
           filter_sources = Lampa.Arrays.getKeys(sources);
@@ -1010,9 +1028,10 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
     this.request = function(url) {
       number_of_requests++;
       if (number_of_requests < 10) {
-        network["native"](account(url), this.parse.bind(this), this.doesNotAnswer.bind(this), false, {
+        var isNewCinemaSource = !!(sources[balanser] && sources[balanser].newcinema);
+        network["native"](isNewCinemaSource ? newCinemaAccount(url) : account(url), this.parse.bind(this), this.doesNotAnswer.bind(this), false, {
           dataType: 'text',
-          headers: requestHeaders(url)
+          headers: requestHeaders(url, isNewCinemaSource)
         });
         clearTimeout(number_of_requests_timer);
         number_of_requests_timer = setTimeout(function() {
