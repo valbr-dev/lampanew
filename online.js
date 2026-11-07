@@ -1063,8 +1063,20 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
               life_wait_timer = setTimeout(fin, 1000);
               return;
             }
+            // Preserve merged NewCinema entries while Alpac refreshes its life list.
+
+            var preservedNewCinema = {};
+
+            Object.keys(sources).forEach(function(key) {
+
+              if (sources[key] && sources[key].newcinema) preservedNewCinema[key] = sources[key];
+
+            });
+
             filter_sources = [];
+
             sources = {};
+
             json.online.forEach(function(j) {
               var name = balanserName(j);
               sources[name] = {
@@ -1073,7 +1085,22 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
                 show: typeof j.show == 'undefined' ? true : j.show
               };
             });
+            // Restore NewCinema entries after rebuilding Alpac's list.
+
+            Object.keys(preservedNewCinema).forEach(function(key) {
+
+              var duplicateUrl = Object.keys(sources).some(function(existingKey) {
+
+                return String(sources[existingKey].url) === String(preservedNewCinema[key].url);
+
+              });
+
+              if (!duplicateUrl) sources[key] = preservedNewCinema[key];
+
+            });
+
             filter_sources = Lampa.Arrays.getKeys(sources);
+
             filter.set('sort', filter_sources.map(function(e) {
               return {
                 title: sources[e].name,
