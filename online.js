@@ -914,14 +914,17 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
             if (!name || !j.url) return;
 
             var key = name;
-            // If both backends publish the same key, keep BOTH entries.
-            // Identical URLs are a true duplicate and need only one entry.
+            // The same endpoint is one balancer even if the plugins label it differently.
+            var duplicateUrl = Object.keys(sources).some(function(existingKey) {
+              return String(sources[existingKey].url) === String(j.url);
+            });
+            if (duplicateUrl) return;
+
+            // If both backends publish the same key with different URLs, keep BOTH.
             if (sources[key]) {
-              if (String(sources[key].url) === String(j.url)) return;
               key = 'newcinema_' + name;
               var suffix = 2;
               while (sources[key]) {
-                if (String(sources[key].url) === String(j.url)) return;
                 key = 'newcinema_' + name + '_' + suffix++;
               }
             }
