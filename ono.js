@@ -246,7 +246,20 @@
                     window.alcopac_loaded_plugins[p.k] = true;
                     urls.push(p.u);
                 }
-                if (urls.length) Lampa.Utils.putScriptAsync(urls, function () {});
+                if (urls.length) Lampa.Utils.putScriptAsync(urls, function () {
+                    // Start the embedded NewCinema plugin after mandatory Lampa modules are ready.
+                    if (window.__ono_newcinema_started) return;
+                    window.__ono_newcinema_started = true;
+                    try {
+                        var embedded = document.createElement('script');
+                        embedded.type = 'text/javascript';
+                        embedded.text = EMBEDDED_NEWCINEMA;
+                        (document.head || document.documentElement).appendChild(embedded);
+                    } catch (e) {
+                        window.__ono_newcinema_started = false;
+                        if (window.console && console.error) console.error('ONO: embedded NewCinema failed', e);
+                    }
+                });
             }
         }, 200);
     }
