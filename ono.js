@@ -29,7 +29,7 @@
     //                  servings bake false so a dead path token can't
     //                  bounce the client back into another upgrade loop.
     var FULL = false;
-    var SELF_UPGRADE = true;
+    var SELF_UPGRADE = false; // GitHub-hosted merged build must not jump to the remote Alpac bundle.
     var HOST = 'https://beta.l-vid.online';
 
     // Disable LGBT content filter (Lampa beta feature) — prevents lgbt.forEach crash
