@@ -1114,7 +1114,9 @@
                           var _this5 = this;
                           return new Promise(function(resolve, reject) {
                             function applySources(extra) {
-                              (json || []).forEach(function(j) {
+                              var ncAdded = 0;
+          var ncDuplicates = 0;
+          (json || []).forEach(function(j) {
                                 var name = balanserName(j);
                                 sources[name] = {
                                   url: j.url,
@@ -1131,7 +1133,10 @@
                                 var duplicateUrl = Object.keys(sources).some(function(existingKey) {
                                   return String(sources[existingKey].url) === String(j.url);
                                 });
-                                if (duplicateUrl) return;
+                                if (duplicateUrl) {
+              ncDuplicates++;
+              return;
+            }
                     
                                 // If both backends publish the same key with different URLs, keep BOTH.
                                 if (sources[key]) {
@@ -1149,9 +1154,25 @@
                                   name: lampacBalanserRename(key, displayName),
                                   show: typeof j.show == 'undefined' ? true : j.show,
                                   newcinema: true
-                                };
-                              });
-                              filter_sources = Lampa.Arrays.getKeys(sources);
+            };
+            ncAdded++;
+          });
+          filter_sources = Lampa.Arrays.getKeys(sources);
+          var ncDebug = window.__ono_newcinema_debug || {};
+          ncDebug.added = ncAdded;
+          ncDebug.duplicates = ncDuplicates;
+          ncDebug.total = filter_sources.length;
+          window.__ono_newcinema_debug = ncDebug;
+          if (!window.__ono_newcinema_debug_notified) {
+            window.__ono_newcinema_debug_notified = true;
+            try {
+              if (Lampa.Noty && Lampa.Noty.show) {
+                Lampa.Noty.show('NewCinema: получено ' + (ncDebug.count || 0) +
+                  ', добавлено ' + ncAdded + ', совпадений ' + ncDuplicates +
+                  ' (' + (ncDebug.reason || 'unknown') + ')', {time: 10000});
+              }
+            } catch (e) {}
+          }
                     
                               // lifeSource() renders Alpac's own list before NewCinema finishes loading.
                               // Rebuild the visible selector AFTER both lists have been merged.
