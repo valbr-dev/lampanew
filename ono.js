@@ -751,9 +751,9 @@
                         }
                     	
                         function balanserName(j) {
-                          var bals = j.balanser;
-                          var name = j.name.split(' ')[0];
-                          return (bals || name).toLowerCase();
+                          var bals = j && j.balanser;
+                          var name = String(j && (j.name || j.balanser) || '').split(' ')[0];
+                          return String(bals || name || '').toLowerCase();
                         }
                     
                         // lampacBalanserRename — per-profile custom display name for a balancer.
@@ -1074,8 +1074,10 @@
                             network.silent(newCinemaAccount(url), function(data) {
                               if (!data || data.accsdb) return finish([]);
                               collect(data);
-                              if (data.life && data.memkey) {
-                                memkey = data.memkey;
+                              // NewCinema starts its lifeevents poll whenever life mode is enabled,
+                              // even if the first response has not supplied a memkey yet.
+                              if (data.life) {
+                                memkey = data.memkey || '';
                                 pollLife();
                               } else {
                                 finish(list());
@@ -1124,6 +1126,18 @@
                                 };
                               });
                               filter_sources = Lampa.Arrays.getKeys(sources);
+                    
+                              // lifeSource() renders Alpac's own list before NewCinema finishes loading.
+                              // Rebuild the visible selector AFTER both lists have been merged.
+                              filter.set('sort', filter_sources.map(function(key) {
+                                return {
+                                  title: sources[key].name,
+                                  source: key,
+                                  selected: key == balanser,
+                                  ghost: !sources[key].show
+                                };
+                              }));
+                    
                               if (filter_sources.length) {
                                 var last_select_balanser = Lampa.Storage.cache('online_last_balanser', 3000, {});
                                 if (last_select_balanser[object.movie.id]) {
@@ -1135,6 +1149,8 @@
                                 if (!sources[balanser].show && !object.lampac_custom_select) balanser = filter_sources[0];
                                 source = sources[balanser].url;
                                 Lampa.Storage.set('active_balanser', balanser);
+                                filter.chosen('sort', [sources[balanser] ? sources[balanser].name : balanser]);
+                                filter.render();
                                 resolve(json);
                               } else {
                                 reject();
