@@ -833,26 +833,10 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
         var attempts = 0;
         var collected = {};
         var memkey = '';
-        var excluded = [
-          'fxapi', 'zetflixdb', 'phantom', 'mirage', 'cdnvideohub',
-          'hdvb', 'rutubemovie', 'vibix', 'vkmovie', 'vidsrc',
-          'movpi', 'pizdatoehd', 'rezka', 'kinogo', 'videoseed',
-          'kinopub', 'collaps', 'spectre', 'kinobase', 'uafilm',
-          'kinoflix', 'smashystream', 'videasy', 'vidlink', 'geosaitebi'
-        ];
-
         function finish(list) {
           if (finished) return;
           finished = true;
           resolve(Array.isArray(list) ? list : []);
-        }
-
-        function isExcluded(item, key) {
-          var normalized = String((item && (item.balanser || item.name)) || key || '')
-            .split(' ')[0].toLowerCase().replace(/[^a-z0-9_-]/g, '');
-          return excluded.some(function(prefix) {
-            return normalized.indexOf(prefix) !== -1;
-          });
         }
 
         function collect(data) {
@@ -863,7 +847,7 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
           items.forEach(function(item) {
             if (!item || !item.url) return;
             var key = String(item.balanser || (item.name || '').split(' ')[0] || '').toLowerCase();
-            if (!key || isExcluded(item, key)) return;
+            if (!key) return;
             // Keep show:false records too: Alpac displays them as disabled
             // (ghost) balancers, just like NewCinema's own selector.
             collected[key] = item;
