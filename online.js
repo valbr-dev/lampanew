@@ -445,7 +445,7 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
     }
     // NewCinema is hosted separately and uses its own URL auth contract:
     // account_email + uid + nws_id, but no Alpac token/fingerprint.
-    if (/^https?:\\/\\/(?:www\\.)?ab2024\\.ru(?:[:/]|$)/i.test(url)) {
+    if (/^https?:\/\/(?:www\.)?ab2024\.ru(?:[:/]|$)/i.test(url)) {
       if (url.indexOf('nws_id=') == -1) {
         var ncNwsId = Lampa.Storage.get('lampac_nws_id', '');
         if (ncNwsId) url = Lampa.Utils.addUrlComponent(url, 'nws_id=' + encodeURIComponent(ncNwsId));
@@ -510,7 +510,7 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
   }
 
   function requestHeaders(url) {
-    if (/^https?:\\/\\/(?:www\\.)?ab2024\\.ru(?:[:/]|$)/i.test(String(url || ''))) {
+    if (/^https?:\/\/(?:www\.)?ab2024\.ru(?:[:/]|$)/i.test(String(url || ''))) {
       var kitKey = Lampa.Storage.get('kit_aesgcmkey', '');
       return kitKey ? {'X-Kit-AesGcm': kitKey} : {};
     }
