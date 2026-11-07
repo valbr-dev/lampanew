@@ -1001,77 +1001,116 @@
                         // source map. This reproduces NewCinema's own live-source polling without
                         // registering its separate Cinema component.
                         this.newCinemaSources = function() {
-                          var _thisNC = this;
-                          return new Promise(function(resolve) {
-                            var finished = false;
-                            var attempts = 0;
-                            var collected = {};
-                            var memkey = '';
-                            function finish(list) {
-                              if (finished) return;
-                              finished = true;
-                              resolve(Array.isArray(list) ? list : []);
-                            }
-                    
-                            function collect(data) {
-                              // NewCinema returns a plain array when life mode is disabled,
-                              // but returns {online:[...]} from its lifeevents polling endpoint.
-                              var items = Array.isArray(data) ? data :
-                                (data && Array.isArray(data.online) ? data.online : []);
-                              items.forEach(function(item) {
-                                if (!item || !item.url) return;
-                                var key = String(item.balanser || (item.name || '').split(' ')[0] || '').toLowerCase();
-                                if (!key) return;
-                                // Keep show:false records too: Alpac displays them as disabled
-                                // (ghost) balancers, just like NewCinema's own selector.
-                                collected[key] = item;
-                              });
-                            }
-                    
-                            function list() {
-                              return Object.keys(collected).map(function(key) {
-                                return collected[key];
-                              });
-                            }
-                    
-                            function pollLife() {
-                              var lifeUrl = _thisNC.requestParams('https://ab2024.ru/lifeevents?memkey=' + encodeURIComponent(memkey));
-                              network.timeout(3000);
-                              network.silent(newCinemaAccount(lifeUrl), function(data) {
-                                attempts++;
-                                if (data && data.accsdb) return finish([]);
-                                collect(data);
-                                if ((data && data.ready) || attempts > 15) {
-                                  finish(list());
-                                } else {
-                                  setTimeout(pollLife, 1000);
-                                }
-                              }, function() {
-                                attempts++;
-                                if (attempts > 15) finish(list());
-                                else setTimeout(pollLife, 1000);
-                              }, false, {headers: requestHeaders(lifeUrl, true)});
-                            }
-                    
-                            var url = _thisNC.requestParams('https://ab2024.ru/lite/events?life=true');
-                            network.timeout(15000);
-                            network.silent(newCinemaAccount(url), function(data) {
-                              if (!data || data.accsdb) return finish([]);
-                              collect(data);
-                              // NewCinema starts its lifeevents poll whenever life mode is enabled,
-                              // even if the first response has not supplied a memkey yet.
-                              if (data.life) {
-                                memkey = data.memkey || '';
-                                pollLife();
-                              } else {
-                                finish(list());
-                              }
-                            }, function() {
-                              finish(list());
-                            }, false, {headers: requestHeaders(url, true)});
-                          });
-                        };
-                        this.startSource = function(json) {
+      var _thisNC = this;
+      return new Promise(function(resolve) {
+        var finished = false;
+        var attempts = 0;
+        var collected = {};
+        var memkey = '';
+        var diag = {
+          initial: 'pending',
+          polls: 0,
+          raw: 0,
+          valid: 0,
+          invalid: 0,
+          reason: ''
+        };
+
+        function finish(list, reason) {
+          if (finished) return;
+          finished = true;
+          var result = Array.isArray(list) ? list : [];
+          diag.reason = reason || 'finished';
+          diag.count = result.length;
+          window.__ono_newcinema_debug = diag;
+          try {
+            if (window.console && console.log) console.log('[ONO/NewCinema]', JSON.stringify(diag));
+          } catch (e) {}
+          resolve(result);
+        }
+
+        function normalize(data) {
+          if (typeof data === 'string') {
+            try { return JSON.parse(data); } catch (e) { return null; }
+          }
+          return data;
+        }
+
+        function collect(data) {
+          data = normalize(data);
+          var items = Array.isArray(data) ? data :
+            (data && Array.isArray(data.online) ? data.online : []);
+          diag.raw += items.length;
+          items.forEach(function(item) {
+            if (!item || !item.url) {
+              diag.invalid++;
+              return;
+            }
+            var key = String(item.balanser || (item.name || '').split(' ')[0] || '').toLowerCase();
+            if (!key) {
+              diag.invalid++;
+              return;
+            }
+            collected[key] = item;
+            diag.valid++;
+          });
+        }
+
+        function list() {
+          return Object.keys(collected).map(function(key) {
+            return collected[key];
+          });
+        }
+
+        function pollLife() {
+          var lifeUrl = _thisNC.requestParams('https://ab2024.ru/lifeevents?memkey=' + encodeURIComponent(memkey));
+          network.timeout(3000);
+          network.silent(newCinemaAccount(lifeUrl), function(data) {
+            attempts++;
+            diag.polls = attempts;
+            data = normalize(data);
+            if (data && data.accsdb) {
+              finish(list(), 'poll-auth-required');
+              return;
+            }
+            collect(data);
+            if ((data && data.ready) || attempts > 15) {
+              finish(list(), data && data.ready ? 'poll-ready' : 'poll-limit');
+            } else {
+              setTimeout(pollLife, 1000);
+            }
+          }, function() {
+            attempts++;
+            diag.polls = attempts;
+            if (attempts > 15) finish(list(), 'poll-network-error-limit');
+            else setTimeout(pollLife, 1000);
+          }, false, {headers: requestHeaders(lifeUrl, true)});
+        }
+
+        var url = _thisNC.requestParams('https://ab2024.ru/lite/events?life=true');
+        network.timeout(15000);
+        network.silent(newCinemaAccount(url), function(data) {
+          data = normalize(data);
+          if (!data || data.accsdb) {
+            diag.initial = data && data.accsdb ? 'auth-required' : 'empty-response';
+            finish([], diag.initial);
+            return;
+          }
+          diag.initial = 'ok';
+          collect(data);
+          if (data.life) {
+            memkey = data.memkey || '';
+            pollLife();
+          } else {
+            finish(list(), 'initial-list');
+          }
+        }, function() {
+          diag.initial = 'network-error';
+          finish(list(), 'initial-network-error');
+        }, false, {headers: requestHeaders(url, true)});
+      });
+    };
+    this.startSource = function(json) {
                           var _this5 = this;
                           return new Promise(function(resolve, reject) {
                             function applySources(extra) {
