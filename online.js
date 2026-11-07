@@ -850,8 +850,7 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
           var normalized = String((item && (item.balanser || item.name)) || key || '')
             .split(' ')[0].toLowerCase().replace(/[^a-z0-9_-]/g, '');
           return excluded.some(function(prefix) {
-            return normalized.indexOf(prefix) === 0 ||
-              normalized.indexOf('lme' + prefix) === 0;
+            return normalized.indexOf(prefix) !== -1;
           });
         }
 
