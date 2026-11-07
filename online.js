@@ -443,6 +443,15 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
       var uid = Lampa.Storage.get('lampac_unic_id', '');
       if (uid) url = Lampa.Utils.addUrlComponent(url, 'uid=' + encodeURIComponent(uid));
     }
+    // NewCinema is hosted separately and uses its own URL auth contract:
+    // account_email + uid + nws_id, but no Alpac token/fingerprint.
+    if (/^https?:\/\/(?:www\.)?ab2024\.ru(?:[:/]|$)/i.test(url)) {
+      if (url.indexOf('nws_id=') == -1) {
+        var ncNwsId = Lampa.Storage.get('lampac_nws_id', '');
+        if (ncNwsId) url = Lampa.Utils.addUrlComponent(url, 'nws_id=' + encodeURIComponent(ncNwsId));
+      }
+      return url;
+    }
     if (url.indexOf('token=') == -1) {
       var token = '2e8f3f50-c519-46c0-8766-3a74a84c9453';
       if (!token) {
@@ -463,6 +472,23 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
     return url;
   }
   
+  function newCinemaAccount(url) {
+    url = String(url || '');
+    if (url.indexOf('account_email=') === -1) {
+      var email = Lampa.Storage.get('account_email', '');
+      if (email) url = Lampa.Utils.addUrlComponent(url, 'account_email=' + encodeURIComponent(email));
+    }
+    if (url.indexOf('uid=') === -1) {
+      var uid = Lampa.Storage.get('lampac_unic_id', '');
+      if (uid) url = Lampa.Utils.addUrlComponent(url, 'uid=' + encodeURIComponent(uid));
+    }
+    if (url.indexOf('nws_id=') === -1) {
+      var nwsId = Lampa.Storage.get('lampac_nws_id', '');
+      if (nwsId) url = Lampa.Utils.addUrlComponent(url, 'nws_id=' + encodeURIComponent(nwsId));
+    }
+    return url;
+  }
+
   // lampacAuthHeaders — returns {X-Lampac-Token, X-Alpac-Token} when a
   // token is reachable from Lampa.Storage / localStorage / document.cookie.
   // Cross-origin Lampa (host on lampa.mx, our backend on alpac.cc) loses
@@ -498,6 +524,14 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
     }
     if (!tok) return {};
     return {'X-Lampac-Token': tok, 'X-Alpac-Token': tok};
+  }
+
+  function requestHeaders(url, isNewCinema) {
+    if (isNewCinema || /^https?:\/\/(?:www\.)?ab2024\.ru(?:[:/]|$)/i.test(String(url || ''))) {
+      var kitKey = Lampa.Storage.get('kit_aesgcmkey', '');
+      return kitKey ? {'X-Kit-AesGcm': kitKey} : {};
+    }
+    return Object.assign({'X-Kit-AesGcm': Lampa.Storage.get('aesgcmkey', '')}, lampacAuthHeaders());
   }
 
   var Network = Lampa.Reguest;
@@ -761,7 +795,8 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
       query.push('source=' + card_source);
       query.push('clarification=' + (object.clarification ? 1 : 0));
       query.push('similar=' + (object.similar ? true : false));
-      query.push('rchtype=' + (((window.rch_nws && window.rch_nws[hostkey]) ? window.rch_nws[hostkey].type : (window.rch && window.rch[hostkey]) ? window.rch[hostkey].type : '') || ''));
+      var requestHost = String(url).indexOf('ab2024.ru') >= 0 ? 'ab2024.ru' : hostkey;
+      query.push('rchtype=' + (((window.rch_nws && window.rch_nws[requestHost]) ? window.rch_nws[requestHost].type : (window.rch && window.rch[requestHost]) ? window.rch[requestHost].type : '') || ''));
       if (Lampa.Storage.get('account_email', '')) query.push('cub_id=' + Lampa.Utils.hash(Lampa.Storage.get('account_email', '')));
       return url + (url.indexOf('?') >= 0 ? '&' : '?') + query.join('&');
     };
@@ -773,32 +808,104 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
         return Lampa.Storage.get('online_balanser', filter_sources.length ? filter_sources[0] : '');
       }
     };
-    this.startSource = function(json) {
-      return new Promise(function(resolve, reject) {
-        json.forEach(function(j) {
-          var name = balanserName(j);
-          sources[name] = {
-            url: j.url,
-            name: lampacBalanserRename(name, j.name),
-            show: typeof j.show == 'undefined' ? true : j.show
-          };
-        });
-        filter_sources = Lampa.Arrays.getKeys(sources);
-        if (filter_sources.length) {
-          var last_select_balanser = Lampa.Storage.cache('online_last_balanser', 3000, {});
-          if (last_select_balanser[object.movie.id]) {
-            balanser = last_select_balanser[object.movie.id];
-          } else {
-            balanser = Lampa.Storage.get('online_balanser', filter_sources[0]);
-          }
-          if (!sources[balanser]) balanser = filter_sources[0];
-          if (!sources[balanser].show && !object.lampac_custom_select) balanser = filter_sources[0];
-          source = sources[balanser].url;
-          Lampa.Storage.set('active_balanser', balanser);
-          resolve(json);
-        } else {
-          reject();
+    // Fetch NewCinema's independent balancer list and merge it into Alpac's
+    // source map. No NewCinema component/search entry is registered.
+    this.newCinemaSources = function() {
+      var _thisNC = this;
+      return new Promise(function(resolve) {
+        var finished = false;
+        var attempts = 0;
+        var collected = {};
+        var memkey = '';
+        function finish(list) {
+          if (finished) return;
+          finished = true;
+          resolve(Array.isArray(list) ? list : []);
         }
+        function collect(data) {
+          if (!data || !Array.isArray(data.online)) return;
+          data.online.forEach(function(item) {
+            if (!item || !item.url || item.show === false) return;
+            var key = String(item.balanser || (item.name || '').split(' ')[0] || '').toLowerCase();
+            if (key) collected[key] = item;
+          });
+        }
+        function pollLife() {
+          var lifeUrl = _thisNC.requestParams('https://ab2024.ru/lifeevents?memkey=' + encodeURIComponent(memkey));
+          network.timeout(3000);
+          network.silent(newCinemaAccount(lifeUrl), function(data) {
+            attempts++;
+            if (data && data.accsdb) return finish([]);
+            collect(data);
+            if ((data && data.ready) || attempts >= 5) {
+              finish(Object.keys(collected).map(function(key) { return collected[key]; }));
+            } else {
+              setTimeout(pollLife, 1000);
+            }
+          }, function() {
+            attempts++;
+            if (attempts >= 5) finish(Object.keys(collected).map(function(key) { return collected[key]; }));
+            else setTimeout(pollLife, 1000);
+          }, false, {headers: requestHeaders(lifeUrl, true)});
+        }
+        var url = _thisNC.requestParams('https://ab2024.ru/lite/events?life=true');
+        network.timeout(7000);
+        network.silent(newCinemaAccount(url), function(data) {
+          if (!data || data.accsdb) return finish([]);
+          if (data.life) {
+            memkey = data.memkey || '';
+            if (!memkey) return finish([]);
+            pollLife();
+          } else {
+            collect(data);
+            finish(Object.keys(collected).map(function(key) { return collected[key]; }));
+          }
+        }, function() {
+          finish([]);
+        }, false, {headers: requestHeaders(url, true)});
+      });
+    };
+    this.startSource = function(json) {
+      var _this5 = this;
+      return new Promise(function(resolve, reject) {
+        function applySources(extra) {
+          (json || []).forEach(function(j) {
+            var name = balanserName(j);
+            sources[name] = {
+              url: j.url,
+              name: lampacBalanserRename(name, j.name),
+              show: typeof j.show == 'undefined' ? true : j.show
+            };
+          });
+          (extra || []).forEach(function(j) {
+            var name = balanserName(j);
+            // Keep Alpac's native entry if both services expose the same key.
+            if (!name || sources[name]) return;
+            sources[name] = {
+              url: j.url,
+              name: lampacBalanserRename(name, j.name),
+              show: typeof j.show == 'undefined' ? true : j.show,
+              newcinema: true
+            };
+          });
+          filter_sources = Lampa.Arrays.getKeys(sources);
+          if (filter_sources.length) {
+            var last_select_balanser = Lampa.Storage.cache('online_last_balanser', 3000, {});
+            if (last_select_balanser[object.movie.id]) {
+              balanser = last_select_balanser[object.movie.id];
+            } else {
+              balanser = Lampa.Storage.get('online_balanser', filter_sources[0]);
+            }
+            if (!sources[balanser]) balanser = filter_sources[0];
+            if (!sources[balanser].show && !object.lampac_custom_select) balanser = filter_sources[0];
+            source = sources[balanser].url;
+            Lampa.Storage.set('active_balanser', balanser);
+            resolve(json);
+          } else {
+            reject();
+          }
+        }
+        _this5.newCinemaSources().then(applySources).catch(function() { applySources([]); });
       });
     };
     this.lifeSource = function() {
@@ -921,9 +1028,10 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
     this.request = function(url) {
       number_of_requests++;
       if (number_of_requests < 10) {
-        network["native"](account(url), this.parse.bind(this), this.doesNotAnswer.bind(this), false, {
+        var isNewCinemaSource = !!(sources[balanser] && sources[balanser].newcinema);
+        network["native"](isNewCinemaSource ? newCinemaAccount(url) : account(url), this.parse.bind(this), this.doesNotAnswer.bind(this), false, {
           dataType: 'text',
-		  headers: Object.assign({'X-Kit-AesGcm': Lampa.Storage.get('aesgcmkey', '')}, lampacAuthHeaders())
+          headers: requestHeaders(url, isNewCinemaSource)
         });
         clearTimeout(number_of_requests_timer);
         number_of_requests_timer = setTimeout(function() {
