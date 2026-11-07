@@ -339,6 +339,61 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
     }
   }
 
+
+  // NewCinema uses its own RCH/WebSocket endpoint, separate from Alpac.
+  var newCinemaHostkey = 'ab2024.ru';
+  if (!window.rch_nws) window.rch_nws = {};
+  if (!window.rch_nws[newCinemaHostkey]) window.rch_nws[newCinemaHostkey] = {
+    type:Lampa.Platform.is('android')?'apk':Lampa.Platform.is('tizen')?'cors':undefined,
+    startTypeInvoke:false,rchRegistry:false,apkVersion:getAndroidVersion()
+  };
+  window.rch_nws[newCinemaHostkey].typeInvoke = window.rch_nws[newCinemaHostkey].typeInvoke || function(host,call) {
+    var state=window.rch_nws[newCinemaHostkey];
+    if(state.startTypeInvoke){call();return;}
+    state.startTypeInvoke=true;
+    function done(good){state.type=Lampa.Platform.is('android')?'apk':good?'cors':'web';call();}
+    if(Lampa.Platform.is('android')||Lampa.Platform.is('tizen')) done(true);
+    else {var net=new Lampa.Reguest();net.silent('https://ab2024.ru'.indexOf(location.host)>=0?'https://github.com/':host+'/cors/check',function(){done(true);},function(){done(false);},false,{dataType:'text'});}
+  };
+  window.rch_nws[newCinemaHostkey].Registry = window.rch_nws[newCinemaHostkey].Registry || function(client,startConnection) {
+    var state=window.rch_nws[newCinemaHostkey];
+    state.typeInvoke('https://ab2024.ru',function(){
+      client.invoke('RchRegistry',JSON.stringify({host:location.host,rchtype:Lampa.Platform.is('android')?'apk':Lampa.Platform.is('tizen')?'cors':(state.type||'web'),apkVersion:Lampa.Platform.is('android')?state.apkVersion||0:0,player:Lampa.Storage.field('player')}));
+      if(client._shouldReconnect&&state.rchRegistry){if(startConnection)startConnection();return;}
+      state.rchRegistry=true;var started=false;
+      client.on('RchRegistry',function(){if(startConnection&&!started){started=true;startConnection();}});
+      client.on('RchClient',function(rchId,url,data,headers,returnHeaders){
+        var net=new Lampa.Reguest();
+        function sendResult(uri,body){$.ajax({url:'https://ab2024.ru/rch/'+uri+'?id='+rchId,type:'POST',data:body,async:true,cache:false,contentType:false,processData:false,error:function(){client.invoke('RchResult',rchId,'');}});}
+        function result(body){
+          if(Lampa.Arrays.isObject(body)||Lampa.Arrays.isArray(body))body=JSON.stringify(body);
+          if(typeof CompressionStream!=='undefined'&&body&&body.length>1000){
+            try{var stream=new CompressionStream('gzip'),encoder=new TextEncoder(),readable=new ReadableStream({start:function(c){c.enqueue(encoder.encode(body));c.close();}});
+              new Response(readable.pipeThrough(stream)).arrayBuffer().then(function(buf){var compressed=new Uint8Array(buf);if(compressed.length>body.length)sendResult('result',body);else sendResult('gzresult',compressed);}).catch(function(){sendResult('result',body);});
+            }catch(e){sendResult('result',body);}
+          }else sendResult('result',body);
+        }
+        if(url==='eval')result(eval(data));else if(url==='evalrun')eval(data);else if(url==='ping')result('pong');
+        else net.native(url,result,function(){result('');},data,{dataType:'text',timeout:8000,headers:headers,returnHeaders:returnHeaders});
+      });
+      client.on('Connected',function(id){state.connectionId=id;});
+      client.on('Closed',function(){});
+      client.on('Error',function(err){try{console.log('NewCinema RCH error:',err);}catch(e){}});
+    });
+  };
+  window.rch_nws[newCinemaHostkey].typeInvoke('https://ab2024.ru',function(){});
+  function newCinemaRchInvoke(json,call){
+    if(!window.nwsClient)window.nwsClient={};var client=window.nwsClient[newCinemaHostkey];
+    if(client&&client._shouldReconnect){call();return;}
+    if(client&&client.socket){try{client.socket.close();}catch(e){}}
+    client=window.nwsClient[newCinemaHostkey]=new NativeWsClient(json.nws,{autoReconnect:true});
+    client.on('Connected',function(){window.rch_nws[newCinemaHostkey].Registry(client,call);});client.connect();
+  }
+  function newCinemaRchRun(json,call){
+    if(typeof NativeWsClient==='undefined')Lampa.Utils.putScript(['https://ab2024.ru/js/nws-client-es5.js?v21042026'],function(){},false,function(){newCinemaRchInvoke(json,call);},true);
+    else newCinemaRchInvoke(json,call);
+  }
+
   // FNV-1a hash for device fingerprint
   function fnv1a(str) {
     var h = 0x811c9dc5;
@@ -482,10 +537,7 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
       var uid = Lampa.Storage.get('lampac_unic_id', '');
       if (uid) url = Lampa.Utils.addUrlComponent(url, 'uid=' + encodeURIComponent(uid));
     }
-    if (url.indexOf('nws_id=') === -1) {
-      var nwsId = Lampa.Storage.get('lampac_nws_id', '');
-      if (nwsId) url = Lampa.Utils.addUrlComponent(url, 'nws_id=' + encodeURIComponent(nwsId));
-    }
+    if (url.indexOf('nws_id=') === -1) { var ncState=window.rch_nws&&window.rch_nws['ab2024.ru']; var nwsId=(ncState&&ncState.connectionId)||Lampa.Storage.get('lampac_nws_id',''); if(nwsId)url=Lampa.Utils.addUrlComponent(url,'nws_id='+encodeURIComponent(nwsId)); }
     return url;
   }
 
@@ -718,13 +770,7 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
         _this.noConnectToServer(e);
       });
     };
-    this.rch = function(json, noreset) {
-      var _this2 = this;
-	  rchRun(json, function() {
-        if (!noreset) _this2.find();
-        else noreset();
-	  });
-    };
+    this.rch = function(json, noreset) { var _this2=this; var runRch=sources[balanser]&&sources[balanser].newcinema?newCinemaRchRun:rchRun; runRch(json,function(){if(!noreset)_this2.find();else noreset();}); };
     this.externalids = function() {
       return new Promise(function(resolve, reject) {
         if (!object.movie.imdb_id || !object.movie.kinopoisk_id) {
