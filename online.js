@@ -528,8 +528,9 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
 
   function requestHeaders(url, isNewCinema) {
     if (isNewCinema || /^https?:\/\/(?:www\.)?ab2024\.ru(?:[:/]|$)/i.test(String(url || ''))) {
-      var kitKey = Lampa.Storage.get('kit_aesgcmkey', '');
-      return kitKey ? {'X-Kit-AesGcm': kitKey} : {};
+      // NewCinema's native helper sends this header only after its own UID exists.
+      if (!Lampa.Storage.get('lampac_unic_id', '')) return {};
+      return {'X-Kit-AesGcm': Lampa.Storage.get('kit_aesgcmkey', '')};
     }
     return Object.assign({'X-Kit-AesGcm': Lampa.Storage.get('aesgcmkey', '')}, lampacAuthHeaders());
   }
@@ -924,11 +925,26 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
           });
           (extra || []).forEach(function(j) {
             var name = balanserName(j);
-            // Keep Alpac's native entry if both services expose the same key.
-            if (!name || sources[name]) return;
-            sources[name] = {
+            if (!name || !j.url) return;
+
+            var key = name;
+            // If both backends publish the same key, keep BOTH entries.
+            // Identical URLs are a true duplicate and need only one entry.
+            if (sources[key]) {
+              if (String(sources[key].url) === String(j.url)) return;
+              key = 'newcinema_' + name;
+              var suffix = 2;
+              while (sources[key]) {
+                if (String(sources[key].url) === String(j.url)) return;
+                key = 'newcinema_' + name + '_' + suffix++;
+              }
+            }
+
+            var displayName = j.name || name;
+            if (key !== name) displayName += ' (NewCinema)';
+            sources[key] = {
               url: j.url,
-              name: lampacBalanserRename(name, j.name),
+              name: lampacBalanserRename(key, displayName),
               show: typeof j.show == 'undefined' ? true : j.show,
               newcinema: true
             };
