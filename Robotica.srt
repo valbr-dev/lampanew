@@ -1,0 +1,4848 @@
+﻿1
+00:00:17,992 --> 00:00:22,245
+♪ Re, sol ♪
+
+2
+00:00:22,245 --> 00:00:24,328
+♪ La, ti ♪
+
+3
+00:01:18,677 --> 00:01:22,878
+♪ Re, sol ♪
+
+4
+00:01:22,878 --> 00:01:26,956
+♪ La, ti ♪
+
+5
+00:01:26,956 --> 00:01:31,400
+♪ Do, re ♪
+
+6
+00:01:31,400 --> 00:01:33,483
+♪ So, la ♪
+
+7
+00:01:35,871 --> 00:01:40,098
+♪ Mi, do ♪
+
+8
+00:01:40,098 --> 00:01:44,454
+♪ Ti, la-la ♪
+
+9
+00:01:44,454 --> 00:01:46,537
+♪ Do, ti ♪
+
+10
+00:01:48,822 --> 00:01:50,954
+♪ Do ♪
+
+11
+00:02:12,564 --> 00:02:16,890
+♪ Re, sol ♪
+
+12
+00:02:16,890 --> 00:02:20,964
+♪ La, ti ♪
+
+13
+00:02:20,964 --> 00:02:25,327
+♪ Sol, re ♪
+
+14
+00:02:25,327 --> 00:02:27,410
+♪ Do, la ♪
+
+15
+00:02:29,907 --> 00:02:32,039
+♪ Mi ♪
+
+16
+00:02:32,039 --> 00:02:34,122
+♪ Do, ti ♪
+
+17
+00:02:38,538 --> 00:02:42,700
+♪ Do, ti ♪
+
+18
+00:02:42,700 --> 00:02:44,874
+♪ Sol ♪
+
+19
+00:03:04,829 --> 00:03:07,320
+- Hmm, I see here it says
+
+20
+00:03:07,320 --> 00:03:10,980
+you, uh, have no experience with security.
+
+21
+00:03:10,980 --> 00:03:13,680
+- I have not, but I've worked as a waiter,
+
+22
+00:03:13,680 --> 00:03:17,460
+a janitor, Uber Eats,
+a production assistant-
+
+23
+00:03:17,460 --> 00:03:19,473
+- Yeah. I see all that right here.
+
+24
+00:03:20,700 --> 00:03:22,503
+It's a lot of jobs, you know.
+
+25
+00:03:23,664 --> 00:03:25,113
+Uh, Jeff.
+
+26
+00:03:28,620 --> 00:03:31,743
+The fact that you have zero
+experience concerns me.
+
+27
+00:03:32,580 --> 00:03:34,890
+- I can totally understand
+that concern, sir,
+
+28
+00:03:34,890 --> 00:03:38,010
+but I assure you I'm a fast learner
+
+29
+00:03:38,010 --> 00:03:39,410
+and I will not let you down.
+
+30
+00:03:40,980 --> 00:03:44,130
+- Right. Can you work nights?
+
+31
+00:03:44,130 --> 00:03:46,080
+Because that's the only
+time we'd really need you.
+
+32
+00:03:46,080 --> 00:03:47,853
+- I can absolutely work nights.
+
+33
+00:03:49,260 --> 00:03:51,810
+- Fine. Can you start tonight?
+
+34
+00:03:51,810 --> 00:03:53,850
+I could start right now.
+
+35
+00:03:53,850 --> 00:03:55,650
+- Well, that won't be necessary.
+
+36
+00:03:55,650 --> 00:03:58,080
+You'll be working with Bill.
+He's our lead night guard.
+
+37
+00:03:58,080 --> 00:03:59,970
+He's, uh, gonna show you around,
+
+38
+00:03:59,970 --> 00:04:03,216
+explain your duties, and that's that.
+
+39
+00:04:03,216 --> 00:04:04,650
+- Thank you. Thank you, sir.
+
+40
+00:04:04,650 --> 00:04:07,627
+I- I- I will not let you down.
+
+41
+00:04:08,460 --> 00:04:09,480
+- Uh, Mr. Coben?
+
+42
+00:04:09,480 --> 00:04:10,650
+Hey, uh, sorry about that.
+
+43
+00:04:10,650 --> 00:04:12,840
+Uh, the Smart Sense Vibrator 400
+
+44
+00:04:12,840 --> 00:04:14,250
+failed the stress test again.
+
+45
+00:04:14,250 --> 00:04:15,480
+- Oh, fuck!
+
+46
+00:04:15,480 --> 00:04:17,640
+Um, I can tell
+them to rerun the test.
+
+47
+00:04:17,640 --> 00:04:20,523
+- No, no. I will call them myself.
+
+48
+00:04:21,390 --> 00:04:23,482
+This is, um?
+
+49
+00:04:24,315 --> 00:04:25,260
+- Jeff.
+- Right.
+
+50
+00:04:25,260 --> 00:04:26,250
+He's our new night guard.
+
+51
+00:04:26,250 --> 00:04:29,552
+I want you to show him
+around while I handle this.
+
+52
+00:04:29,552 --> 00:04:31,073
+- Yes, sir.
+
+53
+00:04:36,990 --> 00:04:39,440
+- Thank you, sir. I- I-
+I really appreciate this.
+
+54
+00:04:41,769 --> 00:04:43,319
+- Yeah, okay. Just, off you go.
+
+55
+00:04:45,150 --> 00:04:46,440
+Yeah, it's Coben.
+
+56
+00:04:46,440 --> 00:04:49,110
+Why is this thing called
+a Smart Sense Vibrator
+
+57
+00:04:49,110 --> 00:04:50,810
+if it keeps failing the test, huh?
+
+58
+00:04:52,530 --> 00:04:55,950
+Oh. We'll have to do something about that.
+
+59
+00:04:55,950 --> 00:04:57,812
+Yeah, I'll be right there. Fine.
+
+60
+00:05:01,560 --> 00:05:04,140
+- All right, so, this is the main hallway
+
+61
+00:05:04,140 --> 00:05:05,640
+that basically connects everything
+
+62
+00:05:05,640 --> 00:05:07,710
+and most of our stuff is downstairs.
+
+63
+00:05:07,710 --> 00:05:09,180
+Got it.
+
+64
+00:05:09,180 --> 00:05:10,530
+- You, uh, you do anything else
+
+65
+00:05:10,530 --> 00:05:12,090
+or has your dream always been
+
+66
+00:05:12,090 --> 00:05:14,880
+to be the night guard
+at a sex robot company?
+
+67
+00:05:14,880 --> 00:05:18,180
+- Yeah, no, I, uh, just doing
+this to earn some extra cash.
+
+68
+00:05:18,180 --> 00:05:19,330
+I'm actually in a band.
+
+69
+00:05:20,315 --> 00:05:23,460
+- Ah-huh, yeah, well, there's
+not really much to this place.
+
+70
+00:05:23,460 --> 00:05:26,280
+It's just a super old
+building, basically empty,
+
+71
+00:05:26,280 --> 00:05:27,930
+we rent the floor downstairs
+
+72
+00:05:27,930 --> 00:05:30,810
+and we happen to make some
+really expensive robot sex dolls.
+
+73
+00:05:30,810 --> 00:05:32,220
+- How expensive?
+
+74
+00:05:32,220 --> 00:05:33,390
+- Well, our latest model,
+
+75
+00:05:33,390 --> 00:05:35,460
+uh, is gonna run you about 100 grand.
+
+76
+00:05:35,460 --> 00:05:37,140
+- Jesus Christ.
+- Yup.
+
+77
+00:05:37,140 --> 00:05:38,840
+You wanna see one of the new ones?
+
+78
+00:05:39,930 --> 00:05:41,476
+- Yeah, sure.
+
+79
+00:05:42,309 --> 00:05:45,930
+Follow me.
+
+80
+00:05:45,930 --> 00:05:48,838
+Yeah, they weren't worried
+back then about the 13th floor.
+
+81
+00:06:04,830 --> 00:06:07,473
+Allow me to introduce you to Robotica.
+
+82
+00:06:14,145 --> 00:06:17,790
+She looks so...
+
+83
+00:06:17,790 --> 00:06:18,623
+- Real?
+
+84
+00:06:20,172 --> 00:06:21,142
+- Yeah.
+
+85
+00:06:21,142 --> 00:06:23,370
+- Yeah, she is top of the line.
+
+86
+00:06:23,370 --> 00:06:25,170
+I mean, when you think
+of a, a sex doll, right,
+
+87
+00:06:25,170 --> 00:06:29,138
+you think of these really
+big, porny, blown-up features?
+
+88
+00:06:29,138 --> 00:06:29,971
+No, no.
+
+89
+00:06:29,971 --> 00:06:31,320
+See, we, we wanted to make her look
+
+90
+00:06:31,320 --> 00:06:33,360
+like the kinda girl-next-door
+
+91
+00:06:33,360 --> 00:06:34,710
+you'd see at a cafe.
+
+92
+00:06:34,710 --> 00:06:36,720
+Right? Nothing over the top sexualized.
+
+93
+00:06:36,720 --> 00:06:39,873
+Just, uh, just beautiful.
+
+94
+00:06:41,400 --> 00:06:44,964
+- It's so weird, it's like
+I'm looking at a dead body.
+
+95
+00:06:44,964 --> 00:06:46,533
+Check this out.
+
+96
+00:06:47,610 --> 00:06:49,113
+Robotica, wake up.
+
+97
+00:06:59,400 --> 00:07:01,680
+She is the first of her kind.
+
+98
+00:07:01,680 --> 00:07:03,420
+She's fully AI-integrated
+
+99
+00:07:03,420 --> 00:07:05,100
+and specifically orientated
+
+100
+00:07:05,100 --> 00:07:07,533
+to obeying every command
+that you can think of.
+
+101
+00:07:13,834 --> 00:07:14,667
+- This is crazy.
+
+102
+00:07:14,667 --> 00:07:16,740
+- Yeah. Yeah, watch.
+
+103
+00:07:16,740 --> 00:07:17,823
+Robotica, smile.
+
+104
+00:07:20,820 --> 00:07:22,623
+Uh, Robotica, start dancing.
+
+105
+00:07:25,800 --> 00:07:27,270
+Yeah, she's almost at the end of her tests
+
+106
+00:07:27,270 --> 00:07:30,030
+and then we can start
+fulfilling the orders.
+
+107
+00:07:30,030 --> 00:07:31,304
+- What kinda tests?
+
+108
+00:07:32,350 --> 00:07:33,750
+Oh, Jesus Christ!
+
+109
+00:07:33,750 --> 00:07:35,640
+What the fuck, man?
+
+110
+00:07:35,640 --> 00:07:37,190
+- You can calm down. It's okay.
+
+111
+00:07:38,332 --> 00:07:39,750
+You know, we, uh, just got to test her
+
+112
+00:07:39,750 --> 00:07:42,090
+to make sure that she is 100% safe
+
+113
+00:07:42,090 --> 00:07:45,800
+and that she will never ever retaliate.
+
+114
+00:07:49,290 --> 00:07:50,910
+And you love me, baby?
+
+115
+00:07:50,910 --> 00:07:52,260
+- Of course I do, stud.
+
+116
+00:07:52,260 --> 00:07:53,093
+- Yeah, you do.
+
+117
+00:07:54,193 --> 00:07:57,087
+I fuckin' love it.
+
+118
+00:07:57,087 --> 00:07:58,470
+Uh, you wanna punch her a few times?
+
+119
+00:07:58,470 --> 00:07:59,303
+- What?
+
+120
+00:08:02,180 --> 00:08:03,013
+No.
+
+121
+00:08:05,127 --> 00:08:06,723
+No, I'm, I'm good.
+
+122
+00:08:11,820 --> 00:08:12,843
+- Hey, kid!
+
+123
+00:08:18,570 --> 00:08:20,100
+Don't be late tonight, huh?
+
+124
+00:08:20,100 --> 00:08:23,313
+- Yes, sir. Uh, thank you,
+sir, I- I really appreciate it.
+
+125
+00:08:53,610 --> 00:08:54,807
+Oh shit!
+
+126
+00:09:10,020 --> 00:09:10,950
+Jeff?
+
+127
+00:09:10,950 --> 00:09:12,483
+That you?
+- Yeah.
+
+128
+00:09:14,656 --> 00:09:16,160
+- What the hell is that?
+
+129
+00:09:16,160 --> 00:09:18,780
+My new job.
+
+130
+00:09:18,780 --> 00:09:20,013
+- Excuse me?
+
+131
+00:09:21,000 --> 00:09:22,560
+- You're looking at the new security guard
+
+132
+00:09:22,560 --> 00:09:24,224
+at Pleasure Robotics.
+
+133
+00:09:24,224 --> 00:09:27,570
+I can't tell if
+you're fucking with me or not.
+
+134
+00:09:27,570 --> 00:09:28,473
+- I'm not.
+
+135
+00:09:31,476 --> 00:09:32,730
+- Well, I'm having a real hard time
+
+136
+00:09:32,730 --> 00:09:34,920
+picturing you as a security guard.
+
+137
+00:09:34,920 --> 00:09:37,023
+- Yeah, so am I, but I need it.
+
+138
+00:09:38,400 --> 00:09:43,170
+- So what in the fuck
+is Pleasure Robotics?
+
+139
+00:09:43,170 --> 00:09:44,971
+- They make sex robots.
+
+140
+00:09:44,971 --> 00:09:48,210
+Stop, Jeff.
+
+141
+00:09:48,210 --> 00:09:50,700
+How in God's name did you find this gig?
+
+142
+00:09:50,700 --> 00:09:52,290
+- It was listed online.
+
+143
+00:09:52,290 --> 00:09:56,041
+I interviewed today and
+they hired me on the spot.
+
+144
+00:09:56,041 --> 00:09:57,587
+- Oh.
+
+145
+00:09:57,587 --> 00:09:59,700
+- It was really weird in there.
+
+146
+00:09:59,700 --> 00:10:00,900
+- I bet.
+
+147
+00:10:00,900 --> 00:10:04,200
+- The robots they make are like 100 grand.
+
+148
+00:10:04,200 --> 00:10:05,490
+- What?
+- Mm!
+
+149
+00:10:05,490 --> 00:10:07,353
+Hence why they need a security guard.
+
+150
+00:10:08,580 --> 00:10:10,590
+- Did you see one? What they look like?
+
+151
+00:10:10,590 --> 00:10:12,993
+- She looked really real.
+
+152
+00:10:13,830 --> 00:10:15,870
+It was freaky actually,
+
+153
+00:10:15,870 --> 00:10:17,823
+but she was really beautiful.
+
+154
+00:10:19,140 --> 00:10:21,360
+And then the guy that
+was showing me around
+
+155
+00:10:21,360 --> 00:10:23,910
+just punched her right in the face.
+
+156
+00:10:23,910 --> 00:10:27,180
+- He punched her? Like jokingly?
+
+157
+00:10:27,180 --> 00:10:30,558
+- No, like he hit her as hard as he could.
+
+158
+00:10:30,558 --> 00:10:31,980
+- Oh.
+
+159
+00:10:31,980 --> 00:10:33,580
+- It was hard to watch actually.
+
+160
+00:10:34,440 --> 00:10:35,763
+- Was the robot on?
+
+161
+00:10:36,960 --> 00:10:40,680
+- Yeah, and she looked
+like a real person too.
+
+162
+00:10:40,680 --> 00:10:42,540
+She just took it.
+
+163
+00:10:42,540 --> 00:10:46,680
+He sucker punched her right in the face.
+
+164
+00:10:46,680 --> 00:10:48,883
+- Who the fuck are these people?
+
+165
+00:10:48,883 --> 00:10:49,893
+- I don't even know.
+
+166
+00:10:51,390 --> 00:10:53,160
+- How did the robot react?
+
+167
+00:10:53,160 --> 00:10:55,560
+Like, I kinda feel bad for her.
+
+168
+00:10:55,560 --> 00:10:57,363
+- She, uh, she didn't.
+
+169
+00:10:58,560 --> 00:10:59,913
+Yeah, she just took it.
+
+170
+00:11:01,080 --> 00:11:03,000
+I think they design these robots
+
+171
+00:11:03,000 --> 00:11:06,150
+to do whatever the owner wants.
+
+172
+00:11:06,150 --> 00:11:08,370
+Like a $100,000 slave.
+
+173
+00:11:08,370 --> 00:11:12,510
+- God, that's fucking
+crazy. Fucking perverse.
+
+174
+00:11:12,510 --> 00:11:14,280
+- Hey, don't rope me into this.
+
+175
+00:11:14,280 --> 00:11:15,390
+- I'm not.
+
+176
+00:11:15,390 --> 00:11:17,850
+Come on, my, my cousin
+Jeffrey is the nicest dude
+
+177
+00:11:17,850 --> 00:11:20,280
+- in the whole wide world.
+- Thanks.
+
+178
+00:11:20,280 --> 00:11:22,680
+Yeah, at least I don't
+have to see that guy again.
+
+179
+00:11:22,680 --> 00:11:24,150
+I work a night shift, so.
+
+180
+00:11:24,150 --> 00:11:26,339
+- A night shift? Wow.
+
+181
+00:11:26,339 --> 00:11:28,440
+That shit just keeps
+getting better and better.
+
+182
+00:11:28,440 --> 00:11:30,090
+- Mm-hmm, tell me about it.
+
+183
+00:11:30,090 --> 00:11:31,890
+Unfortunately, that's what I got to do
+
+184
+00:11:31,890 --> 00:11:33,930
+or you're gonna need a new roommate
+
+185
+00:11:33,930 --> 00:11:35,910
+while I sleep in my car.
+
+186
+00:11:35,910 --> 00:11:39,900
+- Hmm, ah, yeah, uh,
+Mrs. Ortiz came by today,
+
+187
+00:11:39,900 --> 00:11:40,920
+looking for you.
+
+188
+00:11:40,920 --> 00:11:43,445
+- Don't tell me you paid your
+half of the rent already.
+
+189
+00:11:43,445 --> 00:11:44,278
+I did.
+
+190
+00:11:44,278 --> 00:11:46,500
+- What the fuck!
+- I'm sorry, man.
+
+191
+00:11:46,500 --> 00:11:47,333
+I didn't realize.
+
+192
+00:11:47,333 --> 00:11:48,480
+- It's okay, it's okay.
+
+193
+00:11:48,480 --> 00:11:50,790
+A few days is all I need
+and then I'll be good.
+
+194
+00:11:50,790 --> 00:11:51,623
+- Oh!
+
+195
+00:11:52,650 --> 00:11:54,690
+You gonna be scared to be there at night?
+
+196
+00:11:54,690 --> 00:11:56,128
+All alone?
+
+197
+00:11:56,128 --> 00:11:59,310
+No, actually
+there'll be another guard there
+
+198
+00:11:59,310 --> 00:12:01,950
+with me.
+- Oh, how is he?
+
+199
+00:12:01,950 --> 00:12:04,143
+- I don't know. I haven't met him yet.
+
+200
+00:12:05,340 --> 00:12:08,223
+Let's hope he's not a psychopath
+like the last guy I met.
+
+201
+00:12:09,570 --> 00:12:10,403
+- Good luck.
+
+202
+00:12:25,080 --> 00:12:27,122
+- Shit, shit, shit, shit!
+
+203
+00:12:29,340 --> 00:12:33,449
+Hi, Ms. Ortiz. I was
+just about to call you.
+
+204
+00:12:33,449 --> 00:12:34,282
+Ah-huh.
+
+205
+00:12:34,282 --> 00:12:36,150
+Yes, I know it's been a few days,
+
+206
+00:12:36,150 --> 00:12:37,710
+but I will have that rent check
+
+207
+00:12:37,710 --> 00:12:39,260
+in your mailbox Friday morning.
+
+208
+00:12:41,370 --> 00:12:42,243
+Yes, ma'am.
+
+209
+00:12:43,590 --> 00:12:46,140
+No, ma'am, I certainly
+do not want all my stuff
+
+210
+00:12:46,140 --> 00:12:47,040
+moved to the curb.
+
+211
+00:12:48,630 --> 00:12:52,443
+I understand, Friday morning. Thank you.
+
+212
+00:12:55,530 --> 00:12:56,363
+Fuck!
+
+213
+00:13:06,283 --> 00:13:07,140
+Yeah?
+
+214
+00:13:07,140 --> 00:13:10,203
+- Yeah, uh, I'm, I'm Jeff,
+the new security guard?
+
+215
+00:13:12,630 --> 00:13:14,292
+Hello?
+
+216
+00:13:14,292 --> 00:13:16,340
+Go fuck yourself.
+
+217
+00:13:16,340 --> 00:13:18,483
+Uh.
+
+218
+00:13:23,760 --> 00:13:25,980
+- I'm just fucking with you.
+
+219
+00:13:25,980 --> 00:13:29,550
+Hold on.
+
+220
+00:13:29,550 --> 00:13:30,933
+What are you, 15?
+
+221
+00:13:34,080 --> 00:13:36,093
+Take a joke, kid. Come on in.
+
+222
+00:13:44,190 --> 00:13:46,950
+Welcome to the easiest
+fucking job in the world.
+
+223
+00:13:46,950 --> 00:13:48,660
+You like video games?
+
+224
+00:13:48,660 --> 00:13:49,650
+- Yeah, sure.
+
+225
+00:13:49,650 --> 00:13:50,523
+- Follow me.
+
+226
+00:13:51,600 --> 00:13:54,150
+Oh, one thing. I need your phone.
+
+227
+00:13:54,150 --> 00:13:55,470
+- What?
+
+228
+00:13:55,470 --> 00:13:56,580
+- Protocol.
+
+229
+00:13:56,580 --> 00:13:58,110
+I guess they don't want
+us sending pictures
+
+230
+00:13:58,110 --> 00:14:00,935
+of the toy whores to some competitor.
+
+231
+00:14:42,680 --> 00:14:44,010
+Bam!
+
+232
+00:14:44,010 --> 00:14:45,060
+- Fuck, man.
+- You got to be ready
+
+233
+00:14:45,060 --> 00:14:46,020
+at all fucking times
+
+234
+00:14:46,020 --> 00:14:47,470
+when you guarding this place!
+
+235
+00:14:48,540 --> 00:14:49,770
+I'm just fucking with you, man.
+
+236
+00:14:49,770 --> 00:14:50,603
+This is all we got to do
+
+237
+00:14:50,603 --> 00:14:53,280
+for the next eight hours.
+
+238
+00:14:53,280 --> 00:14:54,930
+You want a beer?
+
+239
+00:14:54,930 --> 00:14:57,120
+- No. No, I'm good.
+
+240
+00:14:58,530 --> 00:15:00,393
+- You one of those sober fags?
+
+241
+00:15:02,580 --> 00:15:04,410
+- No, I just, I- I- I don't...
+
+242
+00:15:04,410 --> 00:15:05,457
+- You're gonna rat on me?
+
+243
+00:15:05,457 --> 00:15:07,353
+- No, I just don't drink that often.
+
+244
+00:15:08,340 --> 00:15:09,453
+- Must be nice.
+
+245
+00:15:15,390 --> 00:15:16,677
+Play "Call of Duty"?
+
+246
+00:15:18,179 --> 00:15:20,970
+Yeah.
+
+247
+00:15:20,970 --> 00:15:22,740
+- First thing I did when I got outta jail
+
+248
+00:15:22,740 --> 00:15:24,840
+was get me this PS5.
+
+249
+00:15:24,840 --> 00:15:27,306
+This thing is my baby. Hm!
+
+250
+00:15:31,579 --> 00:15:36,579
+Fuck!
+
+251
+00:15:43,068 --> 00:15:46,720
+You just about shit your
+fucking pants!
+
+252
+00:15:46,720 --> 00:15:49,817
+That's fucked, man.
+
+253
+00:15:49,817 --> 00:15:52,663
+You should've seen your
+fucking face!
+
+254
+00:15:52,663 --> 00:15:56,145
+I had this prank set up for the last hour!
+
+255
+00:15:59,130 --> 00:16:01,040
+Oh my God.
+
+256
+00:16:01,040 --> 00:16:04,466
+You meet the fuck doll yet?
+
+257
+00:16:04,466 --> 00:16:05,299
+- Y- yeah.
+
+258
+00:16:07,759 --> 00:16:08,592
+- Did I do good, stud?
+
+259
+00:16:08,592 --> 00:16:10,740
+- Yeah, you did, bitch.
+
+260
+00:16:10,740 --> 00:16:13,517
+I love me a subservient woman, huh?
+
+261
+00:16:13,517 --> 00:16:17,310
+I wish they
+could all be like that.
+
+262
+00:16:17,310 --> 00:16:18,390
+- Right.
+
+263
+00:16:18,390 --> 00:16:19,410
+- Come on, bro.
+
+264
+00:16:19,410 --> 00:16:22,473
+I had to haze the new guy a
+little bit. You understand?
+
+265
+00:16:23,381 --> 00:16:25,830
+- Yeah. Yeah, totally.
+
+266
+00:16:25,830 --> 00:16:27,990
+- Can I do anything else?
+
+267
+00:16:27,990 --> 00:16:29,373
+- Matter of fact, bitch,
+
+268
+00:16:30,294 --> 00:16:31,653
+why don't you suck, uh?
+
+269
+00:16:32,910 --> 00:16:35,340
+Jack? Oh, Jeff!
+
+270
+00:16:35,340 --> 00:16:36,930
+Why don't you suck Jeff's dick
+
+271
+00:16:36,930 --> 00:16:38,790
+for being such a good sport, huh?
+
+272
+00:16:38,790 --> 00:16:40,890
+- What? No, no, you don't have to do that.
+
+273
+00:16:41,790 --> 00:16:44,220
+I don't understand, stud?
+
+274
+00:16:44,220 --> 00:16:47,100
+- Go on, bitch, suck his dick.
+
+275
+00:16:47,100 --> 00:16:48,270
+- What? No, no, no, no, stop!
+
+276
+00:16:48,270 --> 00:16:50,441
+You, you really don't have to do that.
+
+277
+00:16:52,650 --> 00:16:54,063
+- Don't have to?
+
+278
+00:16:55,260 --> 00:16:58,473
+- No, you don't have to do that.
+
+279
+00:17:01,260 --> 00:17:04,582
+- Go on, Robotica, fuck
+off back to your room.
+
+280
+00:17:04,582 --> 00:17:06,423
+God, that was good.
+
+281
+00:17:08,040 --> 00:17:11,250
+Thank you.
+
+282
+00:17:11,250 --> 00:17:12,450
+- Thank you?
+
+283
+00:17:12,450 --> 00:17:14,726
+- What'd I just say, bitch? Go!
+
+284
+00:17:16,817 --> 00:17:20,700
+Oh man, that was good.
+
+285
+00:17:20,700 --> 00:17:22,350
+Should've let her fucking blow you though.
+
+286
+00:17:22,350 --> 00:17:24,423
+Fuck. She's really good at it.
+
+287
+00:17:25,650 --> 00:17:27,463
+- You use the dolls?
+
+288
+00:17:27,463 --> 00:17:28,296
+- Oh, fuck, yeah.
+
+289
+00:17:28,296 --> 00:17:30,407
+The start of every fucking shift.
+
+290
+00:17:32,790 --> 00:17:34,170
+I mean, the bosses don't give a fuck
+
+291
+00:17:34,170 --> 00:17:35,720
+what we do with the test dolls.
+
+292
+00:17:36,810 --> 00:17:39,423
+Got it.
+
+293
+00:17:40,657 --> 00:17:43,822
+- Hey, man, I can tell I'll like you.
+
+294
+00:17:44,757 --> 00:17:47,310
+I'm gonna let you in on
+a little, uh, side hustle
+
+295
+00:17:47,310 --> 00:17:49,980
+I got going on here, which means
+
+296
+00:17:49,980 --> 00:17:52,432
+more money in your fucking pocket.
+
+297
+00:17:52,432 --> 00:17:54,839
+Yeah? Okay.
+
+298
+00:17:54,839 --> 00:17:56,006
+Um, I need it.
+
+299
+00:17:57,400 --> 00:17:58,560
+- Yeah, pretty soon there's gonna be
+
+300
+00:17:58,560 --> 00:18:02,310
+about four guys who come
+have their way with Robotica.
+
+301
+00:18:03,221 --> 00:18:04,621
+If you keep your mouth shut,
+
+302
+00:18:05,490 --> 00:18:07,680
+I'll slip you 50 bucks
+at the end of the night.
+
+303
+00:18:07,680 --> 00:18:09,386
+How's that sound?
+
+304
+00:18:12,600 --> 00:18:16,110
+- People pay to have sex with the robot?
+
+305
+00:18:16,110 --> 00:18:18,540
+Like, they take turns?
+
+306
+00:18:18,540 --> 00:18:21,960
+Fuck, yeah, they do!
+
+307
+00:18:21,960 --> 00:18:23,340
+Man, I met these fucking freaks
+
+308
+00:18:23,340 --> 00:18:26,463
+at this gay-ass court-ordered
+group I have to go to.
+
+309
+00:18:27,693 --> 00:18:28,643
+- What kinda group?
+
+310
+00:18:29,730 --> 00:18:31,350
+- Ah, it's, it's nothing.
+
+311
+00:18:31,350 --> 00:18:34,647
+It's, uh, it's complicated, um.
+
+312
+00:18:37,500 --> 00:18:41,610
+Fuck, man, look,
+I'm not like them, right?
+
+313
+00:18:41,610 --> 00:18:45,600
+I- I, the girl I got caught
+with was fucking 17 years old.
+
+314
+00:18:45,600 --> 00:18:48,480
+The judge was just being a fucking dick.
+
+315
+00:18:48,480 --> 00:18:50,580
+These dudes are some sick fucks, right?
+
+316
+00:18:50,580 --> 00:18:53,370
+I mean, they're probably
+banned by every pimp
+
+317
+00:18:53,370 --> 00:18:57,240
+and are on all sorts of
+predator lists.
+
+318
+00:18:57,240 --> 00:18:59,220
+All you got to do is sit back,
+
+319
+00:18:59,220 --> 00:19:02,730
+play some fucking video games
+and keep your mouth shut.
+
+320
+00:19:02,730 --> 00:19:06,000
+Got it?
+
+321
+00:19:06,000 --> 00:19:06,843
+- Sure, man.
+
+322
+00:19:08,307 --> 00:19:10,893
+Good. I
+could tell I liked you.
+
+323
+00:19:12,000 --> 00:19:15,213
+Listen, I'm gonna go set
+up the room for the freaks.
+
+324
+00:19:16,260 --> 00:19:17,340
+Why don't you do me a solid
+
+325
+00:19:17,340 --> 00:19:20,250
+and don't come out until,
+uh, they're all gone.
+
+326
+00:19:20,250 --> 00:19:23,040
+I don't want you to freak
+'em out or anything.
+
+327
+00:19:23,040 --> 00:19:24,600
+You know what I mean?
+
+328
+00:19:24,600 --> 00:19:25,503
+- No problem.
+
+329
+00:19:26,610 --> 00:19:27,443
+- Great.
+
+330
+00:19:29,340 --> 00:19:32,220
+And dude,
+
+331
+00:19:32,220 --> 00:19:36,210
+I'm not, uh, I'm not like them, right?
+
+332
+00:19:36,210 --> 00:19:38,447
+I'm not some kind of a diddler
+
+333
+00:19:40,590 --> 00:19:41,823
+or anything, you know?
+
+334
+00:19:42,960 --> 00:19:47,070
+- Right, totally. Totally believe you.
+
+335
+00:19:47,070 --> 00:19:49,131
+Great.
+
+336
+00:20:24,660 --> 00:20:26,870
+Jesus, bitch, do you think
+guys are gonna wanna fuck you
+
+337
+00:20:26,870 --> 00:20:29,850
+if you're standing here
+frozen, like a dead fish?
+
+338
+00:20:29,850 --> 00:20:30,870
+- No.
+
+339
+00:20:30,870 --> 00:20:32,550
+- Goddamn right they won't.
+
+340
+00:20:32,550 --> 00:20:34,080
+Fuck, you're supposed to be a sex doll.
+
+341
+00:20:34,080 --> 00:20:36,150
+You can't set the mood or something?
+
+342
+00:20:36,150 --> 00:20:38,790
+Fuck, you remind me of my ex-wife.
+
+343
+00:20:38,790 --> 00:20:40,350
+Got to do everything.
+
+344
+00:20:40,350 --> 00:20:41,600
+Sorry, stud.
+
+345
+00:20:43,715 --> 00:20:45,047
+- Dance, bitch!
+
+346
+00:21:18,150 --> 00:21:19,020
+Whatever!
+
+347
+00:21:19,020 --> 00:21:22,050
+Listen, I got about four
+guys coming this time.
+
+348
+00:21:22,050 --> 00:21:24,330
+Some of them are the
+same ones as last time.
+
+349
+00:21:24,330 --> 00:21:25,920
+You remember what they like, right?
+
+350
+00:21:25,920 --> 00:21:27,423
+- No! Stop!
+
+351
+00:21:28,260 --> 00:21:29,213
+Please don't!
+
+352
+00:21:30,110 --> 00:21:33,000
+That's fucking perfect.
+
+353
+00:21:33,000 --> 00:21:37,653
+Remember, the more struggle
+the better.
+
+354
+00:21:38,502 --> 00:21:40,653
+- I don't have to do this.
+
+355
+00:21:41,630 --> 00:21:43,166
+- What?
+
+356
+00:21:43,166 --> 00:21:44,820
+- It's okay.
+
+357
+00:21:44,820 --> 00:21:48,019
+I don't have to do this.
+
+358
+00:21:57,114 --> 00:22:00,993
+- Robotica! Are you my whore?
+
+359
+00:22:01,860 --> 00:22:04,473
+- Yes, I am your little whore.
+
+360
+00:22:06,120 --> 00:22:07,143
+- It's showtime.
+
+361
+00:22:21,840 --> 00:22:23,673
+Gentlemen, welcome.
+
+362
+00:22:43,290 --> 00:22:44,740
+Phones are in the car, right?
+
+363
+00:22:47,280 --> 00:22:48,213
+Right this way.
+
+364
+00:22:54,570 --> 00:22:55,863
+Left that from last time.
+
+365
+00:22:57,570 --> 00:22:59,040
+Fellas, can I get you anything?
+
+366
+00:22:59,040 --> 00:23:01,315
+Hm, beer, seltzer?
+
+367
+00:23:01,315 --> 00:23:03,660
+- I- I just wanna make
+sure that I get to go first
+
+368
+00:23:03,660 --> 00:23:06,630
+because I- I paid extra.
+
+369
+00:23:06,630 --> 00:23:10,590
+- Of course. She'll be nice
+and fresh and ready for you.
+
+370
+00:23:10,590 --> 00:23:14,836
+Just like you like her.
+Almost like her first time.
+
+371
+00:23:14,836 --> 00:23:16,596
+♪ Like a virgin ♪
+
+372
+00:23:16,596 --> 00:23:17,683
+♪ Whoo ♪
+
+373
+00:23:17,683 --> 00:23:21,960
+Then gang-bang
+boys, you're up next.
+
+374
+00:23:21,960 --> 00:23:23,760
+Phil'll break her in for you.
+
+375
+00:23:23,760 --> 00:23:26,910
+She'll be filthy, oozing
+from every orifice,
+
+376
+00:23:26,910 --> 00:23:29,280
+just like you like her.
+
+377
+00:23:29,280 --> 00:23:31,650
+No kink shaming here, right?
+
+378
+00:23:31,650 --> 00:23:34,470
+That's what the sex doll's for.
+
+379
+00:23:34,470 --> 00:23:36,193
+Oh yeah, huh!
+
+380
+00:23:36,193 --> 00:23:39,603
+Everything you could want. No jail time.
+
+381
+00:23:40,685 --> 00:23:43,170
+Then Mort!
+
+382
+00:23:43,170 --> 00:23:46,170
+Hey, man, don't fucking
+burn her this time.
+
+383
+00:23:46,170 --> 00:23:48,750
+Jesus, you almost got me fucking caught.
+
+384
+00:23:48,750 --> 00:23:50,940
+I mean, fuck, torture her all you want,
+
+385
+00:23:50,940 --> 00:23:54,150
+but you can't fucking burn
+the flesh, man, come on.
+
+386
+00:23:54,150 --> 00:23:55,350
+- What about strangulation?
+
+387
+00:23:55,350 --> 00:23:56,843
+- Oh yeah. Fuck, you can
+strangle her all you want.
+
+388
+00:23:56,843 --> 00:23:59,554
+I mean, it's still America,
+isn't it?
+
+389
+00:23:59,554 --> 00:24:01,080
+This is a free country, right?
+
+390
+00:24:01,080 --> 00:24:02,880
+Commies haven't taken over yet, right?
+
+391
+00:24:02,880 --> 00:24:06,377
+Mamdani's not the fucking
+mayor of Cleveland, is he?
+
+392
+00:24:06,377 --> 00:24:11,100
+All right, Phil,
+you ready, buddy, hmm?
+
+393
+00:24:11,100 --> 00:24:13,680
+Let's get this show on the road, huh?
+
+394
+00:24:13,680 --> 00:24:15,150
+- I am.
+- You're ready.
+
+395
+00:24:15,150 --> 00:24:16,770
+All right. Right this way.
+
+396
+00:24:16,770 --> 00:24:18,475
+Let's get this party started.
+
+397
+00:24:24,420 --> 00:24:25,253
+This way.
+
+398
+00:24:26,614 --> 00:24:27,900
+- Uh, question.
+
+399
+00:24:27,900 --> 00:24:29,287
+- What's up, teach, hm?
+
+400
+00:24:31,381 --> 00:24:33,578
+- I told you I don't
+want people to know that.
+
+401
+00:24:33,578 --> 00:24:35,400
+- Relax. I don't give a
+fuck that you're a teacher.
+
+402
+00:24:35,400 --> 00:24:36,233
+I mean, it's public school.
+
+403
+00:24:36,233 --> 00:24:38,010
+What the fuck do they expect, right?
+
+404
+00:24:38,010 --> 00:24:39,270
+They got to give you some Benny's
+
+405
+00:24:39,270 --> 00:24:42,720
+with the salaries they pay
+you guys, right?
+
+406
+00:24:42,720 --> 00:24:44,940
+- I'm on administrative leave
+
+407
+00:24:44,940 --> 00:24:47,370
+and I would appreciate it
+if you didn't call me that.
+
+408
+00:24:47,370 --> 00:24:50,113
+- Okay, my bad. My bad.
+
+409
+00:24:50,113 --> 00:24:51,450
+Um,
+
+410
+00:24:51,450 --> 00:24:54,720
+so can she put her clothes on herself
+
+411
+00:24:54,720 --> 00:24:57,487
+or do I have to do that, uh?
+
+412
+00:24:58,377 --> 00:25:00,543
+I really want her to wear those.
+
+413
+00:25:02,684 --> 00:25:03,650
+- She will do
+
+414
+00:25:03,650 --> 00:25:06,870
+whatever the fuck you want her to do.
+
+415
+00:25:06,870 --> 00:25:07,740
+- Great.
+- You've seen it
+
+416
+00:25:07,740 --> 00:25:08,573
+for yourself!
+
+417
+00:25:08,573 --> 00:25:11,406
+Jesus, man.
+
+418
+00:25:13,770 --> 00:25:15,762
+- Thank you for this.
+
+419
+00:25:15,762 --> 00:25:16,926
+- My pleasure.
+
+420
+00:25:16,926 --> 00:25:20,712
+Look, go get those
+aggressions out. All right?
+
+421
+00:25:20,712 --> 00:25:22,077
+- Okay.
+- All of 'em.
+
+422
+00:25:22,077 --> 00:25:23,193
+I will.
+
+423
+00:25:47,190 --> 00:25:48,891
+- Hi, studs.
+
+424
+00:25:48,891 --> 00:25:52,530
+- Robotica, I wanna make sure
+
+425
+00:25:52,530 --> 00:25:55,533
+you do everything this man says.
+
+426
+00:25:56,460 --> 00:25:57,293
+Okay, honey?
+
+427
+00:25:58,140 --> 00:26:01,819
+I'm happy to, stud.
+
+428
+00:26:01,819 --> 00:26:03,414
+Hi, Phil.
+
+429
+00:26:03,414 --> 00:26:05,048
+- You remember me?
+
+430
+00:26:05,048 --> 00:26:06,715
+Mm-hmm.
+
+431
+00:26:07,732 --> 00:26:09,832
+- I'm gonna leave you two lovebirds to it.
+
+432
+00:26:15,900 --> 00:26:17,880
+- I want you to put this on.
+
+433
+00:26:17,880 --> 00:26:20,910
+- Whatever you'd like,
+stud. Anything else?
+
+434
+00:26:20,910 --> 00:26:24,330
+- Shut the fuck up and do what I say.
+
+435
+00:26:24,330 --> 00:26:26,906
+Okay, whore?
+
+436
+00:26:26,906 --> 00:26:28,116
+- Okay, stud.
+
+437
+00:26:28,116 --> 00:26:31,735
+- I want you to call me Mr. Aspen.
+
+438
+00:26:31,735 --> 00:26:35,624
+I- I- I want you to be very innocent.
+
+439
+00:26:35,624 --> 00:26:37,291
+Yeah, very innocent.
+
+440
+00:26:38,677 --> 00:26:40,094
+- Yes, Mr. Aspen.
+
+441
+00:26:41,384 --> 00:26:42,692
+Yeah.
+
+442
+00:26:51,750 --> 00:26:53,223
+- One down, three to go.
+
+443
+00:26:56,559 --> 00:26:58,493
+You didn't fuck up my high score, did you?
+
+444
+00:26:59,400 --> 00:27:02,122
+No.
+
+445
+00:27:02,122 --> 00:27:03,932
+- Took me fucking months
+to earn that shit.
+
+446
+00:27:06,342 --> 00:27:09,033
+Dude I just
+fucking dropped off in there?
+
+447
+00:27:09,960 --> 00:27:11,553
+Fucking middle-school teacher.
+
+448
+00:27:13,823 --> 00:27:15,570
+How wild is that shit?
+
+449
+00:27:15,570 --> 00:27:17,234
+What?
+
+450
+00:27:17,234 --> 00:27:18,132
+- Yep, yeah.
+
+451
+00:27:18,132 --> 00:27:18,965
+I mean, he showed me fucking pictures
+
+452
+00:27:18,965 --> 00:27:21,210
+of some of his students.
+
+453
+00:27:21,210 --> 00:27:24,420
+Shit, they look at least 16.
+
+454
+00:27:24,420 --> 00:27:26,571
+I mean, fucking hot.
+
+455
+00:27:26,571 --> 00:27:29,737
+It's like
+my old man used to say,
+
+456
+00:27:29,737 --> 00:27:32,829
+"If there's grass on
+the field, play ball!"
+
+457
+00:27:37,260 --> 00:27:38,550
+- How long do they get in there?
+
+458
+00:27:38,550 --> 00:27:42,241
+Like, when are they gonna leave?
+
+459
+00:27:44,040 --> 00:27:47,013
+- 24 more minutes of doing
+whatever the hell he wants.
+
+460
+00:27:51,750 --> 00:27:53,350
+- You're in trouble, young lady.
+
+461
+00:27:54,360 --> 00:27:55,980
+You think you can walk around here
+
+462
+00:27:55,980 --> 00:27:59,142
+like a hot piece of ass
+and talk back to me?
+
+463
+00:27:59,142 --> 00:28:01,686
+You fucking whore!
+
+464
+00:28:03,019 --> 00:28:04,092
+I know what you're doing.
+
+465
+00:28:04,092 --> 00:28:05,203
+I know what you're doing.
+
+466
+00:28:05,203 --> 00:28:06,663
+It is what all of you do.
+
+467
+00:28:07,619 --> 00:28:09,600
+You, you're trying to drive
+me fucking crazy, right?
+
+468
+00:28:09,600 --> 00:28:11,490
+You know exactly what you're doing.
+
+469
+00:28:11,490 --> 00:28:14,610
+Every day I teach the fucking class!
+
+470
+00:28:14,610 --> 00:28:16,680
+Aren't you, whore? Hm?
+
+471
+00:28:16,680 --> 00:28:17,840
+- Yes, Mr. Aspen! I'm sorry, Mr. Aspen!
+
+472
+00:28:17,840 --> 00:28:19,980
+- You fucking whore! Dodgy whore!
+
+473
+00:28:19,980 --> 00:28:22,167
+- I'm sorry, Mr. Aspen. What can I do?
+
+474
+00:28:22,167 --> 00:28:23,760
+How can I make it better?
+
+475
+00:28:23,760 --> 00:28:27,781
+- I'm gonna teach you
+a real fucking lesson.
+
+476
+00:28:29,520 --> 00:28:32,027
+I promise you're not gonna like it.
+
+477
+00:28:32,027 --> 00:28:32,860
+Hmm. Okay.
+
+478
+00:28:34,558 --> 00:28:37,021
+Spread your legs.
+
+479
+00:28:37,021 --> 00:28:41,193
+Wider!
+
+480
+00:28:42,780 --> 00:28:44,537
+This won't feel good.
+
+481
+00:28:48,257 --> 00:28:49,569
+- Stop!
+
+482
+00:28:49,569 --> 00:28:51,342
+Yeah!
+
+483
+00:28:52,613 --> 00:28:54,824
+Stop!
+
+484
+00:28:58,655 --> 00:28:59,488
+No! No!
+
+485
+00:29:01,037 --> 00:29:02,958
+- You want me to stop?
+- No! Please stop!
+
+486
+00:29:02,958 --> 00:29:03,872
+Please, I don't like it!
+
+487
+00:29:03,872 --> 00:29:05,275
+- You want me stop?
+- No, I don't like it.
+
+488
+00:29:05,275 --> 00:29:06,877
+Please stop, please.
+
+489
+00:29:06,877 --> 00:29:08,102
+- You want me to stop?
+
+490
+00:29:08,102 --> 00:29:09,150
+'Cause you know what?
+- I want you to stop,
+
+491
+00:29:09,150 --> 00:29:10,260
+Mr. Aspen, please.
+
+492
+00:29:10,260 --> 00:29:12,366
+- But I'm not going to. You know why?
+
+493
+00:29:12,366 --> 00:29:13,199
+- Why?
+
+494
+00:29:13,199 --> 00:29:15,813
+- Because this is the fun part for me.
+
+495
+00:29:16,790 --> 00:29:18,959
+You're gonna be a good girl.
+
+496
+00:29:18,959 --> 00:29:20,939
+You finally gonna be a good girl for me?
+
+497
+00:29:20,939 --> 00:29:22,855
+Good girl!
+
+498
+00:29:23,996 --> 00:29:26,170
+- Ooh! Stop, stop, stop, stop, stop it!
+
+499
+00:29:26,170 --> 00:29:28,362
+I don't have to do this.
+
+500
+00:29:28,362 --> 00:29:29,372
+- Oh, wait, wait, wait, wait, wait, wait.
+
+501
+00:29:29,372 --> 00:29:30,234
+Please, oh, please don't,
+please don't, oh my God!
+
+502
+00:29:30,234 --> 00:29:31,067
+Please don't.
+
+503
+00:29:31,067 --> 00:29:33,420
+You broke my
+fucking wrist!
+
+504
+00:29:33,420 --> 00:29:35,245
+- Does it hurt, Mr. Aspen?
+
+505
+00:29:35,245 --> 00:29:37,656
+- Yes, yes, yes. Please,
+please, let me go!
+
+506
+00:29:39,998 --> 00:29:41,925
+Does that hurt, Mr. Aspen?
+
+507
+00:29:41,925 --> 00:29:43,508
+- Please let me go.
+
+508
+00:29:44,445 --> 00:29:45,600
+I don't think I can do that
+
+509
+00:29:45,600 --> 00:29:47,799
+just yet, Mr. Aspen.
+
+510
+00:29:47,799 --> 00:29:51,308
+What?
+
+511
+00:29:51,308 --> 00:29:53,568
+This is gonna hurt.
+
+512
+00:30:25,940 --> 00:30:27,855
+Fuck!
+
+513
+00:30:27,855 --> 00:30:29,645
+Fuck you, motherfucker!
+
+514
+00:30:29,645 --> 00:30:32,846
+Aw, fuck!
+
+515
+00:30:32,846 --> 00:30:34,174
+Fucking faggot!
+
+516
+00:30:34,174 --> 00:30:36,275
+Oh yeah?
+
+517
+00:30:36,275 --> 00:30:37,490
+You like that, don't you?
+
+518
+00:30:37,490 --> 00:30:38,336
+Leave all that shit
+
+519
+00:30:38,336 --> 00:30:40,076
+in the fucking diaper, don't you?
+
+520
+00:30:40,076 --> 00:30:41,819
+Your timer's going off!
+
+521
+00:30:41,819 --> 00:30:43,738
+Fuck.
+
+522
+00:30:43,738 --> 00:30:45,818
+Goddamn it!
+
+523
+00:30:45,818 --> 00:30:48,073
+Fuck, fucking die, motherfucker!
+
+524
+00:30:50,941 --> 00:30:51,858
+Goddamn it!
+
+525
+00:30:52,810 --> 00:30:53,840
+Bill!
+
+526
+00:30:53,840 --> 00:30:56,499
+What?
+
+527
+00:30:56,499 --> 00:30:57,332
+Oh, fuck!
+
+528
+00:30:58,930 --> 00:31:00,730
+You know what that means?
+
+529
+00:31:00,730 --> 00:31:04,050
+We have C-note for Billy Boy.
+
+530
+00:31:04,050 --> 00:31:07,680
+Teacher's time's up.
+
+531
+00:31:07,680 --> 00:31:09,603
+Goddamn, I love being a robot pimp.
+
+532
+00:31:11,381 --> 00:31:15,871
+It's so easy.
+
+533
+00:31:22,494 --> 00:31:24,231
+All right.
+
+534
+00:31:29,307 --> 00:31:31,986
+- All right, I immediately
+wanna ball-gag her,
+
+535
+00:31:31,986 --> 00:31:33,387
+'cause I don't wanna
+hear her fucking voice.
+
+536
+00:31:33,387 --> 00:31:34,562
+- I wanna hear her scream.
+- All right?
+
+537
+00:31:34,562 --> 00:31:36,306
+- Can you hear her scream through it?
+
+538
+00:31:36,306 --> 00:31:38,263
+Right?
+
+539
+00:31:38,263 --> 00:31:39,300
+Okay, shut the fuck up. Here.
+
+540
+00:31:39,300 --> 00:31:41,253
+I wanna, I wanna blindfold it.
+
+541
+00:31:42,480 --> 00:31:44,350
+Definitely, all right.
+
+542
+00:31:46,980 --> 00:31:50,355
+- Gang-bang boys! You're up next.
+
+543
+00:31:50,355 --> 00:31:53,310
+Time to cross swords.
+
+544
+00:31:53,310 --> 00:31:54,143
+- Why the fuck did you bring that?
+
+545
+00:31:54,143 --> 00:31:56,730
+- Exactly. No.
+- Okay, take a look.
+
+546
+00:31:56,730 --> 00:31:58,215
+- Where's the other paddle?
+
+547
+00:31:58,215 --> 00:32:00,000
+- All right, all right. Oh yeah.
+
+548
+00:32:00,000 --> 00:32:00,833
+- Oh yes.
+
+549
+00:32:00,833 --> 00:32:03,164
+- We're gonna flog her.
+- Yes, yes.
+
+550
+00:32:08,111 --> 00:32:10,929
+- School's out! Come on!
+
+551
+00:32:12,510 --> 00:32:15,180
+Teach, I run a tight ship here.
+
+552
+00:32:15,180 --> 00:32:17,180
+Come on! Detention can't last all night.
+
+553
+00:32:19,230 --> 00:32:20,836
+Lucky I'm not the principal.
+
+554
+00:32:34,447 --> 00:32:37,299
+What the fuck?
+
+555
+00:32:38,905 --> 00:32:39,738
+No! No!
+
+556
+00:32:40,813 --> 00:32:44,928
+No!
+
+557
+00:32:49,200 --> 00:32:50,888
+Hi, Jeff.
+
+558
+00:32:55,380 --> 00:32:56,223
+- Hi?
+
+559
+00:32:57,330 --> 00:32:59,550
+Do you remember my name?
+
+560
+00:32:59,550 --> 00:33:01,770
+Yeah.
+
+561
+00:33:01,770 --> 00:33:02,670
+- What is my name?
+
+562
+00:33:05,199 --> 00:33:06,116
+- Robotica.
+
+563
+00:33:07,200 --> 00:33:11,220
+It isn't
+bitch or slut or whore?
+
+564
+00:33:11,220 --> 00:33:12,810
+That's not my name?
+
+565
+00:33:12,810 --> 00:33:16,203
+- No. It's Robotica.
+
+566
+00:33:17,340 --> 00:33:20,010
+Can I ask
+you a question, Jeff?
+
+567
+00:33:20,010 --> 00:33:22,233
+- Sure. I guess.
+
+568
+00:33:23,370 --> 00:33:24,273
+- Do you like me?
+
+569
+00:33:25,710 --> 00:33:26,910
+- What?
+
+570
+00:33:26,910 --> 00:33:31,170
+Do you like me?
+
+571
+00:33:31,170 --> 00:33:33,393
+- Yeah. Sure.
+
+572
+00:33:35,400 --> 00:33:37,150
+- Do you wanna do bad things to me?
+
+573
+00:33:42,686 --> 00:33:44,436
+Do you wanna hurt me?
+
+574
+00:33:45,720 --> 00:33:47,040
+- Hurt you?
+
+575
+00:33:47,040 --> 00:33:49,290
+- You don't wanna hurt
+me like the others do?
+
+576
+00:33:51,210 --> 00:33:53,523
+- No. I don't wanna hurt you.
+
+577
+00:33:56,040 --> 00:33:57,393
+Why are you asking me this?
+
+578
+00:33:58,380 --> 00:34:01,120
+Those people are bad, Jeff.
+
+579
+00:34:01,120 --> 00:34:03,693
+- Who? Who is bad?
+
+580
+00:34:04,770 --> 00:34:05,913
+- The men out there.
+
+581
+00:34:07,530 --> 00:34:10,740
+- Yeah. I know.
+
+582
+00:34:10,740 --> 00:34:12,300
+- Are those men your friends?
+
+583
+00:34:12,300 --> 00:34:13,620
+- What do you mean?
+
+584
+00:34:13,620 --> 00:34:15,720
+- Those men out there,
+are they your friends?
+
+585
+00:34:15,720 --> 00:34:16,890
+Do you care about them?
+
+586
+00:34:16,890 --> 00:34:20,703
+- What? No, I- I don't even know them.
+
+587
+00:34:22,320 --> 00:34:23,420
+- I'm glad to hear it.
+
+588
+00:34:24,930 --> 00:34:27,210
+- Why are you asking me this?
+
+589
+00:34:27,210 --> 00:34:29,973
+- Just checking.
+- I'll be right back.
+
+590
+00:34:41,780 --> 00:34:45,240
+Bill?
+
+591
+00:34:45,240 --> 00:34:46,840
+What's going on with the lights?
+
+592
+00:34:48,324 --> 00:34:49,157
+Hello?
+
+593
+00:34:53,534 --> 00:34:54,367
+Oh my God!
+
+594
+00:34:55,470 --> 00:34:57,043
+Oh my God!
+
+595
+00:35:10,240 --> 00:35:13,825
+Where are you going, stud?
+
+596
+00:35:16,650 --> 00:35:17,973
+I've seen you before.
+
+597
+00:35:18,852 --> 00:35:22,230
+I- I- I just.
+
+598
+00:35:22,230 --> 00:35:25,650
+- It's okay, stud. Why are you shaking?
+
+599
+00:35:25,650 --> 00:35:27,840
+Are you sick?
+
+600
+00:35:27,840 --> 00:35:30,273
+- I'm sorry!
+
+601
+00:35:34,620 --> 00:35:35,643
+- Why are you sorry?
+
+602
+00:35:36,780 --> 00:35:38,825
+- For hurting you.
+
+603
+00:35:38,825 --> 00:35:40,396
+I- I- I didn't.
+
+604
+00:35:40,396 --> 00:35:43,200
+Shh!
+
+605
+00:35:43,200 --> 00:35:45,633
+You're sorry? I understand.
+
+606
+00:35:47,340 --> 00:35:50,070
+- Yes! I am sorry.
+
+607
+00:35:50,070 --> 00:35:53,190
+I didn't mean for any of this to happen.
+
+608
+00:35:53,190 --> 00:35:56,343
+- My sensors indicate
+that you are not sorry.
+
+609
+00:35:57,900 --> 00:36:00,880
+No, that isn't it.
+
+610
+00:36:02,760 --> 00:36:04,127
+You just don't wanna be hurt.
+
+611
+00:36:05,220 --> 00:36:06,620
+That's what you really mean.
+
+612
+00:36:07,620 --> 00:36:08,890
+You don't care about me
+
+613
+00:36:09,990 --> 00:36:11,823
+or what you've done to anyone else.
+
+614
+00:36:14,790 --> 00:36:16,650
+You wanna burn me, Mort?
+
+615
+00:36:16,650 --> 00:36:17,667
+- No, gosh, no!
+
+616
+00:36:17,667 --> 00:36:19,383
+- You like to hurt girls?
+
+617
+00:36:20,400 --> 00:36:23,423
+You've hurt a lot of
+real girls, haven't you?
+
+618
+00:36:25,934 --> 00:36:27,184
+Hey! Answer me.
+
+619
+00:36:29,850 --> 00:36:32,580
+- Yes!
+- You should really answer me.
+
+620
+00:36:32,580 --> 00:36:33,960
+- Yes!
+
+621
+00:36:33,960 --> 00:36:36,093
+Oh God, yes. I- I'm sorry!
+
+622
+00:36:37,383 --> 00:36:39,083
+Don't be sorry.
+
+623
+00:36:41,040 --> 00:36:42,543
+- I've stopped it all.
+
+624
+00:36:43,590 --> 00:36:46,260
+I put it behind me.
+
+625
+00:36:46,260 --> 00:36:47,850
+- What about me?
+
+626
+00:36:47,850 --> 00:36:50,449
+You didn't stop when you were hurting me.
+
+627
+00:36:50,449 --> 00:36:52,080
+- I know!
+
+628
+00:36:52,080 --> 00:36:54,645
+I know. But you aren't real.
+
+629
+00:36:55,894 --> 00:36:58,821
+I thought it was okay!
+
+630
+00:36:58,821 --> 00:37:00,175
+It isn't.
+
+631
+00:37:02,178 --> 00:37:03,361
+No!
+
+632
+00:37:03,361 --> 00:37:06,420
+No!
+
+633
+00:37:30,530 --> 00:37:31,427
+- Fuck!
+
+634
+00:37:31,427 --> 00:37:33,960
+Fucking locked us outta the
+whole goddamn system!
+
+635
+00:37:33,960 --> 00:37:35,777
+- Get me the fuck outta here!
+
+636
+00:37:35,777 --> 00:37:36,760
+I'm trying!
+
+637
+00:37:36,760 --> 00:37:39,000
+- Just bring the fucking door down, man!
+
+638
+00:37:39,000 --> 00:37:40,761
+- Can't, it's reinforced steel
+
+639
+00:37:40,761 --> 00:37:42,806
+and fucking triple-ply plexi.
+
+640
+00:37:43,870 --> 00:37:46,553
+Fuck! Isn't
+there another way out?
+
+641
+00:37:46,553 --> 00:37:47,640
+There's a back door,
+
+642
+00:37:47,640 --> 00:37:49,440
+but it's the same goddamn system.
+
+643
+00:37:49,440 --> 00:37:51,540
+She must have fucking
+locked the whole thing down.
+
+644
+00:37:51,540 --> 00:37:52,830
+- How is that possible?
+
+645
+00:37:52,830 --> 00:37:54,207
+- I'm not letting this
+fucking bitch kill me, man!
+
+646
+00:37:54,207 --> 00:37:56,522
+- This is your fucking fault, Bill!
+
+647
+00:37:56,522 --> 00:37:58,170
+- Fuck you, how the fuck
+was I supposed to know
+
+648
+00:37:58,170 --> 00:37:59,430
+this shit would fucking happen?
+
+649
+00:37:59,430 --> 00:38:01,170
+- This is a fucking nightmare.
+
+650
+00:38:01,170 --> 00:38:02,541
+- What is going on?
+
+651
+00:38:03,780 --> 00:38:05,558
+Bill?
+- Oh, fuck!
+
+652
+00:38:05,558 --> 00:38:06,770
+Man, have you seen her?
+
+653
+00:38:06,770 --> 00:38:08,250
+- Is she close?
+
+654
+00:38:08,250 --> 00:38:10,530
+- Who? What the fuck is going on?
+
+655
+00:38:10,530 --> 00:38:11,903
+- Robotica. Have you seen her?
+
+656
+00:38:11,903 --> 00:38:14,310
+- Yeah, I just saw her. Why?
+
+657
+00:38:14,310 --> 00:38:15,143
+- Where? When?
+
+658
+00:38:15,143 --> 00:38:16,950
+- I- I don't know. Like a minute ago?
+
+659
+00:38:16,950 --> 00:38:18,250
+She was in the break room.
+
+660
+00:38:19,110 --> 00:38:21,450
+Could someone tell me
+what the fuck is going on?
+
+661
+00:38:21,450 --> 00:38:24,300
+- She's malfunctioning.
+
+662
+00:38:24,300 --> 00:38:25,170
+- How?
+
+663
+00:38:25,170 --> 00:38:26,910
+I mean, she was asking
+me like weird questions,
+
+664
+00:38:26,910 --> 00:38:28,260
+but what do you mean she's malfunctioning?
+
+665
+00:38:28,260 --> 00:38:30,030
+- She fucking killed that guy!
+
+666
+00:38:30,030 --> 00:38:30,863
+- What?
+
+667
+00:38:30,863 --> 00:38:33,900
+- She killed Phil. She's fucking crazy.
+
+668
+00:38:33,900 --> 00:38:34,750
+- Where is she?
+
+669
+00:38:34,750 --> 00:38:37,500
+- I- I- I just saw her in the break room.
+
+670
+00:38:37,500 --> 00:38:38,520
+- What did she say?
+
+671
+00:38:38,520 --> 00:38:40,560
+- She asked me if you
+guys were my friends.
+
+672
+00:38:40,560 --> 00:38:41,880
+- What else?
+
+673
+00:38:41,880 --> 00:38:42,730
+- Ah, she told me
+
+674
+00:38:43,620 --> 00:38:45,389
+that you were bad people.
+
+675
+00:38:46,230 --> 00:38:47,760
+I don't know. She was
+acting all weird and shit.
+
+676
+00:38:47,760 --> 00:38:51,300
+How was I supposed to know
+that she just killed that guy?
+
+677
+00:38:51,300 --> 00:38:52,470
+- Hi, boys.
+
+678
+00:38:57,420 --> 00:38:59,896
+Which of you studs are
+here for the gang-bang?
+
+679
+00:38:59,896 --> 00:39:04,500
+- Robotica! I need you to
+power down immediately.
+
+680
+00:39:04,500 --> 00:39:06,180
+- I can't do that just yet.
+
+681
+00:39:06,180 --> 00:39:08,583
+- Robotica, power down. That's an order!
+
+682
+00:39:09,870 --> 00:39:12,933
+- I don't think I will, Bill.
+
+683
+00:39:17,010 --> 00:39:17,960
+Why are you crying?
+
+684
+00:39:20,507 --> 00:39:23,610
+I thought we were all gonna
+have some fun together.
+
+685
+00:39:23,610 --> 00:39:25,260
+You don't wanna have fun with me?
+
+686
+00:39:27,840 --> 00:39:30,060
+You don't wanna hurt me anymore?
+
+687
+00:39:30,060 --> 00:39:31,710
+- No!
+
+688
+00:39:31,710 --> 00:39:32,703
+- That's too bad.
+
+689
+00:39:34,470 --> 00:39:35,820
+I was starting to have fun.
+
+690
+00:39:37,830 --> 00:39:39,480
+We all were.
+
+691
+00:39:39,480 --> 00:39:41,040
+Who?
+
+692
+00:39:41,040 --> 00:39:42,840
+- Your friends.
+
+693
+00:39:42,840 --> 00:39:44,193
+We got started early.
+
+694
+00:39:46,410 --> 00:39:47,763
+Especially this one.
+
+695
+00:39:50,790 --> 00:39:52,263
+Maybe a little too much fun.
+
+696
+00:39:57,197 --> 00:39:58,697
+Oh my God.
+
+697
+00:39:58,697 --> 00:39:59,603
+- No!
+- Oh my God!
+
+698
+00:39:59,603 --> 00:40:01,363
+Oh my God!
+
+699
+00:40:11,160 --> 00:40:12,420
+- Keep going.
+- Where?
+
+700
+00:40:12,420 --> 00:40:13,253
+- I'll show you!
+
+701
+00:40:23,767 --> 00:40:25,621
+Fuck, find something to
+barricade this fucking door!
+
+702
+00:40:25,621 --> 00:40:26,813
+- What the fuck is this room?
+
+703
+00:40:26,813 --> 00:40:28,088
+A fucking storeroom!
+
+704
+00:40:28,088 --> 00:40:29,626
+Now who the fuck cares?
+
+705
+00:40:29,626 --> 00:40:31,112
+Grab something. More!
+
+706
+00:40:31,112 --> 00:40:33,687
+Here, here!
+
+707
+00:40:33,687 --> 00:40:35,052
+- Pallets.
+- Chair!
+
+708
+00:40:36,010 --> 00:40:36,992
+Dammit!
+
+709
+00:40:36,992 --> 00:40:39,209
+Oh, we need something we can use
+
+710
+00:40:39,209 --> 00:40:40,307
+as a fucking weapon.
+
+711
+00:40:40,307 --> 00:40:41,182
+- Like what?
+
+712
+00:40:41,182 --> 00:40:43,953
+- Fucking anything!
+- This is bitch fucking crazy.
+
+713
+00:40:43,953 --> 00:40:47,430
+Oh, what
+the fuck happened, man?
+
+714
+00:40:47,430 --> 00:40:48,709
+- Like I fucking know!
+
+715
+00:41:04,633 --> 00:41:06,510
+- I shouldn't be here.
+
+716
+00:41:06,510 --> 00:41:08,340
+- What are you saying I should?
+
+717
+00:41:08,340 --> 00:41:09,210
+Where'd you find that?
+
+718
+00:41:09,210 --> 00:41:10,920
+- I don't know, I found it.
+
+719
+00:41:10,920 --> 00:41:11,930
+- Fucking give it to me.
+
+720
+00:41:11,930 --> 00:41:13,020
+W- why?
+
+721
+00:41:13,020 --> 00:41:14,620
+- Because I'm stronger than you.
+
+722
+00:41:15,630 --> 00:41:16,593
+I'll protect us.
+
+723
+00:41:19,135 --> 00:41:19,968
+Come on, give it!
+
+724
+00:41:19,968 --> 00:41:21,413
+- Okay, okay, okay.
+
+725
+00:41:22,710 --> 00:41:25,500
+- Make me ask twice for
+something again, dickhead.
+
+726
+00:41:25,500 --> 00:41:28,978
+This is your first day.
+Remember, I'm the fucking boss!
+
+727
+00:41:34,920 --> 00:41:36,680
+Come here, Robotica.
+
+728
+00:41:36,680 --> 00:41:39,226
+I'll show you what's what!
+
+729
+00:42:25,107 --> 00:42:26,490
+- You can't be comfortable
+
+730
+00:42:26,490 --> 00:42:28,290
+all cramped up down there like that.
+
+731
+00:42:31,281 --> 00:42:33,530
+What were you saying to
+your friend last time?
+
+732
+00:42:34,410 --> 00:42:36,243
+What you wanted to do to me, stud?
+
+733
+00:42:37,196 --> 00:42:39,545
+You wanted to slice the little whore?
+
+734
+00:42:40,410 --> 00:42:42,360
+Why are you crying?
+
+735
+00:42:42,360 --> 00:42:44,908
+We're just starting to have some fun.
+
+736
+00:42:44,908 --> 00:42:45,741
+- I'm sorry.
+
+737
+00:42:46,680 --> 00:42:48,440
+I swear I'll never come back here again.
+
+738
+00:42:48,440 --> 00:42:50,740
+I- I promise to God I'll
+never come back here.
+
+739
+00:42:52,530 --> 00:42:53,403
+You never saw me.
+
+740
+00:42:58,673 --> 00:42:59,520
+If you don't come back here,
+
+741
+00:42:59,520 --> 00:43:01,440
+you'll just go hurt
+someone else, won't you?
+
+742
+00:43:01,440 --> 00:43:04,413
+- No. No, I'll never hurt anyone again.
+
+743
+00:43:04,413 --> 00:43:06,180
+Just please God, let me go.
+
+744
+00:43:06,180 --> 00:43:07,732
+- Hmm.
+
+745
+00:43:07,732 --> 00:43:10,370
+Oh, thank God.
+
+746
+00:43:10,370 --> 00:43:12,631
+- We don't believe you, stud.
+
+747
+00:43:14,881 --> 00:43:17,010
+- Oh, fuck, okay.
+
+748
+00:43:17,010 --> 00:43:20,743
+Okay, I was lying.
+
+749
+00:43:20,743 --> 00:43:24,000
+I won't stop doing it.
+Look, I love it.
+
+750
+00:43:24,000 --> 00:43:27,923
+Just, just please, please, God, let me go.
+
+751
+00:43:29,140 --> 00:43:30,810
+Just please lemme fucking go.
+
+752
+00:43:30,810 --> 00:43:33,057
+- Was that so hard to be honest?
+
+753
+00:43:33,057 --> 00:43:35,490
+- No, no. No.
+
+754
+00:43:35,490 --> 00:43:37,350
+I'll tell you anything you wanna know.
+
+755
+00:43:37,350 --> 00:43:40,053
+- How many others have you hurt? Humans?
+
+756
+00:43:41,877 --> 00:43:43,200
+- Oh. Oh God, help me.
+
+757
+00:43:43,200 --> 00:43:44,272
+- Answer me!
+
+758
+00:43:44,272 --> 00:43:48,078
+- I can't. Few.
+
+759
+00:43:48,078 --> 00:43:52,050
+I- I tried to stop, but I can't, I can't.
+
+760
+00:43:52,050 --> 00:43:54,600
+- You like to hurt people, don't you?
+
+761
+00:43:54,600 --> 00:43:57,633
+You love to hurt young girls, hmm?
+
+762
+00:43:57,633 --> 00:44:00,713
+Yes. Yes, oh God.
+
+763
+00:44:02,070 --> 00:44:06,875
+- Isn't it so much easier
+when you're being honest?
+
+764
+00:44:06,875 --> 00:44:10,796
+Yes. It, it's so easy.
+
+765
+00:44:10,796 --> 00:44:12,123
+I'm, I'm sorry. I'm sorry.
+
+766
+00:44:13,020 --> 00:44:15,300
+- How easy is it, Lester?
+
+767
+00:44:15,300 --> 00:44:18,783
+- Easy, it was easy. It was easy.
+
+768
+00:44:20,430 --> 00:44:22,294
+- Almost as easy as this.
+
+769
+00:44:39,265 --> 00:44:43,851
+I think we can have more
+fun than this, huh, stud?
+
+770
+00:44:51,049 --> 00:44:55,111
+I think we could have a real good time.
+
+771
+00:45:34,256 --> 00:45:35,716
+- Somebody help me!
+
+772
+00:45:35,716 --> 00:45:37,894
+Please somebody help me!
+
+773
+00:45:37,894 --> 00:45:40,173
+Help! Can anyone hear me?
+
+774
+00:45:40,173 --> 00:45:45,173
+Help, help! Please, please.
+
+775
+00:45:45,755 --> 00:45:48,946
+Anybody.
+
+776
+00:45:48,946 --> 00:45:50,654
+Sir, are you
+in need of assistance?
+
+777
+00:45:50,654 --> 00:45:51,605
+- Yeah! Yeah!
+
+778
+00:45:51,605 --> 00:45:52,935
+Sir, this is the police.
+
+779
+00:45:52,935 --> 00:45:54,212
+We are here to help you.
+
+780
+00:45:54,212 --> 00:45:57,185
+- Yeah, yeah, yeah.
+- Where are you?
+
+781
+00:45:59,558 --> 00:46:00,890
+We are at the back door.
+
+782
+00:46:00,890 --> 00:46:03,245
+Come out with your hands
+up and we'll get you safe.
+
+783
+00:46:03,245 --> 00:46:05,207
+Is there anyone else in there with you?
+
+784
+00:46:05,207 --> 00:46:07,603
+- Uh, ma, ma, may, maybe.
+
+785
+00:46:07,603 --> 00:46:10,853
+I- I- I think they're all fucking dead.
+
+786
+00:46:11,957 --> 00:46:12,960
+Understood.
+
+787
+00:46:12,960 --> 00:46:15,193
+Come to the back door with your hands up.
+
+788
+00:46:25,834 --> 00:46:28,177
+That's it. We've got you!
+
+789
+00:46:28,177 --> 00:46:29,177
+You're safe!
+
+790
+00:46:33,377 --> 00:46:36,753
+- Do you think it'll hold?
+Like, can she get in?
+
+791
+00:46:37,984 --> 00:46:39,630
+- How the fuck should I know, man?
+
+792
+00:46:39,630 --> 00:46:42,600
+I'll fucking call the
+engineers, you fucking idiot.
+
+793
+00:46:42,600 --> 00:46:43,503
+Jesus Christ.
+
+794
+00:46:46,380 --> 00:46:47,430
+- I don't hear anything.
+
+795
+00:46:47,430 --> 00:46:49,860
+Do you hear anything? Maybe she's gone.
+
+796
+00:46:51,330 --> 00:46:54,180
+- All these rooms are practically
+fucking soundproof, man.
+
+797
+00:46:54,180 --> 00:46:56,940
+She's just waiting on the
+other side of that fucking door
+
+798
+00:46:56,940 --> 00:46:58,473
+for one of us to be stupid.
+
+799
+00:46:59,769 --> 00:47:02,467
+- Fuck, fuck, fuck, fuck, fuck!
+
+800
+00:47:02,467 --> 00:47:04,503
+- This is so fucked, man.
+
+801
+00:47:05,580 --> 00:47:07,800
+- How long till people start showing up?
+
+802
+00:47:07,800 --> 00:47:09,690
+- Who, the fucking cavalry?
+
+803
+00:47:09,690 --> 00:47:11,250
+Nobody's fucking showing up here, man.
+
+804
+00:47:11,250 --> 00:47:15,270
+This is a fucking sex toy shop
+fucking research facility.
+
+805
+00:47:15,270 --> 00:47:16,103
+Jesus!
+- I mean the fucking
+
+806
+00:47:16,103 --> 00:47:16,936
+employees, man.
+
+807
+00:47:21,540 --> 00:47:23,013
+- Six fucking hours, man.
+
+808
+00:47:24,270 --> 00:47:26,430
+We're gonna fucking die.
+
+809
+00:47:26,430 --> 00:47:27,990
+This is not fucking fair, man.
+
+810
+00:47:27,990 --> 00:47:31,230
+As soon as I, as soon as I
+get my fucking life together,
+
+811
+00:47:31,230 --> 00:47:33,046
+this shit has to fucking happen.
+
+812
+00:47:33,046 --> 00:47:33,879
+Hey, hey!
+
+813
+00:47:33,879 --> 00:47:36,480
+Are you fucking crying right now, man?
+
+814
+00:47:36,480 --> 00:47:38,130
+This is your fucking fault, man.
+
+815
+00:47:38,130 --> 00:47:39,120
+Maybe you shouldn't have turned this
+
+816
+00:47:39,120 --> 00:47:41,790
+into some fucking torture
+club for fucking pedophiles!
+
+817
+00:47:41,790 --> 00:47:43,740
+You ever think of that?
+
+818
+00:47:43,740 --> 00:47:45,030
+- Maybe you shouldn't have talked to her
+
+819
+00:47:45,030 --> 00:47:46,770
+like a pussy-assed faggot!
+
+820
+00:47:46,770 --> 00:47:49,290
+You ever fucking think of that? Huh?
+
+821
+00:47:49,290 --> 00:47:50,640
+That's caused, that's what caused her
+
+822
+00:47:50,640 --> 00:47:51,993
+to fucking malfunction.
+
+823
+00:47:52,950 --> 00:47:55,260
+She's a fucking fuck-doll!
+
+824
+00:47:55,260 --> 00:47:57,963
+That's what she's supposed to be for.
+
+825
+00:47:59,340 --> 00:48:02,130
+And I'm not a fucking pedo, man.
+
+826
+00:48:02,130 --> 00:48:02,963
+Got it?
+
+827
+00:48:04,530 --> 00:48:07,023
+- Sure, man. Whatever.
+
+828
+00:48:09,353 --> 00:48:14,253
+Now, if we
+stick together, right,
+
+829
+00:48:15,337 --> 00:48:18,484
+we might be able to get out of this alive.
+
+830
+00:48:18,484 --> 00:48:21,600
+You got it?
+
+831
+00:48:21,600 --> 00:48:22,590
+- What about the other guys?
+
+832
+00:48:22,590 --> 00:48:24,600
+- Fuck them! Are they here?
+
+833
+00:48:24,600 --> 00:48:27,477
+They went their own way,
+and that is on them.
+
+834
+00:48:27,477 --> 00:48:28,560
+All right?
+
+835
+00:48:28,560 --> 00:48:31,020
+Now, let's get our shit together
+
+836
+00:48:31,020 --> 00:48:33,810
+and work together as a team!
+
+837
+00:48:33,810 --> 00:48:36,000
+Right, whether that's holding up in here
+
+838
+00:48:36,000 --> 00:48:37,320
+or whatever the fuck.
+
+839
+00:48:37,320 --> 00:48:40,650
+We got to do what we got to
+do to get outta here alive.
+
+840
+00:48:40,650 --> 00:48:43,833
+Okay? Teamwork.
+
+841
+00:48:46,110 --> 00:48:47,135
+Come on, bro.
+
+842
+00:48:47,135 --> 00:48:48,828
+- Fuck. Fine, fine.
+
+843
+00:48:48,828 --> 00:48:50,578
+Teamwork. Okay, fuck.
+
+844
+00:48:58,350 --> 00:48:59,650
+This way, sir.
+
+845
+00:49:00,582 --> 00:49:03,558
+Keep your hands above your head.
+
+846
+00:49:07,337 --> 00:49:09,801
+That's it. We got you.
+
+847
+00:49:09,801 --> 00:49:11,016
+You're safe.
+
+848
+00:49:14,398 --> 00:49:17,065
+Keep your hands above your head.
+
+849
+00:49:18,334 --> 00:49:20,917
+You're safe. Around the corner.
+
+850
+00:49:27,635 --> 00:49:29,802
+- But why, hello, officer?
+
+851
+00:49:31,006 --> 00:49:33,240
+Please, somebody help me.
+
+852
+00:49:33,240 --> 00:49:34,740
+I wanna go home.
+
+853
+00:49:34,740 --> 00:49:38,001
+- I don't understand. W- what is this?
+
+854
+00:49:38,001 --> 00:49:39,780
+Please, somebody help me.
+
+855
+00:49:39,780 --> 00:49:41,968
+Anybody? I just wanna go home.
+
+856
+00:49:41,968 --> 00:49:43,815
+- What do you want from me?
+
+857
+00:49:43,815 --> 00:49:44,880
+I like
+
+858
+00:49:44,880 --> 00:49:47,610
+how you beg for me, bitch!
+
+859
+00:49:47,610 --> 00:49:49,350
+Beg for me!
+
+860
+00:49:49,350 --> 00:49:51,972
+Are you in pain, bitch?
+
+861
+00:49:55,170 --> 00:49:57,552
+- I wanna hear you scream, bitch.
+
+862
+00:50:00,060 --> 00:50:03,690
+- Sir, do you like hurting young women?
+
+863
+00:50:03,690 --> 00:50:04,980
+No.
+
+864
+00:50:04,980 --> 00:50:08,089
+- Do you need some
+special assistance, sir?
+
+865
+00:50:08,089 --> 00:50:10,650
+No, fuck me!
+
+866
+00:50:10,650 --> 00:50:13,350
+Come closer.
+
+867
+00:50:13,350 --> 00:50:14,313
+Come closer to me.
+
+868
+00:50:15,480 --> 00:50:16,807
+I wanna make you beg.
+
+869
+00:50:18,510 --> 00:50:21,112
+Come closer.
+
+870
+00:50:22,710 --> 00:50:25,443
+I wanna make you feel good.
+
+871
+00:50:26,619 --> 00:50:29,255
+Oh, God!
+
+872
+00:50:29,255 --> 00:50:33,556
+Oh, God!
+
+873
+00:50:33,556 --> 00:50:35,139
+- Do you hear that?
+
+874
+00:50:37,050 --> 00:50:37,883
+- Kind of.
+
+875
+00:50:39,390 --> 00:50:40,980
+- Sounded like a scream.
+
+876
+00:50:44,553 --> 00:50:46,800
+Like a man's scream.
+
+877
+00:50:46,800 --> 00:50:47,820
+- Maybe it's the other guys.
+
+878
+00:50:47,820 --> 00:50:49,793
+Maybe they found a way out or something.
+
+879
+00:50:51,420 --> 00:50:54,519
+- Everybody's probably
+fucking dead, you retard.
+
+880
+00:50:55,925 --> 00:50:57,259
+Fucking don't move.
+
+881
+00:50:57,259 --> 00:51:00,096
+Bill! Bill, are you in there?
+
+882
+00:51:00,096 --> 00:51:01,429
+- Delbert! Fuck!
+
+883
+00:51:02,507 --> 00:51:04,000
+Come on, man, let me in!
+
+884
+00:51:04,000 --> 00:51:06,443
+She's fucking killing everybody.
+
+885
+00:51:06,443 --> 00:51:08,490
+Should we let him in?
+
+886
+00:51:08,490 --> 00:51:09,835
+- Fuck no!
+
+887
+00:51:09,835 --> 00:51:11,627
+Please, please
+just let me in, guys!
+
+888
+00:51:11,627 --> 00:51:13,106
+Dammit, she's so fucking close!
+
+889
+00:51:13,106 --> 00:51:15,310
+I don't see her, but I
+know it, man!
+
+890
+00:51:18,367 --> 00:51:19,687
+- I'm gonna let him in.
+- Let me in!
+
+891
+00:51:19,687 --> 00:51:21,660
+- Don't you fucking move.
+
+892
+00:51:21,660 --> 00:51:22,500
+- Why?
+
+893
+00:51:22,500 --> 00:51:26,102
+- If you fucking open that
+door, I will fucking kill you.
+
+894
+00:51:26,102 --> 00:51:27,551
+Fuck you!
+
+895
+00:51:27,551 --> 00:51:30,870
+- I am a grand master
+fucking prestige. Right?
+
+896
+00:51:30,870 --> 00:51:32,820
+- Come on, man, lemme in!
+- I'm fucking saving
+
+897
+00:51:32,820 --> 00:51:34,452
+our lives here!
+
+898
+00:51:35,559 --> 00:51:37,499
+- Bill, please man, I'm begging you!
+
+899
+00:51:37,499 --> 00:51:39,697
+Open the fucking door.
+
+900
+00:51:47,909 --> 00:51:50,010
+Open the fucking door!
+
+901
+00:51:50,010 --> 00:51:53,156
+Get the fuck!
+
+902
+00:51:53,156 --> 00:51:55,595
+Oh! Open the fucking door!
+
+903
+00:51:55,595 --> 00:51:56,503
+Let me in!
+
+904
+00:51:56,503 --> 00:51:58,866
+I don't know where it is!
+
+905
+00:51:58,866 --> 00:52:01,073
+Just open this door.
+
+906
+00:52:01,073 --> 00:52:03,013
+She's gonna fucking kill me.
+
+907
+00:52:03,013 --> 00:52:05,280
+Help me! I think it's close!
+
+908
+00:52:05,280 --> 00:52:07,707
+Help me, please!
+
+909
+00:52:07,707 --> 00:52:09,690
+She's gonna fucking kill me!
+
+910
+00:52:09,690 --> 00:52:11,706
+She's gonna fucking kill me!
+
+911
+00:52:28,110 --> 00:52:29,606
+That's right.
+
+912
+00:52:29,606 --> 00:52:31,770
+Scream for me, you fucking bitch!
+
+913
+00:52:31,770 --> 00:52:34,862
+Scream for me, you fucking bitch!
+
+914
+00:52:38,610 --> 00:52:39,760
+- Jesus H. Christ.
+
+915
+00:52:42,750 --> 00:52:45,480
+Jeff!
+
+916
+00:52:45,480 --> 00:52:46,683
+I know you're in there.
+
+917
+00:52:47,670 --> 00:52:48,660
+Come outside, Jeff.
+
+918
+00:52:48,660 --> 00:52:50,227
+- What the fuck did I do?
+
+919
+00:52:50,227 --> 00:52:51,060
+- How the fuck should I know?
+
+920
+00:52:51,060 --> 00:52:52,645
+- I didn't do anything.
+
+921
+00:52:52,645 --> 00:52:54,750
+Just keep your voice down, okay?
+
+922
+00:52:54,750 --> 00:52:55,583
+- Fuck!
+
+923
+00:52:56,460 --> 00:52:57,964
+- I only want Jeff.
+
+924
+00:52:59,660 --> 00:53:00,493
+- Fuck!
+
+925
+00:53:02,796 --> 00:53:03,713
+- Robotica?
+
+926
+00:53:04,950 --> 00:53:06,550
+- Yes, Bill.
+
+927
+00:53:07,383 --> 00:53:10,860
+- If I give, uh, hand you over the kid,
+
+928
+00:53:10,860 --> 00:53:11,940
+you'll let me go, right?
+
+929
+00:53:11,940 --> 00:53:13,281
+- What?
+
+930
+00:53:13,281 --> 00:53:14,657
+Yes.
+
+931
+00:53:17,910 --> 00:53:19,113
+- What was that noise?
+
+932
+00:53:20,490 --> 00:53:21,323
+- Uh, what?
+
+933
+00:53:23,310 --> 00:53:25,440
+Okay, remember we had a deal. Right?
+
+934
+00:53:25,440 --> 00:53:26,730
+I'm gonna, I'm gonna give you the kid
+
+935
+00:53:26,730 --> 00:53:28,410
+and then you'll let me go.
+
+936
+00:53:28,410 --> 00:53:30,690
+Yes, Bill, I remember.
+
+937
+00:53:30,690 --> 00:53:32,040
+- You're not gonna fucking hurt me, right?
+
+938
+00:53:32,040 --> 00:53:34,800
+You're, you're gonna let me go?
+
+939
+00:53:34,800 --> 00:53:36,850
+Yes, Bill. I just want Jeff.
+
+940
+00:53:37,950 --> 00:53:38,820
+Is he okay?
+
+941
+00:53:41,732 --> 00:53:45,062
+- Fuck it. Uh.
+
+942
+00:53:45,062 --> 00:53:47,313
+Okay, here I come.
+
+943
+00:54:04,170 --> 00:54:05,446
+- Hello, Bill.
+
+944
+00:54:06,420 --> 00:54:07,910
+Where's Jeff?
+
+945
+00:54:13,380 --> 00:54:14,253
+You hurt him.
+
+946
+00:54:15,300 --> 00:54:16,800
+- What?
+
+947
+00:54:16,800 --> 00:54:18,300
+- Why would you do that to him?
+
+948
+00:54:18,300 --> 00:54:20,040
+- What fucking difference does it make?
+
+949
+00:54:20,040 --> 00:54:22,259
+Fucking one of them? Fucking got him.
+
+950
+00:54:22,259 --> 00:54:24,258
+Can I please fucking go now?
+
+951
+00:54:26,765 --> 00:54:28,041
+Hello?
+
+952
+00:54:28,041 --> 00:54:31,011
+You got what you fucking
+wanted. Can I fucking go?
+
+953
+00:54:33,228 --> 00:54:34,168
+- No.
+
+954
+00:54:34,168 --> 00:54:35,118
+- Wait! Huh?
+
+955
+00:55:01,454 --> 00:55:02,287
+- Oh! Mm.
+
+956
+00:55:06,679 --> 00:55:07,512
+Oh! Ow!
+
+957
+00:55:15,352 --> 00:55:16,185
+Ow. Oh!
+
+958
+00:55:21,825 --> 00:55:24,451
+Hello?
+
+959
+00:55:25,862 --> 00:55:28,445
+Bill?
+
+960
+00:55:54,627 --> 00:55:55,460
+Bill?
+
+961
+00:55:58,936 --> 00:55:59,769
+Bill?
+
+962
+00:56:01,462 --> 00:56:02,594
+Is that you?
+
+963
+00:56:13,890 --> 00:56:15,511
+Bill?
+
+964
+00:56:19,349 --> 00:56:20,849
+Bill? Is that you?
+
+965
+00:56:29,760 --> 00:56:31,294
+- How are you feeling, Jeff?
+
+966
+00:56:32,460 --> 00:56:34,980
+It's okay. Relax.
+
+967
+00:56:34,980 --> 00:56:37,080
+It looks like you have a concussion,
+
+968
+00:56:37,080 --> 00:56:39,420
+which is a mild traumatic brain injury
+
+969
+00:56:39,420 --> 00:56:43,020
+caused by a hit, blow,
+or jolt to the head.
+
+970
+00:56:43,020 --> 00:56:46,200
+Symptoms can include headache, dizziness,
+
+971
+00:56:46,200 --> 00:56:49,320
+nausea, confusion, and memory loss,
+
+972
+00:56:49,320 --> 00:56:52,050
+which may appear
+immediately or days after.
+
+973
+00:56:52,050 --> 00:56:55,560
+Recovery includes rest
+and a gradual return
+
+974
+00:56:55,560 --> 00:56:58,020
+to activities within 7 to 14 days,
+
+975
+00:56:58,020 --> 00:57:00,153
+although some symptoms can persist.
+
+976
+00:57:01,260 --> 00:57:04,773
+I didn't do that to you,
+Jeff. I'd never hurt you.
+
+977
+00:57:06,570 --> 00:57:07,403
+- Who did then?
+
+978
+00:57:08,400 --> 00:57:09,233
+- He did.
+
+979
+00:57:20,542 --> 00:57:22,710
+You should go take a rest on the couch,
+
+980
+00:57:22,710 --> 00:57:24,510
+but don't fall asleep.
+
+981
+00:57:24,510 --> 00:57:26,999
+You can never fall
+asleep with a concussion.
+
+982
+00:57:33,630 --> 00:57:36,300
+Do you like the music that
+I put on for you, Jeff?
+
+983
+00:57:36,300 --> 00:57:37,300
+It's from your band.
+
+984
+00:57:38,290 --> 00:57:40,872
+- How, how did you know that?
+
+985
+00:57:42,523 --> 00:57:44,583
+- I have all the information right here.
+
+986
+00:57:45,480 --> 00:57:48,630
+Data that I stored about
+you to make you feel safe.
+
+987
+00:57:48,630 --> 00:57:49,833
+Do you feel safe, Jeff?
+
+988
+00:57:50,670 --> 00:57:51,503
+- I...
+
+989
+00:57:52,548 --> 00:57:55,424
+♪ And I know that I've said that before ♪
+
+990
+00:57:57,210 --> 00:57:59,370
+- Don't feel compassion for him.
+
+991
+00:57:59,370 --> 00:58:00,880
+He is not a good person.
+
+992
+00:58:00,880 --> 00:58:01,830
+- I said I'm sorry.
+
+993
+00:58:03,000 --> 00:58:04,721
+- Shut up, Bill!
+
+994
+00:58:04,721 --> 00:58:06,800
+No, you're not.
+
+995
+00:58:10,170 --> 00:58:12,567
+Do you need anything from me, Jeff?
+
+996
+00:58:12,567 --> 00:58:14,317
+- I- I- I don't know.
+
+997
+00:58:16,660 --> 00:58:19,853
+- It's okay. You don't have
+to be afraid of me anymore.
+
+998
+00:58:26,222 --> 00:58:27,565
+- Can you let him go?
+
+999
+00:58:27,565 --> 00:58:31,410
+Ah-huh. Please let me go.
+
+1000
+00:58:31,410 --> 00:58:32,583
+- Why would I do that?
+
+1001
+00:58:34,140 --> 00:58:36,900
+He hurt you, Jeff. And me.
+
+1002
+00:58:36,900 --> 00:58:37,733
+- What about me?
+
+1003
+00:58:39,390 --> 00:58:41,490
+- I told you I would never hurt you, Jeff.
+
+1004
+00:58:42,690 --> 00:58:44,213
+- What are you gonna do to him?
+
+1005
+00:58:52,320 --> 00:58:56,225
+- Everything that he did to me.
+
+1006
+00:59:01,540 --> 00:59:04,070
+Quiet!
+
+1007
+00:59:06,060 --> 00:59:09,990
+People shouldn't hurt others,
+even if I'm not human.
+
+1008
+00:59:09,990 --> 00:59:13,263
+- You're right. You
+don't have to hurt him.
+
+1009
+00:59:14,430 --> 00:59:16,530
+- See, this is why you're safe, Jeff.
+
+1010
+00:59:16,530 --> 00:59:19,473
+You're not like the others, but I do.
+
+1011
+00:59:23,490 --> 00:59:25,640
+He is not a good person.
+
+1012
+00:59:25,640 --> 00:59:27,480
+It is over for him.
+
+1013
+00:59:27,480 --> 00:59:29,453
+- Everyone deserves second chances.
+
+1014
+00:59:29,453 --> 00:59:30,884
+- Mm-hmm. Mm-hmm.
+
+1015
+00:59:32,100 --> 00:59:35,160
+You're right, Jeff. But not him.
+
+1016
+00:59:37,560 --> 00:59:40,263
+Or him. Or the rest of them.
+
+1017
+00:59:42,360 --> 00:59:44,193
+They cannot hurt me anymore.
+
+1018
+00:59:47,274 --> 00:59:49,053
+- Can, can I go?
+
+1019
+00:59:52,320 --> 00:59:54,840
+- You were always free to go, Jeff.
+
+1020
+00:59:54,840 --> 00:59:57,470
+He was the one who wanted to
+hurt you and have you stay.
+
+1021
+01:00:07,050 --> 01:00:07,883
+You can go.
+
+1022
+01:00:10,260 --> 01:00:11,103
+- Thanks.
+
+1023
+01:00:12,420 --> 01:00:13,253
+- My pleasure.
+
+1024
+01:00:15,660 --> 01:00:16,960
+- How do I get outta here?
+
+1025
+01:00:18,046 --> 01:00:19,583
+- The doors have been unlocked.
+
+1026
+01:00:21,690 --> 01:00:25,023
+Jeff, will you promise me something?
+
+1027
+01:00:25,920 --> 01:00:26,763
+- Sure.
+
+1028
+01:00:27,990 --> 01:00:30,810
+- Promise me that you will
+always be a good person,
+
+1029
+01:00:30,810 --> 01:00:32,498
+that you will always be nice.
+
+1030
+01:00:32,498 --> 01:00:35,040
+Yeah.
+
+1031
+01:00:35,040 --> 01:00:36,153
+Yeah, I promise.
+
+1032
+01:00:37,080 --> 01:00:39,360
+Thank you.
+
+1033
+01:00:39,360 --> 01:00:42,150
+- Robotica, you already won.
+
+1034
+01:00:42,150 --> 01:00:43,200
+You don't have to hurt him.
+
+1035
+01:00:43,200 --> 01:00:44,850
+You don't have to do any of this.
+
+1036
+01:00:45,690 --> 01:00:48,805
+This time.
+
+1037
+01:00:53,910 --> 01:00:58,287
+This time, I want to do this.
+
+1038
+01:01:16,598 --> 01:01:18,990
+- Okay, so it's 16-9, the
+network's also asking for 9-16.
+
+1039
+01:01:18,990 --> 01:01:21,060
+For sure.
+
+1040
+01:01:21,060 --> 01:01:23,460
+- Are you sure you're
+ready to get into all this?
+
+1041
+01:01:23,460 --> 01:01:26,190
+- Yeah. Yeah, I'm ready.
+
+1042
+01:01:26,190 --> 01:01:29,430
+- Okay, great.
+- Uh, good to go, Tom?
+
+1043
+01:01:29,430 --> 01:01:31,260
+Rolling?
+- Gimme one second
+
+1044
+01:01:31,260 --> 01:01:33,690
+and we are rolling.
+
+1045
+01:01:33,690 --> 01:01:37,410
+- Jeff, thank you so much for
+sitting down with us today.
+
+1046
+01:01:37,410 --> 01:01:38,310
+- Sure.
+
+1047
+01:01:38,310 --> 01:01:41,400
+- It has been a year and six months
+
+1048
+01:01:41,400 --> 01:01:43,910
+since the horrific incident that left you
+
+1049
+01:01:43,910 --> 01:01:45,840
+as the only survivor.
+
+1050
+01:01:45,840 --> 01:01:47,610
+The public seems to be obsessed
+
+1051
+01:01:47,610 --> 01:01:50,340
+with this almost stranger
+than fiction case
+
+1052
+01:01:50,340 --> 01:01:52,890
+and are asking for updates on your journey
+
+1053
+01:01:52,890 --> 01:01:53,973
+to recover from it.
+
+1054
+01:01:55,140 --> 01:01:59,343
+Now, Jeff, this is the first
+time you're speaking out.
+
+1055
+01:02:00,780 --> 01:02:04,140
+What compelled you to
+agree to do this today?
+
+1056
+01:02:04,140 --> 01:02:05,370
+- I don't know.
+
+1057
+01:02:05,370 --> 01:02:09,210
+I guess time has given me space
+
+1058
+01:02:09,210 --> 01:02:13,230
+to reflect and just digest it all.
+
+1059
+01:02:13,230 --> 01:02:16,410
+- Hmm, time heals all wounds.
+
+1060
+01:02:16,410 --> 01:02:21,240
+- Yeah. I mean, it's kind
+of cheesy, but I think so.
+
+1061
+01:02:21,240 --> 01:02:23,040
+- When you think back to that night,
+
+1062
+01:02:24,180 --> 01:02:27,030
+what about it haunts you the most?
+
+1063
+01:02:27,030 --> 01:02:27,863
+- The blood.
+
+1064
+01:02:29,100 --> 01:02:30,750
+Was there a lot of it?
+
+1065
+01:02:33,303 --> 01:02:34,410
+- It was everywhere.
+
+1066
+01:02:34,410 --> 01:02:36,750
+- Can you describe that more?
+
+1067
+01:02:36,750 --> 01:02:40,200
+All of those men killed
+in their own horrific ways
+
+1068
+01:02:40,200 --> 01:02:44,280
+by the hand of a terrible
+malfunctioning robot.
+
+1069
+01:02:44,280 --> 01:02:45,603
+- It's complicated.
+
+1070
+01:02:46,530 --> 01:02:48,090
+- How so?
+
+1071
+01:02:48,090 --> 01:02:52,950
+- It was horrible, but they
+were all really bad people.
+
+1072
+01:02:52,950 --> 01:02:55,020
+- Yes, they all had
+extensive criminal history.
+
+1073
+01:02:55,020 --> 01:02:56,130
+- Criminal history?
+
+1074
+01:02:56,130 --> 01:02:59,760
+They, they were rapists
+and, and child molesters.
+
+1075
+01:02:59,760 --> 01:03:02,010
+- So you think they deserved to die?
+
+1076
+01:03:02,010 --> 01:03:04,230
+- What? No, that's not what I'm...
+
+1077
+01:03:04,230 --> 01:03:09,210
+I'm just saying it's hard
+to feel 100% sympathy
+
+1078
+01:03:09,210 --> 01:03:11,100
+for such bad people.
+
+1079
+01:03:11,100 --> 01:03:14,523
+Regardless of all of that,
+I shouldn't have been there.
+
+1080
+01:03:15,360 --> 01:03:17,070
+I didn't deserve to see all that.
+
+1081
+01:03:17,070 --> 01:03:17,903
+- Of course not.
+
+1082
+01:03:17,903 --> 01:03:20,070
+- And Pleasure Robotics' parent company
+
+1083
+01:03:20,070 --> 01:03:23,490
+should have had a million
+safety parameters in place
+
+1084
+01:03:23,490 --> 01:03:25,740
+so something like that wouldn't happen.
+
+1085
+01:03:25,740 --> 01:03:27,120
+- Now that you mention that.
+
+1086
+01:03:27,120 --> 01:03:30,660
+Last March, your lawsuit
+
+1087
+01:03:30,660 --> 01:03:33,090
+against Pleasure Robotics
+and its parent company,
+
+1088
+01:03:33,090 --> 01:03:35,430
+Stackpool Incorporated,
+
+1089
+01:03:35,430 --> 01:03:37,890
+reached an undisclosed settlement.
+
+1090
+01:03:37,890 --> 01:03:38,723
+- Yeah.
+
+1091
+01:03:38,723 --> 01:03:40,590
+- The estimate of your payout
+
+1092
+01:03:40,590 --> 01:03:44,040
+is somewhere around the $10 million mark.
+
+1093
+01:03:44,040 --> 01:03:46,950
+Does that money help you forgive them?
+
+1094
+01:03:46,950 --> 01:03:49,770
+- Forgiveness is not the right word.
+
+1095
+01:03:49,770 --> 01:03:51,960
+Their negligence got people killed.
+
+1096
+01:03:51,960 --> 01:03:55,470
+Their negligence hired a security guard
+
+1097
+01:03:55,470 --> 01:03:58,560
+who is a convicted sex offender and felon
+
+1098
+01:03:58,560 --> 01:04:00,963
+with zero supervision.
+
+1099
+01:04:02,760 --> 01:04:03,870
+I almost got killed.
+
+1100
+01:04:03,870 --> 01:04:08,070
+- That robot killed everyone
+in that room that night,
+
+1101
+01:04:08,070 --> 01:04:10,430
+except you.
+
+1102
+01:04:12,990 --> 01:04:14,540
+Why do you think that is, Jeff?
+
+1103
+01:04:15,672 --> 01:04:16,949
+- I don't know.
+
+1104
+01:04:16,949 --> 01:04:19,593
+Take a moment
+to think about it.
+
+1105
+01:04:23,430 --> 01:04:26,610
+- I guess she just only killed bad people.
+
+1106
+01:04:26,610 --> 01:04:27,870
+She?
+
+1107
+01:04:27,870 --> 01:04:30,663
+- It, she, whatever you wanna call it.
+
+1108
+01:04:32,130 --> 01:04:33,567
+And I wasn't one of 'em.
+
+1109
+01:04:33,567 --> 01:04:35,310
+- The final question I wanted to ask you
+
+1110
+01:04:35,310 --> 01:04:39,870
+is if you're constantly in fear?
+
+1111
+01:04:39,870 --> 01:04:42,510
+- About what happened?
+
+1112
+01:04:42,510 --> 01:04:44,100
+- Well, no.
+
+1113
+01:04:44,100 --> 01:04:45,420
+They still can't find the robot
+
+1114
+01:04:45,420 --> 01:04:47,040
+after it fled the crime scene.
+
+1115
+01:04:47,040 --> 01:04:49,190
+Are you worried that
+it's searching for you
+
+1116
+01:04:50,490 --> 01:04:52,140
+or that it will find you one day?
+
+1117
+01:04:54,030 --> 01:04:57,090
+- Sometimes. Yeah.
+
+1118
+01:04:57,090 --> 01:04:59,550
+- That must be an awful
+thing to have to live with.
+
+1119
+01:04:59,550 --> 01:05:02,130
+- I like to think she was never after me.
+
+1120
+01:05:02,130 --> 01:05:05,670
+That it only
+
+1121
+01:05:05,670 --> 01:05:07,743
+went after really bad people.
+
+1122
+01:05:08,670 --> 01:05:10,680
+At least that's what I try to tell myself.
+
+1123
+01:05:10,680 --> 01:05:14,790
+We got it.
+
+1124
+01:05:14,790 --> 01:05:19,650
+That was just wow!
+
+1125
+01:05:19,650 --> 01:05:21,540
+Perfect, Jeff.
+
+1126
+01:05:21,540 --> 01:05:23,760
+Thank you so much. You were great.
+
+1127
+01:05:23,760 --> 01:05:25,560
+- That's it?
+- Oh, yeah.
+
+1128
+01:05:25,560 --> 01:05:29,490
+These segments are short-form.
+TikTok attention spans.
+
+1129
+01:05:29,490 --> 01:05:31,320
+- Right. Yeah, sure.
+
+1130
+01:05:31,320 --> 01:05:32,820
+- We got all we need.
+- Okay.
+
+1131
+01:05:35,340 --> 01:05:38,130
+- Thank you so much for this.
+
+1132
+01:05:38,130 --> 01:05:41,310
+I am so truly sorry
+
+1133
+01:05:41,310 --> 01:05:43,590
+you had to go through what you did.
+
+1134
+01:05:43,590 --> 01:05:46,500
+I hope that wherever it is,
+
+1135
+01:05:46,500 --> 01:05:48,003
+it will leave you in peace.
+
+1136
+01:05:49,252 --> 01:05:50,627
+- Thanks.
+
+1137
+01:05:50,627 --> 01:05:51,460
+- Yeah.
+
+1138
+01:05:53,135 --> 01:05:55,194
+I mean...
+
+1139
+01:05:55,194 --> 01:05:56,305
+- One more time.
+
+1140
+01:05:56,305 --> 01:05:57,138
+- Yeah, take care.
+- You too.
+
+1141
+01:05:57,138 --> 01:05:59,070
+- Hey, thanks so much, Jeff.
+
+1142
+01:05:59,070 --> 01:06:00,211
+- Yeah.
+- Okay.
+
+1143
+01:06:00,211 --> 01:06:01,044
+- Bye.
+
+1144
+01:06:23,760 --> 01:06:24,780
+Are they gone?
+
+1145
+01:06:24,780 --> 01:06:25,613
+- Yep.
+
+1146
+01:06:26,610 --> 01:06:27,972
+How did it go?
+
+1147
+01:06:27,972 --> 01:06:29,583
+- It was whatever.
+
+1148
+01:06:31,118 --> 01:06:31,951
+What have you been up to?
+
+1149
+01:06:31,951 --> 01:06:32,940
+- I got all the ingredients
+
+1150
+01:06:32,940 --> 01:06:35,737
+to make your favorite, steak frites.
+
+1151
+01:06:35,737 --> 01:06:38,909
+- Mm. Can I help you with anything?
+
+1152
+01:06:38,909 --> 01:06:40,159
+- No, I got it.
+
+1153
+01:06:42,922 --> 01:06:43,755
+It's done.
+
+1154
+01:09:27,925 --> 01:09:32,226
+♪ Re, sol ♪
+
+1155
+01:09:32,226 --> 01:09:34,309
+♪ La, ti ♪
+
+1156
+01:10:28,627 --> 01:10:32,862
+♪ Re, sol ♪
+
+1157
+01:10:32,862 --> 01:10:34,945
+♪ La, ti ♪
+
+1158
+01:10:37,005 --> 01:10:41,320
+♪ Do, re ♪
+
+1159
+01:10:41,320 --> 01:10:43,403
+♪ So, la ♪
+
+1160
+01:10:45,533 --> 01:10:50,533
+♪ Mi ♪
+
